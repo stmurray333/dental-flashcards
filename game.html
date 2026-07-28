@@ -164,6 +164,26 @@
   .verdict.miss { border-left-color: var(--bad); }
   .verdict b { color: var(--ink); }
 
+  .why {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: .8rem .95rem;
+    font-size: .88rem;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-top: -.7rem;
+  }
+  .why .lab {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: .62rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin-bottom: .3rem;
+  }
+
   .btn {
     font: inherit; font-size: .95rem; padding: .8rem 1.4rem; border-radius: 3px;
     border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
@@ -209,6 +229,7 @@
   .review .q { font-family: var(--font-display); font-size: 1rem; }
   .review .a { color: var(--ink-2); }
   .review .a b { color: var(--good); font-weight: 600; }
+  .review .tip { color: var(--ink-2); font-size: .85rem; margin-top: .3rem; line-height: 1.45; }
 
   [hidden] { display: none !important; }
   @media (prefers-reduced-motion: reduce) { .timer i { transition: none !important; } }
@@ -251,6 +272,7 @@
       <div class="qtext" id="qtext"></div>
       <div class="opts" id="opts"></div>
       <div class="verdict" id="verdict" hidden></div>
+      <div class="why" id="why" hidden></div>
       <div class="row" id="nextRow" hidden>
         <button class="btn" id="nextBtn">Next</button>
       </div>
@@ -286,52 +308,52 @@
   "use strict";
 
   var Q = [
-    ["Distribution","Largest dental distributor in the world?","Henry Schein",["Patterson","Benco","Dentsply Sirona"]],
-    ["Distribution","Roughly what share of the market does Henry Schein hold?","About 40%",["About 15%","About 65%","About 25%"]],
-    ["Distribution","Who is #2 in dental distribution?","Patterson",["Benco","Envista","A-dec"]],
-    ["Distribution","Who is #3 in dental distribution?","Benco",["Patterson","Straumann","Planmeca"]],
-    ["Distribution","The distributor is the ___ of a dental office.","Quarterback",["Referee","Head coach","Scoreboard"]],
-    ["Distribution","How are dental distributor reps mostly employed?","95% W-2",["95% 1099","Half W-2, half 1099","Commission-only contractors"]],
-    ["Distribution","Roughly how many dentist products are out there?","About 300,000",["About 30,000","About 3 million","About 15,000"]],
-    ["Distribution","Which two companies sell dental equipment and technology?","A-dec and Planmeca",["Benco and Patterson","Camlog and BioHorizons","Envista and Invisalign"]],
-    ["Distribution","Newest way to take x-rays?","Intraoral scanner",["Panoramic film","Bitewing film","Cone beam paste"]],
-    ["Distribution","Which implant companies does Henry Schein own?","BioHorizons and Camlog",["Straumann and Envista","A-dec and Planmeca","Patterson and Benco"]],
-    ["Distribution","Who are the largest dental manufacturers?","Envista, Dentsply Sirona, Straumann",["Henry Schein, Patterson, Benco","A-dec, Planmeca, Invisalign","BioHorizons, Camlog, Benco"]],
+    ["Distribution","Largest dental distributor in the world?","Henry Schein",["Patterson","Benco","Dentsply Sirona"],"Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together."],
+    ["Distribution","Roughly what share of the market does Henry Schein hold?","About 40%",["About 15%","About 65%","About 25%"],"Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein."],
+    ["Distribution","Who is #2 in dental distribution?","Patterson",["Benco","Envista","A-dec"],"Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you."],
+    ["Distribution","Who is #3 in dental distribution?","Benco",["Patterson","Straumann","Planmeca"],"Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as \"Banko.\""],
+    ["Distribution","The distributor is the ___ of a dental office.","Quarterback",["Referee","Head coach","Scoreboard"],"A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you."],
+    ["Distribution","How are dental distributor reps mostly employed?","95% W-2",["95% 1099","Half W-2, half 1099","Commission-only contractors"],"W-2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you."],
+    ["Distribution","Roughly how many dentist products are out there?","About 300,000",["About 30,000","About 3 million","About 15,000"],"Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog."],
+    ["Distribution","Which two companies sell dental equipment and technology?","A-dec and Planmeca",["Benco and Patterson","Camlog and BioHorizons","Envista and Invisalign"],"A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade."],
+    ["Distribution","Newest way to take x-rays?","Intraoral scanner",["Panoramic film","Bitewing film","Cone beam paste"],"The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors."],
+    ["Distribution","Which implant companies does Henry Schein own?","BioHorizons and Camlog",["Straumann and Envista","A-dec and Planmeca","Patterson and Benco"],"Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time."],
+    ["Distribution","Who are the largest dental manufacturers?","Envista, Dentsply Sirona, Straumann",["Henry Schein, Patterson, Benco","A-dec, Planmeca, Invisalign","BioHorizons, Camlog, Benco"],"Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up."],
 
-    ["The money","Roughly how many dentists are there in the world?","About 200,000",["About 20,000","About 2 million","About 750,000"]],
-    ["The money","Dental insurance is really more of a:","Discount program",["Full coverage plan","Government subsidy","Reimbursement account"]],
-    ["The money","How does Medicaid work in dental?","It doesn't - there's no dental equivalent",["It covers all children","It covers everyone under 65","It pays 80% of major work"]],
-    ["The money","Which of these is normally out of pocket?","Dentures, crowns and veneers",["Cleanings and x-rays","Routine fillings","Annual exams"]],
-    ["The money","Why does a dentist treat every purchase as personal money?","They make what they charge their patients",["A hospital pays their salary","Insurance reimburses them fully","The distributor fronts the cost"]],
+    ["The money","Roughly how many dentists are there in the world?","About 200,000",["About 20,000","About 2 million","About 750,000"],"200,000 worldwide is a small, closed profession. Reputations travel - which is why burning one office actually costs you."],
+    ["The money","Dental insurance is really more of a:","Discount program",["Full coverage plan","Government subsidy","Reimbursement account"],"It's a discount program with an annual cap, usually around ,,000-$2,000. Patients blow through that fast, and everything after is cash out of pocket."],
+    ["The money","How does Medicaid work in dental?","It doesn't - there's no dental equivalent",["It covers all children","It covers everyone under 65","It pays 80% of major work"],"The medical safety net just doesn't extend here. No equivalent program means the patient pays or the work doesn't happen."],
+    ["The money","Which of these is normally out of pocket?","Dentures, crowns and veneers",["Cleanings and x-rays","Routine fillings","Annual exams"],"Dentures, crowns and veneers are the high-ticket items insurance barely touches. That's where the case-acceptance conversation lives."],
+    ["The money","Why does a dentist treat every purchase as personal money?","They make what they charge their patients",["A hospital pays their salary","Insurance reimburses them fully","The distributor fronts the cost"],"The dentist usually owns the practice. Surgeons and physicians draw a salary; a dentist takes home what's left. Every box you sell comes out of their own pocket - price it like you know that."],
 
-    ["Who's who","What does DMD after a name tell you?","General practitioner",["Oral surgeon","Orthodontist","Dental lab technician"]],
-    ["Who's who","Biggest clear aligner company in the game?","Invisalign",["A-dec","Camlog","BioHorizons"]],
-    ["Who's who","Which one is NOT a dental specialist?","Cardiologist",["Periodontist","Endodontist","Oral surgeon"]],
-    ["Who's who","What are the Big 4 procedure categories?","Implants, preventives, restoratives, endodontics",["Cleanings, fillings, crowns, braces","Exams, x-rays, sealants, fluoride","Implants, aligners, dentures, whitening"]],
+    ["Who's who","What does DMD after a name tell you?","General practitioner",["Oral surgeon","Orthodontist","Dental lab technician"],"DMD or DDS both mean general dentist - the degrees are equivalent. Specialists carry an additional title on top."],
+    ["Who's who","Biggest clear aligner company in the game?","Invisalign",["A-dec","Camlog","BioHorizons"],"Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning."],
+    ["Who's who","Which one is NOT a dental specialist?","Cardiologist",["Periodontist","Endodontist","Oral surgeon"],"The dental specialties: perio (gums), endo (root canals), pedo (kids), ortho (straightening), oral surgery. Cardiology is not on the list."],
+    ["Who's who","What are the Big 4 procedure categories?","Implants, preventives, restoratives, endodontics",["Cleanings, fillings, crowns, braces","Exams, x-rays, sealants, fluoride","Implants, aligners, dentures, whitening"],"Implants, preventives, restoratives, endodontics. Learn these as buckets - almost every product you sell drops into one of them."],
 
-    ["Anatomy","Incisors do what?","Cut",["Tear","Crush","Grind"]],
-    ["Anatomy","Canines do what?","Tear",["Cut","Crush","Grind"]],
-    ["Anatomy","Premolars do what?","Crush",["Grind","Cut","Tear"]],
-    ["Anatomy","Molars do what?","Grind",["Crush","Tear","Cut"]],
-    ["Anatomy","The maxilla is the:","Upper jaw",["Lower jaw","Gums","Tooth socket"]],
-    ["Anatomy","The mandible is the:","Lower jaw",["Upper jaw","Alveolar bone","Gingiva"]],
-    ["Anatomy","Gingiva is another word for:","Gums",["Jaw bone","Enamel","Root canal"]],
-    ["Anatomy","What sits right next to the maxilla?","The sinus",["The carotid artery","The jaw joint","The tongue nerve"]],
-    ["Anatomy","What does the mandible contain?","An important nerve",["The sinus","The salivary glands","The aligner anchor"]],
-    ["Anatomy","What is the alveolar bone's one job?","Holds the tooth - and shrinks if it's lost",["Produces saliva","Covers the crown","Anchors the sinus"]],
-    ["Anatomy","Order it from the jaw out to the tooth:","Jaw bone, alveolar bone, gums, teeth",["Gums, jaw bone, teeth, alveolar bone","Teeth, gums, alveolar bone, jaw bone","Alveolar bone, jaw bone, teeth, gums"]],
-    ["Anatomy","Are teeth bone, and do they grow back?","Neither - and enamel can't rebuild",["Yes to both","Bone yes, grow back no","Not bone, but they do grow back"]],
+    ["Anatomy","Incisors do what?","Cut",["Tear","Crush","Grind"],"Front to back, food gets broken down in stages: cut, tear, crush, grind. Incisors are the front blades that start it."],
+    ["Anatomy","Canines do what?","Tear",["Cut","Crush","Grind"],"Canines are the pointed ones - think of a dog's fang. Made for tearing, and they have the longest roots in the mouth."],
+    ["Anatomy","Premolars do what?","Crush",["Grind","Cut","Tear"],"Premolars sit between the tearers and the grinders, and they do the in-between job: crushing."],
+    ["Anatomy","Molars do what?","Grind",["Crush","Tear","Cut"],"Molars are the flat millstones at the back. Cut, tear, crush, grind - grinding is the last step before you swallow."],
+    ["Anatomy","The maxilla is the:","Upper jaw",["Lower jaw","Gums","Tooth socket"],"MAXilla = MAX, at the top. It's fixed to the skull and doesn't move."],
+    ["Anatomy","The mandible is the:","Lower jaw",["Upper jaw","Alveolar bone","Gingiva"],"The mandible is the one that actually moves - your lower jaw is the only bone in your skull with a real joint."],
+    ["Anatomy","Gingiva is another word for:","Gums",["Jaw bone","Enamel","Root canal"],"Gingiva is gums - same root as gingivitis, which is literally inflamed gums."],
+    ["Anatomy","What sits right next to the maxilla?","The sinus",["The carotid artery","The jaw joint","The tongue nerve"],"The sinus sits directly above the upper back teeth. That's why upper implants sometimes need a sinus lift first - there isn't enough bone between."],
+    ["Anatomy","What does the mandible contain?","An important nerve",["The sinus","The salivary glands","The aligner anchor"],"The inferior alveolar nerve runs through the lower jaw. Hit it and the patient loses feeling in their lip - which is why lower implants get scanned and planned so carefully."],
+    ["Anatomy","What is the alveolar bone's one job?","Holds the tooth - and shrinks if it's lost",["Produces saliva","Covers the crown","Anchors the sinus"],"It holds the tooth, and it shrinks once the tooth is gone because nothing is stimulating it anymore. That shrinkage is the entire reason bone grafts get sold alongside implants."],
+    ["Anatomy","Order it from the jaw out to the tooth:","Jaw bone, alveolar bone, gums, teeth",["Gums, jaw bone, teeth, alveolar bone","Teeth, gums, alveolar bone, jaw bone","Alveolar bone, jaw bone, teeth, gums"],"Work outward from the deepest structure to the one you can see: jaw bone, alveolar bone, gums, teeth."],
+    ["Anatomy","Are teeth bone, and do they grow back?","Neither - and enamel can't rebuild",["Yes to both","Bone yes, grow back no","Not bone, but they do grow back"],"Bone has a blood supply and heals; enamel has neither, so damage is permanent. That one fact is why the entire preventive category - fluoride, sealants, restoratives - exists."],
 
-    ["What they buy","Cavities - what does the dentist buy?","Composite filling, bonding agents, fluoride, sealants",["Ultrasonic scalers and lasers","Braces and TADs","Dentures and implant components"]],
-    ["What they buy","Periodontal disease - what does the dentist buy?","Scalers, lasers, bone grafts, antimicrobials",["Composite filling and sealants","Clear aligners","Digital dentures"]],
-    ["What they buy","Crooked teeth - what does the dentist buy?","Braces, clear aligners, TADs",["Bone grafts and antimicrobials","Fluoride and sealants","Implant components"]],
-    ["What they buy","Losing teeth - what does the dentist buy?","Implants, bone grafts, dentures",["Fluoride and sealants","Ultrasonic scalers","Clear aligners"]],
-    ["What they buy","What does TAD stand for?","Temporary anchoring device",["Tooth alignment disc","Total arch denture","Titanium abutment driver"]],
+    ["What they buy","Cavities - what does the dentist buy?","Composite filling, bonding agents, fluoride, sealants",["Ultrasonic scalers and lasers","Braces and TADs","Dentures and implant components"],"Match the product to the problem. Cavities are a restore-and-prevent job: fill what's decayed, then seal and strengthen what isn't."],
+    ["What they buy","Periodontal disease - what does the dentist buy?","Scalers, lasers, bone grafts, antimicrobials",["Composite filling and sealants","Clear aligners","Digital dentures"],"Perio is a gum and bone problem, so the tools clean below the gumline and rebuild what was lost - scalers, lasers, grafts, antimicrobials."],
+    ["What they buy","Crooked teeth - what does the dentist buy?","Braces, clear aligners, TADs",["Bone grafts and antimicrobials","Fluoride and sealants","Implant components"],"Straightening runs cheapest to most invasive: braces, aligners, TADs for tough cases, and surgery only when the jaw itself is off."],
+    ["What they buy","Losing teeth - what does the dentist buy?","Implants, bone grafts, dentures",["Fluoride and sealants","Ultrasonic scalers","Clear aligners"],"Replacing teeth means replacing the foundation too - which is why grafts sell next to implants. Remember the alveolar bone shrinks once the tooth is gone."],
+    ["What they buy","What does TAD stand for?","Temporary anchoring device",["Tooth alignment disc","Total arch denture","Titanium abutment driver"],"A temporary anchoring device is a mini screw placed as a fixed anchor point to pull teeth against. Temporary - it comes out when the move is done."],
 
-    ["Territory","Odds the dentist is actually available when you walk in?","About 30%",["About 70%","About 5%","About 95%"]],
-    ["Territory","How many touches before you get consistent calls?","6 to 8",["1 to 2","15 to 20","Just 3"]],
-    ["Territory","Dentists are very ___ driven.","Promo and sell",["Research","Committee","Insurance"]],
-    ["Territory","What keeps a dentist calling you back?","Consistency, follow up, doing what you said",["The lowest price every time","Cold calling daily","Leaving samples at the door"]]
+    ["Territory","Odds the dentist is actually available when you walk in?","About 30%",["About 70%","About 5%","About 95%"],"Roughly two out of three stops won't get you face time. Plan the route expecting that, and treat the staff as the real relationship."],
+    ["Territory","How many touches before you get consistent calls?","6 to 8",["1 to 2","15 to 20","Just 3"],"6 to 8. Most reps quit around three and conclude the office isn't interested - the ones who keep going get the calls."],
+    ["Territory","Dentists are very ___ driven.","Promo and sell",["Research","Committee","Insurance"],"They respond to promos and deals. Lead with what's actually on offer, not a general check-in."],
+    ["Territory","What keeps a dentist calling you back?","Consistency, follow up, doing what you said",["The lowest price every time","Cold calling daily","Leaving samples at the door"],"Consistency, follow up, and doing what you said you'd do. Cheapest price wins one order; being reliable wins the account."]
   ];
 
   var TIME = 12000, KEYS = "ABCD";
@@ -379,6 +401,7 @@
     locked = false;
     var q = deck[i];
     el("verdict").hidden = true;
+    el("why").hidden = true;
     el("nextRow").hidden = true;
     el("qtopic").textContent = q[0];
     el("qtext").textContent = q[1];
@@ -449,6 +472,12 @@
         ? "Clock ran out. It's <b>" + correct + "</b>."
         : "It's <b>" + correct + "</b>.";
     }
+    if (q[4]) {
+      var w = el("why");
+      w.hidden = false;
+      w.innerHTML = '<span class="lab">' + (hit ? "Why that's right" : "How to remember it") + "</span>" + q[4];
+    }
+
     drawHud();
     el("nextRow").hidden = false;
     el("nextBtn").textContent = (lives <= 0 || i + 1 >= deck.length) ? "See how you did" : "Next";
@@ -485,7 +514,8 @@
       r.appendChild(h);
       missed.forEach(function (q) {
         var li = document.createElement("li");
-        li.innerHTML = '<div class="q">' + q[1] + '</div><div class="a"><b>' + q[2] + "</b></div>";
+        li.innerHTML = '<div class="q">' + q[1] + '</div><div class="a"><b>' + q[2] + "</b></div>"
+          + (q[4] ? '<div class="tip">' + q[4] + "</div>" : "");
         r.appendChild(li);
       });
     } else {
