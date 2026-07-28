@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zachary's Dental Sales Flash Cards</title>
+<meta name="description" content="Flash cards from Zachary's dental sales training notes.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A6%B7%3C/text%3E%3C/svg%3E">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body, h1, h2, h3, p, ul, ol, figure { margin: 0; }
+  ul, ol { padding: 0; }
+  img { max-width: 100%; display: block; }
+</style>
+</head>
+<body>
+<style>
+  :root {
+    --ground: #F1F4F2;
+    --surface: #FFFFFF;
+    --surface-2: #FAFCFB;
+    --ink: #131C1A;
+    --ink-2: #5B6A66;
+    --ink-3: #8A9793;
+    --line: #D6DFDB;
+    --line-strong: #B9C6C1;
+    --accent: #0B6A5F;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E1EDE9;
+    --rose: #A2435A;
+    --rose-soft: #F5E6E9;
+    --flag: #8A5716;
+    --flag-soft: #F6EDE0;
+    --shadow: 0 1px 2px rgba(19, 28, 26, .06), 0 12px 28px -14px rgba(19, 28, 26, .28);
+
+    --font-display: ui-serif, "New York", "Iowan Old Style", Charter, Georgia, serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0D1312;
+      --surface: #161F1D;
+      --surface-2: #1B2523;
+      --ink: #E7EEEB;
+      --ink-2: #94A39F;
+      --ink-3: #6E7D79;
+      --line: #283330;
+      --line-strong: #3A4744;
+      --accent: #5FCBB8;
+      --accent-ink: #0A1614;
+      --accent-soft: #16302C;
+      --rose: #DE8B9C;
+      --rose-soft: #332025;
+      --flag: #D2A45F;
+      --flag-soft: #2C2418;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 30px -16px rgba(0,0,0,.7);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #0D1312;
+    --surface: #161F1D;
+    --surface-2: #1B2523;
+    --ink: #E7EEEB;
+    --ink-2: #94A39F;
+    --ink-3: #6E7D79;
+    --line: #283330;
+    --line-strong: #3A4744;
+    --accent: #5FCBB8;
+    --accent-ink: #0A1614;
+    --accent-soft: #16302C;
+    --rose: #DE8B9C;
+    --rose-soft: #332025;
+    --flag: #D2A45F;
+    --flag-soft: #2C2418;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 30px -16px rgba(0,0,0,.7);
+  }
+
+  :root[data-theme="light"] {
+    --ground: #F1F4F2;
+    --surface: #FFFFFF;
+    --surface-2: #FAFCFB;
+    --ink: #131C1A;
+    --ink-2: #5B6A66;
+    --ink-3: #8A9793;
+    --line: #D6DFDB;
+    --line-strong: #B9C6C1;
+    --accent: #0B6A5F;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E1EDE9;
+    --rose: #A2435A;
+    --rose-soft: #F5E6E9;
+    --flag: #8A5716;
+    --flag-soft: #F6EDE0;
+    --shadow: 0 1px 2px rgba(19, 28, 26, .06), 0 12px 28px -14px rgba(19, 28, 26, .28);
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: clamp(1.25rem, 4vw, 2.75rem) clamp(1rem, 4vw, 2rem) 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem 1.25rem;
+    padding-bottom: 1.1rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.5rem, 4.2vw, 2.1rem);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+  .stamp {
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  /* ---------- deck chips ---------- */
+  .decks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+  }
+  .chip {
+    font: inherit;
+    font-size: .8rem;
+    line-height: 1.2;
+    padding: .45rem .75rem;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink-2);
+    cursor: pointer;
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--ink); }
+  .chip[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+  .chip .n {
+    font-family: var(--font-mono);
+    font-size: .72em;
+    opacity: .65;
+    margin-left: .35rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- progress ---------- */
+  .meter {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    font-size: .78rem;
+    color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .track {
+    flex: 1;
+    height: 3px;
+    background: var(--line);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .fill {
+    height: 100%;
+    width: 0%;
+    background: var(--accent);
+    transition: width .3s ease;
+  }
+
+  /* ---------- card ---------- */
+  .stage { perspective: 1600px; }
+
+  .card {
+    display: grid;
+    transform-style: preserve-3d;
+    transition: transform .45s cubic-bezier(.2,.7,.3,1);
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background: none;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    width: 100%;
+  }
+  .card.flipped { transform: rotateY(180deg); }
+
+  .face {
+    grid-area: 1 / 1;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: clamp(1.5rem, 5vw, 2.75rem);
+    min-height: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  /* enamel layers &#8212; a hairline stack along the leading edge */
+  .face::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    border-radius: 4px 0 0 4px;
+    background: var(--accent);
+    opacity: .85;
+  }
+  .face { position: relative; }
+  .face.back { transform: rotateY(180deg); background: var(--surface-2); }
+  .face.back::before { background: var(--ink-2); opacity: .5; }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .face.back .eyebrow { color: var(--ink-3); }
+
+  .prompt {
+    font-family: var(--font-display);
+    font-size: clamp(1.25rem, 3.4vw, 1.7rem);
+    line-height: 1.28;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .answer {
+    font-size: clamp(1.05rem, 2.6vw, 1.3rem);
+    line-height: 1.45;
+    font-weight: 500;
+    margin-top: auto;
+    text-wrap: pretty;
+  }
+  .answer ol, .answer ul {
+    margin: 0;
+    padding-left: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+  .answer li::marker { color: var(--ink-3); font-family: var(--font-mono); font-size: .85em; }
+
+  .note {
+    margin-top: auto;
+    font-size: .82rem;
+    line-height: 1.45;
+    color: var(--ink-2);
+    border-left: 2px solid var(--line-strong);
+    padding-left: .75rem;
+  }
+  .note.warn {
+    border-left-color: var(--flag);
+    background: var(--flag-soft);
+    padding: .55rem .75rem;
+    border-radius: 0 3px 3px 0;
+    color: var(--ink);
+  }
+  .note b { font-weight: 600; }
+
+  .hint {
+    font-family: var(--font-mono);
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  /* ---------- controls ---------- */
+  .grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .6rem;
+  }
+  .btn {
+    font: inherit;
+    font-size: .95rem;
+    padding: .8rem 1rem;
+    border-radius: 3px;
+    border: 1px solid var(--line-strong);
+    background: var(--surface);
+    color: var(--ink);
+    cursor: pointer;
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .btn:hover { border-color: var(--ink-2); }
+  .btn kbd {
+    font-family: var(--font-mono);
+    font-size: .72em;
+    color: var(--ink-3);
+    margin-left: .4rem;
+  }
+  .btn.again:hover { border-color: var(--rose); color: var(--rose); }
+  .btn.good { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .btn.good kbd { color: var(--accent-ink); opacity: .7; }
+  .btn.good:hover { filter: brightness(1.08); }
+  .grade[hidden] { display: none; }
+
+  .utility {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.25rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .8rem;
+    color: var(--ink-2);
+  }
+  .linkbtn {
+    font: inherit;
+    font-size: .8rem;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--line-strong);
+    padding: 0 0 1px;
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+  .linkbtn:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  .utility .group { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  :where(button):focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  /* ---------- done panel ---------- */
+  .done {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: clamp(1.5rem, 5vw, 2.75rem);
+    min-height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    box-shadow: var(--shadow);
+  }
+  .done h2 {
+    font-family: var(--font-display);
+    font-size: clamp(1.4rem, 3.6vw, 1.9rem);
+    font-weight: 600;
+  }
+  .done p { color: var(--ink-2); max-width: 40ch; }
+  .done .row { display: flex; gap: .6rem; flex-wrap: wrap; }
+  .done .btn { flex: 0 0 auto; }
+
+  /* ---------- browse ---------- */
+  .browse {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .browse section { display: flex; flex-direction: column; gap: .1rem; }
+  .browse h3 {
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: .6rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .qa {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    gap: .25rem 1.75rem;
+    padding: .85rem 0;
+    border-bottom: 1px solid var(--line);
+    align-items: start;
+  }
+  .qa .q { font-family: var(--font-display); font-size: 1rem; line-height: 1.35; }
+  .qa .a { font-size: .92rem; color: var(--ink-2); }
+  .qa .a ol, .qa .a ul { margin: 0; padding-left: 1.2rem; }
+  .qa .a b { color: var(--ink); font-weight: 600; }
+  .qa .n { grid-column: 1 / -1; font-size: .78rem; color: var(--ink-3); margin-top: .35rem; }
+  .qa .n.warn { color: var(--flag); }
+  @media (max-width: 34rem) {
+    .qa { grid-template-columns: 1fr; gap: .35rem; }
+  }
+
+  /* ---------- corrections ---------- */
+  .fixes {
+    background: var(--flag-soft);
+    border: 1px solid color-mix(in srgb, var(--flag) 30%, transparent);
+    border-radius: 4px;
+    padding: 1.25rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+  }
+  .fixes h3 {
+    font-family: var(--font-mono);
+    font-size: .7rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--flag);
+  }
+  .fixes p { font-size: .88rem; color: var(--ink); max-width: 68ch; }
+  .fixes ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: .35rem; font-size: .88rem; }
+  .fixes li::marker { color: var(--flag); }
+  .fixes .was { color: var(--ink-2); }
+
+  .foot {
+    font-size: .78rem;
+    color: var(--ink-3);
+    border-top: 1px solid var(--line);
+    padding-top: 1rem;
+    max-width: 68ch;
+  }
+
+  [hidden] { display: none !important; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card, .fill { transition: none; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>Zachary's Dental Sales Deck</h1>
+    <div class="stamp"><span id="total">0</span> cards &#183; <span id="dayspan"></span></div>
+  </header>
+
+  <div class="decks" id="days" role="group" aria-label="Choose a day" hidden></div>
+  <div class="decks" id="decks" role="group" aria-label="Choose a topic"></div>
+
+  <div class="meter" id="meter">
+    <span id="counter">0 / 0</span>
+    <span class="track"><span class="fill" id="fill"></span></span>
+    <span id="againCount">0 to redo</span>
+  </div>
+
+  <div id="studyView">
+    <div class="stage">
+      <button class="card" id="card" aria-live="polite">
+        <div class="face front">
+          <div class="eyebrow" id="frontDeck"></div>
+          <div class="prompt" id="frontText"></div>
+          <div class="hint">Tap or press space to flip</div>
+        </div>
+        <div class="face back">
+          <div class="eyebrow" id="backDeck"></div>
+          <div class="answer" id="backText"></div>
+          <div class="note" id="backNote" hidden></div>
+        </div>
+      </button>
+    </div>
+
+    <div class="grade" id="grade" hidden style="margin-top:.6rem">
+      <button class="btn again" id="againBtn">Again <kbd>1</kbd></button>
+      <button class="btn good" id="goodBtn">Got it <kbd>2</kbd></button>
+    </div>
+  </div>
+
+  <div class="done" id="doneView" hidden>
+    <h2 id="doneTitle">Deck clear.</h2>
+    <p id="doneText"></p>
+    <div class="row">
+      <button class="btn good" id="restartBtn">Run it again</button>
+      <button class="btn" id="browseFromDone">Read the whole deck</button>
+    </div>
+  </div>
+
+  <div class="utility">
+    <div class="group">
+      <button class="linkbtn" id="shuffleBtn">Shuffle</button>
+      <button class="linkbtn" id="resetBtn">Start over</button>
+    </div>
+    <button class="linkbtn" id="browseBtn">Browse all cards</button>
+  </div>
+
+  <div class="browse" id="browseView" hidden></div>
+
+  <div class="fixes" id="fixes" hidden>
+    <h3>Say these the right way</h3>
+    <p>Straight from the notes &#8212; these would land wrong in front of a dentist. Worth fixing before they become habit.</p>
+    <ul id="fixList"></ul>
+  </div>
+
+  <p class="foot">Built from three pages of handwritten notes. Keyboard: <b>space</b> flips, <b>1</b> puts a card back in the pile, <b>2</b> retires it, <b>s</b> shuffles.</p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ------------------------------------------------------------------
+     ADD A NEW DAY HERE.
+     Copy the block below, bump the number, drop in the new date, and
+     write the cards. Everything else \u2014 chips, counts, browse view \u2014
+     picks it up automatically.
+
+       { day: 2, date: "7\u00B728\u00B72026", fixes: [], cards: [
+           { d: "Topic", q: "Question?", a: "Answer, <b>bold</b> the key bit.",
+             n: "Optional footnote.", w: true }
+       ]},
+
+     Fields: d = topic, q = front, a = back (HTML ok), n = footnote,
+             w = true marks the footnote as a correction (amber).
+     Optional per-day "fixes" feed the "Say these the right way" panel.
+     ------------------------------------------------------------------ */
+  var DAYS = [
+  { day: 1, date: "7\u00B727\u00B72026",
+    fixes: [
+      { fix: "Teeth are not bone, and they do not regenerate.", was: "Enamel is the hardest substance in the body \u2014 harder than bone \u2014 but once it's gone the body cannot rebuild it. That's the entire reason fluoride, sealants and restoratives exist." },
+      { fix: "Henry Schein", was: "\u2014 written \"Henry Shine\" in the notes." },
+      { fix: "Benco", was: "\u2014 written \"Banko.\" The Big 3 are Henry Schein, Patterson, Benco." },
+      { fix: "Envista \u00B7 Dentsply Sirona \u00B7 Straumann \u00B7 Invisalign \u00B7 Planmeca", was: "\u2014 the notes have In Vista, Dens Supply Cerona, Sventum/Staman, Invisilin, Plan Mecha." }
+    ],
+    cards: [
+    // ---- The Big 3 & the money ----
+    { d: "Distribution", q: "Largest dental distributor in the world?", a: "<b>Henry Schein</b> \u2014 roughly 40% of the market. #1.", n: "Your notes spell it \"Henry Shine.\"", w: true },
+    { d: "Distribution", q: "Who are the Big 3 distributors, in order?", a: "<ol><li>Henry Schein (~40%)</li><li>Patterson</li><li>Benco</li></ol>", n: "Notes say \"Banko\" \u2014 it's Benco.", w: true },
+    { d: "Distribution", q: "What role does the distributor play in a dental office?", a: "The <b>quarterback</b> \u2014 everything the office runs on comes through them." },
+    { d: "Distribution", q: "How are dental distributor reps typically employed?", a: "<b>95% W-2</b>, 5% 1099." },
+    { d: "Distribution", q: "How does Henry Schein get devices to the office?", a: "Ships <b>all dental devices straight to the door</b>." },
+    { d: "Distribution", q: "Roughly how many dentist products are out there?", a: "About <b>300,000</b>." },
+    { d: "Distribution", q: "Who are the largest dental manufacturers?", a: "<b>Envista</b>, <b>Dentsply Sirona</b>, <b>Straumann</b>.", n: "Notes: \"In Vista / Dens Supply Cerona / Sventum.\"", w: true },
+    { d: "Distribution", q: "Which implant companies does Henry Schein own?", a: "<b>BioHorizons</b> and <b>Camlog</b> \u2014 its implant arm.", n: "Straumann is the big independent implant player." },
+    { d: "Distribution", q: "Which two companies sell dental equipment and technology?", a: "<b>A-dec</b> and <b>Planmeca</b>.", n: "Notes: \"Plan Mecha.\"", w: true },
+    { d: "Distribution", q: "Newest way to take x-rays?", a: "The <b>intraoral scanner</b>." },
+
+    // ---- How dentists get paid ----
+    { d: "The money", q: "Why do dentists think about money differently than surgeons and physicians?", a: "Surgeons and physicians are on <b>salary</b>. Dentists <b>make what they charge their patients</b> \u2014 so every purchase is their own money." },
+    { d: "The money", q: "What is dental insurance really?", a: "Not insurance \u2014 <b>more of a discount program</b>." },
+    { d: "The money", q: "How does Medicaid work in dental?", a: "It <b>doesn't</b>. Medicaid covers the uninsured and people on welfare on the medical side; dental has no equivalent." },
+    { d: "The money", q: "Which procedures are normally out of pocket?", a: "<b>Dentures, crowns, veneers.</b>" },
+    { d: "The money", q: "Roughly how many dentists are there in the world?", a: "About <b>200,000</b>." },
+
+    // ---- Who's who ----
+    { d: "Who's who", q: "What do the letters DMD after a name tell you?", a: "A typical dentist \u2014 a <b>general practitioner</b>." },
+    { d: "Who's who", q: "Name the dental specialists.", a: "<ul><li>Orthodontists</li><li>Endodontists</li><li>Pedodontists</li><li>Periodontists</li><li>Oral surgeons</li></ul>" },
+    { d: "Who's who", q: "Biggest clear aligner company in the game?", a: "<b>Invisalign</b>.", n: "Notes: \"Invisilin.\"", w: true },
+    { d: "Who's who", q: "What are the Big 4 procedure categories?", a: "<ol><li>Implants</li><li>Preventives</li><li>Restoratives</li><li>Endodontics</li></ol>" },
+
+    // ---- Anatomy ----
+    { d: "Anatomy", q: "Maxilla \u2014 what is it, and what's its one job?", a: "The <b>upper jaw</b>. Softer ground. <b>Supports the upper teeth</b> \u2014 and the sinus is right nearby." },
+    { d: "Anatomy", q: "Mandible \u2014 what is it, and what's its one job?", a: "The <b>lower jaw</b>. Stronger ground. <b>Supports the lower teeth</b> and contains an important nerve." },
+    { d: "Anatomy", q: "Gingiva \u2014 what is it, and what's its one job?", a: "The <b>gums</b>. A protective seal. <b>Keeps bacteria away</b> and protects the tooth and bone." },
+    { d: "Anatomy", q: "Alveolar bone \u2014 what is it, and what's its one job?", a: "The <b>foundation</b>. <b>Holds the tooth</b> \u2014 and shrinks if the tooth is lost.", n: "That shrinking is why bone grafts get sold alongside implants." },
+    { d: "Anatomy", q: "Trace the structure from the jaw out to the tooth.", a: "Jaw bone (maxilla or mandible) \u2192 <b>alveolar bone</b> \u2192 <b>gums</b> \u2192 <b>teeth</b>." },
+    { d: "Anatomy", q: "Incisors, canines, premolars, molars \u2014 what does each one do?", a: "<ol><li>Incisors \u2014 <b>cut</b></li><li>Canines \u2014 <b>tear</b></li><li>Premolars \u2014 <b>crush</b></li><li>Molars \u2014 <b>grind</b></li></ol>" },
+    { d: "Anatomy", q: "Are teeth bone? Do they grow back?", a: "<b>No and no.</b> Teeth aren't bone. <b>Enamel</b> is the hardest substance in the body, but once it's lost the body can't rebuild it.", n: "Your notes say teeth are the hardest bone and the only bone that regenerates \u2014 both are wrong, and a dentist will catch it. The fact that enamel <i>can't</i> come back is what sells fluoride, sealants and restoratives.", w: true },
+    { d: "Anatomy", q: "Why bother learning tooth composition at all?", a: "So you can talk about <b>products that interact with each layer</b> \u2014 that's the whole point of the anatomy." },
+
+    // ---- Problem \u2192 what they buy ----
+    { d: "What they buy", q: "Cavities \u2014 what does the dentist buy?", a: "<ol><li>Composite filling</li><li>Bonding agents</li><li>Caries detection devices</li><li>Fluoride</li><li>Sealants</li></ol>" },
+    { d: "What they buy", q: "Periodontal disease \u2014 what does the dentist buy?", a: "<ol><li>Ultrasonic scalers</li><li>Hand scalers</li><li>Lasers</li><li>Bone grafts</li><li>Antimicrobials</li></ol>" },
+    { d: "What they buy", q: "Crooked teeth \u2014 what does the dentist buy?", a: "<ol><li>Braces</li><li>Clear aligners</li><li>Temporary anchoring devices (TADs)</li><li>Orthognathic surgery, in severe cases</li></ol>" },
+    { d: "What they buy", q: "Losing teeth \u2014 what does the dentist buy?", a: "<ol><li>Implant systems</li><li>Bone grafts</li><li>Dentures</li><li>Digital dentures</li><li>Implant components</li></ol>" },
+
+    // ---- Working the territory ----
+    { d: "Territory", q: "What are your odds the dentist is actually available when you walk in?", a: "About a <b>30% hit rate</b>." },
+    { d: "Territory", q: "How many touches before you get consistent calls?", a: "<b>6 to 8.</b>" },
+    { d: "Territory", q: "Dentists are very ___ driven.", a: "<b>Promo and sell driven.</b>" },
+    { d: "Territory", q: "How do you build a relationship in this business?", a: "<b>Show up. Be consistent. Bring value.</b>" },
+    { d: "Territory", q: "Three things that keep a dentist calling you back?", a: "<ol><li>Consistency</li><li>Follow up</li><li>Say what you'll actually do</li></ol>" },
+    { d: "Territory", q: "What matters most in dental sales?", a: "<b>Relationships.</b> They're the major thing." }
+  ]}
+  ];
+
+  var CARDS = [];
+  DAYS.forEach(function (D) {
+    D.cards.forEach(function (c) {
+      c.day = D.day;
+      CARDS.push(c);
+    });
+  });
+
+  var el = function (id) { return document.getElementById(id); };
+  var deckEl = el("decks"), dayEl = el("days"), cardEl = el("card"), gradeEl = el("grade");
+  var frontDeck = el("frontDeck"), frontText = el("frontText");
+  var backDeck = el("backDeck"), backText = el("backText"), backNote = el("backNote");
+  var counter = el("counter"), fill = el("fill"), againCount = el("againCount");
+  var studyView = el("studyView"), doneView = el("doneView"), browseView = el("browseView");
+  var meter = el("meter"), doneText = el("doneText");
+
+  var filter = "All";
+  var dayFilter = "All";
+  var queue = [];
+  var current = null;
+  var retired = 0;
+  var startSize = 0;
+  var browsing = false;
+
+  el("total").textContent = CARDS.length;
+  el("dayspan").textContent = DAYS.length === 1
+    ? "Day 1, " + DAYS[0].date
+    : DAYS.length + " days through " + DAYS[DAYS.length - 1].date;
+
+  function byDay() {
+    return dayFilter === "All" ? CARDS.slice() : CARDS.filter(function (c) { return c.day === dayFilter; });
+  }
+
+  function decksFor(list) {
+    var out = [];
+    list.forEach(function (c) { if (out.indexOf(c.d) === -1) out.push(c.d); });
+    return out;
+  }
+
+  function pool() {
+    var list = byDay();
+    return filter === "All" ? list : list.filter(function (c) { return c.d === filter; });
+  }
+
+  function shuffle(list) {
+    for (var i = list.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = list[i]; list[i] = list[j]; list[j] = t;
+    }
+    return list;
+  }
+
+  function chip(parent, label, count, pressed, onclick) {
+    var b = document.createElement("button");
+    b.className = "chip";
+    b.type = "button";
+    b.innerHTML = label + (count == null ? "" : ' <span class="n">' + count + "</span>");
+    b.setAttribute("aria-pressed", pressed ? "true" : "false");
+    b.onclick = onclick;
+    parent.appendChild(b);
+    return b;
+  }
+
+  function buildDays() {
+    dayEl.innerHTML = "";
+    if (DAYS.length < 2) { dayEl.hidden = true; return; }
+    dayEl.hidden = false;
+    chip(dayEl, "All days", CARDS.length, dayFilter === "All", function () { setDay("All"); });
+    DAYS.forEach(function (D) {
+      chip(dayEl, "Day " + D.day, D.cards.length, dayFilter === D.day, function () { setDay(D.day); });
+    });
+  }
+
+  function buildDecks() {
+    deckEl.innerHTML = "";
+    var list = byDay();
+    chip(deckEl, "Everything", list.length, filter === "All", function () { setFilter("All"); });
+    decksFor(list).forEach(function (d) {
+      var n = list.filter(function (c) { return c.d === d; }).length;
+      chip(deckEl, d, n, filter === d, function () { setFilter(d); });
+    });
+  }
+
+  function setDay(d) {
+    dayFilter = d;
+    filter = "All";
+    buildDays();
+    buildDecks();
+    reset();
+    if (browsing) renderBrowse();
+  }
+
+  function setFilter(f) {
+    filter = f;
+    buildDecks();
+    reset();
+    if (browsing) renderBrowse();
+  }
+
+  function reset() {
+    queue = shuffle(pool());
+    startSize = queue.length;
+    retired = 0;
+    next();
+  }
+
+  function next() {
+    if (!queue.length) {
+      current = null;
+      render();
+      return;
+    }
+    current = queue.shift();
+    cardEl.classList.remove("flipped");
+    gradeEl.hidden = true;
+    render();
+  }
+
+  function render() {
+    var done = !current;
+    studyView.hidden = done || browsing;
+    doneView.hidden = !done || browsing;
+    meter.hidden = browsing;
+
+    counter.textContent = retired + " / " + startSize;
+    var pct = startSize ? (retired / startSize) * 100 : 0;
+    fill.style.width = pct + "%";
+    var left = queue.length + (current ? 1 : 0);
+    againCount.textContent = left === 0 ? "all retired" : left + " left in the pile";
+
+    if (done) {
+      doneText.textContent = filter === "All"
+        ? "All " + startSize + " cards retired. Shuffle and go again \u2014 the ones you had to redo are the ones that matter."
+        : "The " + filter + " deck is clear. Pick another deck up top, or run it again.";
+      return;
+    }
+
+    var eyebrow = DAYS.length > 1 ? "Day " + current.day + " \u00B7 " + current.d : current.d;
+    frontDeck.textContent = eyebrow;
+    frontText.textContent = current.q;
+    backDeck.textContent = eyebrow;
+    backText.innerHTML = current.a;
+    if (current.n) {
+      backNote.hidden = false;
+      backNote.className = "note" + (current.w ? " warn" : "");
+      backNote.innerHTML = current.n;
+    } else {
+      backNote.hidden = true;
+    }
+  }
+
+  function flip() {
+    if (!current) return;
+    cardEl.classList.toggle("flipped");
+    gradeEl.hidden = !cardEl.classList.contains("flipped");
+  }
+
+  function grade(gotIt) {
+    if (!current) return;
+    if (gotIt) {
+      retired++;
+    } else {
+      queue.splice(Math.min(queue.length, 3), 0, current);
+    }
+    next();
+  }
+
+  function renderBrowse() {
+    browseView.innerHTML = "";
+    var list = pool();
+    var groups = decksFor(list);
+    groups.forEach(function (d) {
+      var sec = document.createElement("section");
+      var h = document.createElement("h3");
+      h.textContent = d;
+      sec.appendChild(h);
+      list.filter(function (c) { return c.d === d; }).forEach(function (c) {
+        var row = document.createElement("div");
+        row.className = "qa";
+        var q = document.createElement("div");
+        q.className = "q";
+        q.textContent = c.q;
+        var a = document.createElement("div");
+        a.className = "a";
+        a.innerHTML = c.a;
+        row.appendChild(q);
+        row.appendChild(a);
+        if (c.n) {
+          var n = document.createElement("div");
+          n.className = "n" + (c.w ? " warn" : "");
+          n.innerHTML = c.n;
+          row.appendChild(n);
+        }
+        sec.appendChild(row);
+      });
+      browseView.appendChild(sec);
+    });
+  }
+
+  function toggleBrowse(on) {
+    browsing = on;
+    browseView.hidden = !on;
+    el("browseBtn").textContent = on ? "Back to studying" : "Browse all cards";
+    if (on) renderBrowse();
+    render();
+  }
+
+  cardEl.onclick = flip;
+  el("againBtn").onclick = function (e) { e.stopPropagation(); grade(false); };
+  el("goodBtn").onclick = function (e) { e.stopPropagation(); grade(true); };
+  el("shuffleBtn").onclick = function () { queue = shuffle(queue); next(); };
+  el("resetBtn").onclick = reset;
+  el("restartBtn").onclick = reset;
+  el("browseBtn").onclick = function () { toggleBrowse(!browsing); };
+  el("browseFromDone").onclick = function () { toggleBrowse(true); };
+
+  document.addEventListener("keydown", function (e) {
+    if (browsing) return;
+    var k = e.key.toLowerCase();
+    if (k === " " || k === "enter") {
+      if (document.activeElement && document.activeElement.tagName === "BUTTON" && document.activeElement !== cardEl) return;
+      e.preventDefault();
+      flip();
+    } else if (k === "1" && !gradeEl.hidden) {
+      grade(false);
+    } else if (k === "2" && !gradeEl.hidden) {
+      grade(true);
+    } else if (k === "s") {
+      queue = shuffle(queue);
+      next();
+    }
+  });
+
+  function buildFixes() {
+    var list = el("fixList");
+    list.innerHTML = "";
+    var any = 0;
+    DAYS.forEach(function (D) {
+      (D.fixes || []).forEach(function (f) {
+        var li = document.createElement("li");
+        li.innerHTML = "<b>" + f.fix + "</b> <span class=\"was\">" + f.was + "</span>"
+          + (DAYS.length > 1 ? " <span class=\"was\">(Day " + D.day + ")</span>" : "");
+        list.appendChild(li);
+        any++;
+      });
+    });
+    el("fixes").hidden = any === 0;
+  }
+
+  buildDays();
+  buildDecks();
+  buildFixes();
+  reset();
+})();
+</script>
+</body>
+</html>
