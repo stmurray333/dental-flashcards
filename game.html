@@ -156,6 +156,22 @@
     font-size: .88rem; line-height: 1.45; color: var(--ink-2);
     border-left: 2px solid var(--line-strong); padding-left: .8rem;
   }
+  .typed { display: flex; gap: .5rem; flex-wrap: wrap; }
+  .typed input {
+    flex: 1 1 14rem; font: inherit; font-size: 1rem;
+    padding: .75rem .9rem; border-radius: 3px;
+    border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--ink);
+  }
+  .typed input:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+  .typed[hidden] { display: none; }
+
+  .linkish {
+    font: inherit; font-size: .82rem; background: none; border: 0;
+    border-bottom: 1px solid var(--line-strong); padding: 0 0 1px;
+    color: var(--ink-2); cursor: pointer;
+  }
+  .linkish:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
   .verdict.hit { border-left-color: var(--good); }
   .verdict.miss { border-left-color: var(--bad); }
   .verdict b { color: var(--ink); }
@@ -203,8 +219,8 @@
   .rules b { color: var(--ink); font-weight: 600; }
   .row { display: flex; gap: .6rem; flex-wrap: wrap; }
 
-  .modes { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
-  @media (max-width: 30rem) { .modes { grid-template-columns: 1fr; } }
+  .modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
+  @media (max-width: 40rem) { .modes { grid-template-columns: 1fr; } }
   .mode {
     font: inherit; text-align: left; cursor: pointer;
     display: flex; flex-direction: column; gap: .15rem;
@@ -276,6 +292,9 @@
       <button class="mode" type="button" id="modeTimed" aria-pressed="false">
         <b>12-second clock</b><span>Answer faster, score higher</span>
       </button>
+      <button class="mode" type="button" id="modeTyped" aria-pressed="false">
+        <b>Type it in</b><span>No options. Recall it cold.</span>
+      </button>
     </div>
     <div class="row">
       <button class="btn" id="startBtn">Start the run</button>
@@ -295,7 +314,15 @@
       <div class="qtopic" id="qtopic"></div>
       <div class="qtext" id="qtext"></div>
       <div class="opts" id="opts"></div>
+      <form class="typed" id="typedBox" hidden>
+        <input id="typedInput" type="text" autocomplete="off" autocorrect="off"
+               autocapitalize="off" spellcheck="false" placeholder="Type your answer">
+        <button class="btn" type="submit" id="checkBtn">Check</button>
+      </form>
       <div class="verdict" id="verdict" hidden></div>
+      <div id="overrideRow" hidden>
+        <button class="linkish" id="hadItBtn">Actually, I had that &mdash; count it</button>
+      </div>
       <div class="why" id="why" hidden></div>
       <div class="row" id="nextRow" hidden>
         <button class="btn" id="nextBtn">Next</button>
@@ -339,27 +366,35 @@
 
   var deck = [], i = 0, score = 0, lives = 3, streak = 0, bestStreak = 0;
   var right = 0, asked = 0, missed = [], locked = false;
-  var best = 0, timed = false, tStart = 0, raf = 0;
+  var best = 0, mode = "untimed", tStart = 0, raf = 0;
+  var MODE_LABEL = { untimed: "untimed", timed: "on the clock", typed: "typing it in" };
 
-  function bestKey() { return timed ? "territoryRunBestTimed" : "territoryRunBest"; }
+  function timedMode() { return mode === "timed"; }
+  function typedMode() { return mode === "typed"; }
+  function bestKey() { return "territoryRunBest_" + mode; }
 
   function loadBest() {
     try { best = parseInt(localStorage.getItem(bestKey()) || "0", 10) || 0; } catch (e) { best = 0; }
     var line = el("bestLine");
     line.hidden = !best;
-    if (best) line.innerHTML = "Your record " + (timed ? "on the clock" : "untimed") + ": <b>" + best + "</b> points.";
+    if (best) line.innerHTML = "Your record " + MODE_LABEL[mode] + ": <b>" + best + "</b> points.";
   }
 
-  function setMode(isTimed) {
-    timed = isTimed;
-    el("modeTimed").setAttribute("aria-pressed", isTimed ? "true" : "false");
-    el("modeUntimed").setAttribute("aria-pressed", isTimed ? "false" : "true");
-    try { localStorage.setItem("territoryRunMode", isTimed ? "timed" : "untimed"); } catch (e) {}
+  function setMode(m) {
+    mode = m;
+    ["untimed", "timed", "typed"].forEach(function (k) {
+      el("mode" + k.charAt(0).toUpperCase() + k.slice(1))
+        .setAttribute("aria-pressed", k === m ? "true" : "false");
+    });
+    try { localStorage.setItem("territoryRunMode", m); } catch (e) {}
     loadBest();
   }
 
-  try { timed = localStorage.getItem("territoryRunMode") === "timed"; } catch (e) { timed = false; }
-  setMode(timed);
+  try {
+    var saved = localStorage.getItem("territoryRunMode");
+    mode = (saved === "timed" || saved === "typed") ? saved : "untimed";
+  } catch (e) { mode = "untimed"; }
+  setMode(mode);
 
   function shuffle(a) {
     for (var j = a.length - 1; j > 0; j--) {
@@ -369,6 +404,7 @@
   }
 
   function start() {
+    if (!Q.length) return;
     deck = shuffle(Q.slice());
     i = 0; score = 0; lives = 3; streak = 0; bestStreak = 0;
     right = 0; asked = 0; missed = [];
@@ -390,6 +426,98 @@
 
   function mult() { return Math.min(3, 1 + streak * 0.2); }
 
+  /* ---- typed-answer grading -------------------------------------------------
+     Free recall can't be graded exactly, so this is deliberately generous:
+     it scores what you typed against the right answer AND against each wrong
+     option, and only counts it correct if the right answer is the closest match.
+     If it still gets it wrong, there's a manual override button.            */
+
+  var STOP = {};
+  ("the a an of and or is are in to for it its with at on by that this you your as be " +
+   "about roughly approximately around some most").split(" ").forEach(function (w) { STOP[w] = 1; });
+
+  var NUMWORD = { one:"1", two:"2", three:"3", four:"4", five:"5", six:"6", seven:"7",
+                  eight:"8", nine:"9", ten:"10", eleven:"11", twelve:"12" };
+
+  function norm(s) {
+    return String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
+  }
+
+  // crude stemmer so "cutting" matches "cut" and "molars" matches "molar".
+  // Both sides run through it, so consistency matters more than linguistics.
+  function stem(t) {
+    if (t.length > 4 && /ing$/.test(t)) {
+      t = t.slice(0, -3);
+      if (/([bdfglmnprt])\1$/.test(t)) t = t.slice(0, -1);
+    } else if (t.length > 4 && /ed$/.test(t)) {
+      t = t.slice(0, -2);
+      if (/([bdfglmnprt])\1$/.test(t)) t = t.slice(0, -1);
+    } else if (t.length > 5 && /ion$/.test(t)) {
+      t = t.slice(0, -3);
+    } else if (t.length > 4 && /ies$/.test(t)) {
+      t = t.slice(0, -3) + "y";
+    } else if (t.length > 4 && /(ch|sh|ss|x|s)es$/.test(t)) {
+      t = t.slice(0, -2);
+    } else if (t.length > 3 && /[^s]s$/.test(t)) {
+      t = t.slice(0, -1);
+    }
+    return t;
+  }
+
+  function toks(s) {
+    return norm(s).split(" ").map(function (t) {
+      return NUMWORD[t] || t;
+    }).filter(function (t) {
+      return t && !STOP[t] && (t.length > 1 || /[0-9]/.test(t));
+    }).map(stem);
+  }
+
+  // the part worth typing: drop parentheticals and anything after a dash
+  function core(s) { return String(s).split(/\s+[-–—]\s+|\s*\(/)[0] || String(s); }
+
+  // typo tolerance: one edit, or one transposition (swapped letters are the
+  // single most common typo, and plain edit-distance counts them as two).
+  function near(a, b) {
+    if (a === b) return true;
+    if (Math.min(a.length, b.length) < 5 || Math.abs(a.length - b.length) > 1) return false;
+    if (a.length === b.length) {
+      var swaps = [];
+      for (var k = 0; k < a.length; k++) if (a[k] !== b[k]) swaps.push(k);
+      if (swaps.length === 1) return true;                                  // one substitution
+      if (swaps.length === 2 && swaps[1] === swaps[0] + 1 &&
+          a[swaps[0]] === b[swaps[1]] && a[swaps[1]] === b[swaps[0]]) return true;  // transposition
+      return false;
+    }
+    var lo = a.length < b.length ? a : b, hi = a.length < b.length ? b : a;
+    for (var s = 0; s < hi.length; s++) {                                   // one insertion
+      if (hi.slice(0, s) + hi.slice(s + 1) === lo) return true;
+    }
+    return false;
+  }
+
+  function recall(typedToks, target) {        // share of the answer's key words present
+    var want = toks(core(target));
+    if (!want.length) want = toks(target);
+    if (!want.length) return 0;
+    var hit = 0;
+    want.forEach(function (w) {
+      for (var k = 0; k < typedToks.length; k++) {
+        if (typedToks[k] === w || near(typedToks[k], w)) { hit++; return; }
+      }
+    });
+    return hit / want.length;
+  }
+
+  function gradeTyped(text, q) {
+    var t = toks(text);
+    if (!t.length) return false;
+    if (norm(text) === norm(q[2]) || norm(text) === norm(core(q[2]))) return true;
+    var mine = recall(t, q[2]);
+    var best = 0;
+    q[3].forEach(function (w) { best = Math.max(best, recall(t, w)); });
+    return mine >= 0.6 && mine > best;
+  }
+
   function next() {
     if (lives <= 0 || i >= deck.length) return finish();
     locked = false;
@@ -400,21 +528,34 @@
     el("qtopic").textContent = q[0];
     el("qtext").textContent = q[1];
 
-    var opts = shuffle([q[2]].concat(q[3]));
+    el("overrideRow").hidden = true;
     var box = el("opts");
     box.innerHTML = "";
-    opts.forEach(function (text, n) {
-      var b = document.createElement("button");
-      b.className = "opt";
-      b.type = "button";
-      b.innerHTML = '<span class="key">' + KEYS[n] + '</span><span>' + text + "</span>";
-      b.onclick = function () { answer(text, b); };
-      box.appendChild(b);
-    });
+
+    if (typedMode()) {
+      box.hidden = true;
+      el("typedBox").hidden = false;
+      el("typedInput").value = "";
+      el("typedInput").disabled = false;
+      el("checkBtn").disabled = false;
+      el("typedInput").focus();
+    } else {
+      box.hidden = false;
+      el("typedBox").hidden = true;
+      var opts = shuffle([q[2]].concat(q[3]));
+      opts.forEach(function (text, n) {
+        var b = document.createElement("button");
+        b.className = "opt";
+        b.type = "button";
+        b.innerHTML = '<span class="key">' + KEYS[n] + '</span><span>' + text + "</span>";
+        b.onclick = function () { answer(text, b); };
+        box.appendChild(b);
+      });
+    }
 
     drawHud();
-    el("timerBar").hidden = !timed;
-    if (timed) {
+    el("timerBar").hidden = !timedMode();
+    if (timedMode()) {
       tStart = Date.now();
       el("timerBar").classList.remove("low");
       tick();
@@ -424,7 +565,7 @@
   function tick() {
     cancelAnimationFrame(raf);
     (function loop() {
-      if (locked || !timed) return;
+      if (locked || !timedMode()) return;
       var left = Math.max(0, TIME - (Date.now() - tStart));
       var f = left / TIME;
       el("timerFill").style.transform = "scaleX(" + f + ")";
@@ -438,28 +579,35 @@
     if (locked) return;
     locked = true;
     cancelAnimationFrame(raf);
-    var q = deck[i], correct = q[2], hit = picked === correct;
+    var q = deck[i], correct = q[2];
+    var hit = typedMode() ? gradeTyped(picked || "", q) : picked === correct;
     asked++;
 
-    Array.prototype.forEach.call(el("opts").children, function (b) {
-      b.disabled = true;
-      var label = b.lastChild.textContent;
-      if (label === correct) b.classList.add("correct");
-      else if (b === btn) b.classList.add("wrong");
-      else b.classList.add("dim");
-    });
+    if (typedMode()) {
+      el("typedInput").disabled = true;
+      el("checkBtn").disabled = true;
+    } else {
+      Array.prototype.forEach.call(el("opts").children, function (b) {
+        b.disabled = true;
+        var label = b.lastChild.textContent;
+        if (label === correct) b.classList.add("correct");
+        else if (b === btn) b.classList.add("wrong");
+        else b.classList.add("dim");
+      });
+    }
 
     var v = el("verdict");
     v.hidden = false;
     if (hit) {
       right++; streak++;
       if (streak > bestStreak) bestStreak = streak;
-      var speed = timed ? Math.max(0, Math.round(100 * (1 - (Date.now() - tStart) / TIME))) : 0;
-      var gained = Math.round((100 + speed) * mult());
+      var speed = timedMode() ? Math.max(0, Math.round(100 * (1 - (Date.now() - tStart) / TIME))) : 0;
+      var base = typedMode() ? 150 : 100;
+      var gained = Math.round((base + speed) * mult());
       score += gained;
       v.className = "verdict hit";
       v.innerHTML = "<b>+" + gained + "</b>"
-        + (timed ? " &mdash; " + (speed > 60 ? "fast." : speed > 25 ? "good." : "got there.") : " &mdash; correct.")
+        + (timedMode() ? " &mdash; " + (speed > 60 ? "fast." : speed > 25 ? "good." : "got there.") : " &mdash; correct.")
         + (streak >= 2 ? " Streak " + streak + ", running at " + mult().toFixed(1) + "x." : "");
     } else {
       streak = 0; lives--;
@@ -468,6 +616,8 @@
       v.innerHTML = picked === null
         ? "Clock ran out. It's <b>" + correct + "</b>."
         : "It's <b>" + correct + "</b>.";
+      // free recall is graded by fuzzy matching, so give him the last word on it
+      if (typedMode() && picked) el("overrideRow").hidden = false;
     }
     if (q[4]) {
       var w = el("why");
@@ -528,7 +678,7 @@
   // hidden (requestAnimationFrame stops anyway) and give the time back on return.
   var hiddenAt = 0;
   document.addEventListener("visibilitychange", function () {
-    if (!timed || locked || el("playPanel").hidden) return;
+    if (!timedMode() || locked || el("playPanel").hidden) return;
     if (document.hidden) {
       hiddenAt = Date.now();
     } else if (hiddenAt) {
@@ -538,14 +688,41 @@
     }
   });
 
+  el("typedBox").onsubmit = function (e) {
+    e.preventDefault();
+    if (!locked) answer(el("typedInput").value.trim(), null);
+  };
+
+  // The grader can be wrong on free recall. If he says he had it, he had it.
+  el("hadItBtn").onclick = function () {
+    var q = deck[i];
+    var back = missed.lastIndexOf(q);
+    if (back > -1) missed.splice(back, 1);
+    lives++;
+    streak++;
+    if (streak > bestStreak) bestStreak = streak;
+    right++;
+    var gained = Math.round(150 * mult());
+    score += gained;
+    el("overrideRow").hidden = true;
+    var v = el("verdict");
+    v.className = "verdict hit";
+    v.innerHTML = "<b>+" + gained + "</b> &mdash; counted."
+      + (streak >= 2 ? " Streak " + streak + ", running at " + mult().toFixed(1) + "x." : "");
+    // giving the life back can un-end the run, so re-label the button
+    el("nextBtn").textContent = (lives <= 0 || i + 1 >= deck.length) ? "See how you did" : "Next";
+    drawHud();
+  };
+
   el("changeModeBtn").onclick = function () {
     el("endPanel").hidden = true;
     el("playPanel").hidden = true;
     el("startPanel").hidden = false;
     loadBest();
   };
-  el("modeTimed").onclick = function () { setMode(true); };
-  el("modeUntimed").onclick = function () { setMode(false); };
+  el("modeTimed").onclick = function () { setMode("timed"); };
+  el("modeUntimed").onclick = function () { setMode("untimed"); };
+  el("modeTyped").onclick = function () { setMode("typed"); };
 
   document.addEventListener("keydown", function (e) {
     if (el("playPanel").hidden) {
