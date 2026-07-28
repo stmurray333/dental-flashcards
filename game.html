@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Territory Run — Dental Sales Quiz</title>
+<meta name="description" content="A speed quiz built from Zachary's dental sales training notes.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A6%B7%3C/text%3E%3C/svg%3E">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body, h1, h2, h3, p, ul, ol { margin: 0; }
+  ul, ol { padding: 0; list-style: none; }
+
+  :root {
+    --ground: #F1F4F2;
+    --surface: #FFFFFF;
+    --surface-2: #FAFCFB;
+    --ink: #131C1A;
+    --ink-2: #5B6A66;
+    --ink-3: #8A9793;
+    --line: #D6DFDB;
+    --line-strong: #B9C6C1;
+    --accent: #0B6A5F;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E1EDE9;
+    --good: #1C7A45;
+    --good-soft: #E0F0E6;
+    --bad: #A2435A;
+    --bad-soft: #F7E7EB;
+    --gold: #8A5716;
+    --shadow: 0 1px 2px rgba(19,28,26,.06), 0 12px 28px -14px rgba(19,28,26,.28);
+    --font-display: ui-serif, "New York", "Iowan Old Style", Charter, Georgia, serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0D1312; --surface: #161F1D; --surface-2: #1B2523;
+      --ink: #E7EEEB; --ink-2: #94A39F; --ink-3: #6E7D79;
+      --line: #283330; --line-strong: #3A4744;
+      --accent: #5FCBB8; --accent-ink: #0A1614; --accent-soft: #16302C;
+      --good: #5FC98A; --good-soft: #14301F;
+      --bad: #DE8B9C; --bad-soft: #331F24;
+      --gold: #D2A45F;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 30px -16px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0D1312; --surface: #161F1D; --surface-2: #1B2523;
+    --ink: #E7EEEB; --ink-2: #94A39F; --ink-3: #6E7D79;
+    --line: #283330; --line-strong: #3A4744;
+    --accent: #5FCBB8; --accent-ink: #0A1614; --accent-soft: #16302C;
+    --good: #5FC98A; --good-soft: #14301F;
+    --bad: #DE8B9C; --bad-soft: #331F24;
+    --gold: #D2A45F;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 30px -16px rgba(0,0,0,.7);
+  }
+  :root[data-theme="light"] {
+    --ground: #F1F4F2; --surface: #FFFFFF; --surface-2: #FAFCFB;
+    --ink: #131C1A; --ink-2: #5B6A66; --ink-3: #8A9793;
+    --line: #D6DFDB; --line-strong: #B9C6C1;
+    --accent: #0B6A5F; --accent-ink: #FFFFFF; --accent-soft: #E1EDE9;
+    --good: #1C7A45; --good-soft: #E0F0E6;
+    --bad: #A2435A; --bad-soft: #F7E7EB;
+    --gold: #8A5716;
+    --shadow: 0 1px 2px rgba(19,28,26,.06), 0 12px 28px -14px rgba(19,28,26,.28);
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding: clamp(1rem, 4vw, 2.25rem) clamp(1rem, 4vw, 2rem) 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .top {
+    display: flex; flex-wrap: wrap; align-items: baseline;
+    justify-content: space-between; gap: .4rem 1rem;
+    padding-bottom: .9rem; border-bottom: 1px solid var(--line);
+  }
+  .top h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.35rem, 4vw, 1.9rem);
+    font-weight: 600; letter-spacing: -.015em;
+  }
+  .top a {
+    font-size: .8rem; color: var(--ink-2); text-decoration: none;
+    border-bottom: 1px solid var(--line-strong); padding-bottom: 1px;
+  }
+  .top a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* --- HUD --- */
+  .hud {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1rem; font-family: var(--font-mono); font-size: .74rem;
+    letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2);
+    font-variant-numeric: tabular-nums;
+  }
+  .hud .lives { letter-spacing: .12em; font-size: 1rem; }
+  .hud .lives .lost { opacity: .22; }
+  .hud .score { color: var(--ink); font-size: .95rem; letter-spacing: .02em; }
+  .streak { color: var(--gold); }
+  .streak[hidden] { display: none; }
+
+  .timer { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; }
+  .timer i { display: block; height: 100%; width: 100%; background: var(--accent); transform-origin: left; }
+  .timer.low i { background: var(--bad); }
+
+  /* --- question card --- */
+  .card {
+    background: var(--surface); border: 1px solid var(--line);
+    border-radius: 4px; box-shadow: var(--shadow);
+    padding: clamp(1.25rem, 4.5vw, 2rem);
+    display: flex; flex-direction: column; gap: 1.4rem;
+    min-height: 9rem;
+  }
+  .qtopic {
+    font-family: var(--font-mono); font-size: .66rem; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  .qtext {
+    font-family: var(--font-display);
+    font-size: clamp(1.15rem, 3.2vw, 1.5rem);
+    line-height: 1.3; text-wrap: balance;
+  }
+
+  .opts { display: flex; flex-direction: column; gap: .5rem; }
+  .opt {
+    font: inherit; text-align: left; width: 100%;
+    padding: .8rem .95rem; border-radius: 3px;
+    border: 1px solid var(--line-strong); background: var(--surface-2);
+    color: var(--ink); cursor: pointer; line-height: 1.35;
+    display: flex; gap: .7rem; align-items: baseline;
+    transition: border-color .12s, background .12s;
+  }
+  .opt:hover:not(:disabled) { border-color: var(--accent); }
+  .opt:disabled { cursor: default; }
+  .opt .key {
+    font-family: var(--font-mono); font-size: .72rem; color: var(--ink-3);
+    flex: 0 0 auto; min-width: 1ch;
+  }
+  .opt.correct { border-color: var(--good); background: var(--good-soft); }
+  .opt.correct .key { color: var(--good); }
+  .opt.wrong { border-color: var(--bad); background: var(--bad-soft); }
+  .opt.wrong .key { color: var(--bad); }
+  .opt.dim { opacity: .45; }
+
+  .verdict {
+    font-size: .88rem; line-height: 1.45; color: var(--ink-2);
+    border-left: 2px solid var(--line-strong); padding-left: .8rem;
+  }
+  .verdict.hit { border-left-color: var(--good); }
+  .verdict.miss { border-left-color: var(--bad); }
+  .verdict b { color: var(--ink); }
+
+  .btn {
+    font: inherit; font-size: .95rem; padding: .8rem 1.4rem; border-radius: 3px;
+    border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink);
+    cursor: pointer;
+  }
+  .btn:hover { filter: brightness(1.08); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+  .btn.ghost:hover { border-color: var(--ink-2); filter: none; }
+  :where(button, a):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  /* --- panels --- */
+  .panel {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 4px;
+    box-shadow: var(--shadow); padding: clamp(1.5rem, 5vw, 2.5rem);
+    display: flex; flex-direction: column; gap: 1.1rem;
+  }
+  .panel h2 { font-family: var(--font-display); font-size: clamp(1.4rem, 4vw, 1.9rem); font-weight: 600; }
+  .panel p { color: var(--ink-2); max-width: 46ch; }
+  .rules { display: flex; flex-direction: column; gap: .45rem; font-size: .9rem; color: var(--ink-2); }
+  .rules li { display: flex; gap: .6rem; }
+  .rules b { color: var(--ink); font-weight: 600; }
+  .row { display: flex; gap: .6rem; flex-wrap: wrap; }
+
+  .tally { display: flex; flex-wrap: wrap; gap: 1.75rem; padding: .25rem 0 .5rem; }
+  .tally div { display: flex; flex-direction: column; gap: .15rem; }
+  .tally .n {
+    font-family: var(--font-mono); font-size: 1.75rem; color: var(--ink);
+    font-variant-numeric: tabular-nums; line-height: 1;
+  }
+  .tally .l {
+    font-family: var(--font-mono); font-size: .66rem; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--ink-3);
+  }
+  .tally .n.best { color: var(--gold); }
+
+  .review { display: flex; flex-direction: column; gap: 0; }
+  .review h3 {
+    font-family: var(--font-mono); font-size: .68rem; letter-spacing: .12em;
+    text-transform: uppercase; color: var(--bad);
+    padding-bottom: .5rem; border-bottom: 1px solid var(--line); margin-bottom: .25rem;
+  }
+  .review li { padding: .7rem 0; border-bottom: 1px solid var(--line); font-size: .9rem; }
+  .review .q { font-family: var(--font-display); font-size: 1rem; }
+  .review .a { color: var(--ink-2); }
+  .review .a b { color: var(--good); font-weight: 600; }
+
+  [hidden] { display: none !important; }
+  @media (prefers-reduced-motion: reduce) { .timer i { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>Territory Run</h1>
+    <a href="./">&larr; Back to flash cards</a>
+  </header>
+
+  <!-- START -->
+  <section class="panel" id="startPanel">
+    <h2>Answer fast. Keep the streak. Don't lose three.</h2>
+    <p>Same material as the flash cards, but you're on the clock. Built from your Day 1 notes.</p>
+    <ul class="rules">
+      <li><span>&bull;</span><span><b>3 strikes.</b> A wrong answer or a run-out clock costs you one.</span></li>
+      <li><span>&bull;</span><span><b>12 seconds</b> a question. Answer faster, score higher.</span></li>
+      <li><span>&bull;</span><span><b>Streaks multiply</b> &mdash; every right answer in a row pushes your multiplier up to 3&times;.</span></li>
+      <li><span>&bull;</span><span>Clear all <span id="qCount">0</span> without striking out and you've <b>run the territory</b>.</span></li>
+    </ul>
+    <div class="row">
+      <button class="btn" id="startBtn">Start the run</button>
+    </div>
+    <p style="font-size:.82rem" id="bestLine" hidden></p>
+  </section>
+
+  <!-- PLAY -->
+  <section id="playPanel" hidden>
+    <div class="hud" style="margin-bottom:.7rem">
+      <span class="lives" id="lives"></span>
+      <span class="streak" id="streak" hidden></span>
+      <span class="score"><span id="score">0</span> pts</span>
+    </div>
+    <div class="timer" id="timerBar"><i id="timerFill"></i></div>
+    <div class="card" style="margin-top:1rem">
+      <div class="qtopic" id="qtopic"></div>
+      <div class="qtext" id="qtext"></div>
+      <div class="opts" id="opts"></div>
+      <div class="verdict" id="verdict" hidden></div>
+      <div class="row" id="nextRow" hidden>
+        <button class="btn" id="nextBtn">Next</button>
+      </div>
+    </div>
+    <div class="hud" style="margin-top:.8rem">
+      <span id="progress"></span>
+      <button class="btn ghost" id="quitBtn" style="font-size:.78rem;padding:.35rem .7rem">End run</button>
+    </div>
+  </section>
+
+  <!-- END -->
+  <section class="panel" id="endPanel" hidden>
+    <h2 id="endTitle"></h2>
+    <p id="endText"></p>
+    <div class="tally">
+      <div><span class="n" id="fScore">0</span><span class="l">Score</span></div>
+      <div><span class="n" id="fRight">0</span><span class="l">Right</span></div>
+      <div><span class="n" id="fAcc">0%</span><span class="l">Accuracy</span></div>
+      <div><span class="n" id="fStreak">0</span><span class="l">Best streak</span></div>
+      <div><span class="n best" id="fBest">0</span><span class="l">Your record</span></div>
+    </div>
+    <ul class="review" id="review" hidden></ul>
+    <div class="row">
+      <button class="btn" id="againBtn">Run it again</button>
+      <a class="btn ghost" href="./" style="text-decoration:none;display:inline-block">Study the cards</a>
+    </div>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var Q = [
+    ["Distribution","Largest dental distributor in the world?","Henry Schein",["Patterson","Benco","Dentsply Sirona"]],
+    ["Distribution","Roughly what share of the market does Henry Schein hold?","About 40%",["About 15%","About 65%","About 25%"]],
+    ["Distribution","Who is #2 in dental distribution?","Patterson",["Benco","Envista","A-dec"]],
+    ["Distribution","Who is #3 in dental distribution?","Benco",["Patterson","Straumann","Planmeca"]],
+    ["Distribution","The distributor is the ___ of a dental office.","Quarterback",["Referee","Head coach","Scoreboard"]],
+    ["Distribution","How are dental distributor reps mostly employed?","95% W-2",["95% 1099","Half W-2, half 1099","Commission-only contractors"]],
+    ["Distribution","Roughly how many dentist products are out there?","About 300,000",["About 30,000","About 3 million","About 15,000"]],
+    ["Distribution","Which two companies sell dental equipment and technology?","A-dec and Planmeca",["Benco and Patterson","Camlog and BioHorizons","Envista and Invisalign"]],
+    ["Distribution","Newest way to take x-rays?","Intraoral scanner",["Panoramic film","Bitewing film","Cone beam paste"]],
+    ["Distribution","Which implant companies does Henry Schein own?","BioHorizons and Camlog",["Straumann and Envista","A-dec and Planmeca","Patterson and Benco"]],
+    ["Distribution","Who are the largest dental manufacturers?","Envista, Dentsply Sirona, Straumann",["Henry Schein, Patterson, Benco","A-dec, Planmeca, Invisalign","BioHorizons, Camlog, Benco"]],
+
+    ["The money","Roughly how many dentists are there in the world?","About 200,000",["About 20,000","About 2 million","About 750,000"]],
+    ["The money","Dental insurance is really more of a:","Discount program",["Full coverage plan","Government subsidy","Reimbursement account"]],
+    ["The money","How does Medicaid work in dental?","It doesn't - there's no dental equivalent",["It covers all children","It covers everyone under 65","It pays 80% of major work"]],
+    ["The money","Which of these is normally out of pocket?","Dentures, crowns and veneers",["Cleanings and x-rays","Routine fillings","Annual exams"]],
+    ["The money","Why does a dentist treat every purchase as personal money?","They make what they charge their patients",["A hospital pays their salary","Insurance reimburses them fully","The distributor fronts the cost"]],
+
+    ["Who's who","What does DMD after a name tell you?","General practitioner",["Oral surgeon","Orthodontist","Dental lab technician"]],
+    ["Who's who","Biggest clear aligner company in the game?","Invisalign",["A-dec","Camlog","BioHorizons"]],
+    ["Who's who","Which one is NOT a dental specialist?","Cardiologist",["Periodontist","Endodontist","Oral surgeon"]],
+    ["Who's who","What are the Big 4 procedure categories?","Implants, preventives, restoratives, endodontics",["Cleanings, fillings, crowns, braces","Exams, x-rays, sealants, fluoride","Implants, aligners, dentures, whitening"]],
+
+    ["Anatomy","Incisors do what?","Cut",["Tear","Crush","Grind"]],
+    ["Anatomy","Canines do what?","Tear",["Cut","Crush","Grind"]],
+    ["Anatomy","Premolars do what?","Crush",["Grind","Cut","Tear"]],
+    ["Anatomy","Molars do what?","Grind",["Crush","Tear","Cut"]],
+    ["Anatomy","The maxilla is the:","Upper jaw",["Lower jaw","Gums","Tooth socket"]],
+    ["Anatomy","The mandible is the:","Lower jaw",["Upper jaw","Alveolar bone","Gingiva"]],
+    ["Anatomy","Gingiva is another word for:","Gums",["Jaw bone","Enamel","Root canal"]],
+    ["Anatomy","What sits right next to the maxilla?","The sinus",["The carotid artery","The jaw joint","The tongue nerve"]],
+    ["Anatomy","What does the mandible contain?","An important nerve",["The sinus","The salivary glands","The aligner anchor"]],
+    ["Anatomy","What is the alveolar bone's one job?","Holds the tooth - and shrinks if it's lost",["Produces saliva","Covers the crown","Anchors the sinus"]],
+    ["Anatomy","Order it from the jaw out to the tooth:","Jaw bone, alveolar bone, gums, teeth",["Gums, jaw bone, teeth, alveolar bone","Teeth, gums, alveolar bone, jaw bone","Alveolar bone, jaw bone, teeth, gums"]],
+    ["Anatomy","Are teeth bone, and do they grow back?","Neither - and enamel can't rebuild",["Yes to both","Bone yes, grow back no","Not bone, but they do grow back"]],
+
+    ["What they buy","Cavities - what does the dentist buy?","Composite filling, bonding agents, fluoride, sealants",["Ultrasonic scalers and lasers","Braces and TADs","Dentures and implant components"]],
+    ["What they buy","Periodontal disease - what does the dentist buy?","Scalers, lasers, bone grafts, antimicrobials",["Composite filling and sealants","Clear aligners","Digital dentures"]],
+    ["What they buy","Crooked teeth - what does the dentist buy?","Braces, clear aligners, TADs",["Bone grafts and antimicrobials","Fluoride and sealants","Implant components"]],
+    ["What they buy","Losing teeth - what does the dentist buy?","Implants, bone grafts, dentures",["Fluoride and sealants","Ultrasonic scalers","Clear aligners"]],
+    ["What they buy","What does TAD stand for?","Temporary anchoring device",["Tooth alignment disc","Total arch denture","Titanium abutment driver"]],
+
+    ["Territory","Odds the dentist is actually available when you walk in?","About 30%",["About 70%","About 5%","About 95%"]],
+    ["Territory","How many touches before you get consistent calls?","6 to 8",["1 to 2","15 to 20","Just 3"]],
+    ["Territory","Dentists are very ___ driven.","Promo and sell",["Research","Committee","Insurance"]],
+    ["Territory","What keeps a dentist calling you back?","Consistency, follow up, doing what you said",["The lowest price every time","Cold calling daily","Leaving samples at the door"]]
+  ];
+
+  var TIME = 12000, KEYS = "ABCD";
+  var el = function (id) { return document.getElementById(id); };
+
+  var deck = [], i = 0, score = 0, lives = 3, streak = 0, bestStreak = 0;
+  var right = 0, asked = 0, missed = [], locked = false;
+  var tStart = 0, raf = 0, best = 0;
+
+  el("qCount").textContent = Q.length;
+  try { best = parseInt(localStorage.getItem("territoryRunBest") || "0", 10) || 0; } catch (e) { best = 0; }
+  if (best) { el("bestLine").hidden = false; el("bestLine").innerHTML = "Your record so far: <b>" + best + "</b> points."; }
+
+  function shuffle(a) {
+    for (var j = a.length - 1; j > 0; j--) {
+      var k = Math.floor(Math.random() * (j + 1)), t = a[j]; a[j] = a[k]; a[k] = t;
+    }
+    return a;
+  }
+
+  function start() {
+    deck = shuffle(Q.slice());
+    i = 0; score = 0; lives = 3; streak = 0; bestStreak = 0;
+    right = 0; asked = 0; missed = [];
+    el("startPanel").hidden = true;
+    el("endPanel").hidden = true;
+    el("playPanel").hidden = false;
+    next();
+  }
+
+  function drawHud() {
+    var h = "";
+    for (var j = 0; j < 3; j++) h += '<span class="' + (j < lives ? "" : "lost") + '">&#9679;</span>';
+    el("lives").innerHTML = h;
+    el("score").textContent = score;
+    el("streak").hidden = streak < 2;
+    el("streak").textContent = streak + " in a row - " + mult().toFixed(1) + "x";
+    el("progress").textContent = "Question " + Math.min(asked + 1, deck.length) + " of " + deck.length;
+  }
+
+  function mult() { return Math.min(3, 1 + streak * 0.2); }
+
+  function next() {
+    if (lives <= 0 || i >= deck.length) return finish();
+    locked = false;
+    var q = deck[i];
+    el("verdict").hidden = true;
+    el("nextRow").hidden = true;
+    el("qtopic").textContent = q[0];
+    el("qtext").textContent = q[1];
+
+    var opts = shuffle([q[2]].concat(q[3]));
+    var box = el("opts");
+    box.innerHTML = "";
+    opts.forEach(function (text, n) {
+      var b = document.createElement("button");
+      b.className = "opt";
+      b.type = "button";
+      b.innerHTML = '<span class="key">' + KEYS[n] + '</span><span>' + text + "</span>";
+      b.onclick = function () { answer(text, b); };
+      box.appendChild(b);
+    });
+
+    drawHud();
+    tStart = Date.now();
+    el("timerBar").classList.remove("low");
+    tick();
+  }
+
+  function tick() {
+    cancelAnimationFrame(raf);
+    (function loop() {
+      if (locked) return;
+      var left = Math.max(0, TIME - (Date.now() - tStart));
+      var f = left / TIME;
+      el("timerFill").style.transform = "scaleX(" + f + ")";
+      if (f < 0.25) el("timerBar").classList.add("low");
+      if (left <= 0) return answer(null, null);
+      raf = requestAnimationFrame(loop);
+    })();
+  }
+
+  function answer(picked, btn) {
+    if (locked) return;
+    locked = true;
+    cancelAnimationFrame(raf);
+    var q = deck[i], correct = q[2], hit = picked === correct;
+    var elapsed = Date.now() - tStart;
+    asked++;
+
+    Array.prototype.forEach.call(el("opts").children, function (b) {
+      b.disabled = true;
+      var label = b.lastChild.textContent;
+      if (label === correct) b.classList.add("correct");
+      else if (b === btn) b.classList.add("wrong");
+      else b.classList.add("dim");
+    });
+
+    var v = el("verdict");
+    v.hidden = false;
+    if (hit) {
+      right++; streak++;
+      if (streak > bestStreak) bestStreak = streak;
+      var speed = Math.max(0, Math.round(100 * (1 - elapsed / TIME)));
+      var gained = Math.round((100 + speed) * mult());
+      score += gained;
+      v.className = "verdict hit";
+      v.innerHTML = "<b>+" + gained + "</b> &mdash; " + (speed > 60 ? "fast." : speed > 25 ? "good." : "got there.") +
+        (streak >= 2 ? " Streak " + streak + " at " + mult().toFixed(1) + "x." : "");
+    } else {
+      streak = 0; lives--;
+      missed.push(q);
+      v.className = "verdict miss";
+      v.innerHTML = picked === null
+        ? "Clock ran out. It's <b>" + correct + "</b>."
+        : "It's <b>" + correct + "</b>.";
+    }
+    drawHud();
+    el("nextRow").hidden = false;
+    el("nextBtn").textContent = (lives <= 0 || i + 1 >= deck.length) ? "See how you did" : "Next";
+    el("nextBtn").focus();
+  }
+
+  function finish() {
+    el("playPanel").hidden = true;
+    el("endPanel").hidden = false;
+    var cleared = lives > 0 && i >= deck.length;
+    var record = score > best;
+    if (record) {
+      best = score;
+      try { localStorage.setItem("territoryRunBest", String(best)); } catch (e) {}
+    }
+    el("endTitle").textContent = cleared ? "You ran the whole territory." : record ? "New record." : "Struck out.";
+    el("endText").textContent = cleared
+      ? "All " + deck.length + " questions, three strikes never used. That's the material cold."
+      : record
+        ? "Best run yet - but the ones below are still costing you."
+        : "The ones you missed are below. Worth a pass through the cards before the next run.";
+    el("fScore").textContent = score;
+    el("fRight").textContent = right + "/" + asked;
+    el("fAcc").textContent = asked ? Math.round((right / asked) * 100) + "%" : "0%";
+    el("fStreak").textContent = bestStreak;
+    el("fBest").textContent = best;
+
+    var r = el("review");
+    r.innerHTML = "";
+    if (missed.length) {
+      r.hidden = false;
+      var h = document.createElement("h3");
+      h.textContent = "Missed this run";
+      r.appendChild(h);
+      missed.forEach(function (q) {
+        var li = document.createElement("li");
+        li.innerHTML = '<div class="q">' + q[1] + '</div><div class="a"><b>' + q[2] + "</b></div>";
+        r.appendChild(li);
+      });
+    } else {
+      r.hidden = true;
+    }
+  }
+
+  el("startBtn").onclick = start;
+  el("againBtn").onclick = start;
+  el("nextBtn").onclick = function () { i++; next(); };
+  el("quitBtn").onclick = function () { locked = true; cancelAnimationFrame(raf); finish(); };
+
+  document.addEventListener("keydown", function (e) {
+    if (el("playPanel").hidden) {
+      if (e.key === "Enter" && !el("startPanel").hidden) start();
+      return;
+    }
+    var k = e.key.toUpperCase(), n = KEYS.indexOf(k);
+    if (!locked && n >= 0 && n < el("opts").children.length) {
+      el("opts").children[n].click();
+    } else if (locked && (e.key === "Enter" || e.key === " ")) {
+      e.preventDefault();
+      el("nextBtn").click();
+    }
+  });
+
+  drawHud();
+})();
+</script>
+</body>
+</html>

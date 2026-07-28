@@ -352,6 +352,7 @@
     cursor: pointer;
   }
   .linkbtn:hover { color: var(--accent); border-bottom-color: var(--accent); }
+  a.linkbtn { text-decoration: none; color: var(--accent); border-bottom-color: var(--accent); }
   .utility .group { display: flex; gap: 1rem; flex-wrap: wrap; }
 
   :where(button):focus-visible {
@@ -504,6 +505,7 @@
     <div class="group">
       <button class="linkbtn" id="shuffleBtn">Shuffle</button>
       <button class="linkbtn" id="resetBtn">Start over</button>
+      <a class="linkbtn" id="gameLink" href="game.html">Play Territory Run &rarr;</a>
     </div>
     <button class="linkbtn" id="browseBtn">Browse all cards</button>
   </div>
