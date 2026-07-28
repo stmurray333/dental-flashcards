@@ -5,9 +5,30 @@ Live: https://stmurray333.github.io/dental-flashcards/
 A single self-contained page (`index.html`) — no build step, no dependencies.
 Open it, tap a card to flip, grade it, repeat.
 
+## How it's put together
+
+- `index.html` — flash cards (the shell)
+- `game.html` — Territory Run quiz (the shell)
+- **`content.json` — all the actual content.** Both pages fetch this on load with a
+  cache-busting timestamp, so new material appears the moment it's pushed rather than
+  waiting out GitHub Pages' 10-minute cache.
+
+Day-to-day you only ever edit `content.json`. Only touch the HTML if you're changing how
+the pages *work* (and note those changes can take ~10 minutes to reach a phone that has
+the old page cached).
+
+`content.json` looks like:
+
+```json
+{
+  "days": [ { "day": 1, "date": "...", "fixes": [...], "cards": [...] } ],
+  "questions": [ ["Topic", "Question?", "Right answer", ["wrong","wrong","wrong"], "Why it's right"] ]
+}
+```
+
 ## Adding a new day
 
-All the content lives in one `DAYS` array inside the `<script>` block in `index.html`:
+Add another entry to `days` in `content.json`:
 
 ```js
 { day: 2, date: "7·28·2026", fixes: [], cards: [

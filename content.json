@@ -1,0 +1,1320 @@
+{
+ "days": [
+  {
+   "day": 1,
+   "date": "7·27·2026",
+   "fixes": [
+    {
+     "fix": "Teeth are not bone, and they do not regenerate.",
+     "was": "Enamel is the hardest substance in the body — harder than bone — but once it's gone the body cannot rebuild it. That's the entire reason fluoride, sealants and restoratives exist."
+    },
+    {
+     "fix": "Henry Schein",
+     "was": "— written \"Henry Shine\" in the notes."
+    },
+    {
+     "fix": "Benco",
+     "was": "— written \"Banko.\" The Big 3 are Henry Schein, Patterson, Benco."
+    },
+    {
+     "fix": "Envista · Dentsply Sirona · Straumann · Invisalign · Planmeca",
+     "was": "— the notes have In Vista, Dens Supply Cerona, Sventum/Staman, Invisilin, Plan Mecha."
+    }
+   ],
+   "cards": [
+    {
+     "d": "Distribution",
+     "q": "Largest dental distributor in the world?",
+     "a": "<b>Henry Schein</b> — roughly 40% of the market. #1.",
+     "n": "Your notes spell it \"Henry Shine.\"",
+     "w": true
+    },
+    {
+     "d": "Distribution",
+     "q": "Who are the Big 3 distributors, in order?",
+     "a": "<ol><li>Henry Schein (~40%)</li><li>Patterson</li><li>Benco</li></ol>",
+     "n": "Notes say \"Banko\" — it's Benco.",
+     "w": true
+    },
+    {
+     "d": "Distribution",
+     "q": "What role does the distributor play in a dental office?",
+     "a": "The <b>quarterback</b> — everything the office runs on comes through them."
+    },
+    {
+     "d": "Distribution",
+     "q": "How are dental distributor reps typically employed?",
+     "a": "<b>95% W-2</b>, 5% 1099."
+    },
+    {
+     "d": "Distribution",
+     "q": "How does Henry Schein get devices to the office?",
+     "a": "Ships <b>all dental devices straight to the door</b>."
+    },
+    {
+     "d": "Distribution",
+     "q": "Roughly how many dentist products are out there?",
+     "a": "About <b>300,000</b>."
+    },
+    {
+     "d": "Distribution",
+     "q": "Who are the largest dental manufacturers?",
+     "a": "<b>Envista</b>, <b>Dentsply Sirona</b>, <b>Straumann</b>.",
+     "n": "Notes: \"In Vista / Dens Supply Cerona / Sventum.\"",
+     "w": true
+    },
+    {
+     "d": "Distribution",
+     "q": "Which implant companies does Henry Schein own?",
+     "a": "<b>BioHorizons</b> and <b>Camlog</b> — its implant arm.",
+     "n": "Straumann is the big independent implant player."
+    },
+    {
+     "d": "Distribution",
+     "q": "Which two companies sell dental equipment and technology?",
+     "a": "<b>A-dec</b> and <b>Planmeca</b>.",
+     "n": "Notes: \"Plan Mecha.\"",
+     "w": true
+    },
+    {
+     "d": "Distribution",
+     "q": "Newest way to take x-rays?",
+     "a": "The <b>intraoral scanner</b>."
+    },
+    {
+     "d": "The money",
+     "q": "Why do dentists think about money differently than surgeons and physicians?",
+     "a": "Surgeons and physicians are on <b>salary</b>. Dentists <b>make what they charge their patients</b> — so every purchase is their own money."
+    },
+    {
+     "d": "The money",
+     "q": "What is dental insurance really?",
+     "a": "Not insurance — <b>more of a discount program</b>."
+    },
+    {
+     "d": "The money",
+     "q": "How does Medicaid work in dental?",
+     "a": "It <b>doesn't</b>. Medicaid covers the uninsured and people on welfare on the medical side; dental has no equivalent."
+    },
+    {
+     "d": "The money",
+     "q": "Which procedures are normally out of pocket?",
+     "a": "<b>Dentures, crowns, veneers.</b>"
+    },
+    {
+     "d": "The money",
+     "q": "Roughly how many dentists are there in the world?",
+     "a": "About <b>200,000</b>."
+    },
+    {
+     "d": "Who's who",
+     "q": "What do the letters DMD after a name tell you?",
+     "a": "A typical dentist — a <b>general practitioner</b>."
+    },
+    {
+     "d": "Who's who",
+     "q": "Name the dental specialists.",
+     "a": "<ul><li>Orthodontists</li><li>Endodontists</li><li>Pedodontists</li><li>Periodontists</li><li>Oral surgeons</li></ul>"
+    },
+    {
+     "d": "Who's who",
+     "q": "Biggest clear aligner company in the game?",
+     "a": "<b>Invisalign</b>.",
+     "n": "Notes: \"Invisilin.\"",
+     "w": true
+    },
+    {
+     "d": "Who's who",
+     "q": "What are the Big 4 procedure categories?",
+     "a": "<ol><li>Implants</li><li>Preventives</li><li>Restoratives</li><li>Endodontics</li></ol>"
+    },
+    {
+     "d": "Anatomy",
+     "q": "Maxilla — what is it, and what's its one job?",
+     "a": "The <b>upper jaw</b>. Softer ground. <b>Supports the upper teeth</b> — and the sinus is right nearby."
+    },
+    {
+     "d": "Anatomy",
+     "q": "Mandible — what is it, and what's its one job?",
+     "a": "The <b>lower jaw</b>. Stronger ground. <b>Supports the lower teeth</b> and contains an important nerve."
+    },
+    {
+     "d": "Anatomy",
+     "q": "Gingiva — what is it, and what's its one job?",
+     "a": "The <b>gums</b>. A protective seal. <b>Keeps bacteria away</b> and protects the tooth and bone."
+    },
+    {
+     "d": "Anatomy",
+     "q": "Alveolar bone — what is it, and what's its one job?",
+     "a": "The <b>foundation</b>. <b>Holds the tooth</b> — and shrinks if the tooth is lost.",
+     "n": "That shrinking is why bone grafts get sold alongside implants."
+    },
+    {
+     "d": "Anatomy",
+     "q": "Trace the structure from the jaw out to the tooth.",
+     "a": "Jaw bone (maxilla or mandible) → <b>alveolar bone</b> → <b>gums</b> → <b>teeth</b>."
+    },
+    {
+     "d": "Anatomy",
+     "q": "Incisors, canines, premolars, molars — what does each one do?",
+     "a": "<ol><li>Incisors — <b>cut</b></li><li>Canines — <b>tear</b></li><li>Premolars — <b>crush</b></li><li>Molars — <b>grind</b></li></ol>"
+    },
+    {
+     "d": "Anatomy",
+     "q": "Are teeth bone? Do they grow back?",
+     "a": "<b>No and no.</b> Teeth aren't bone. <b>Enamel</b> is the hardest substance in the body, but once it's lost the body can't rebuild it.",
+     "n": "Your notes say teeth are the hardest bone and the only bone that regenerates — both are wrong, and a dentist will catch it. The fact that enamel <i>can't</i> come back is what sells fluoride, sealants and restoratives.",
+     "w": true
+    },
+    {
+     "d": "Anatomy",
+     "q": "Why bother learning tooth composition at all?",
+     "a": "So you can talk about <b>products that interact with each layer</b> — that's the whole point of the anatomy."
+    },
+    {
+     "d": "What they buy",
+     "q": "Cavities — what does the dentist buy?",
+     "a": "<ol><li>Composite filling</li><li>Bonding agents</li><li>Caries detection devices</li><li>Fluoride</li><li>Sealants</li></ol>"
+    },
+    {
+     "d": "What they buy",
+     "q": "Periodontal disease — what does the dentist buy?",
+     "a": "<ol><li>Ultrasonic scalers</li><li>Hand scalers</li><li>Lasers</li><li>Bone grafts</li><li>Antimicrobials</li></ol>"
+    },
+    {
+     "d": "What they buy",
+     "q": "Crooked teeth — what does the dentist buy?",
+     "a": "<ol><li>Braces</li><li>Clear aligners</li><li>Temporary anchoring devices (TADs)</li><li>Orthognathic surgery, in severe cases</li></ol>"
+    },
+    {
+     "d": "What they buy",
+     "q": "Losing teeth — what does the dentist buy?",
+     "a": "<ol><li>Implant systems</li><li>Bone grafts</li><li>Dentures</li><li>Digital dentures</li><li>Implant components</li></ol>"
+    },
+    {
+     "d": "Territory",
+     "q": "What are your odds the dentist is actually available when you walk in?",
+     "a": "About a <b>30% hit rate</b>."
+    },
+    {
+     "d": "Territory",
+     "q": "How many touches before you get consistent calls?",
+     "a": "<b>6 to 8.</b>"
+    },
+    {
+     "d": "Territory",
+     "q": "Dentists are very ___ driven.",
+     "a": "<b>Promo and sell driven.</b>"
+    },
+    {
+     "d": "Territory",
+     "q": "How do you build a relationship in this business?",
+     "a": "<b>Show up. Be consistent. Bring value.</b>"
+    },
+    {
+     "d": "Territory",
+     "q": "Three things that keep a dentist calling you back?",
+     "a": "<ol><li>Consistency</li><li>Follow up</li><li>Say what you'll actually do</li></ol>"
+    },
+    {
+     "d": "Territory",
+     "q": "What matters most in dental sales?",
+     "a": "<b>Relationships.</b> They're the major thing."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "How many incisors, and where?",
+     "a": "<b>8</b> &mdash; 4 upper, 4 lower. Central and lateral.",
+     "n": "Single root, thin edge. Built for cutting."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "How many canines, and what else are they called?",
+     "a": "<b>4</b> &mdash; the \"cuspids\" or \"eye teeth\"."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "How many premolars, and what else are they called?",
+     "a": "<b>8</b> &mdash; the \"bicuspids\".",
+     "n": "Bi-cuspid = two cusps. That's literally the name."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "How many molars?",
+     "a": "<b>12</b> &mdash; or 8 once the wisdom teeth come out."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "Which teeth have the longest roots in the mouth?",
+     "a": "<b>Canines.</b>",
+     "n": "Which is why they're very stable and the last teeth to be lost."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "How many cusps does a molar have?",
+     "a": "<b>3 to 5</b>, with 2&ndash;3 roots. The largest teeth in the mouth."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "When do the first molars come in?",
+     "a": "Around <b>age 6</b> &mdash; that's why they're called the \"6-year molars\"."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "Where do premolars sit, and what do they do?",
+     "a": "<b>Between the canines and molars.</b> They're the transition &mdash; chewing and grinding. One or two roots."
+    },
+    {
+     "d": "Teeth in detail",
+     "q": "The team analogy for the four tooth types?",
+     "a": "<ol><li>Incisors &mdash; skilled forwards (finesse, visible, aesthetic)</li><li>Canines &mdash; anchors (stability, guidance)</li><li>Premolars &mdash; midfielders (transition, support)</li><li>Molars &mdash; power players (heavy lifting, most force)</li></ol>",
+     "n": "Straight from the training. Handy if you need to explain teeth to a patient."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "Which jaw has denser bone?",
+     "a": "The <b>mandible</b> &mdash; densest in the mouth, especially at the front. The maxilla is less dense.",
+     "n": "Density drives almost everything else: implant stability, how fast teeth move."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "Which jaw moves teeth faster in orthodontics, and why?",
+     "a": "The <b>maxilla</b> &mdash; thinner bone means faster movement. The lower jaw is slower."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "What's inside the maxilla that matters for implants?",
+     "a": "The <b>maxillary sinuses</b>.",
+     "n": "Not enough bone between the sinus and the mouth means a sinus lift before an upper back implant."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "What shape is the mandible, and what runs through it?",
+     "a": "<b>Horseshoe shaped</b>, with the <b>mental foramen</b> &mdash; the nerve exit &mdash; sitting between the premolars."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "What does healthy gingiva look like?",
+     "a": "<b>Pink, stippled, and it doesn't bleed.</b>",
+     "n": "Diseased: red, swollen, bleeds easily. Stippled means a slight orange-peel texture."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "What is gingiva made of?",
+     "a": "<b>Keratinized tissue</b> around the teeth &mdash; free gingiva and attached gingiva."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "What happens to alveolar bone once a tooth is gone?",
+     "a": "It <b>resorbs</b> &mdash; the bone disappears because nothing is stimulating it.",
+     "n": "\"Use it or lose it.\" This one fact drives ridge preservation grafts, immediate placement, and half the implant conversation."
+    },
+    {
+     "d": "Bone & tissue",
+     "q": "How much bone can be lost after a tooth comes out?",
+     "a": "<b>40&ndash;60% in the first three years.</b>",
+     "n": "Which is why timing matters so much &mdash; wait too long and there's nothing left to place an implant into."
+    },
+    {
+     "d": "Conditions",
+     "q": "What actually causes a cavity?",
+     "a": "<b>Streptococcus mutans + sugar &rarr; acid</b>, and the acid demineralizes enamel."
+    },
+    {
+     "d": "Conditions",
+     "q": "How does decay progress?",
+     "a": "<b>White spot &rarr; enamel caries &rarr; dentin caries &rarr; pulp involvement.</b>",
+     "n": "Catch it at the white spot and it's preventive. Let it reach the pulp and it's a root canal."
+    },
+    {
+     "d": "Conditions",
+     "q": "Caries Class I and II?",
+     "a": "<b>Class I</b> &mdash; pits and fissures on chewing surfaces.<br><b>Class II</b> &mdash; between the back teeth."
+    },
+    {
+     "d": "Conditions",
+     "q": "Caries Class III, IV and V?",
+     "a": "<b>Class III</b> &mdash; between the front teeth.<br><b>Class IV</b> &mdash; front teeth involving the corner or edge.<br><b>Class V</b> &mdash; at the gumline.",
+     "n": "Class VI is cusp tips."
+    },
+    {
+     "d": "Conditions",
+     "q": "What are healthy gums, by the numbers?",
+     "a": "<b>1&ndash;3mm pocket depth</b>, no bleeding on probing, no bone loss."
+    },
+    {
+     "d": "Conditions",
+     "q": "Gingivitis vs periodontitis?",
+     "a": "<b>Gingivitis is reversible</b> &mdash; gums inflamed, bleeding, but no bone loss yet.<br><b>Periodontitis is irreversible</b> &mdash; 4mm+ pockets and bone loss visible on x-ray.",
+     "n": "The line between them is bone loss. Once bone is gone it doesn't come back on its own."
+    },
+    {
+     "d": "Conditions",
+     "q": "What causes gingivitis?",
+     "a": "<b>Plaque accumulation.</b> It's reversible at this stage."
+    },
+    {
+     "d": "Conditions",
+     "q": "Angle's Class I?",
+     "a": "<b>Normal molar relationship</b> &mdash; but with crowding, spacing or other issues. The most common."
+    },
+    {
+     "d": "Conditions",
+     "q": "Angle's Class II?",
+     "a": "<b>Lower jaw too far back</b> relative to the upper &mdash; overbite/overjet, the \"buck teeth\" look.",
+     "n": "Division 1: front teeth protrusive. Division 2: front teeth retroclined."
+    },
+    {
+     "d": "Conditions",
+     "q": "Angle's Class III?",
+     "a": "<b>Lower jaw too far forward</b> &mdash; underbite. Can be dental or skeletal, and it's the hardest to treat."
+    },
+    {
+     "d": "Conditions",
+     "q": "Partial vs complete edentulism?",
+     "a": "<b>Partial</b> &mdash; missing some teeth. Bridges, partial dentures, implants.<br><b>Complete</b> &mdash; no teeth in the arch. Complete dentures, implant-supported dentures, All-on-4.",
+     "n": "Partial edentulism gets sorted by Kennedy Classification (I&ndash;IV) based on where the gaps are."
+    },
+    {
+     "d": "Conditions",
+     "q": "What happens to someone after they lose teeth?",
+     "a": "<b>Bone resorption, bite collapse, facial aging, functional impairment.</b>",
+     "n": "It's not just cosmetic &mdash; the face structurally changes as the bone goes."
+    },
+    {
+     "d": "Sales context",
+     "q": "Why do incisors matter commercially?",
+     "a": "<b>They're the most visible teeth</b>, so aesthetics are critical &mdash; shade matching for composites, bonding and veneers, and aligner cases often focus here.",
+     "n": "Also trauma-prone in contact sports, which matters if the practice sees athletes."
+    },
+    {
+     "d": "Sales context",
+     "q": "Why are canines strong implant candidates?",
+     "a": "<b>Bone volume.</b> They're also critical for \"canine guidance\" in the bite and strategic in denture and partial design.",
+     "n": "An impacted canine means complex orthodontic treatment."
+    },
+    {
+     "d": "Sales context",
+     "q": "Why are premolars often extracted?",
+     "a": "<b>To create space for orthodontic treatment.</b>",
+     "n": "They're also a common site for cracked tooth syndrome, and implant-friendly locations."
+    },
+    {
+     "d": "Sales context",
+     "q": "Why do molars drive so much product?",
+     "a": "<b>Highest decay rate</b> &mdash; grooves and pits mean sealants. Most common location for crowns, most complex root canal anatomy, and implants there need more bone because the forces are higher."
+    },
+    {
+     "d": "Sales context",
+     "q": "Which teeth are usually impacted or extracted?",
+     "a": "<b>Wisdom teeth</b> &mdash; #1, 16, 17 and 32."
+    },
+    {
+     "d": "Sales context",
+     "q": "Where's the best place to put an implant, and why?",
+     "a": "The <b>mandible</b> &mdash; dense bone. It also supports implant-retained dentures well.",
+     "n": "Upper back implants are harder: sinus lifts, slower stability, tougher for immediate load."
+    },
+    {
+     "d": "Sales context",
+     "q": "What product category does the mandibular nerve create?",
+     "a": "<b>Imaging.</b> Nerve management is critical down there, so the practice needs to see exactly where it runs before placing."
+    },
+    {
+     "d": "Sales context",
+     "q": "What sells off gum disease?",
+     "a": "<b>Soft tissue lasers, periodontal instruments, grafting materials for recession, and tissue management during impressions.</b>"
+    },
+    {
+     "d": "Sales context",
+     "q": "Two product names worth knowing?",
+     "a": "<b>DIAGNOdent</b> &mdash; caries detection.<br><b>Arestin</b> &mdash; local antimicrobial for perio."
+    },
+    {
+     "d": "Sales context",
+     "q": "When does a ridge preservation graft get placed?",
+     "a": "<b>At extraction</b> &mdash; before the bone has a chance to resorb.",
+     "n": "Implants help maintain bone too. That's the argument for immediate placement."
+    },
+    {
+     "d": "Sales context",
+     "q": "What's the ROI pitch on periodontal maintenance?",
+     "a": "<b>Perio maintenance patients are recurring revenue</b> for the practice.",
+     "n": "Selling the business case, not just the product."
+    },
+    {
+     "d": "Sales context",
+     "q": "What's the biggest opportunity area, and why?",
+     "a": "<b>Edentulism</b> &mdash; the population is aging and the baby boomers are hitting peak tooth-loss years.",
+     "n": "Implant systems, bone grafting, dentures, digital denture workflow."
+    },
+    {
+     "d": "Sales context",
+     "q": "Three questions to actually open with?",
+     "a": "<ol><li>\"What percentage of your restorations are composite vs amalgam these days?\"</li><li>\"What percentage of your Class II cases do you treat with aligners vs traditional braces?\"</li><li>\"The baby boomers are hitting peak tooth-loss years &mdash; how is your practice positioned to capture this?\"</li></ol>",
+     "n": "Straight from the training. Each one gets a dentist talking about their own practice instead of your catalog."
+    }
+   ]
+  }
+ ],
+ "questions": [
+  [
+   "Distribution",
+   "Largest dental distributor in the world?",
+   "Henry Schein",
+   [
+    "Patterson",
+    "Benco",
+    "Dentsply Sirona"
+   ],
+   "Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together."
+  ],
+  [
+   "Distribution",
+   "Roughly what share of the market does Henry Schein hold?",
+   "About 40%",
+   [
+    "About 15%",
+    "About 65%",
+    "About 25%"
+   ],
+   "Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein."
+  ],
+  [
+   "Distribution",
+   "Who is #2 in dental distribution?",
+   "Patterson",
+   [
+    "Benco",
+    "Envista",
+    "A-dec"
+   ],
+   "Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you."
+  ],
+  [
+   "Distribution",
+   "Who is #3 in dental distribution?",
+   "Benco",
+   [
+    "Patterson",
+    "Straumann",
+    "Planmeca"
+   ],
+   "Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as \"Banko.\""
+  ],
+  [
+   "Distribution",
+   "The distributor is the ___ of a dental office.",
+   "Quarterback",
+   [
+    "Referee",
+    "Head coach",
+    "Scoreboard"
+   ],
+   "A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you."
+  ],
+  [
+   "Distribution",
+   "How are dental distributor reps mostly employed?",
+   "95% W-2",
+   [
+    "95% 1099",
+    "Half W-2, half 1099",
+    "Commission-only contractors"
+   ],
+   "W-2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you."
+  ],
+  [
+   "Distribution",
+   "Roughly how many dentist products are out there?",
+   "About 300,000",
+   [
+    "About 30,000",
+    "About 3 million",
+    "About 15,000"
+   ],
+   "Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog."
+  ],
+  [
+   "Distribution",
+   "Which two companies sell dental equipment and technology?",
+   "A-dec and Planmeca",
+   [
+    "Benco and Patterson",
+    "Camlog and BioHorizons",
+    "Envista and Invisalign"
+   ],
+   "A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade."
+  ],
+  [
+   "Distribution",
+   "Newest way to take x-rays?",
+   "Intraoral scanner",
+   [
+    "Panoramic film",
+    "Bitewing film",
+    "Cone beam paste"
+   ],
+   "The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors."
+  ],
+  [
+   "Distribution",
+   "Which implant companies does Henry Schein own?",
+   "BioHorizons and Camlog",
+   [
+    "Straumann and Envista",
+    "A-dec and Planmeca",
+    "Patterson and Benco"
+   ],
+   "Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time."
+  ],
+  [
+   "Distribution",
+   "Who are the largest dental manufacturers?",
+   "Envista, Dentsply Sirona, Straumann",
+   [
+    "Henry Schein, Patterson, Benco",
+    "A-dec, Planmeca, Invisalign",
+    "BioHorizons, Camlog, Benco"
+   ],
+   "Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up."
+  ],
+  [
+   "The money",
+   "Roughly how many dentists are there in the world?",
+   "About 200,000",
+   [
+    "About 20,000",
+    "About 2 million",
+    "About 750,000"
+   ],
+   "200,000 worldwide is a small, closed profession. Reputations travel - which is why burning one office actually costs you."
+  ],
+  [
+   "The money",
+   "Dental insurance is really more of a:",
+   "Discount program",
+   [
+    "Full coverage plan",
+    "Government subsidy",
+    "Reimbursement account"
+   ],
+   "It's a discount program with an annual cap, usually around ,,000-$2,000. Patients blow through that fast, and everything after is cash out of pocket."
+  ],
+  [
+   "The money",
+   "How does Medicaid work in dental?",
+   "It doesn't - there's no dental equivalent",
+   [
+    "It covers all children",
+    "It covers everyone under 65",
+    "It pays 80% of major work"
+   ],
+   "The medical safety net just doesn't extend here. No equivalent program means the patient pays or the work doesn't happen."
+  ],
+  [
+   "The money",
+   "Which of these is normally out of pocket?",
+   "Dentures, crowns and veneers",
+   [
+    "Cleanings and x-rays",
+    "Routine fillings",
+    "Annual exams"
+   ],
+   "Dentures, crowns and veneers are the high-ticket items insurance barely touches. That's where the case-acceptance conversation lives."
+  ],
+  [
+   "The money",
+   "Why does a dentist treat every purchase as personal money?",
+   "They make what they charge their patients",
+   [
+    "A hospital pays their salary",
+    "Insurance reimburses them fully",
+    "The distributor fronts the cost"
+   ],
+   "The dentist usually owns the practice. Surgeons and physicians draw a salary; a dentist takes home what's left. Every box you sell comes out of their own pocket - price it like you know that."
+  ],
+  [
+   "Who's who",
+   "What does DMD after a name tell you?",
+   "General practitioner",
+   [
+    "Oral surgeon",
+    "Orthodontist",
+    "Dental lab technician"
+   ],
+   "DMD or DDS both mean general dentist - the degrees are equivalent. Specialists carry an additional title on top."
+  ],
+  [
+   "Who's who",
+   "Biggest clear aligner company in the game?",
+   "Invisalign",
+   [
+    "A-dec",
+    "Camlog",
+    "BioHorizons"
+   ],
+   "Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning."
+  ],
+  [
+   "Who's who",
+   "Which one is NOT a dental specialist?",
+   "Cardiologist",
+   [
+    "Periodontist",
+    "Endodontist",
+    "Oral surgeon"
+   ],
+   "The dental specialties: perio (gums), endo (root canals), pedo (kids), ortho (straightening), oral surgery. Cardiology is not on the list."
+  ],
+  [
+   "Who's who",
+   "What are the Big 4 procedure categories?",
+   "Implants, preventives, restoratives, endodontics",
+   [
+    "Cleanings, fillings, crowns, braces",
+    "Exams, x-rays, sealants, fluoride",
+    "Implants, aligners, dentures, whitening"
+   ],
+   "Implants, preventives, restoratives, endodontics. Learn these as buckets - almost every product you sell drops into one of them."
+  ],
+  [
+   "Anatomy",
+   "Incisors do what?",
+   "Cut",
+   [
+    "Tear",
+    "Crush",
+    "Grind"
+   ],
+   "Front to back, food gets broken down in stages: cut, tear, crush, grind. Incisors are the front blades that start it."
+  ],
+  [
+   "Anatomy",
+   "Canines do what?",
+   "Tear",
+   [
+    "Cut",
+    "Crush",
+    "Grind"
+   ],
+   "Canines are the pointed ones - think of a dog's fang. Made for tearing, and they have the longest roots in the mouth."
+  ],
+  [
+   "Anatomy",
+   "Premolars do what?",
+   "Crush",
+   [
+    "Grind",
+    "Cut",
+    "Tear"
+   ],
+   "Premolars sit between the tearers and the grinders, and they do the in-between job: crushing."
+  ],
+  [
+   "Anatomy",
+   "Molars do what?",
+   "Grind",
+   [
+    "Crush",
+    "Tear",
+    "Cut"
+   ],
+   "Molars are the flat millstones at the back. Cut, tear, crush, grind - grinding is the last step before you swallow."
+  ],
+  [
+   "Anatomy",
+   "The maxilla is the:",
+   "Upper jaw",
+   [
+    "Lower jaw",
+    "Gums",
+    "Tooth socket"
+   ],
+   "MAXilla = MAX, at the top. It's fixed to the skull and doesn't move."
+  ],
+  [
+   "Anatomy",
+   "The mandible is the:",
+   "Lower jaw",
+   [
+    "Upper jaw",
+    "Alveolar bone",
+    "Gingiva"
+   ],
+   "The mandible is the one that actually moves - your lower jaw is the only bone in your skull with a real joint."
+  ],
+  [
+   "Anatomy",
+   "Gingiva is another word for:",
+   "Gums",
+   [
+    "Jaw bone",
+    "Enamel",
+    "Root canal"
+   ],
+   "Gingiva is gums - same root as gingivitis, which is literally inflamed gums."
+  ],
+  [
+   "Anatomy",
+   "What sits right next to the maxilla?",
+   "The sinus",
+   [
+    "The carotid artery",
+    "The jaw joint",
+    "The tongue nerve"
+   ],
+   "The sinus sits directly above the upper back teeth. That's why upper implants sometimes need a sinus lift first - there isn't enough bone between."
+  ],
+  [
+   "Anatomy",
+   "What does the mandible contain?",
+   "An important nerve",
+   [
+    "The sinus",
+    "The salivary glands",
+    "The aligner anchor"
+   ],
+   "The inferior alveolar nerve runs through the lower jaw. Hit it and the patient loses feeling in their lip - which is why lower implants get scanned and planned so carefully."
+  ],
+  [
+   "Anatomy",
+   "What is the alveolar bone's one job?",
+   "Holds the tooth - and shrinks if it's lost",
+   [
+    "Produces saliva",
+    "Covers the crown",
+    "Anchors the sinus"
+   ],
+   "It holds the tooth, and it shrinks once the tooth is gone because nothing is stimulating it anymore. That shrinkage is the entire reason bone grafts get sold alongside implants."
+  ],
+  [
+   "Anatomy",
+   "Order it from the jaw out to the tooth:",
+   "Jaw bone, alveolar bone, gums, teeth",
+   [
+    "Gums, jaw bone, teeth, alveolar bone",
+    "Teeth, gums, alveolar bone, jaw bone",
+    "Alveolar bone, jaw bone, teeth, gums"
+   ],
+   "Work outward from the deepest structure to the one you can see: jaw bone, alveolar bone, gums, teeth."
+  ],
+  [
+   "Anatomy",
+   "Are teeth bone, and do they grow back?",
+   "Neither - and enamel can't rebuild",
+   [
+    "Yes to both",
+    "Bone yes, grow back no",
+    "Not bone, but they do grow back"
+   ],
+   "Bone has a blood supply and heals; enamel has neither, so damage is permanent. That one fact is why the entire preventive category - fluoride, sealants, restoratives - exists."
+  ],
+  [
+   "What they buy",
+   "Cavities - what does the dentist buy?",
+   "Composite filling, bonding agents, fluoride, sealants",
+   [
+    "Ultrasonic scalers and lasers",
+    "Braces and TADs",
+    "Dentures and implant components"
+   ],
+   "Match the product to the problem. Cavities are a restore-and-prevent job: fill what's decayed, then seal and strengthen what isn't."
+  ],
+  [
+   "What they buy",
+   "Periodontal disease - what does the dentist buy?",
+   "Scalers, lasers, bone grafts, antimicrobials",
+   [
+    "Composite filling and sealants",
+    "Clear aligners",
+    "Digital dentures"
+   ],
+   "Perio is a gum and bone problem, so the tools clean below the gumline and rebuild what was lost - scalers, lasers, grafts, antimicrobials."
+  ],
+  [
+   "What they buy",
+   "Crooked teeth - what does the dentist buy?",
+   "Braces, clear aligners, TADs",
+   [
+    "Bone grafts and antimicrobials",
+    "Fluoride and sealants",
+    "Implant components"
+   ],
+   "Straightening runs cheapest to most invasive: braces, aligners, TADs for tough cases, and surgery only when the jaw itself is off."
+  ],
+  [
+   "What they buy",
+   "Losing teeth - what does the dentist buy?",
+   "Implants, bone grafts, dentures",
+   [
+    "Fluoride and sealants",
+    "Ultrasonic scalers",
+    "Clear aligners"
+   ],
+   "Replacing teeth means replacing the foundation too - which is why grafts sell next to implants. Remember the alveolar bone shrinks once the tooth is gone."
+  ],
+  [
+   "What they buy",
+   "What does TAD stand for?",
+   "Temporary anchoring device",
+   [
+    "Tooth alignment disc",
+    "Total arch denture",
+    "Titanium abutment driver"
+   ],
+   "A temporary anchoring device is a mini screw placed as a fixed anchor point to pull teeth against. Temporary - it comes out when the move is done."
+  ],
+  [
+   "Territory",
+   "Odds the dentist is actually available when you walk in?",
+   "About 30%",
+   [
+    "About 70%",
+    "About 5%",
+    "About 95%"
+   ],
+   "Roughly two out of three stops won't get you face time. Plan the route expecting that, and treat the staff as the real relationship."
+  ],
+  [
+   "Territory",
+   "How many touches before you get consistent calls?",
+   "6 to 8",
+   [
+    "1 to 2",
+    "15 to 20",
+    "Just 3"
+   ],
+   "6 to 8. Most reps quit around three and conclude the office isn't interested - the ones who keep going get the calls."
+  ],
+  [
+   "Territory",
+   "Dentists are very ___ driven.",
+   "Promo and sell",
+   [
+    "Research",
+    "Committee",
+    "Insurance"
+   ],
+   "They respond to promos and deals. Lead with what's actually on offer, not a general check-in."
+  ],
+  [
+   "Territory",
+   "What keeps a dentist calling you back?",
+   "Consistency, follow up, doing what you said",
+   [
+    "The lowest price every time",
+    "Cold calling daily",
+    "Leaving samples at the door"
+   ],
+   "Consistency, follow up, and doing what you said you'd do. Cheapest price wins one order; being reliable wins the account."
+  ],
+  [
+   "Teeth in detail",
+   "How many incisors are there?",
+   "8 (4 upper, 4 lower)",
+   [
+    "4",
+    "12",
+    "6"
+   ],
+   "Central and lateral incisors, top and bottom. Single root, thin edge, built for cutting."
+  ],
+  [
+   "Teeth in detail",
+   "How many canines are there?",
+   "4",
+   [
+    "8",
+    "2",
+    "12"
+   ],
+   "One at each corner of the arch. Also called cuspids or eye teeth."
+  ],
+  [
+   "Teeth in detail",
+   "How many premolars are there?",
+   "8",
+   [
+    "4",
+    "12",
+    "6"
+   ],
+   "Also called bicuspids. Bi-cuspid = two cusps, which is literally where the name comes from."
+  ],
+  [
+   "Teeth in detail",
+   "How many molars, wisdom teeth included?",
+   "12",
+   [
+    "8",
+    "4",
+    "16"
+   ],
+   "Drops to 8 once the wisdom teeth come out - which is most people."
+  ],
+  [
+   "Teeth in detail",
+   "Which teeth have the longest roots in the mouth?",
+   "Canines",
+   [
+    "Molars",
+    "Incisors",
+    "Premolars"
+   ],
+   "Longest roots means most stable, which is why canines are the last teeth to be lost."
+  ],
+  [
+   "Teeth in detail",
+   "What does \"bicuspid\" tell you about a premolar?",
+   "It has two cusps",
+   [
+    "It has two roots",
+    "It erupts twice",
+    "It sits in two arches"
+   ],
+   "Bi = two, cuspid = cusp. The name describes the chewing surface."
+  ],
+  [
+   "Teeth in detail",
+   "How many cusps does a molar have?",
+   "3 to 5",
+   [
+    "Exactly 2",
+    "Just 1",
+    "6 to 8"
+   ],
+   "Largest teeth in the mouth, 2-3 roots, and the most complex anatomy to work on."
+  ],
+  [
+   "Teeth in detail",
+   "When do the first molars erupt?",
+   "Around age 6",
+   [
+    "Around age 12",
+    "Around age 3",
+    "Around age 18"
+   ],
+   "They're literally called the 6-year molars. First adult teeth in, and often the first to decay."
+  ],
+  [
+   "Teeth in detail",
+   "In the team analogy, what are the canines?",
+   "The anchors - stability and guidance",
+   [
+    "The skilled forwards",
+    "The midfielders",
+    "The power players"
+   ],
+   "Incisors are the forwards (visible, aesthetic), premolars the midfielders (transition), molars the power players (heavy lifting)."
+  ],
+  [
+   "Bone & tissue",
+   "Which jaw has the densest bone?",
+   "The mandible",
+   [
+    "The maxilla",
+    "They're equal",
+    "Neither - it's cartilage"
+   ],
+   "Densest at the front of the lower jaw. That density is why it's the best implant location."
+  ],
+  [
+   "Bone & tissue",
+   "Where do teeth move faster in orthodontics?",
+   "The upper jaw - thinner bone",
+   [
+    "The lower jaw - denser bone",
+    "Same speed in both",
+    "Depends only on age"
+   ],
+   "Thinner maxillary bone moves faster; the dense mandible is slower. Same reason implants behave differently up top."
+  ],
+  [
+   "Bone & tissue",
+   "Why do upper back implants often need a sinus lift?",
+   "The maxillary sinus leaves too little bone",
+   [
+    "The nerve is in the way",
+    "The bone is too dense",
+    "The gums are too thin"
+   ],
+   "Sinus sits right above the upper back teeth. Not enough bone between them means grafting first - which is a sale."
+  ],
+  [
+   "Bone & tissue",
+   "Where is the mental foramen?",
+   "Between the premolars in the lower jaw",
+   [
+    "Above the upper molars",
+    "Behind the wisdom teeth",
+    "In the roof of the mouth"
+   ],
+   "It's where the nerve exits the mandible. Knowing it's there is why imaging gets sold with lower implants."
+  ],
+  [
+   "Bone & tissue",
+   "What do healthy gums look like?",
+   "Pink, stippled, no bleeding",
+   [
+    "Bright red and firm",
+    "Pale and smooth",
+    "Slightly swollen but painless"
+   ],
+   "Stippled means a faint orange-peel texture. Diseased gums are red, swollen and bleed easily."
+  ],
+  [
+   "Bone & tissue",
+   "What happens to alveolar bone when a tooth is lost?",
+   "It resorbs",
+   [
+    "It hardens",
+    "It stays the same",
+    "It grows back over"
+   ],
+   "Use it or lose it - nothing is stimulating the bone anymore. This is the single most useful fact in implant selling."
+  ],
+  [
+   "Bone & tissue",
+   "How much bone can be lost in the first 3 years after tooth loss?",
+   "40 to 60%",
+   [
+    "About 10%",
+    "About 25%",
+    "Almost none"
+   ],
+   "That speed is why immediate placement and ridge preservation grafts matter - wait and there's nothing to place into."
+  ],
+  [
+   "Conditions",
+   "What causes a cavity?",
+   "Strep mutans plus sugar makes acid",
+   [
+    "A virus",
+    "Enamel wearing down mechanically",
+    "Too much fluoride"
+   ],
+   "Bacteria plus sugar makes acid, acid demineralizes enamel. That's the whole disease process."
+  ],
+  [
+   "Conditions",
+   "How does decay progress?",
+   "White spot, enamel, dentin, pulp",
+   [
+    "Pulp, dentin, enamel",
+    "Gumline outward",
+    "Root upward to the crown"
+   ],
+   "Caught at the white spot it's preventive. Reaching the pulp means a root canal - and a very different product list."
+  ],
+  [
+   "Conditions",
+   "Class I caries are found where?",
+   "Pits and fissures on chewing surfaces",
+   [
+    "Between the back teeth",
+    "At the gumline",
+    "On cusp tips"
+   ],
+   "Class I is the classic sealant target - the grooves on top of molars."
+  ],
+  [
+   "Conditions",
+   "Class V caries are found where?",
+   "At the gumline",
+   [
+    "On chewing surfaces",
+    "Between front teeth",
+    "On cusp tips"
+   ],
+   "Class II is between back teeth, Class III between front teeth, Class IV a front corner or edge, Class VI cusp tips."
+  ],
+  [
+   "Conditions",
+   "What are healthy pocket depths?",
+   "1 to 3mm, no bleeding",
+   [
+    "4 to 6mm",
+    "Under 1mm",
+    "Depth doesn't matter"
+   ],
+   "The probe number is the whole diagnosis. 4mm+ with bone loss is periodontitis."
+  ],
+  [
+   "Conditions",
+   "What separates gingivitis from periodontitis?",
+   "Bone loss",
+   [
+    "Bleeding",
+    "Bad breath",
+    "Pain level"
+   ],
+   "Gingivitis is gums only and reversible. Once bone is lost it's periodontitis, and that doesn't reverse."
+  ],
+  [
+   "Conditions",
+   "Periodontitis starts at what pocket depth?",
+   "4mm and above",
+   [
+    "2mm",
+    "8mm",
+    "Any depth if it bleeds"
+   ],
+   "4mm+ plus bone loss on the x-ray. Chronic is slow, aggressive is rapid."
+  ],
+  [
+   "Conditions",
+   "Angle's Class II is:",
+   "Lower jaw too far back - overbite",
+   [
+    "Lower jaw too far forward",
+    "Normal molar relationship",
+    "Teeth rotated sideways"
+   ],
+   "The buck-teeth look. Division 1 has the front teeth sticking out, Division 2 has them tipped back."
+  ],
+  [
+   "Conditions",
+   "Angle's Class III is:",
+   "Lower jaw too far forward - underbite",
+   [
+    "Lower jaw too far back",
+    "Normal bite with crowding",
+    "An open bite"
+   ],
+   "Hardest of the three to treat, and the one most likely to need orthognathic surgery."
+  ],
+  [
+   "Conditions",
+   "Which malocclusion class is most common?",
+   "Class I",
+   [
+    "Class II",
+    "Class III",
+    "Class IV"
+   ],
+   "Normal molar relationship, but with crowding or spacing. Most aligner cases live here."
+  ],
+  [
+   "Conditions",
+   "What are the options for complete edentulism?",
+   "Complete dentures, implant-supported dentures, All-on-4",
+   [
+    "Bridges and partials",
+    "Braces",
+    "Sealants and fluoride"
+   ],
+   "Partial edentulism gets bridges, partials or implants - and is sorted by Kennedy Classification I-IV."
+  ],
+  [
+   "Conditions",
+   "What happens to someone after losing teeth?",
+   "Bone resorption, bite collapse, facial aging",
+   [
+    "Only cosmetic changes",
+    "Nothing, if they chew carefully",
+    "The jaw thickens"
+   ],
+   "The face structurally changes as bone disappears. It's a functional problem, not a cosmetic one."
+  ],
+  [
+   "Sales context",
+   "Why do incisors matter commercially?",
+   "Most visible - shade matching, bonding, veneers",
+   [
+    "Highest decay rate",
+    "Densest bone for implants",
+    "Most complex root canals"
+   ],
+   "Aesthetics drive the sale up front. Also trauma-prone in contact sports, which matters for practices seeing athletes."
+  ],
+  [
+   "Sales context",
+   "Why are molars the sealant and crown category?",
+   "Highest decay rate from grooves and pits",
+   [
+    "They're the most visible",
+    "They have the longest roots",
+    "They erupt last"
+   ],
+   "Grooves trap food and bacteria. Molars also take the most force, so they crack and get crowned most often."
+  ],
+  [
+   "Sales context",
+   "Best location for an implant?",
+   "The mandible - densest bone",
+   [
+    "The upper back, behind the sinus",
+    "The upper front",
+    "Wherever the patient prefers"
+   ],
+   "Dense bone means stability. It also supports implant-retained dentures well."
+  ],
+  [
+   "Sales context",
+   "Why are premolars commonly extracted?",
+   "To create space for orthodontics",
+   [
+    "They decay fastest",
+    "They have no function",
+    "They block the sinus"
+   ],
+   "Pulling premolars makes room to straighten the rest. They're also a common cracked-tooth site."
+  ],
+  [
+   "Sales context",
+   "DIAGNOdent is used for what?",
+   "Caries detection",
+   [
+    "Periodontal therapy",
+    "Implant placement",
+    "Shade matching"
+   ],
+   "Arestin is the other name worth knowing - a local antimicrobial for periodontal pockets."
+  ],
+  [
+   "Sales context",
+   "When does a ridge preservation graft go in?",
+   "At extraction",
+   [
+    "A year after extraction",
+    "Only with dentures",
+    "Never - bone regrows"
+   ],
+   "Get ahead of resorption. Bone disappears fast once the tooth is gone, so the graft goes in the same visit."
+  ],
+  [
+   "Sales context",
+   "What's the ROI pitch on periodontal maintenance?",
+   "It's recurring revenue for the practice",
+   [
+    "It reduces their supply costs",
+    "It shortens appointments",
+    "It avoids insurance claims"
+   ],
+   "Sell the business case, not just the product. Perio patients come back on a schedule, forever."
+  ],
+  [
+   "Sales context",
+   "What makes edentulism the big opportunity?",
+   "An aging population hitting peak tooth loss",
+   [
+    "It's cheap to treat",
+    "Insurance covers it fully",
+    "It only affects a few patients"
+   ],
+   "Baby boomers are hitting peak tooth-loss years. Implants, grafts, dentures, digital denture workflow - all of it."
+  ],
+  [
+   "Sales context",
+   "Which is an actual conversation opener from the training?",
+   "\"What percent of your restorations are composite vs amalgam?\"",
+   [
+    "\"Can I speak to whoever does the ordering?\"",
+    "\"Do you need any supplies today?\"",
+    "\"Is the doctor in?\""
+   ],
+   "Good openers get the dentist talking about their own practice instead of your catalog."
+  ]
+ ]
+}
