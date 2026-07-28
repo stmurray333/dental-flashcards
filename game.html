@@ -113,10 +113,6 @@
   .streak { color: var(--gold); }
   .streak[hidden] { display: none; }
 
-  .timer { height: 3px; background: var(--line); border-radius: 2px; overflow: hidden; }
-  .timer i { display: block; height: 100%; width: 100%; background: var(--accent); transform-origin: left; }
-  .timer.low i { background: var(--bad); }
-
   /* --- question card --- */
   .card {
     background: var(--surface); border: 1px solid var(--line);
@@ -245,11 +241,11 @@
 
   <!-- START -->
   <section class="panel" id="startPanel">
-    <h2>Answer fast. Keep the streak. Don't lose three.</h2>
-    <p>Same material as the flash cards, but you're on the clock. Built from your Day 1 notes.</p>
+    <h2>Keep the streak. Don't lose three.</h2>
+    <p>Same material as the flash cards, scored. Built from your Day 1 notes and training.</p>
     <ul class="rules">
-      <li><span>&bull;</span><span><b>3 strikes.</b> A wrong answer or a run-out clock costs you one.</span></li>
-      <li><span>&bull;</span><span><b>12 seconds</b> a question. Answer faster, score higher.</span></li>
+      <li><span>&bull;</span><span><b>3 strikes.</b> Every wrong answer costs you one.</span></li>
+      <li><span>&bull;</span><span><b>No clock.</b> Read it properly and take the time you need.</span></li>
       <li><span>&bull;</span><span><b>Streaks multiply</b> &mdash; every right answer in a row pushes your multiplier up to 3&times;.</span></li>
       <li><span>&bull;</span><span>Clear all <span id="qCount">0</span> without striking out and you've <b>run the territory</b>.</span></li>
     </ul>
@@ -266,7 +262,6 @@
       <span class="streak" id="streak" hidden></span>
       <span class="score"><span id="score">0</span> pts</span>
     </div>
-    <div class="timer" id="timerBar"><i id="timerFill"></i></div>
     <div class="card" style="margin-top:1rem">
       <div class="qtopic" id="qtopic"></div>
       <div class="qtext" id="qtext"></div>
@@ -395,12 +390,12 @@
     ["Sales context","Which is an actual conversation opener from the training?","\"What percent of your restorations are composite vs amalgam?\"",["\"Can I speak to whoever does the ordering?\"","\"Do you need any supplies today?\"","\"Is the doctor in?\""],"Good openers get the dentist talking about their own practice instead of your catalog."]
   ];
 
-  var TIME = 12000, KEYS = "ABCD";
+  var KEYS = "ABCD";
   var el = function (id) { return document.getElementById(id); };
 
   var deck = [], i = 0, score = 0, lives = 3, streak = 0, bestStreak = 0;
   var right = 0, asked = 0, missed = [], locked = false;
-  var tStart = 0, raf = 0, best = 0;
+  var best = 0;
 
   el("qCount").textContent = Q.length;
   try { best = parseInt(localStorage.getItem("territoryRunBest") || "0", 10) || 0; } catch (e) { best = 0; }
@@ -458,30 +453,12 @@
     });
 
     drawHud();
-    tStart = Date.now();
-    el("timerBar").classList.remove("low");
-    tick();
-  }
-
-  function tick() {
-    cancelAnimationFrame(raf);
-    (function loop() {
-      if (locked) return;
-      var left = Math.max(0, TIME - (Date.now() - tStart));
-      var f = left / TIME;
-      el("timerFill").style.transform = "scaleX(" + f + ")";
-      if (f < 0.25) el("timerBar").classList.add("low");
-      if (left <= 0) return answer(null, null);
-      raf = requestAnimationFrame(loop);
-    })();
   }
 
   function answer(picked, btn) {
     if (locked) return;
     locked = true;
-    cancelAnimationFrame(raf);
     var q = deck[i], correct = q[2], hit = picked === correct;
-    var elapsed = Date.now() - tStart;
     asked++;
 
     Array.prototype.forEach.call(el("opts").children, function (b) {
@@ -497,19 +474,16 @@
     if (hit) {
       right++; streak++;
       if (streak > bestStreak) bestStreak = streak;
-      var speed = Math.max(0, Math.round(100 * (1 - elapsed / TIME)));
-      var gained = Math.round((100 + speed) * mult());
+      var gained = Math.round(100 * mult());
       score += gained;
       v.className = "verdict hit";
-      v.innerHTML = "<b>+" + gained + "</b> &mdash; " + (speed > 60 ? "fast." : speed > 25 ? "good." : "got there.") +
-        (streak >= 2 ? " Streak " + streak + " at " + mult().toFixed(1) + "x." : "");
+      v.innerHTML = "<b>+" + gained + "</b>" +
+        (streak >= 2 ? " &mdash; streak " + streak + ", running at " + mult().toFixed(1) + "x." : " &mdash; correct.");
     } else {
       streak = 0; lives--;
       missed.push(q);
       v.className = "verdict miss";
-      v.innerHTML = picked === null
-        ? "Clock ran out. It's <b>" + correct + "</b>."
-        : "It's <b>" + correct + "</b>.";
+      v.innerHTML = "It's <b>" + correct + "</b>.";
     }
     if (q[4]) {
       var w = el("why");
@@ -565,7 +539,7 @@
   el("startBtn").onclick = start;
   el("againBtn").onclick = start;
   el("nextBtn").onclick = function () { i++; next(); };
-  el("quitBtn").onclick = function () { locked = true; cancelAnimationFrame(raf); finish(); };
+  el("quitBtn").onclick = function () { locked = true; finish(); };
 
   document.addEventListener("keydown", function (e) {
     if (el("playPanel").hidden) {
