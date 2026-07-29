@@ -455,6 +455,449 @@
      "n": "Straight from the training. Each one gets a dentist talking about their own practice instead of your catalog."
     }
    ]
+  },
+  {
+   "day": 2,
+   "date": "7·29·2026",
+   "fixes": [
+    {
+     "fix": "Nobel Biocare, Ormco and KaVo Kerr belong to Envista, not Danaher.",
+     "was": "Your notes list them under both. Envista was spun off from Danaher and took the dental brands with it - saying \"Danaher owns Nobel Biocare\" to a rep who works there will land badly."
+    },
+    {
+     "fix": "It's Brånemark who invented the modern implant.",
+     "was": "Worth being able to say the name - it comes up constantly in implant education, and Nobel Biocare's whole identity rests on it."
+    }
+   ],
+   "cards": [
+    {
+     "d": "Field notes",
+     "q": "What are orthodontists actually trained to do?",
+     "a": "<b>Move teeth.</b> That's the specialty.",
+     "n": "When Invisalign launched they only let orthodontists use it. If you ever need aligners yourself, go to an orthodontist."
+    },
+    {
+     "d": "Field notes",
+     "q": "What happens if one person in the practice doesn't like you?",
+     "a": "<b>Nobody will.</b> The staff are extremely tight-knit — word travels instantly.",
+     "n": "Which is why the office manager and the assistants matter as much as the doctor."
+    },
+    {
+     "d": "Field notes",
+     "q": "What should you do right after closing a sale?",
+     "a": "Ask <b>when they plan to use it</b>, put it on your calendar, and text them afterward to ask how it went.",
+     "n": "Turns one transaction into a relationship. Costs you nothing."
+    },
+    {
+     "d": "Field notes",
+     "q": "Which orthodontic items are the repeat business?",
+     "a": "<b>Wires, ligature rings and rubber bands.</b> Brackets are bonded on and painful to change, so they're the hard sell.",
+     "n": "Sell the consumable that gets replaced, not the one that stays put."
+    },
+    {
+     "d": "Field notes",
+     "q": "Inside vs outside sales rep?",
+     "a": "<b>Inside</b> works the phones — straight cold calls.<br><b>Outside</b> covers the territory in person, walking into practices."
+    },
+    {
+     "d": "Field notes",
+     "q": "What share of a practice's spend goes to supplies?",
+     "a": "<b>4–6%.</b>",
+     "n": "Small slice of their budget — which is why convenience and reliability often beat price."
+    },
+    {
+     "d": "Channels",
+     "q": "How much of the consumables market runs through full-service dealers?",
+     "a": "<b>80%</b> — Henry Schein, Patterson and Benco."
+    },
+    {
+     "d": "Channels",
+     "q": "What does a full-service dealer actually offer?",
+     "a": "<ul><li>One-stop shopping (10,000+ SKUs)</li><li>A rep who visits regularly</li><li>Equipment <i>and</i> consumables</li><li>Practice management support</li><li>Financing</li></ul>"
+    },
+    {
+     "d": "Channels",
+     "q": "What's your job if you work for a dealer?",
+     "a": "<ol><li>Territory management — 50 to 150 practices</li><li>Relationship building (know the office manager)</li><li>Problem solving — emergency orders, back-orders</li><li>Equipment referrals to specialists</li></ol>"
+    },
+    {
+     "d": "Channels",
+     "q": "How is manufacturer-direct selling different?",
+     "a": "Specialized products (implants, lasers, specific tech), higher margins, more clinical education required.",
+     "n": "You're the expert on YOUR product; the dealer rep is a generalist across 10,000."
+    },
+    {
+     "d": "Channels",
+     "q": "Who are the discount suppliers, and why do they matter?",
+     "a": "<b>Net32, DentalBuyer, Amazon Business.</b> Price-focused, no service — a real threat to the traditional model."
+    },
+    {
+     "d": "Channels",
+     "q": "How do you compete with a discounter on price?",
+     "a": "You don't. <b>Value-added service, emergency availability, and the practice relationship.</b>",
+     "n": "You can't win a race to the bottom against Amazon. Don't enter it."
+    },
+    {
+     "d": "Channels",
+     "q": "What actually drives consumables purchases?",
+     "a": "<ol><li>Reliability — \"I need it tomorrow, can you deliver?\"</li><li>Price — but not always #1</li><li>Consistency batch to batch</li><li>Ease of ordering — portals, auto-ship</li><li>Support — clinical questions, product issues</li></ol>"
+    },
+    {
+     "d": "Channels",
+     "q": "What does the weekly or bi-weekly visit look like?",
+     "a": "Check inventory with the office manager, take orders, address product issues, introduce new products, and gather competitive intelligence — what are they buying elsewhere?"
+    },
+    {
+     "d": "Channels",
+     "q": "What happens monthly vs quarterly?",
+     "a": "<b>Monthly:</b> deeper account review, lunch for the staff, volume discounts, contract renewals.<br><b>Quarterly:</b> practice growth planning, equipment needs assessment, large capital discussions."
+    },
+    {
+     "d": "Channels",
+     "q": "Which numbers do you track on an account?",
+     "a": "<ol><li>Monthly purchase volume</li><li>Product mix — your brand vs competitors</li><li>Growth rate</li><li>Order frequency</li><li>Average order size</li></ol>"
+    },
+    {
+     "d": "Capital equipment",
+     "q": "How is selling equipment different from consumables?",
+     "a": "<ul><li>$5,000 to $500,000+</li><li>Months, not days</li><li>Multiple stakeholders — owner, associates, office manager, lead assistant</li><li>Financing almost always involved</li><li>ROI has to be proven</li><li>Installation and training</li><li>Service contracts = recurring revenue</li></ul>"
+    },
+    {
+     "d": "Capital equipment",
+     "q": "The athletic parallel for a capital sale?",
+     "a": "\"Like recruiting a star player. <b>Long courtship, big investment, transformative impact, and everyone weighs in on the decision.</b>\""
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Intraoral sensors — what, how much, how long?",
+     "a": "Digital replacement for film. Instant image, lower radiation. Sizes <b>0</b> (pedo), <b>1</b> (anterior), <b>2</b> (posterior).<br><b>$5,000–12,000</b> per operatory, <b>2–4 month</b> sales cycle.",
+     "n": "Wired vs wireless is a trade-off between cost, reliability and freedom."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Who makes intraoral sensors?",
+     "a": "<b>Dexis</b> (KaVo Kerr / Danaher), <b>Schick</b> (Dentsply Sirona), <b>Carestream</b>."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "ROI pitch on digital x-ray?",
+     "a": "<ol><li>No more film costs — $50–100/month</li><li>Faster workflow, no developing</li><li>Patient education, images chairside</li><li>No chemicals</li><li>Lower radiation is a marketing advantage</li></ol>"
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Panoramic x-ray — the basics?",
+     "a": "Whole mouth and jaw in one image. 2D, or 3D with CBCT. <b>$20,000–80,000.</b> Planmeca, Carestream, Vatech.",
+     "n": "Used for implant planning, wisdom teeth, TMJ and orthodontics."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "CBCT — why is it a game-changer?",
+     "a": "<b>3D imaging — you can see bone in three dimensions.</b> Becoming standard of care for implants. <b>$60,000–150,000</b>, <b>6–12 month</b> sales cycle."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "CBCT ROI?",
+     "a": "<ol><li>Refer fewer cases out — keep surgical implants in-house</li><li>Better case acceptance — patients see 3D</li><li>Avoid anatomical complications</li><li>$200–400 scan fee per case</li></ol>",
+     "n": "Insurance coverage is limited, so it's often cash pay."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Intraoral scanners — who are the players?",
+     "a": "<ul><li><b>iTero</b> (Align) — integrates with Invisalign</li><li><b>TRIOS</b> (3Shape)</li><li><b>Medit</b></li><li><b>Primescan</b> (Dentsply Sirona) — integrates with CEREC</li></ul><b>$20,000–40,000.</b>",
+     "n": "Note who owns what — the integration angle is usually the whole pitch."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Intraoral scanner ROI?",
+     "a": "No impression materials ($200–400/month), fewer remakes, no gagging, digital file to the lab instantly, Invisalign integration, and in-office milling with CAD/CAM."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Best way to sell a scanner?",
+     "a": "<b>Demo it in their office, on a real patient.</b> Sales cycle 3–6 months.",
+     "n": "Nobody buys a $30k scanner off a brochure."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "What is CEREC?",
+     "a": "Dentsply Sirona's in-office CAD/CAM — the market leader. Mills crowns <b>same day</b>. Scanner + design software + milling unit, <b>$100,000–150,000</b> complete.",
+     "n": "Ceramic blocks to mill run $30–80 each."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "CEREC ROI, and where's break-even?",
+     "a": "Same-day dentistry — no temporaries, no second visit. Eliminates lab fees of <b>$150–300 per crown</b>. Break-even around <b>150–200 crowns</b>.",
+     "n": "Learning curve is 3–6 months to proficiency; sales cycle 6–12 months."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "CAD/CAM alternatives to CEREC?",
+     "a": "<b>Planmeca PlanMill, Roland DWX, Straumann CARES.</b>"
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Digital dentures?",
+     "a": "Milled instead of made by traditional lab process. Growing fast — <b>AvaDent</b> and others. Straight at the aging-population opportunity."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Soft tissue lasers?",
+     "a": "Frenectomies, gingivectomies, crown lengthening. <b>Diode</b> is most common. <b>$5,000–15,000.</b> Biolase (Epic), AMD Lasers, Fotona."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Soft tissue laser ROI?",
+     "a": "Adds billable procedures, less bleeding, faster healing, and \"laser dentistry\" markets well.",
+     "n": "Insurance coverage is limited — mostly fee-for-service, which means the practice keeps more."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Hard tissue lasers?",
+     "a": "Can <b>cut tooth structure</b> — replacing the drill for some procedures. Erbium (Er:YAG). <b>$40,000–80,000</b>, steeper learning curve, marketed hard as \"no drill dentistry.\""
+    },
+    {
+     "d": "Capital equipment",
+     "q": "How do you sell a laser?",
+     "a": "<b>Demo or trial period is critical.</b> Include CE course training, show clinical cases, bring marketing support materials."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Autoclaves — what do you need to know?",
+     "a": "Steam sterilization. <b>Class B</b> (vacuum, most thorough), Class N, Class S. 6L / 8L / 12L+. <b>$3,000–15,000.</b> Midmark (Ritter), Tuttnauer, SciCan.",
+     "n": "Replacement cycle is every 7–10 years — which tells you when to call."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Sales angle on an autoclave?",
+     "a": "<ol><li><b>Regulatory compliance</b> — it's required by law</li><li>Cycle time — faster is more efficient</li><li>Reliability — downtime means they can't practice</li></ol>"
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Dental chairs?",
+     "a": "The centerpiece of the operatory. <b>$6,000–20,000+</b> each. <b>A-dec</b> (premium), Midmark, Forest.",
+     "n": "Often tied to an office renovation, and financing is almost always required."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Handpieces?",
+     "a": "<b>High-speed</b> runs 400,000 RPM — that's \"the drill.\" <b>Slow-speed</b> is 20,000 RPM for prophy angles and adjustments. Electric or air-driven. <b>$800–3,000</b> each.",
+     "n": "They keep 2–4 per operatory for sterilization rotation. KaVo, NSK, W&H."
+    },
+    {
+     "d": "Capital equipment",
+     "q": "Compressors and suction?",
+     "a": "The compressor supplies air to the handpieces — <b>$3,000–30,000</b>, sized by number of chairs. <b>No air means no drilling</b>, so reliability is everything. Suction evacuates saliva and water.",
+     "n": "Quiet compressor models are a premium feature. Suction is usually bundled into a new office buildout."
+    },
+    {
+     "d": "Implants",
+     "q": "How big is the implant market, and why is it growing?",
+     "a": "<b>~$5 billion and growing.</b><ol><li>Baby boomers losing teeth</li><li>Implants are now standard of care over bridges and dentures</li><li>More GPs placing them, not just oral surgeons</li><li>Success rates above 95%</li><li>Digital workflow makes planning easier</li></ol>"
+    },
+    {
+     "d": "Implants",
+     "q": "What are the three parts of an implant?",
+     "a": "<ol><li><b>Fixture</b> — the screw in the bone</li><li><b>Abutment</b> — connects crown to fixture</li><li><b>Crown</b> — the tooth-coloured part you see</li></ol>"
+    },
+    {
+     "d": "Implants",
+     "q": "Fixture specs worth knowing?",
+     "a": "Titanium or zirconia. Diameters <b>3–6mm</b>, lengths <b>6–18mm</b>, platform mini / regular / wide.",
+     "n": "Surface treatment is the critical bit — it's what drives osseointegration."
+    },
+    {
+     "d": "Implants",
+     "q": "Which surface treatment belongs to which brand?",
+     "a": "<ul><li><b>SLA</b> (sand-blasted, acid-etched) — Straumann</li><li><b>TiUnite</b> — Nobel Biocare</li><li><b>Osseospeed</b> — Astra Tech</li></ul>"
+    },
+    {
+     "d": "Implants",
+     "q": "Abutment options?",
+     "a": "Stock or custom. Titanium or zirconia (white, for aesthetics). Straight or angled. <b>Scanbodies</b> are used for digital impressions."
+    },
+    {
+     "d": "Implants",
+     "q": "Straumann — the numbers?",
+     "a": "<b>~20% market share, #1.</b> Swiss precision, premium pricing, deep evidence base. Roxolid (titanium-zirconium alloy — smaller diameter, same strength), BLT and BLX tapered lines.<br><b>$250–400</b> per implant to the dentist; the dentist charges the patient <b>$2,000–4,000+</b>.",
+     "n": "That spread is why cost usually isn't the surgeon's first question."
+    },
+    {
+     "d": "Implants",
+     "q": "Nobel Biocare?",
+     "a": "The pioneers — <b>Brånemark invented the modern implant</b>. <b>All-on-4</b> is their trademark protocol (full arch on four implants). NobelActive is known for primary stability. Premium priced."
+    },
+    {
+     "d": "Implants",
+     "q": "Dentsply Sirona's implant line?",
+     "a": "<b>Astra Tech</b> — strong reputation for bone preservation, conical connection, and it integrates with CEREC for the digital workflow."
+    },
+    {
+     "d": "Implants",
+     "q": "Zimmer Biomet and BioHorizons?",
+     "a": "<b>Zimmer Biomet</b> — Tapered Screw-Vent, popular in the US, value pricing, broad portfolio.<br><b>BioHorizons</b> — US-based, Laser-Lok surface, growing in the GP market."
+    },
+    {
+     "d": "Implants",
+     "q": "The value implant brands?",
+     "a": "<b>Hiossen, MegaGen, Dentium</b> — <b>$80–150</b> per implant versus $250–400 premium.",
+     "n": "The controversy is quality vs cost. The opportunity is price-sensitive practices and high-volume DSOs."
+    },
+    {
+     "d": "Implants",
+     "q": "What does the implant sales cycle look like?",
+     "a": "<b>3 to 12 months:</b><ol><li>Awareness — lunch-and-learn at the practice</li><li>Education — CE course, often free and manufacturer-sponsored</li><li>Trial — place a few cases with your support</li><li>Conversion — they gain confidence</li><li>Loyalty — and once trained, they rarely switch</li></ol>"
+    },
+    {
+     "d": "Implants",
+     "q": "Why are implant systems so \"sticky\"?",
+     "a": "<ol><li>Instruments and surgical kits are system-specific and expensive</li><li>There's a learning curve to switch</li><li>Compatibility issues</li></ol>",
+     "n": "Which cuts both ways — hard to win an account, very hard to lose one."
+    },
+    {
+     "d": "Implants",
+     "q": "What's your actual role in implant sales?",
+     "a": "<b>Clinical educator</b> — attend surgeries and provide guidance. Help plan difficult cases. Solve problems when things go wrong. Manage inventory so emergency implants are available."
+    },
+    {
+     "d": "Implants",
+     "q": "What drives the decision on an implant system?",
+     "a": "Clinical outcomes, ease of use, prosthetic flexibility, your availability when they need you, and the research evidence.",
+     "n": "Cost is often <b>not</b> #1 for surgeons — don't lead with price."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "Why does anyone need a bone graft?",
+     "a": "Extraction means the bone <b>resorbs</b>, and implants need adequate bone volume and density.",
+     "n": "Three situations: socket preservation right after extraction, sinus lifts for upper posterior implants, and ridge augmentation on deficient sites."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "What are the four types of graft?",
+     "a": "<ol><li><b>Autograft</b> — the patient's own bone</li><li><b>Allograft</b> — cadaver bone</li><li><b>Xenograft</b> — animal, usually bovine</li><li><b>Alloplast</b> — synthetic</li></ol>",
+     "n": "Auto, allo, xeno, allo-plast: self, human, animal, synthetic."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "Autograft — pros and cons?",
+     "a": "The patient's own bone, from chin, jaw or hip. <b>Gold standard for integration</b> — but it needs a second surgical site, which means added morbidity."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "Allograft?",
+     "a": "Processed, sterilized <b>cadaver bone</b>. LifeNet, MTF, AlloSource. Cancellous chips or cortical blocks, <b>$100–500</b> per case.",
+     "n": "Popular because there's no second surgical site and it's readily available."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "Xenograft?",
+     "a": "Animal-derived, usually bovine. <b>Bio-Oss</b> (Geistlich) is the market leader. Acts as a scaffold for the patient's own bone to grow into, and resorbs slowly so it maintains volume. <b>$150–400.</b>"
+    },
+    {
+     "d": "Bone grafting",
+     "q": "Alloplast?",
+     "a": "Synthetic — hydroxyapatite, calcium phosphate. Novabone, Cerasorb. <b>Unlimited supply and no disease transmission risk.</b>"
+    },
+    {
+     "d": "Bone grafting",
+     "q": "What are membranes for?",
+     "a": "They cover the graft to <b>guide tissue regeneration</b>. Resorbable or not — collagen (Bio-Gide by Geistlich, Cytoplast) versus PTFE, which is non-resorbable and has to be removed. <b>$30–200</b> each."
+    },
+    {
+     "d": "Bone grafting",
+     "q": "The sales angle on grafting?",
+     "a": "<b>Every extraction is a potential graft.</b> Higher implant success with adequate bone, better patient comfort, and it's billable revenue for the practice."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "How dominant is Invisalign?",
+     "a": "<b>~90% of the clear aligner market.</b> Made by Align Technology."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "How does an Invisalign case actually run?",
+     "a": "<ol><li>Digital scan — iTero preferred</li><li>AI treatment planning in ClinCheck</li><li>Aligners manufactured centrally</li><li>Shipped to the practice</li><li>Patient wears 20–40+ sequentially, changing every 1–2 weeks</li></ol>"
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Invisalign economics?",
+     "a": "<b>$1,500–2,000 per case</b> to the dentist. The patient pays <b>$3,500–8,000</b>. The dentist submits cases and pays per case."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Where do aligners win, and where do they fall down?",
+     "a": "<b>Win:</b> nearly invisible, removable for eating and brushing, digital and predictable, fewer office visits.<br><b>Fall down:</b> complex cases are harder, compliance is critical (22 hrs/day), and they can't fix severe skeletal discrepancies."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Who competes with Invisalign?",
+     "a": "<b>ClearCorrect</b> (Straumann-owned), <b>SureSmile</b> (Dentsply Sirona), <b>uLab</b>, <b>Spark</b> (Ormco). Usually <b>20–30% cheaper</b>."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Where's the growth in aligners?",
+     "a": "GPs doing more ortho now that aligners made it accessible, a growing teen market, and adults — who are <b>over half</b> of the aligner market."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Brackets?",
+     "a": "Metal or ceramic (aesthetic), self-ligating or conventional. Ormco, 3M Unitek, American Orthodontics. <b>$5–20</b> each."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "Wires?",
+     "a": "<b>NiTi</b> (nickel-titanium) has shape memory and flexibility — used early. <b>Stainless steel</b> is stiffer, used in final stages. Sizes .012, .014, .016, .018 — increasing stiffness."
+    },
+    {
+     "d": "Aligners & ortho",
+     "q": "What's different about calling on orthodontists?",
+     "a": "They need specialized product knowledge, they <b>see a lot of reps</b>, they buy in volume, and they're brand loyal once established.",
+     "n": "Harder to get in, but worth more once you're in."
+    },
+    {
+     "d": "Who owns what",
+     "q": "Dentsply Sirona owns what?",
+     "a": "The largest pure-play dental company (ticker <b>XRAY</b>):<ul><li>Implants — Astra Tech, Ankylos</li><li>CAD/CAM — CEREC</li><li>Imaging — Schick sensors</li><li>Consumables — Prime &amp; Bond, Aquasil, Caulk</li><li>Endodontics — Maillefer files</li><li>Orthodontics — SureSmile, TP Orthodontics</li></ul>"
+    },
+    {
+     "d": "Who owns what",
+     "q": "Envista owns what?",
+     "a": "Spun off from Danaher: <b>Nobel Biocare</b> (implants), <b>Ormco</b> (orthodontics), <b>KaVo Kerr</b> (handpieces, imaging, endo).",
+     "n": "Your notes list these under Danaher too — Envista is where they live now."
+    },
+    {
+     "d": "Who owns what",
+     "q": "Align Technology owns what?",
+     "a": "<b>Invisalign</b> (aligners), <b>iTero</b> (scanners), <b>exocad</b> (digital design software). Pure-play digital dentistry.",
+     "n": "That's why iTero and Invisalign integrate so tightly — same company."
+    },
+    {
+     "d": "Who owns what",
+     "q": "Straumann Group owns what?",
+     "a": "<b>Straumann</b> implants (#1 share), <b>Neodent</b> (value implants), <b>ClearCorrect</b> (aligners), plus digital acquisitions."
+    },
+    {
+     "d": "Who owns what",
+     "q": "3M Health Care owns what?",
+     "a": "<b>Filtek</b> composites, <b>Scotchbond</b> adhesives, <b>RelyX</b> cements, <b>Unitek</b> orthodontics."
+    },
+    {
+     "d": "Who owns what",
+     "q": "Planmeca?",
+     "a": "<b>Finnish and family-owned.</b> Imaging (pano, CBCT) and CAD/CAM. Known for innovation.",
+     "n": "Family-owned means no quarterly-earnings pressure — different buying relationship than a public company."
+    },
+    {
+     "d": "Who owns what",
+     "q": "How do you research a competitor?",
+     "a": "<ol><li>Ask practices — \"what else are you using?\"</li><li>Trade shows — Chicago Midwinter, ADA annual</li><li>LinkedIn — see where competitors worked</li><li>Product catalogs</li><li>Clinical studies and publications</li></ol>"
+    },
+    {
+     "d": "Who owns what",
+     "q": "What goes on a battle card?",
+     "a": "<ol><li>Price comparison</li><li>Feature differences</li><li>Clinical evidence</li><li>Service and support differences</li><li>Why practices choose them</li><li><b>Why practices leave them</b></li></ol>",
+     "n": "That last one is the most useful and the one people skip."
+    }
+   ]
   }
  ],
  "questions": [
@@ -467,7 +910,8 @@
     "Benco",
     "Dentsply Sirona"
    ],
-   "Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together."
+   "Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together.",
+   1
   ],
   [
    "Distribution",
@@ -478,7 +922,8 @@
     "About 65%",
     "About 25%"
    ],
-   "Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein."
+   "Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein.",
+   1
   ],
   [
    "Distribution",
@@ -489,7 +934,8 @@
     "Envista",
     "A-dec"
    ],
-   "Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you."
+   "Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you.",
+   1
   ],
   [
    "Distribution",
@@ -500,7 +946,8 @@
     "Straumann",
     "Planmeca"
    ],
-   "Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as \"Banko.\""
+   "Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as \"Banko.\"",
+   1
   ],
   [
    "Distribution",
@@ -511,7 +958,8 @@
     "Head coach",
     "Scoreboard"
    ],
-   "A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you."
+   "A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you.",
+   1
   ],
   [
    "Distribution",
@@ -522,7 +970,8 @@
     "Half W-2, half 1099",
     "Commission-only contractors"
    ],
-   "W-2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you."
+   "W-2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you.",
+   1
   ],
   [
    "Distribution",
@@ -533,7 +982,8 @@
     "About 3 million",
     "About 15,000"
    ],
-   "Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog."
+   "Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog.",
+   1
   ],
   [
    "Distribution",
@@ -544,7 +994,8 @@
     "Camlog and BioHorizons",
     "Envista and Invisalign"
    ],
-   "A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade."
+   "A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade.",
+   1
   ],
   [
    "Distribution",
@@ -555,7 +1006,8 @@
     "Bitewing film",
     "Cone beam paste"
    ],
-   "The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors."
+   "The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors.",
+   1
   ],
   [
    "Distribution",
@@ -566,7 +1018,8 @@
     "A-dec and Planmeca",
     "Patterson and Benco"
    ],
-   "Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time."
+   "Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time.",
+   1
   ],
   [
    "Distribution",
@@ -577,7 +1030,8 @@
     "A-dec, Planmeca, Invisalign",
     "BioHorizons, Camlog, Benco"
    ],
-   "Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up."
+   "Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up.",
+   1
   ],
   [
    "The money",
@@ -588,7 +1042,8 @@
     "About 2 million",
     "About 750,000"
    ],
-   "200,000 worldwide is a small, closed profession. Reputations travel - which is why burning one office actually costs you."
+   "200,000 worldwide is a small, closed profession. Reputations travel - which is why burning one office actually costs you.",
+   1
   ],
   [
    "The money",
@@ -599,7 +1054,8 @@
     "Government subsidy",
     "Reimbursement account"
    ],
-   "It's a discount program with an annual cap, usually around ,,000-$2,000. Patients blow through that fast, and everything after is cash out of pocket."
+   "It's a discount program with an annual cap, usually around ,,000-$2,000. Patients blow through that fast, and everything after is cash out of pocket.",
+   1
   ],
   [
    "The money",
@@ -610,7 +1066,8 @@
     "It covers everyone under 65",
     "It pays 80% of major work"
    ],
-   "The medical safety net just doesn't extend here. No equivalent program means the patient pays or the work doesn't happen."
+   "The medical safety net just doesn't extend here. No equivalent program means the patient pays or the work doesn't happen.",
+   1
   ],
   [
    "The money",
@@ -621,7 +1078,8 @@
     "Routine fillings",
     "Annual exams"
    ],
-   "Dentures, crowns and veneers are the high-ticket items insurance barely touches. That's where the case-acceptance conversation lives."
+   "Dentures, crowns and veneers are the high-ticket items insurance barely touches. That's where the case-acceptance conversation lives.",
+   1
   ],
   [
    "The money",
@@ -632,7 +1090,8 @@
     "Insurance reimburses them fully",
     "The distributor fronts the cost"
    ],
-   "The dentist usually owns the practice. Surgeons and physicians draw a salary; a dentist takes home what's left. Every box you sell comes out of their own pocket - price it like you know that."
+   "The dentist usually owns the practice. Surgeons and physicians draw a salary; a dentist takes home what's left. Every box you sell comes out of their own pocket - price it like you know that.",
+   1
   ],
   [
    "Who's who",
@@ -643,7 +1102,8 @@
     "Orthodontist",
     "Dental lab technician"
    ],
-   "DMD or DDS both mean general dentist - the degrees are equivalent. Specialists carry an additional title on top."
+   "DMD or DDS both mean general dentist - the degrees are equivalent. Specialists carry an additional title on top.",
+   1
   ],
   [
    "Who's who",
@@ -654,7 +1114,8 @@
     "Camlog",
     "BioHorizons"
    ],
-   "Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning."
+   "Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning.",
+   1
   ],
   [
    "Who's who",
@@ -665,7 +1126,8 @@
     "Endodontist",
     "Oral surgeon"
    ],
-   "The dental specialties: perio (gums), endo (root canals), pedo (kids), ortho (straightening), oral surgery. Cardiology is not on the list."
+   "The dental specialties: perio (gums), endo (root canals), pedo (kids), ortho (straightening), oral surgery. Cardiology is not on the list.",
+   1
   ],
   [
    "Who's who",
@@ -676,7 +1138,8 @@
     "Exams, x-rays, sealants, fluoride",
     "Implants, aligners, dentures, whitening"
    ],
-   "Implants, preventives, restoratives, endodontics. Learn these as buckets - almost every product you sell drops into one of them."
+   "Implants, preventives, restoratives, endodontics. Learn these as buckets - almost every product you sell drops into one of them.",
+   1
   ],
   [
    "Anatomy",
@@ -687,7 +1150,8 @@
     "Crush",
     "Grind"
    ],
-   "Front to back, food gets broken down in stages: cut, tear, crush, grind. Incisors are the front blades that start it."
+   "Front to back, food gets broken down in stages: cut, tear, crush, grind. Incisors are the front blades that start it.",
+   1
   ],
   [
    "Anatomy",
@@ -698,7 +1162,8 @@
     "Crush",
     "Grind"
    ],
-   "Canines are the pointed ones - think of a dog's fang. Made for tearing, and they have the longest roots in the mouth."
+   "Canines are the pointed ones - think of a dog's fang. Made for tearing, and they have the longest roots in the mouth.",
+   1
   ],
   [
    "Anatomy",
@@ -709,7 +1174,8 @@
     "Cut",
     "Tear"
    ],
-   "Premolars sit between the tearers and the grinders, and they do the in-between job: crushing."
+   "Premolars sit between the tearers and the grinders, and they do the in-between job: crushing.",
+   1
   ],
   [
    "Anatomy",
@@ -720,7 +1186,8 @@
     "Tear",
     "Cut"
    ],
-   "Molars are the flat millstones at the back. Cut, tear, crush, grind - grinding is the last step before you swallow."
+   "Molars are the flat millstones at the back. Cut, tear, crush, grind - grinding is the last step before you swallow.",
+   1
   ],
   [
    "Anatomy",
@@ -731,7 +1198,8 @@
     "Gums",
     "Tooth socket"
    ],
-   "MAXilla = MAX, at the top. It's fixed to the skull and doesn't move."
+   "MAXilla = MAX, at the top. It's fixed to the skull and doesn't move.",
+   1
   ],
   [
    "Anatomy",
@@ -742,7 +1210,8 @@
     "Alveolar bone",
     "Gingiva"
    ],
-   "The mandible is the one that actually moves - your lower jaw is the only bone in your skull with a real joint."
+   "The mandible is the one that actually moves - your lower jaw is the only bone in your skull with a real joint.",
+   1
   ],
   [
    "Anatomy",
@@ -753,7 +1222,8 @@
     "Enamel",
     "Root canal"
    ],
-   "Gingiva is gums - same root as gingivitis, which is literally inflamed gums."
+   "Gingiva is gums - same root as gingivitis, which is literally inflamed gums.",
+   1
   ],
   [
    "Anatomy",
@@ -764,7 +1234,8 @@
     "The jaw joint",
     "The tongue nerve"
    ],
-   "The sinus sits directly above the upper back teeth. That's why upper implants sometimes need a sinus lift first - there isn't enough bone between."
+   "The sinus sits directly above the upper back teeth. That's why upper implants sometimes need a sinus lift first - there isn't enough bone between.",
+   1
   ],
   [
    "Anatomy",
@@ -775,7 +1246,8 @@
     "The salivary glands",
     "The aligner anchor"
    ],
-   "The inferior alveolar nerve runs through the lower jaw. Hit it and the patient loses feeling in their lip - which is why lower implants get scanned and planned so carefully."
+   "The inferior alveolar nerve runs through the lower jaw. Hit it and the patient loses feeling in their lip - which is why lower implants get scanned and planned so carefully.",
+   1
   ],
   [
    "Anatomy",
@@ -786,7 +1258,8 @@
     "Covers the crown",
     "Anchors the sinus"
    ],
-   "It holds the tooth, and it shrinks once the tooth is gone because nothing is stimulating it anymore. That shrinkage is the entire reason bone grafts get sold alongside implants."
+   "It holds the tooth, and it shrinks once the tooth is gone because nothing is stimulating it anymore. That shrinkage is the entire reason bone grafts get sold alongside implants.",
+   1
   ],
   [
    "Anatomy",
@@ -797,7 +1270,8 @@
     "Teeth, gums, alveolar bone, jaw bone",
     "Alveolar bone, jaw bone, teeth, gums"
    ],
-   "Work outward from the deepest structure to the one you can see: jaw bone, alveolar bone, gums, teeth."
+   "Work outward from the deepest structure to the one you can see: jaw bone, alveolar bone, gums, teeth.",
+   1
   ],
   [
    "Anatomy",
@@ -808,7 +1282,8 @@
     "Bone yes, grow back no",
     "Not bone, but they do grow back"
    ],
-   "Bone has a blood supply and heals; enamel has neither, so damage is permanent. That one fact is why the entire preventive category - fluoride, sealants, restoratives - exists."
+   "Bone has a blood supply and heals; enamel has neither, so damage is permanent. That one fact is why the entire preventive category - fluoride, sealants, restoratives - exists.",
+   1
   ],
   [
    "What they buy",
@@ -819,7 +1294,8 @@
     "Braces and TADs",
     "Dentures and implant components"
    ],
-   "Match the product to the problem. Cavities are a restore-and-prevent job: fill what's decayed, then seal and strengthen what isn't."
+   "Match the product to the problem. Cavities are a restore-and-prevent job: fill what's decayed, then seal and strengthen what isn't.",
+   1
   ],
   [
    "What they buy",
@@ -830,7 +1306,8 @@
     "Clear aligners",
     "Digital dentures"
    ],
-   "Perio is a gum and bone problem, so the tools clean below the gumline and rebuild what was lost - scalers, lasers, grafts, antimicrobials."
+   "Perio is a gum and bone problem, so the tools clean below the gumline and rebuild what was lost - scalers, lasers, grafts, antimicrobials.",
+   1
   ],
   [
    "What they buy",
@@ -841,7 +1318,8 @@
     "Fluoride and sealants",
     "Implant components"
    ],
-   "Straightening runs cheapest to most invasive: braces, aligners, TADs for tough cases, and surgery only when the jaw itself is off."
+   "Straightening runs cheapest to most invasive: braces, aligners, TADs for tough cases, and surgery only when the jaw itself is off.",
+   1
   ],
   [
    "What they buy",
@@ -852,7 +1330,8 @@
     "Ultrasonic scalers",
     "Clear aligners"
    ],
-   "Replacing teeth means replacing the foundation too - which is why grafts sell next to implants. Remember the alveolar bone shrinks once the tooth is gone."
+   "Replacing teeth means replacing the foundation too - which is why grafts sell next to implants. Remember the alveolar bone shrinks once the tooth is gone.",
+   1
   ],
   [
    "What they buy",
@@ -863,7 +1342,8 @@
     "Total arch denture",
     "Titanium abutment driver"
    ],
-   "A temporary anchoring device is a mini screw placed as a fixed anchor point to pull teeth against. Temporary - it comes out when the move is done."
+   "A temporary anchoring device is a mini screw placed as a fixed anchor point to pull teeth against. Temporary - it comes out when the move is done.",
+   1
   ],
   [
    "Territory",
@@ -874,7 +1354,8 @@
     "About 5%",
     "About 95%"
    ],
-   "Roughly two out of three stops won't get you face time. Plan the route expecting that, and treat the staff as the real relationship."
+   "Roughly two out of three stops won't get you face time. Plan the route expecting that, and treat the staff as the real relationship.",
+   1
   ],
   [
    "Territory",
@@ -885,7 +1366,8 @@
     "15 to 20",
     "Just 3"
    ],
-   "6 to 8. Most reps quit around three and conclude the office isn't interested - the ones who keep going get the calls."
+   "6 to 8. Most reps quit around three and conclude the office isn't interested - the ones who keep going get the calls.",
+   1
   ],
   [
    "Territory",
@@ -896,7 +1378,8 @@
     "Committee",
     "Insurance"
    ],
-   "They respond to promos and deals. Lead with what's actually on offer, not a general check-in."
+   "They respond to promos and deals. Lead with what's actually on offer, not a general check-in.",
+   1
   ],
   [
    "Territory",
@@ -907,7 +1390,8 @@
     "Cold calling daily",
     "Leaving samples at the door"
    ],
-   "Consistency, follow up, and doing what you said you'd do. Cheapest price wins one order; being reliable wins the account."
+   "Consistency, follow up, and doing what you said you'd do. Cheapest price wins one order; being reliable wins the account.",
+   1
   ],
   [
    "Teeth in detail",
@@ -918,7 +1402,8 @@
     "12",
     "6"
    ],
-   "Central and lateral incisors, top and bottom. Single root, thin edge, built for cutting."
+   "Central and lateral incisors, top and bottom. Single root, thin edge, built for cutting.",
+   1
   ],
   [
    "Teeth in detail",
@@ -929,7 +1414,8 @@
     "2",
     "12"
    ],
-   "One at each corner of the arch. Also called cuspids or eye teeth."
+   "One at each corner of the arch. Also called cuspids or eye teeth.",
+   1
   ],
   [
    "Teeth in detail",
@@ -940,7 +1426,8 @@
     "12",
     "6"
    ],
-   "Also called bicuspids. Bi-cuspid = two cusps, which is literally where the name comes from."
+   "Also called bicuspids. Bi-cuspid = two cusps, which is literally where the name comes from.",
+   1
   ],
   [
    "Teeth in detail",
@@ -951,7 +1438,8 @@
     "4",
     "16"
    ],
-   "Drops to 8 once the wisdom teeth come out - which is most people."
+   "Drops to 8 once the wisdom teeth come out - which is most people.",
+   1
   ],
   [
    "Teeth in detail",
@@ -962,7 +1450,8 @@
     "Incisors",
     "Premolars"
    ],
-   "Longest roots means most stable, which is why canines are the last teeth to be lost."
+   "Longest roots means most stable, which is why canines are the last teeth to be lost.",
+   1
   ],
   [
    "Teeth in detail",
@@ -973,7 +1462,8 @@
     "It erupts twice",
     "It sits in two arches"
    ],
-   "Bi = two, cuspid = cusp. The name describes the chewing surface."
+   "Bi = two, cuspid = cusp. The name describes the chewing surface.",
+   1
   ],
   [
    "Teeth in detail",
@@ -984,7 +1474,8 @@
     "Just 1",
     "6 to 8"
    ],
-   "Largest teeth in the mouth, 2-3 roots, and the most complex anatomy to work on."
+   "Largest teeth in the mouth, 2-3 roots, and the most complex anatomy to work on.",
+   1
   ],
   [
    "Teeth in detail",
@@ -995,7 +1486,8 @@
     "Around age 3",
     "Around age 18"
    ],
-   "They're literally called the 6-year molars. First adult teeth in, and often the first to decay."
+   "They're literally called the 6-year molars. First adult teeth in, and often the first to decay.",
+   1
   ],
   [
    "Teeth in detail",
@@ -1006,7 +1498,8 @@
     "The midfielders",
     "The power players"
    ],
-   "Incisors are the forwards (visible, aesthetic), premolars the midfielders (transition), molars the power players (heavy lifting)."
+   "Incisors are the forwards (visible, aesthetic), premolars the midfielders (transition), molars the power players (heavy lifting).",
+   1
   ],
   [
    "Bone & tissue",
@@ -1017,7 +1510,8 @@
     "They're equal",
     "Neither - it's cartilage"
    ],
-   "Densest at the front of the lower jaw. That density is why it's the best implant location."
+   "Densest at the front of the lower jaw. That density is why it's the best implant location.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1028,7 +1522,8 @@
     "Same speed in both",
     "Depends only on age"
    ],
-   "Thinner maxillary bone moves faster; the dense mandible is slower. Same reason implants behave differently up top."
+   "Thinner maxillary bone moves faster; the dense mandible is slower. Same reason implants behave differently up top.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1039,7 +1534,8 @@
     "The bone is too dense",
     "The gums are too thin"
    ],
-   "Sinus sits right above the upper back teeth. Not enough bone between them means grafting first - which is a sale."
+   "Sinus sits right above the upper back teeth. Not enough bone between them means grafting first - which is a sale.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1050,7 +1546,8 @@
     "Behind the wisdom teeth",
     "In the roof of the mouth"
    ],
-   "It's where the nerve exits the mandible. Knowing it's there is why imaging gets sold with lower implants."
+   "It's where the nerve exits the mandible. Knowing it's there is why imaging gets sold with lower implants.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1061,7 +1558,8 @@
     "Pale and smooth",
     "Slightly swollen but painless"
    ],
-   "Stippled means a faint orange-peel texture. Diseased gums are red, swollen and bleed easily."
+   "Stippled means a faint orange-peel texture. Diseased gums are red, swollen and bleed easily.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1072,7 +1570,8 @@
     "It stays the same",
     "It grows back over"
    ],
-   "Use it or lose it - nothing is stimulating the bone anymore. This is the single most useful fact in implant selling."
+   "Use it or lose it - nothing is stimulating the bone anymore. This is the single most useful fact in implant selling.",
+   1
   ],
   [
    "Bone & tissue",
@@ -1083,7 +1582,8 @@
     "About 25%",
     "Almost none"
    ],
-   "That speed is why immediate placement and ridge preservation grafts matter - wait and there's nothing to place into."
+   "That speed is why immediate placement and ridge preservation grafts matter - wait and there's nothing to place into.",
+   1
   ],
   [
    "Conditions",
@@ -1094,7 +1594,8 @@
     "Enamel wearing down mechanically",
     "Too much fluoride"
    ],
-   "Bacteria plus sugar makes acid, acid demineralizes enamel. That's the whole disease process."
+   "Bacteria plus sugar makes acid, acid demineralizes enamel. That's the whole disease process.",
+   1
   ],
   [
    "Conditions",
@@ -1105,7 +1606,8 @@
     "Gumline outward",
     "Root upward to the crown"
    ],
-   "Caught at the white spot it's preventive. Reaching the pulp means a root canal - and a very different product list."
+   "Caught at the white spot it's preventive. Reaching the pulp means a root canal - and a very different product list.",
+   1
   ],
   [
    "Conditions",
@@ -1116,7 +1618,8 @@
     "At the gumline",
     "On cusp tips"
    ],
-   "Class I is the classic sealant target - the grooves on top of molars."
+   "Class I is the classic sealant target - the grooves on top of molars.",
+   1
   ],
   [
    "Conditions",
@@ -1127,7 +1630,8 @@
     "Between front teeth",
     "On cusp tips"
    ],
-   "Class II is between back teeth, Class III between front teeth, Class IV a front corner or edge, Class VI cusp tips."
+   "Class II is between back teeth, Class III between front teeth, Class IV a front corner or edge, Class VI cusp tips.",
+   1
   ],
   [
    "Conditions",
@@ -1138,7 +1642,8 @@
     "Under 1mm",
     "Depth doesn't matter"
    ],
-   "The probe number is the whole diagnosis. 4mm+ with bone loss is periodontitis."
+   "The probe number is the whole diagnosis. 4mm+ with bone loss is periodontitis.",
+   1
   ],
   [
    "Conditions",
@@ -1149,7 +1654,8 @@
     "Bad breath",
     "Pain level"
    ],
-   "Gingivitis is gums only and reversible. Once bone is lost it's periodontitis, and that doesn't reverse."
+   "Gingivitis is gums only and reversible. Once bone is lost it's periodontitis, and that doesn't reverse.",
+   1
   ],
   [
    "Conditions",
@@ -1160,7 +1666,8 @@
     "8mm",
     "Any depth if it bleeds"
    ],
-   "4mm+ plus bone loss on the x-ray. Chronic is slow, aggressive is rapid."
+   "4mm+ plus bone loss on the x-ray. Chronic is slow, aggressive is rapid.",
+   1
   ],
   [
    "Conditions",
@@ -1171,7 +1678,8 @@
     "Normal molar relationship",
     "Teeth rotated sideways"
    ],
-   "The buck-teeth look. Division 1 has the front teeth sticking out, Division 2 has them tipped back."
+   "The buck-teeth look. Division 1 has the front teeth sticking out, Division 2 has them tipped back.",
+   1
   ],
   [
    "Conditions",
@@ -1182,7 +1690,8 @@
     "Normal bite with crowding",
     "An open bite"
    ],
-   "Hardest of the three to treat, and the one most likely to need orthognathic surgery."
+   "Hardest of the three to treat, and the one most likely to need orthognathic surgery.",
+   1
   ],
   [
    "Conditions",
@@ -1193,7 +1702,8 @@
     "Class III",
     "Class IV"
    ],
-   "Normal molar relationship, but with crowding or spacing. Most aligner cases live here."
+   "Normal molar relationship, but with crowding or spacing. Most aligner cases live here.",
+   1
   ],
   [
    "Conditions",
@@ -1204,7 +1714,8 @@
     "Braces",
     "Sealants and fluoride"
    ],
-   "Partial edentulism gets bridges, partials or implants - and is sorted by Kennedy Classification I-IV."
+   "Partial edentulism gets bridges, partials or implants - and is sorted by Kennedy Classification I-IV.",
+   1
   ],
   [
    "Conditions",
@@ -1215,7 +1726,8 @@
     "Nothing, if they chew carefully",
     "The jaw thickens"
    ],
-   "The face structurally changes as bone disappears. It's a functional problem, not a cosmetic one."
+   "The face structurally changes as bone disappears. It's a functional problem, not a cosmetic one.",
+   1
   ],
   [
    "Sales context",
@@ -1226,7 +1738,8 @@
     "Densest bone for implants",
     "Most complex root canals"
    ],
-   "Aesthetics drive the sale up front. Also trauma-prone in contact sports, which matters for practices seeing athletes."
+   "Aesthetics drive the sale up front. Also trauma-prone in contact sports, which matters for practices seeing athletes.",
+   1
   ],
   [
    "Sales context",
@@ -1237,7 +1750,8 @@
     "They have the longest roots",
     "They erupt last"
    ],
-   "Grooves trap food and bacteria. Molars also take the most force, so they crack and get crowned most often."
+   "Grooves trap food and bacteria. Molars also take the most force, so they crack and get crowned most often.",
+   1
   ],
   [
    "Sales context",
@@ -1248,7 +1762,8 @@
     "The upper front",
     "Wherever the patient prefers"
    ],
-   "Dense bone means stability. It also supports implant-retained dentures well."
+   "Dense bone means stability. It also supports implant-retained dentures well.",
+   1
   ],
   [
    "Sales context",
@@ -1259,7 +1774,8 @@
     "They have no function",
     "They block the sinus"
    ],
-   "Pulling premolars makes room to straighten the rest. They're also a common cracked-tooth site."
+   "Pulling premolars makes room to straighten the rest. They're also a common cracked-tooth site.",
+   1
   ],
   [
    "Sales context",
@@ -1270,7 +1786,8 @@
     "Implant placement",
     "Shade matching"
    ],
-   "Arestin is the other name worth knowing - a local antimicrobial for periodontal pockets."
+   "Arestin is the other name worth knowing - a local antimicrobial for periodontal pockets.",
+   1
   ],
   [
    "Sales context",
@@ -1281,7 +1798,8 @@
     "Only with dentures",
     "Never - bone regrows"
    ],
-   "Get ahead of resorption. Bone disappears fast once the tooth is gone, so the graft goes in the same visit."
+   "Get ahead of resorption. Bone disappears fast once the tooth is gone, so the graft goes in the same visit.",
+   1
   ],
   [
    "Sales context",
@@ -1292,7 +1810,8 @@
     "It shortens appointments",
     "It avoids insurance claims"
    ],
-   "Sell the business case, not just the product. Perio patients come back on a schedule, forever."
+   "Sell the business case, not just the product. Perio patients come back on a schedule, forever.",
+   1
   ],
   [
    "Sales context",
@@ -1303,7 +1822,8 @@
     "Insurance covers it fully",
     "It only affects a few patients"
    ],
-   "Baby boomers are hitting peak tooth-loss years. Implants, grafts, dentures, digital denture workflow - all of it."
+   "Baby boomers are hitting peak tooth-loss years. Implants, grafts, dentures, digital denture workflow - all of it.",
+   1
   ],
   [
    "Sales context",
@@ -1314,7 +1834,860 @@
     "\"Do you need any supplies today?\"",
     "\"Is the doctor in?\""
    ],
-   "Good openers get the dentist talking about their own practice instead of your catalog."
+   "Good openers get the dentist talking about their own practice instead of your catalog.",
+   1
+  ],
+  [
+   "Field notes",
+   "What are orthodontists specifically trained to do?",
+   "Move teeth",
+   [
+    "Place implants",
+    "Make dentures",
+    "Read x-rays"
+   ],
+   "It's the whole specialty. When Invisalign launched it was orthodontist-only for exactly this reason.",
+   2
+  ],
+  [
+   "Field notes",
+   "If one person in the practice dislikes you, what happens?",
+   "Nobody in the practice will deal with you",
+   [
+    "Only that person avoids you",
+    "The doctor overrules them",
+    "It has no effect on orders"
+   ],
+   "The staff are extremely tight-knit and word travels instantly. Treat the office manager and assistants like decision makers, because they are.",
+   2
+  ],
+  [
+   "Field notes",
+   "What should you do right after closing a sale?",
+   "Ask when they'll use it and follow up after",
+   [
+    "Move straight to the next account",
+    "Wait for them to reorder",
+    "Send an invoice reminder"
+   ],
+   "Put the date in your calendar and text them to ask how it went. Costs nothing and turns a transaction into a relationship.",
+   2
+  ],
+  [
+   "Field notes",
+   "Which orthodontic items are the repeat business?",
+   "Wires, ligature rings and rubber bands",
+   [
+    "Brackets",
+    "Chairs",
+    "Autoclaves"
+   ],
+   "Brackets are bonded on and painful to change, so they're the hard sell. Sell what gets replaced.",
+   2
+  ],
+  [
+   "Field notes",
+   "What's the difference between inside and outside reps?",
+   "Inside works the phones, outside works the territory",
+   [
+    "Inside sells equipment, outside sells consumables",
+    "Inside is salaried, outside is commission",
+    "There's no difference"
+   ],
+   "Inside is straight cold calls. Outside drives the area and walks into practices.",
+   2
+  ],
+  [
+   "Field notes",
+   "What share of a practice's spend goes to supplies?",
+   "4 to 6%",
+   [
+    "15 to 20%",
+    "About 1%",
+    "Around 30%"
+   ],
+   "It's a small slice of their budget - which is exactly why convenience and reliability often beat price.",
+   2
+  ],
+  [
+   "Channels",
+   "What share of consumables runs through full-service dealers?",
+   "About 80%",
+   [
+    "About 40%",
+    "About 20%",
+    "Nearly all of it"
+   ],
+   "Henry Schein, Patterson and Benco. The other 20% is manufacturer-direct and discounters.",
+   2
+  ],
+  [
+   "Channels",
+   "How many practices does a dealer rep typically manage?",
+   "50 to 150",
+   [
+    "5 to 10",
+    "300 to 500",
+    "Just one large group"
+   ],
+   "That headcount is why time management and routing matter as much as selling.",
+   2
+  ],
+  [
+   "Channels",
+   "Who are the discount suppliers?",
+   "Net32, DentalBuyer, Amazon Business",
+   [
+    "Henry Schein, Patterson, Benco",
+    "Straumann, Nobel, Astra Tech",
+    "KaVo, NSK, W&H"
+   ],
+   "Price-focused, no service. A real threat to the traditional model.",
+   2
+  ],
+  [
+   "Channels",
+   "How do you compete against a discounter?",
+   "Service, emergency availability, relationships",
+   [
+    "Match their price",
+    "Longer contracts",
+    "Bigger catalogs"
+   ],
+   "You cannot win a race to the bottom against Amazon, so don't enter it. Sell the things they can't ship.",
+   2
+  ],
+  [
+   "Channels",
+   "Is price the number one driver for consumables?",
+   "No - reliability and convenience often beat it",
+   [
+    "Yes, always",
+    "Only for large practices",
+    "Only for implants"
+   ],
+   "\"I need it tomorrow, can you deliver?\" wins more accounts than being cheapest.",
+   2
+  ],
+  [
+   "Channels",
+   "What do you do on a weekly or bi-weekly visit?",
+   "Check inventory, take orders, handle issues",
+   [
+    "Renegotiate contracts",
+    "Run growth planning",
+    "Assess equipment needs"
+   ],
+   "Also introduce new products and gather intel on what they're buying elsewhere. Contracts and capital are monthly and quarterly conversations.",
+   2
+  ],
+  [
+   "Channels",
+   "Which metrics do you track on an account?",
+   "Volume, product mix, growth rate, order size",
+   [
+    "Only total revenue",
+    "Patient count",
+    "Chair utilization"
+   ],
+   "Product mix - your brand vs competitors - is the one that tells you whether you're actually winning the account.",
+   2
+  ],
+  [
+   "Channels",
+   "What's the manufacturer-direct advantage over a dealer rep?",
+   "You're the expert on your own product",
+   [
+    "Lower prices",
+    "Bigger catalog",
+    "Faster shipping"
+   ],
+   "The dealer rep is a generalist across 10,000+ SKUs. Depth is the thing you have that they don't.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What's the price range on capital equipment?",
+   "$5,000 to $500,000+",
+   [
+    "$500 to $5,000",
+    "Under $1,000",
+    "$1m and up"
+   ],
+   "And decisions take months, not days, with multiple stakeholders and financing almost always involved.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What's the athletic parallel for a capital sale?",
+   "Recruiting a star player",
+   [
+    "Running a sprint",
+    "A pickup game",
+    "Signing a walk-on"
+   ],
+   "Long courtship, big investment, transformative impact, and everyone weighs in on the decision.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What do intraoral sensor sizes 0, 1 and 2 mean?",
+   "Pedo, anterior, posterior",
+   [
+    "Small, medium, large practices",
+    "Radiation levels",
+    "Wired, wireless, hybrid"
+   ],
+   "Size 0 for kids, 1 for front teeth, 2 for back teeth.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does an intraoral sensor cost per operatory?",
+   "$5,000 to $12,000",
+   [
+    "$500 to $1,200",
+    "$50,000 to $80,000",
+    "Around $30,000"
+   ],
+   "Sales cycle is short for capital - 2 to 4 months.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Who makes intraoral sensors?",
+   "Dexis, Schick, Carestream",
+   [
+    "iTero, TRIOS, Medit",
+    "Biolase, AMD, Fotona",
+    "Midmark, Tuttnauer, SciCan"
+   ],
+   "Dexis is KaVo Kerr, Schick is Dentsply Sirona. Knowing the parent company tells you who else is in the room.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does a CBCT cost?",
+   "$60,000 to $150,000",
+   [
+    "$5,000 to $12,000",
+    "$20,000 to $40,000",
+    "Over $500,000"
+   ],
+   "Six to twelve month sales cycle - it's one of the biggest decisions a practice makes.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Why is CBCT a game-changer for implants?",
+   "You can see bone in 3D",
+   [
+    "It's cheaper than film",
+    "It replaces the drill",
+    "It mills crowns"
+   ],
+   "It's becoming standard of care. Lets them keep surgical cases in-house instead of referring them out.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does a practice charge for a CBCT scan?",
+   "$200 to $400",
+   [
+    "$20 to $40",
+    "$2,000 to $4,000",
+    "Nothing, it's bundled"
+   ],
+   "Insurance coverage is limited so it's often cash pay - which makes the ROI math easy to show.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Which scanner integrates with Invisalign?",
+   "iTero",
+   [
+    "Primescan",
+    "TRIOS",
+    "Medit"
+   ],
+   "Both iTero and Invisalign are Align Technology. Primescan is Dentsply Sirona and integrates with CEREC instead.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does an intraoral scanner cost?",
+   "$20,000 to $40,000",
+   [
+    "$2,000 to $4,000",
+    "$100,000 to $150,000",
+    "Under $1,000"
+   ],
+   "Sells on eliminating impression materials, fewer remakes, and no gagging. Demo it in their office on a real patient.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does a complete CEREC system cost?",
+   "$100,000 to $150,000",
+   [
+    "$20,000 to $40,000",
+    "$5,000 to $15,000",
+    "Over $500,000"
+   ],
+   "Scanner plus design software plus milling unit. Ceramic blocks run $30-80 each on top.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Where's the break-even on CEREC?",
+   "About 150 to 200 crowns",
+   [
+    "About 10 crowns",
+    "About 1,000 crowns",
+    "It never breaks even"
+   ],
+   "Because it eliminates $150-300 in lab fees per crown. That's the whole ROI conversation.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What's the main clinical selling point of CEREC?",
+   "Same-day crowns - no temporaries, no second visit",
+   [
+    "Lower radiation",
+    "Faster sterilization",
+    "Cheaper materials"
+   ],
+   "Patient convenience becomes a marketing advantage for the practice.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What do soft tissue lasers cost?",
+   "$5,000 to $15,000",
+   [
+    "$40,000 to $80,000",
+    "$100,000+",
+    "Under $1,000"
+   ],
+   "Diode is the most common type. Frenectomies, gingivectomies, crown lengthening. Biolase, AMD, Fotona.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What can a hard tissue laser do that a soft tissue laser can't?",
+   "Cut tooth structure",
+   [
+    "Whiten teeth",
+    "Sterilize instruments",
+    "Take x-rays"
+   ],
+   "Erbium lasers, $40,000-80,000. Marketed hard as \"no drill dentistry.\"",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What's critical when selling a laser?",
+   "A demo or trial period",
+   [
+    "A low price",
+    "A long contract",
+    "A big catalog"
+   ],
+   "Nobody commits to changing how they practice off a brochure. Include CE training and show clinical cases.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Which autoclave class is most thorough?",
+   "Class B - vacuum",
+   [
+    "Class N",
+    "Class S",
+    "Class A"
+   ],
+   "Steam sterilization, $3,000-15,000. Midmark, Tuttnauer, SciCan.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What's the strongest sales angle on an autoclave?",
+   "Regulatory compliance - it's required by law",
+   [
+    "It looks impressive to patients",
+    "It's cheap",
+    "It saves chair time"
+   ],
+   "Then cycle time and reliability - downtime means they literally cannot practice. Replacement cycle is 7-10 years.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "What does a dental chair cost?",
+   "$6,000 to $20,000+ each",
+   [
+    "$600 to $2,000",
+    "$50,000 to $80,000",
+    "Around $100,000"
+   ],
+   "A-dec is premium, then Midmark and Forest. Usually tied to a renovation, and financing is almost always required.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "How fast does a high-speed handpiece turn?",
+   "400,000 RPM",
+   [
+    "20,000 RPM",
+    "4,000 RPM",
+    "1 million RPM"
+   ],
+   "That's \"the drill.\" Slow-speed runs 20,000 RPM for prophy angles and adjustments.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Why does a practice keep 2 to 4 handpieces per operatory?",
+   "Sterilization rotation",
+   [
+    "They break constantly",
+    "Different specialties",
+    "Insurance requires it"
+   ],
+   "One's in use while another is being sterilized. $800-3,000 each, so it's real money.",
+   2
+  ],
+  [
+   "Capital equipment",
+   "Why is compressor reliability so critical?",
+   "No air means no drilling",
+   [
+    "It's expensive to replace",
+    "It's loud",
+    "It affects x-rays"
+   ],
+   "The whole operatory stops. $3,000-30,000, sized by number of chairs.",
+   2
+  ],
+  [
+   "Implants",
+   "How big is the implant market?",
+   "About $5 billion and growing",
+   [
+    "About $50 million",
+    "About $500 million",
+    "Over $50 billion"
+   ],
+   "Driven by boomers losing teeth, implants becoming standard of care, more GPs placing them, and success rates above 95%.",
+   2
+  ],
+  [
+   "Implants",
+   "What are the three parts of an implant?",
+   "Fixture, abutment, crown",
+   [
+    "Root, dentin, enamel",
+    "Screw, cement, filling",
+    "Post, core, cap"
+   ],
+   "Fixture is the screw in the bone, abutment connects, crown is what you see.",
+   2
+  ],
+  [
+   "Implants",
+   "What diameters do implant fixtures come in?",
+   "3mm to 6mm",
+   [
+    "1mm to 2mm",
+    "10mm to 15mm",
+    "All one size"
+   ],
+   "Lengths run 6mm to 18mm. Platform comes mini, regular or wide.",
+   2
+  ],
+  [
+   "Implants",
+   "Which surface treatment is Straumann's?",
+   "SLA - sand-blasted, acid-etched",
+   [
+    "TiUnite",
+    "Osseospeed",
+    "Laser-Lok"
+   ],
+   "TiUnite is Nobel Biocare, Osseospeed is Astra Tech, Laser-Lok is BioHorizons. Surface treatment is what drives osseointegration.",
+   2
+  ],
+  [
+   "Implants",
+   "What's Straumann's market share?",
+   "About 20% - number one",
+   [
+    "About 5%",
+    "About 50%",
+    "About 80%"
+   ],
+   "Swiss precision, premium pricing, deep evidence base. Roxolid is their titanium-zirconium alloy.",
+   2
+  ],
+  [
+   "Implants",
+   "What does a premium implant cost the dentist, and what do they charge?",
+   "$250-400 to them, $2,000-4,000+ to the patient",
+   [
+    "$2,000 to them, $2,500 to the patient",
+    "$50 to them, $500 to the patient",
+    "The same either way"
+   ],
+   "That spread is exactly why cost usually isn't the surgeon's first question.",
+   2
+  ],
+  [
+   "Implants",
+   "Who invented the modern dental implant?",
+   "Brånemark, at Nobel Biocare",
+   [
+    "Straumann",
+    "Astra Tech",
+    "BioHorizons"
+   ],
+   "Nobel Biocare are the pioneers. All-on-4 - a full arch on four implants - is their trademark protocol.",
+   2
+  ],
+  [
+   "Implants",
+   "What's All-on-4?",
+   "A full arch restored on four implants",
+   [
+    "A four-year warranty",
+    "Four surface treatments",
+    "A four-visit protocol"
+   ],
+   "Nobel Biocare's trademark protocol, and a major option for complete edentulism.",
+   2
+  ],
+  [
+   "Implants",
+   "What do value implant brands cost?",
+   "$80 to $150 per implant",
+   [
+    "$250 to $400",
+    "$500 to $800",
+    "Under $10"
+   ],
+   "Hiossen, MegaGen, Dentium. The controversy is quality vs cost; the opportunity is price-sensitive practices and high-volume DSOs.",
+   2
+  ],
+  [
+   "Implants",
+   "How long is the implant sales cycle?",
+   "3 to 12 months",
+   [
+    "A single visit",
+    "1 to 2 weeks",
+    "Over 3 years"
+   ],
+   "Awareness, education, trial, conversion, loyalty. Lunch-and-learn to CE course to a few supported cases.",
+   2
+  ],
+  [
+   "Implants",
+   "Why are implant systems so hard to switch?",
+   "Instruments and kits are system-specific",
+   [
+    "Patents block it",
+    "Insurance forbids it",
+    "The implants are identical"
+   ],
+   "Add the learning curve and compatibility issues. Hard to win an account - very hard to lose one.",
+   2
+  ],
+  [
+   "Implants",
+   "Is cost the top decision factor for implant surgeons?",
+   "No - outcomes, ease of use and support come first",
+   [
+    "Yes, always",
+    "Only for GPs",
+    "Only for value brands"
+   ],
+   "Clinical outcomes, ease of use, prosthetic flexibility, your availability, and the evidence base. Don't lead with price.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What are the four graft types?",
+   "Autograft, allograft, xenograft, alloplast",
+   [
+    "Cortical, cancellous, hybrid, synthetic",
+    "Type I through IV",
+    "Resorbable and non-resorbable"
+   ],
+   "Self, human donor, animal, synthetic. Auto, allo, xeno, allo-plast.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "Which graft is the gold standard, and what's the catch?",
+   "Autograft - but it needs a second surgical site",
+   [
+    "Xenograft - but it's expensive",
+    "Alloplast - but supply is limited",
+    "Allograft - but it's rejected often"
+   ],
+   "The patient's own bone integrates best, but harvesting it from chin, jaw or hip adds morbidity.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What is an allograft?",
+   "Processed cadaver bone",
+   [
+    "Animal bone",
+    "Synthetic material",
+    "The patient's own bone"
+   ],
+   "LifeNet, MTF, AlloSource. $100-500 per case. Popular because there's no second surgical site.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What is Bio-Oss?",
+   "The market-leading xenograft",
+   [
+    "A membrane",
+    "A synthetic graft",
+    "An implant system"
+   ],
+   "Geistlich, bovine-derived. Acts as a scaffold and resorbs slowly, so it maintains volume. $150-400.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What's the advantage of a synthetic graft?",
+   "Unlimited supply, no disease transmission risk",
+   [
+    "Best integration",
+    "Cheapest option",
+    "Fastest resorption"
+   ],
+   "Alloplast - hydroxyapatite and calcium phosphate. Novabone, Cerasorb.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What does a barrier membrane do?",
+   "Covers the graft to guide tissue regeneration",
+   [
+    "Holds the implant in place",
+    "Sterilizes the site",
+    "Replaces the gum"
+   ],
+   "Collagen ones like Bio-Gide resorb; PTFE ones don't and have to be removed. $30-200 each.",
+   2
+  ],
+  [
+   "Bone grafting",
+   "What's the sales angle on grafting?",
+   "Every extraction is a potential graft",
+   [
+    "Only implant cases need it",
+    "It's rarely billable",
+    "Bone grows back anyway"
+   ],
+   "Higher implant success, better patient comfort, and it's billable revenue for the practice.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "What share of the clear aligner market is Invisalign?",
+   "About 90%",
+   [
+    "About 50%",
+    "About 25%",
+    "About 10%"
+   ],
+   "Align Technology. Total category dominance - which is why the competitors all compete on price.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "What does an Invisalign case cost the dentist vs the patient?",
+   "$1,500-2,000 to them, $3,500-8,000 to the patient",
+   [
+    "$300 to them, $500 to the patient",
+    "The same both ways",
+    "$5,000 to them, $6,000 to the patient"
+   ],
+   "The dentist submits cases and pays per case, so it scales with their volume.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "How many hours a day must a patient wear aligners?",
+   "22",
+   [
+    "8",
+    "12",
+    "All 24"
+   ],
+   "Compliance is the single biggest limitation. If they don't wear them, treatment fails and it looks like your product failed.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "What software plans an Invisalign case?",
+   "ClinCheck",
+   [
+    "CEREC",
+    "exocad",
+    "ClinPro"
+   ],
+   "Digital scan, then AI treatment planning, then aligners manufactured centrally and shipped to the practice.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "Who owns ClearCorrect?",
+   "Straumann",
+   [
+    "Dentsply Sirona",
+    "Align Technology",
+    "Ormco"
+   ],
+   "SureSmile is Dentsply Sirona and Spark is Ormco. The aligner competitors usually run 20-30% below Invisalign.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "What share of the aligner market is adults?",
+   "Over half",
+   [
+    "About 10%",
+    "About 25%",
+    "Almost none"
+   ],
+   "Aligners opened orthodontics to people who'd never have worn metal braces.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "Which wire is used in the early stages of treatment?",
+   "NiTi - shape memory and flexible",
+   [
+    "Stainless steel",
+    "Titanium",
+    "Ceramic"
+   ],
+   "Stainless steel is stiffer and comes in at the final stages. Sizes .012 through .018 increase in stiffness.",
+   2
+  ],
+  [
+   "Aligners & ortho",
+   "What's true about calling on orthodontists?",
+   "They see a lot of reps and are brand loyal once established",
+   [
+    "They rarely see reps",
+    "They switch brands constantly",
+    "They buy in tiny volumes"
+   ],
+   "Harder to get in, but they're volume purchasers - so worth more once you're in.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Which is the largest pure-play dental company?",
+   "Dentsply Sirona",
+   [
+    "Henry Schein",
+    "Danaher",
+    "3M"
+   ],
+   "Ticker XRAY. Astra Tech and Ankylos implants, CEREC, Schick sensors, Maillefer endo files, SureSmile orthodontics.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Envista owns which brands?",
+   "Nobel Biocare, Ormco, KaVo Kerr",
+   [
+    "Invisalign, iTero, exocad",
+    "CEREC, Schick, Astra Tech",
+    "Straumann, Neodent, ClearCorrect"
+   ],
+   "Envista was spun off from Danaher and took those brands with it - your notes list them under both.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Align Technology owns which brands?",
+   "Invisalign, iTero, exocad",
+   [
+    "CEREC, Primescan, Schick",
+    "Nobel Biocare, Ormco",
+    "Straumann, Neodent"
+   ],
+   "Same company owning both the aligner and the scanner is why iTero integration is the whole iTero pitch.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Straumann Group owns which brands?",
+   "Straumann, Neodent, ClearCorrect",
+   [
+    "Nobel Biocare, Ormco, KaVo",
+    "Invisalign, iTero",
+    "CEREC, Astra Tech"
+   ],
+   "Premium implants, value implants, and aligners - they cover the price spectrum deliberately.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Which brands belong to 3M?",
+   "Filtek, Scotchbond, RelyX, Unitek",
+   [
+    "Prime & Bond, Aquasil, Caulk",
+    "Bio-Oss, Bio-Gide",
+    "Dexis, Schick"
+   ],
+   "Composites, adhesives, cements and orthodontics - all inside a much larger conglomerate.",
+   2
+  ],
+  [
+   "Who owns what",
+   "What's distinctive about Planmeca?",
+   "Finnish and family-owned",
+   [
+    "It's the largest dental company",
+    "It only sells implants",
+    "It's owned by Danaher"
+   ],
+   "Imaging and CAD/CAM, known for innovation. No quarterly-earnings pressure means a different kind of buying relationship.",
+   2
+  ],
+  [
+   "Who owns what",
+   "Which trade shows should you attend?",
+   "Chicago Midwinter and the ADA annual",
+   [
+    "CES and SXSW",
+    "Only local ones",
+    "None - use LinkedIn"
+   ],
+   "Plus asking practices what else they're using, LinkedIn research, catalogs and clinical studies.",
+   2
+  ],
+  [
+   "Who owns what",
+   "What's the most useful line on a battle card?",
+   "Why practices leave a competitor",
+   [
+    "The competitor's logo",
+    "Their head office address",
+    "Their employee count"
+   ],
+   "Price and features are easy to find. Why an account churned tells you where the real weakness is.",
+   2
   ]
  ],
  "trouble": [

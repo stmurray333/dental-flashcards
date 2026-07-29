@@ -220,8 +220,19 @@
   .row { display: flex; gap: .6rem; flex-wrap: wrap; }
 
   .modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
-  .modes.drill { grid-template-columns: 1fr 1fr; }
-  @media (max-width: 40rem) { .modes, .modes.drill { grid-template-columns: 1fr; } }
+  @media (max-width: 40rem) { .modes { grid-template-columns: 1fr; } }
+
+  .drillrow { display: flex; flex-wrap: wrap; gap: .4rem; }
+  .chip {
+    font: inherit; font-size: .8rem; line-height: 1.2; cursor: pointer;
+    padding: .45rem .75rem; border-radius: 999px;
+    border: 1px solid var(--line-strong); background: transparent; color: var(--ink-2);
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .chip .n { font-family: var(--font-mono); font-size: .72em; opacity: .65; margin-left: .3rem; font-variant-numeric: tabular-nums; }
+  .chip[hidden] { display: none; }
   .mode {
     font: inherit; text-align: left; cursor: pointer;
     display: flex; flex-direction: column; gap: .15rem;
@@ -298,13 +309,11 @@
       </button>
     </div>
 
-    <div class="modes drill" role="group" aria-label="What to drill">
-      <button class="mode" type="button" id="drillAll" aria-pressed="true">
-        <b>Everything</b><span id="drillAllN">the whole deck</span>
-      </button>
-      <button class="mode" type="button" id="drillTrouble" aria-pressed="false">
-        <b>Trouble spots</b><span id="drillTroubleN">the ones you flagged</span>
-      </button>
+    <div class="drillrow" role="group" aria-label="What to drill">
+      <button class="chip" type="button" id="drillAll" aria-pressed="true">Everything <span class="n" id="nAll"></span></button>
+      <button class="chip" type="button" id="drillD1" aria-pressed="false">Day 1 <span class="n" id="nD1"></span></button>
+      <button class="chip" type="button" id="drillD2" aria-pressed="false">Day 2 <span class="n" id="nD2"></span></button>
+      <button class="chip" type="button" id="drillTrouble" aria-pressed="false">Trouble spots <span class="n" id="nTrouble"></span></button>
     </div>
     <div class="row">
       <button class="btn" id="startBtn">Start the run</button>
@@ -383,19 +392,31 @@
 
   function timedMode() { return mode === "timed"; }
   function typedMode() { return mode === "typed"; }
-  function bestKey() { return "territoryRunBest_" + mode + (drill === "trouble" ? "_trouble" : ""); }
+  function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
+  var DRILLS = ["all", "d1", "d2", "trouble"];
+  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", trouble: ", trouble spots only" };
+
+  function dayOf(q) { return q[5] || 1; }
+
   function pool() {
-    if (drill !== "trouble" || !TROUBLE.length) return Q.slice();
-    return Q.filter(function (q) { return TROUBLE.indexOf(q[1]) > -1; });
+    if (drill === "d1") return Q.filter(function (q) { return dayOf(q) === 1; });
+    if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
+    if (drill === "trouble" && TROUBLE.length) {
+      return Q.filter(function (q) { return TROUBLE.indexOf(q[1]) > -1; });
+    }
+    return Q.slice();
   }
 
+  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", trouble: "drillTrouble" };
+
   function setDrill(d) {
-    if (d === "trouble" && !TROUBLE.length) return;
+    if (DRILLS.indexOf(d) < 0) d = "all";
     drill = d;
-    el("drillAll").setAttribute("aria-pressed", d === "all" ? "true" : "false");
-    el("drillTrouble").setAttribute("aria-pressed", d === "trouble" ? "true" : "false");
+    DRILLS.forEach(function (k) {
+      el(DRILL_BTN[k]).setAttribute("aria-pressed", k === d ? "true" : "false");
+    });
     try { localStorage.setItem("territoryRunDrill", d); } catch (e) {}
     el("qCount").textContent = pool().length;
     loadBest();
@@ -406,7 +427,7 @@
     var line = el("bestLine");
     line.hidden = !best;
     if (best) line.innerHTML = "Your record " + MODE_LABEL[mode]
-      + (drill === "trouble" ? ", trouble spots only" : "") + ": <b>" + best + "</b> points.";
+      + (DRILL_LABEL[drill] || "") + ": <b>" + best + "</b> points.";
   }
 
   function setMode(m) {
@@ -754,6 +775,8 @@
   el("modeUntimed").onclick = function () { setMode("untimed"); };
   el("modeTyped").onclick = function () { setMode("typed"); };
   el("drillAll").onclick = function () { setDrill("all"); };
+  el("drillD1").onclick = function () { setDrill("d1"); };
+  el("drillD2").onclick = function () { setDrill("d2"); };
   el("drillTrouble").onclick = function () { setDrill("trouble"); };
 
   document.addEventListener("keydown", function (e) {
@@ -784,16 +807,23 @@
       Q = data.questions || [];
       TROUBLE = data.trouble || [];
 
-      if (TROUBLE.length) {
-        el("drillTroubleN").textContent = TROUBLE.length + " you flagged as tricky";
-        el("drillAllN").textContent = "all " + Q.length + " questions";
-        var savedDrill;
-        try { savedDrill = localStorage.getItem("territoryRunDrill"); } catch (e) {}
-        setDrill(savedDrill === "trouble" ? "trouble" : "all");
-      } else {
-        el("drillAll").parentNode.hidden = true;
-        el("qCount").textContent = Q.length;
-      }
+      // label each chip with its count, and hide any that have nothing behind them
+      var counts = {
+        all: Q.length,
+        d1: Q.filter(function (q) { return dayOf(q) === 1; }).length,
+        d2: Q.filter(function (q) { return dayOf(q) === 2; }).length,
+        trouble: TROUBLE.length
+      };
+      DRILLS.forEach(function (k) {
+        var btn = el(DRILL_BTN[k]);
+        btn.querySelector(".n").textContent = counts[k];
+        if (k !== "all" && !counts[k]) btn.hidden = true;
+      });
+
+      var savedDrill = null;
+      try { savedDrill = localStorage.getItem("territoryRunDrill"); } catch (e) {}
+      setDrill(counts[savedDrill] ? savedDrill : "all");
+
       el("startBtn").disabled = false;
     })
     .catch(function (err) {
