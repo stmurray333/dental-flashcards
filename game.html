@@ -220,7 +220,8 @@
   .row { display: flex; gap: .6rem; flex-wrap: wrap; }
 
   .modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: .6rem; }
-  @media (max-width: 40rem) { .modes { grid-template-columns: 1fr; } }
+  .modes.drill { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 40rem) { .modes, .modes.drill { grid-template-columns: 1fr; } }
   .mode {
     font: inherit; text-align: left; cursor: pointer;
     display: flex; flex-direction: column; gap: .15rem;
@@ -296,6 +297,15 @@
         <b>Type it in</b><span>No options. Recall it cold.</span>
       </button>
     </div>
+
+    <div class="modes drill" role="group" aria-label="What to drill">
+      <button class="mode" type="button" id="drillAll" aria-pressed="true">
+        <b>Everything</b><span id="drillAllN">the whole deck</span>
+      </button>
+      <button class="mode" type="button" id="drillTrouble" aria-pressed="false">
+        <b>Trouble spots</b><span id="drillTroubleN">the ones you flagged</span>
+      </button>
+    </div>
     <div class="row">
       <button class="btn" id="startBtn">Start the run</button>
     </div>
@@ -369,15 +379,34 @@
   var best = 0, mode = "untimed", tStart = 0, raf = 0;
   var MODE_LABEL = { untimed: "untimed", timed: "on the clock", typed: "typing it in" };
 
+  var TROUBLE = [], drill = "all";
+
   function timedMode() { return mode === "timed"; }
   function typedMode() { return mode === "typed"; }
-  function bestKey() { return "territoryRunBest_" + mode; }
+  function bestKey() { return "territoryRunBest_" + mode + (drill === "trouble" ? "_trouble" : ""); }
+
+  // the questions this run will draw from
+  function pool() {
+    if (drill !== "trouble" || !TROUBLE.length) return Q.slice();
+    return Q.filter(function (q) { return TROUBLE.indexOf(q[1]) > -1; });
+  }
+
+  function setDrill(d) {
+    if (d === "trouble" && !TROUBLE.length) return;
+    drill = d;
+    el("drillAll").setAttribute("aria-pressed", d === "all" ? "true" : "false");
+    el("drillTrouble").setAttribute("aria-pressed", d === "trouble" ? "true" : "false");
+    try { localStorage.setItem("territoryRunDrill", d); } catch (e) {}
+    el("qCount").textContent = pool().length;
+    loadBest();
+  }
 
   function loadBest() {
     try { best = parseInt(localStorage.getItem(bestKey()) || "0", 10) || 0; } catch (e) { best = 0; }
     var line = el("bestLine");
     line.hidden = !best;
-    if (best) line.innerHTML = "Your record " + MODE_LABEL[mode] + ": <b>" + best + "</b> points.";
+    if (best) line.innerHTML = "Your record " + MODE_LABEL[mode]
+      + (drill === "trouble" ? ", trouble spots only" : "") + ": <b>" + best + "</b> points.";
   }
 
   function setMode(m) {
@@ -405,7 +434,8 @@
 
   function start() {
     if (!Q.length) return;
-    deck = shuffle(Q.slice());
+    deck = shuffle(pool());
+    if (!deck.length) return;
     i = 0; score = 0; lives = 3; streak = 0; bestStreak = 0;
     right = 0; asked = 0; missed = [];
     el("startPanel").hidden = true;
@@ -723,6 +753,8 @@
   el("modeTimed").onclick = function () { setMode("timed"); };
   el("modeUntimed").onclick = function () { setMode("untimed"); };
   el("modeTyped").onclick = function () { setMode("typed"); };
+  el("drillAll").onclick = function () { setDrill("all"); };
+  el("drillTrouble").onclick = function () { setDrill("trouble"); };
 
   document.addEventListener("keydown", function (e) {
     if (el("playPanel").hidden) {
@@ -750,7 +782,18 @@
     })
     .then(function (data) {
       Q = data.questions || [];
-      el("qCount").textContent = Q.length;
+      TROUBLE = data.trouble || [];
+
+      if (TROUBLE.length) {
+        el("drillTroubleN").textContent = TROUBLE.length + " you flagged as tricky";
+        el("drillAllN").textContent = "all " + Q.length + " questions";
+        var savedDrill;
+        try { savedDrill = localStorage.getItem("territoryRunDrill"); } catch (e) {}
+        setDrill(savedDrill === "trouble" ? "trouble" : "all");
+      } else {
+        el("drillAll").parentNode.hidden = true;
+        el("qCount").textContent = Q.length;
+      }
       el("startBtn").disabled = false;
     })
     .catch(function (err) {
