@@ -121,10 +121,20 @@
     display: flex; flex-direction: column; gap: 1.4rem;
     min-height: 9rem;
   }
+  .qhead { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
   .qtopic {
     font-family: var(--font-mono); font-size: .66rem; letter-spacing: .12em;
     text-transform: uppercase; color: var(--accent);
   }
+  .flagbtn {
+    font: inherit; font-family: var(--font-mono); font-size: .62rem;
+    letter-spacing: .1em; text-transform: uppercase; cursor: pointer;
+    padding: .3rem .6rem; border-radius: 999px; flex: 0 0 auto;
+    border: 1px solid var(--line-strong); background: transparent; color: var(--ink-3);
+    transition: background .12s, color .12s, border-color .12s;
+  }
+  .flagbtn:hover { border-color: var(--gold); color: var(--gold); }
+  .flagbtn[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: var(--surface); }
   .qtext {
     font-family: var(--font-display);
     font-size: clamp(1.15rem, 3.2vw, 1.5rem);
@@ -290,7 +300,7 @@
   <!-- START -->
   <section class="panel" id="startPanel">
     <h2>Keep the streak. Don't lose three.</h2>
-    <p>Same material as the flash cards, scored. Built from your Day 1 notes and training.</p>
+    <p>Same material as the flash cards, scored. Built from your notes and training sessions.</p>
     <ul class="rules">
       <li><span>&bull;</span><span><b>3 strikes.</b> A wrong answer costs you one &mdash; so does a run-out clock, if you're playing timed.</span></li>
       <li><span>&bull;</span><span><b>Your call on the clock.</b> Untimed to learn it, timed to prove you know it cold.</span></li>
@@ -313,7 +323,7 @@
       <button class="chip" type="button" id="drillAll" aria-pressed="true">Everything <span class="n" id="nAll"></span></button>
       <button class="chip" type="button" id="drillD1" aria-pressed="false">Day 1 <span class="n" id="nD1"></span></button>
       <button class="chip" type="button" id="drillD2" aria-pressed="false">Day 2 <span class="n" id="nD2"></span></button>
-      <button class="chip" type="button" id="drillTrouble" aria-pressed="false">Trouble spots <span class="n" id="nTrouble"></span></button>
+      <button class="chip" type="button" id="drillFlagged" aria-pressed="false">Flagged <span class="n" id="nFlagged"></span></button>
     </div>
     <div class="row">
       <button class="btn" id="startBtn">Start the run</button>
@@ -330,7 +340,11 @@
     </div>
     <div class="timer" id="timerBar" hidden><i id="timerFill"></i></div>
     <div class="card">
-      <div class="qtopic" id="qtopic"></div>
+      <div class="qhead">
+        <div class="qtopic" id="qtopic"></div>
+        <button class="flagbtn" type="button" id="flagBtn" aria-pressed="false"
+                title="Flag this one to drill later">Flag</button>
+      </div>
       <div class="qtext" id="qtext"></div>
       <div class="opts" id="opts"></div>
       <form class="typed" id="typedBox" hidden>
@@ -395,21 +409,66 @@
   function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
-  var DRILLS = ["all", "d1", "d2", "trouble"];
-  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", trouble: ", trouble spots only" };
+  var DRILLS = ["all", "d1", "d2", "flagged"];
+  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", flagged: ", flagged only" };
 
   function dayOf(q) { return q[5] || 1; }
+
+  /* ---- flags: his own list of questions to come back to.
+     Seeded once from the trouble list he sent, then it's his to edit. ---- */
+  var FLAGS = [];
+
+  function saveFlags() {
+    try { localStorage.setItem("territoryRunFlags", JSON.stringify(FLAGS)); } catch (e) {}
+  }
+
+  function loadFlags(seed) {
+    var raw = null;
+    try { raw = localStorage.getItem("territoryRunFlags"); } catch (e) {}
+    if (raw) {
+      try { FLAGS = JSON.parse(raw) || []; } catch (e) { FLAGS = []; }
+    } else {
+      FLAGS = (seed || []).slice();
+      saveFlags();
+    }
+  }
+
+  function isFlagged(q) { return q && FLAGS.indexOf(q[1]) > -1; }
+
+  function paintFlag() {
+    var on = deck.length && isFlagged(deck[i]);
+    var b = el("flagBtn");
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.textContent = on ? "Flagged" : "Flag";
+  }
+
+  function toggleFlag() {
+    if (!deck.length) return;
+    var q = deck[i], at = FLAGS.indexOf(q[1]);
+    if (at > -1) FLAGS.splice(at, 1); else FLAGS.push(q[1]);
+    saveFlags();
+    paintFlag();
+    updateCounts();
+  }
+
+  function updateCounts() {
+    el("nAll").textContent = Q.length;
+    el("nD1").textContent = Q.filter(function (q) { return dayOf(q) === 1; }).length;
+    el("nD2").textContent = Q.filter(function (q) { return dayOf(q) === 2; }).length;
+    el("nFlagged").textContent = FLAGS.length;
+    el("drillFlagged").disabled = !FLAGS.length;
+    if (!FLAGS.length && drill === "flagged") setDrill("all");
+    else el("qCount").textContent = pool().length;
+  }
 
   function pool() {
     if (drill === "d1") return Q.filter(function (q) { return dayOf(q) === 1; });
     if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
-    if (drill === "trouble" && TROUBLE.length) {
-      return Q.filter(function (q) { return TROUBLE.indexOf(q[1]) > -1; });
-    }
+    if (drill === "flagged") return Q.filter(isFlagged);
     return Q.slice();
   }
 
-  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", trouble: "drillTrouble" };
+  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", flagged: "drillFlagged" };
 
   function setDrill(d) {
     if (DRILLS.indexOf(d) < 0) d = "all";
@@ -576,8 +635,9 @@
     el("verdict").hidden = true;
     el("why").hidden = true;
     el("nextRow").hidden = true;
-    el("qtopic").textContent = q[0];
+    el("qtopic").textContent = (dayOf(q) === 2 ? "Day 2 · " : "Day 1 · ") + q[0];
     el("qtext").textContent = q[1];
+    paintFlag();
 
     el("overrideRow").hidden = true;
     var box = el("opts");
@@ -777,7 +837,8 @@
   el("drillAll").onclick = function () { setDrill("all"); };
   el("drillD1").onclick = function () { setDrill("d1"); };
   el("drillD2").onclick = function () { setDrill("d2"); };
-  el("drillTrouble").onclick = function () { setDrill("trouble"); };
+  el("drillFlagged").onclick = function () { setDrill("flagged"); };
+  el("flagBtn").onclick = toggleFlag;
 
   document.addEventListener("keydown", function (e) {
     if (el("playPanel").hidden) {
@@ -807,22 +868,22 @@
       Q = data.questions || [];
       TROUBLE = data.trouble || [];
 
-      // label each chip with its count, and hide any that have nothing behind them
-      var counts = {
-        all: Q.length,
-        d1: Q.filter(function (q) { return dayOf(q) === 1; }).length,
-        d2: Q.filter(function (q) { return dayOf(q) === 2; }).length,
-        trouble: TROUBLE.length
-      };
-      DRILLS.forEach(function (k) {
-        var btn = el(DRILL_BTN[k]);
-        btn.querySelector(".n").textContent = counts[k];
-        if (k !== "all" && !counts[k]) btn.hidden = true;
+      // his flag list, seeded once from the trouble questions he sent over
+      loadFlags(TROUBLE.filter(function (t) {
+        return Q.some(function (q) { return q[1] === t; });
+      }));
+
+      // hide a day chip if that day has no questions yet
+      ["d1", "d2"].forEach(function (k) {
+        var n = Q.filter(function (q) { return dayOf(q) === (k === "d1" ? 1 : 2); }).length;
+        if (!n) el(DRILL_BTN[k]).hidden = true;
       });
+      updateCounts();
 
       var savedDrill = null;
       try { savedDrill = localStorage.getItem("territoryRunDrill"); } catch (e) {}
-      setDrill(counts[savedDrill] ? savedDrill : "all");
+      setDrill(DRILLS.indexOf(savedDrill) > -1 ? savedDrill : "all");
+      if (!pool().length) setDrill("all");
 
       el("startBtn").disabled = false;
     })
