@@ -1,0 +1,11 @@
+{
+  "name": "dental-guide-tools",
+  "private": true,
+  "description": "Builds the printed Word study guides for the dental flash cards project",
+  "scripts": {
+    "guide": "node build-guide.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}
