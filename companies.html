@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who Owns What — Dental Companies</title>
+<meta name="description" content="A colour-coded map of who owns which dental brand, plus a matching game.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A6%B7%3C/text%3E%3C/svg%3E">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body, h1, h2, h3, p, ul, ol { margin: 0; }
+  ul, ol { padding: 0; list-style: none; }
+  button { font: inherit; }
+
+  :root {
+    --ground: #F1F4F2; --surface: #FFFFFF; --surface-2: #FAFCFB;
+    --ink: #131C1A; --ink-2: #5B6A66; --ink-3: #8A9793;
+    --line: #D6DFDB; --line-strong: #B9C6C1;
+    --accent: #0B6A5F; --accent-ink: #FFFFFF;
+    --good: #1C7A45; --bad: #A2435A;
+    --flag: #8A5716; --flag-soft: #F6EDE0;
+    --shadow: 0 1px 2px rgba(19,28,26,.06), 0 12px 28px -14px rgba(19,28,26,.28);
+    --font-display: ui-serif, "New York", "Iowan Old Style", Charter, Georgia, serif;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, monospace;
+
+    --f-dentsply: #2E6DA4; --f-envista: #7A4FA3; --f-align: #0E8C7F;
+    --f-straumann: #B5443C; --f-3m: #9C6B12; --f-planmeca: #4A6572;
+    --f-schein: #2F7D4F; --f-indie: #7E8C88;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #0D1312; --surface: #161F1D; --surface-2: #1B2523;
+      --ink: #E7EEEB; --ink-2: #94A39F; --ink-3: #6E7D79;
+      --line: #283330; --line-strong: #3A4744;
+      --accent: #5FCBB8; --accent-ink: #0A1614;
+      --good: #5FC98A; --bad: #DE8B9C;
+      --flag: #D2A45F; --flag-soft: #2C2418;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 30px -16px rgba(0,0,0,.7);
+      --f-dentsply: #5E9BD1; --f-envista: #A87ED0; --f-align: #3FBBA9;
+      --f-straumann: #D97B72; --f-3m: #C99A3E; --f-planmeca: #8AA3AF;
+      --f-schein: #5BB682; --f-indie: #9AAAA6;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0D1312; --surface: #161F1D; --surface-2: #1B2523;
+    --ink: #E7EEEB; --ink-2: #94A39F; --ink-3: #6E7D79;
+    --line: #283330; --line-strong: #3A4744;
+    --accent: #5FCBB8; --accent-ink: #0A1614;
+    --good: #5FC98A; --bad: #DE8B9C;
+    --flag: #D2A45F; --flag-soft: #2C2418;
+    --f-dentsply: #5E9BD1; --f-envista: #A87ED0; --f-align: #3FBBA9;
+    --f-straumann: #D97B72; --f-3m: #C99A3E; --f-planmeca: #8AA3AF;
+    --f-schein: #5BB682; --f-indie: #9AAAA6;
+  }
+  :root[data-theme="light"] {
+    --ground: #F1F4F2; --surface: #FFFFFF; --surface-2: #FAFCFB;
+    --ink: #131C1A; --ink-2: #5B6A66; --ink-3: #8A9793;
+    --line: #D6DFDB; --line-strong: #B9C6C1;
+    --accent: #0B6A5F; --accent-ink: #FFFFFF;
+    --good: #1C7A45; --bad: #A2435A;
+    --flag: #8A5716; --flag-soft: #F6EDE0;
+    --f-dentsply: #2E6DA4; --f-envista: #7A4FA3; --f-align: #0E8C7F;
+    --f-straumann: #B5443C; --f-3m: #9C6B12; --f-planmeca: #4A6572;
+    --f-schein: #2F7D4F; --f-indie: #7E8C88;
+  }
+
+  body { background: var(--ground); color: var(--ink); font-family: var(--font-body); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 60rem; margin: 0 auto; padding: clamp(1rem,4vw,2.25rem) clamp(1rem,4vw,2rem) 4rem; display: flex; flex-direction: column; gap: 1.4rem; }
+
+  .top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1rem; padding-bottom: .9rem; border-bottom: 1px solid var(--line); }
+  .top h1 { font-family: var(--font-display); font-size: clamp(1.5rem,4.2vw,2.1rem); font-weight: 600; letter-spacing: -.015em; }
+  .top a { font-size: .8rem; color: var(--ink-2); text-decoration: none; border-bottom: 1px solid var(--line-strong); padding-bottom: 1px; }
+  .top a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+  h2.sec { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-top: 1.2rem; padding-bottom: .5rem; border-bottom: 1px solid var(--line); }
+  .sub { font-size: .92rem; color: var(--ink-2); max-width: 60ch; }
+  .sub b { color: var(--ink); }
+
+  /* ---------- plain-english opener ---------- */
+  .plain { background: var(--surface); border: 1px solid var(--line); border-radius: 5px; box-shadow: var(--shadow); padding: 1.2rem 1.35rem; display: flex; flex-direction: column; gap: .7rem; }
+  .plain p { font-size: 1rem; line-height: 1.6; max-width: 62ch; }
+  .plain b { font-weight: 600; }
+  .plain .big { font-family: var(--font-display); font-size: 1.2rem; line-height: 1.4; }
+
+  /* ---------- badges ---------- */
+  .badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 3.1rem; height: 3.1rem; border-radius: 12px; flex: 0 0 auto;
+    background: var(--fc); color: #fff;
+    font-family: var(--font-mono); font-weight: 700; font-size: 1rem; letter-spacing: .02em;
+    box-shadow: 0 2px 0 rgba(0,0,0,.12);
+  }
+  .badge.sm { width: 2.2rem; height: 2.2rem; border-radius: 9px; font-size: .74rem; }
+
+  /* ---------- ownership tree ---------- */
+  .tree { display: flex; flex-direction: column; gap: .9rem; }
+  .node {
+    background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--fc);
+    border-radius: 5px; box-shadow: var(--shadow); padding: 1rem 1.15rem;
+    display: grid; grid-template-columns: auto 1fr; gap: .1rem 1rem; align-items: center;
+  }
+  .node .head { display: flex; align-items: center; gap: .75rem; }
+  .node .nm { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; line-height: 1.2; }
+  .node .nm small { display: block; font-family: var(--font-mono); font-size: .6rem; letter-spacing: .1em; text-transform: uppercase; color: var(--fc); font-weight: 700; margin-top: .15rem; }
+  .node .owns { grid-column: 1 / -1; display: flex; align-items: flex-start; gap: .6rem; margin-top: .8rem; padding-top: .8rem; border-top: 1px dashed var(--line-strong); }
+  .node .arrow { font-family: var(--font-mono); font-size: .62rem; letter-spacing: .1em; text-transform: uppercase; color: var(--fc); font-weight: 700; white-space: nowrap; padding-top: .35rem; }
+  .kids { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .kid {
+    font-size: .82rem; padding: .3rem .65rem; border-radius: 999px; white-space: nowrap;
+    border: 1.5px solid var(--fc); color: var(--fc); background: transparent; font-weight: 500;
+  }
+  .kid.star { background: var(--fc); color: #fff; }
+  .node .why { grid-column: 1 / -1; font-size: .88rem; color: var(--ink-2); line-height: 1.5; margin-top: .7rem; }
+  .node .why b { color: var(--ink); }
+  @media (max-width: 32rem) {
+    .node .owns { flex-direction: column; gap: .4rem; }
+    .node .arrow { padding-top: 0; }
+  }
+
+  /* ---------- matching game ---------- */
+  .game { background: var(--surface); border: 1px solid var(--line); border-radius: 5px; box-shadow: var(--shadow); padding: 1.2rem 1.35rem; display: flex; flex-direction: column; gap: 1rem; }
+  .gtop { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+  .gtop .sc { color: var(--ink); font-size: .95rem; }
+  .ask { font-family: var(--font-display); font-size: clamp(1.15rem,3.4vw,1.5rem); line-height: 1.3; }
+  .ask .brandname { font-weight: 700; }
+  .picks { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: .55rem; }
+  .pick {
+    display: flex; align-items: center; gap: .6rem; cursor: pointer; text-align: left;
+    padding: .6rem .7rem; border-radius: 5px; border: 1.5px solid var(--line-strong);
+    background: var(--surface-2); color: var(--ink); transition: border-color .12s, background .12s;
+  }
+  .pick:hover:not(:disabled) { border-color: var(--fc); }
+  .pick:disabled { cursor: default; }
+  .pick .pn { font-size: .88rem; font-weight: 600; line-height: 1.2; }
+  .pick.right { border-color: var(--good); background: color-mix(in srgb, var(--good) 12%, transparent); }
+  .pick.wrong { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 12%, transparent); }
+  .pick.fade { opacity: .4; }
+  .verdict { font-size: .92rem; line-height: 1.5; border-left: 3px solid var(--line-strong); padding-left: .8rem; color: var(--ink-2); }
+  .verdict.hit { border-left-color: var(--good); }
+  .verdict.miss { border-left-color: var(--bad); }
+  .verdict b { color: var(--ink); }
+  .btn { padding: .7rem 1.3rem; border-radius: 4px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; font-size: .93rem; }
+  .btn:hover { filter: brightness(1.08); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+  :where(button):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  /* ---------- traps ---------- */
+  .traps { background: var(--flag-soft); border: 1px solid color-mix(in srgb, var(--flag) 32%, transparent); border-radius: 5px; padding: 1.15rem 1.3rem; display: flex; flex-direction: column; gap: .7rem; }
+  .traps h3 { font-family: var(--font-mono); font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--flag); }
+  .traps li { font-size: .92rem; line-height: 1.55; padding-left: 1.4rem; position: relative; }
+  .traps li + li { margin-top: .5rem; }
+  .traps li::before { content: "!"; position: absolute; left: 0; top: 0; width: 1rem; height: 1rem; border-radius: 50%; background: var(--flag); color: var(--flag-soft); font-family: var(--font-mono); font-size: .7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: .22rem; }
+  .traps b { font-weight: 700; }
+
+  .foot { font-size: .8rem; color: var(--ink-3); border-top: 1px solid var(--line); padding-top: 1rem; }
+  .foot a { color: var(--accent); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <h1>Who Owns What</h1>
+    <a href="./">&larr; Back to flash cards</a>
+  </header>
+
+  <div class="plain">
+    <p class="big">There are only <b>two kinds of company</b> in this whole industry. Once you see that, the names stop being a jumble.</p>
+    <p><b>1. The movers.</b> Three companies deliver almost everything a dental office orders &mdash; Henry Schein, Patterson, Benco. They're the trucks. They mostly don't make anything.</p>
+    <p><b>2. The makers.</b> A handful of big parent companies actually build the products. Each one owns a bunch of smaller brand names.</p>
+    <p>Here's the part that trips everyone up: <b>the brand name on the box is usually not the company that owns it.</b> Nobel Biocare is a brand. Envista owns it. CEREC is a brand. Dentsply Sirona owns it.</p>
+    <p>So: <b>every parent below has its own colour.</b> Every brand it owns is that same colour. Learn seven colours instead of forty names.</p>
+  </div>
+
+  <h2 class="sec">The families &mdash; who owns whom</h2>
+  <p class="sub">Filled-in chips are the names you'll actually hear on a sales call.</p>
+  <div class="tree" id="tree"></div>
+
+  <h2 class="sec">Match the brand to its owner</h2>
+  <p class="sub">Same colours, no hints. Get through all of them without a miss.</p>
+  <div class="game" id="game">
+    <div class="gtop">
+      <span id="prog">&mdash;</span>
+      <span class="sc"><span id="score">0</span> right<span id="streakBit"></span></span>
+    </div>
+    <div class="ask" id="ask">&mdash;</div>
+    <div class="picks" id="picks"></div>
+    <div class="verdict" id="verdict" hidden></div>
+    <div><button class="btn" id="nextBtn" hidden>Next</button></div>
+    <div id="doneRow" hidden>
+      <div class="verdict hit" style="margin-bottom:.8rem" id="doneMsg"></div>
+      <button class="btn" id="againBtn">Go again</button>
+    </div>
+  </div>
+
+  <h2 class="sec">The five that catch people out</h2>
+  <div class="traps">
+    <h3>Get these right and you've got the whole thing</h3>
+    <ul>
+      <li><b>Envista, not Danaher.</b> Nobel Biocare, Ormco and KaVo Kerr <i>used</i> to be Danaher. Envista split off and took them. Your notes have them under both &mdash; only Envista is right now.</li>
+      <li><b>Henry Schein is on both sides.</b> It's the #1 delivery company, but it also owns two implant makers, BioHorizons and Camlog. It's the one name that's a mover <i>and</i> a maker.</li>
+      <li><b>Align owns the scanner and the aligner.</b> iTero and Invisalign are the same company. That's the whole reason they work together &mdash; and the whole reason a rep pushes iTero.</li>
+      <li><b>Dentsply Sirona pulls the same move.</b> Primescan is their scanner, CEREC is their mill, and the scanner feeds the mill. Same play as Align, different aisle.</li>
+      <li><b>Straumann deliberately sells at every price.</b> Straumann = expensive implants. Neodent = cheap implants. ClearCorrect = aligners. Same parent. If a dentist says "too pricey," they already own the cheaper answer.</li>
+    </ul>
+  </div>
+
+  <p class="foot">All of this is quizzed in <a href="game.html">Territory Run</a> under Distribution and Who owns what. Built from the Day 1 and Day 2 notes.</p>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var FAMS = [
+    { key: "schein", mono: "HS", name: "Henry Schein", tag: "the #1 mover — and a maker",
+      owns: [["BioHorizons", 1], ["Camlog", 1], ["private label brands", 0]],
+      why: "Delivers roughly <b>40% of everything</b> — about as much as Patterson and Benco combined. Then it also quietly owns two implant companies." },
+
+    { key: "dentsply", mono: "DS", name: "Dentsply Sirona", tag: "the everything company",
+      owns: [["CEREC", 1], ["Primescan", 1], ["Astra Tech", 1], ["Ankylos", 0], ["Schick", 1], ["Maillefer", 0], ["SureSmile", 0], ["Prime & Bond", 0], ["Aquasil", 0], ["Caulk", 0], ["TP Orthodontics", 0]],
+      why: "The <b>biggest pure dental company</b> there is. Implants, crown mills, x-ray sensors, fillings, root canal files, aligners. If you can't place a brand, guess this one." },
+
+    { key: "envista", mono: "EN", name: "Envista", tag: "the one people get wrong",
+      owns: [["Nobel Biocare", 1], ["Ormco", 1], ["KaVo Kerr", 1], ["Dexis", 0], ["Spark", 0]],
+      why: "Three heavy hitters under one roof: <b>Nobel</b> makes implants, <b>Ormco</b> makes braces, <b>KaVo Kerr</b> makes drills and imaging. Used to be Danaher — that's the trap." },
+
+    { key: "align", mono: "AL", name: "Align Technology", tag: "only three brands, huge",
+      owns: [["Invisalign", 1], ["iTero", 1], ["exocad", 0]],
+      why: "Owns <b>about 90% of the clear aligner market</b> with one product. And it owns the scanner that feeds it, which is why every Invisalign office has an iTero." },
+
+    { key: "straumann", mono: "ST", name: "Straumann Group", tag: "#1 in implants",
+      owns: [["Straumann", 1], ["Neodent", 1], ["ClearCorrect", 1], ["CARES", 0]],
+      why: "<b>Straumann implants are about 20% of the implant market — number one.</b> Neodent is their own budget version, so they can win the cheap deal too." },
+
+    { key: "3m", mono: "3M", name: "3M Health Care", tag: "the materials guy",
+      owns: [["Filtek", 1], ["Scotchbond", 0], ["RelyX", 0], ["Unitek", 0]],
+      why: "The <b>goo and glue</b> family — filling material, bonding agents, cements — plus Unitek braces. Part of the giant 3M that makes Post-its." },
+
+    { key: "planmeca", mono: "PL", name: "Planmeca", tag: "Finnish, family-owned",
+      owns: [["Planmeca imaging", 1], ["PlanMill", 0]],
+      why: "<b>X-ray machines and crown mills.</b> Still owned by a family, not shareholders — so they take a longer view than the public companies." },
+
+    { key: "indie", mono: "—", name: "The big independents", tag: "nobody owns them",
+      owns: [["A-dec", 1], ["Geistlich", 1], ["3Shape / TRIOS", 1], ["Zimmer Biomet", 0], ["Carestream", 0], ["Medit", 0], ["Biolase", 0], ["Midmark", 0], ["NSK", 0], ["W&H", 0], ["Vatech", 0]],
+      why: "Worth knowing these stand alone. <b>A-dec</b> makes the premium chair, <b>Geistlich</b> owns bone grafting (Bio-Oss, Bio-Gide), <b>3Shape</b> is iTero's main rival." }
+  ];
+
+  var el = function (id) { return document.getElementById(id); };
+
+  /* ---------- render the tree ---------- */
+  el("tree").innerHTML = FAMS.map(function (f) {
+    return '<div class="node" style="--fc:var(--f-' + f.key + ')">'
+      + '<div class="head"><span class="badge">' + f.mono + "</span>"
+      + '<span class="nm">' + f.name + "<small>" + f.tag + "</small></span></div>"
+      + '<div class="owns"><span class="arrow">owns ↓</span><div class="kids">'
+      + f.owns.map(function (o) { return '<span class="kid' + (o[1] ? " star" : "") + '">' + o[0] + "</span>"; }).join("")
+      + "</div></div>"
+      + '<div class="why">' + f.why + "</div>"
+      + "</div>";
+  }).join("");
+
+  /* ---------- matching game ---------- */
+  // only the brands worth being able to place, and only real parents (not the independents bucket)
+  var PAIRS = [];
+  FAMS.forEach(function (f) {
+    if (f.key === "indie") return;
+    f.owns.forEach(function (o) {
+      if (o[1]) PAIRS.push({ brand: o[0], key: f.key, parent: f.name });
+    });
+  });
+
+  var REAL = FAMS.filter(function (f) { return f.key !== "indie"; });
+  var deck = [], i = 0, score = 0, streak = 0, best = 0, locked = false;
+
+  function shuffle(a) {
+    for (var j = a.length - 1; j > 0; j--) { var k = Math.floor(Math.random() * (j + 1)), t = a[j]; a[j] = a[k]; a[k] = t; }
+    return a;
+  }
+
+  function famOf(key) { return REAL.filter(function (f) { return f.key === key; })[0]; }
+
+  function start() {
+    deck = shuffle(PAIRS.slice());
+    i = 0; score = 0; streak = 0; best = 0;
+    el("doneRow").hidden = true;
+    el("picks").hidden = false;
+    el("ask").hidden = false;
+    draw();
+  }
+
+  function draw() {
+    locked = false;
+    el("verdict").hidden = true;
+    el("nextBtn").hidden = true;
+    var q = deck[i];
+    el("prog").textContent = "Brand " + (i + 1) + " of " + deck.length;
+    el("score").textContent = score;
+    el("streakBit").textContent = streak >= 3 ? "  ·  " + streak + " in a row" : "";
+    el("ask").innerHTML = 'Who owns <span class="brandname">' + q.brand + "</span>?";
+
+    // the right answer plus three other real parents
+    var others = shuffle(REAL.filter(function (f) { return f.key !== q.key; })).slice(0, 3);
+    var opts = shuffle([famOf(q.key)].concat(others));
+
+    el("picks").innerHTML = opts.map(function (f) {
+      return '<button class="pick" type="button" data-k="' + f.key + '" style="--fc:var(--f-' + f.key + ')">'
+        + '<span class="badge sm">' + f.mono + "</span><span class=\"pn\">" + f.name + "</span></button>";
+    }).join("");
+
+    Array.prototype.forEach.call(el("picks").children, function (b) {
+      b.onclick = function () { answer(b, b.getAttribute("data-k")); };
+    });
+  }
+
+  function answer(btn, key) {
+    if (locked) return;
+    locked = true;
+    var q = deck[i], hit = key === q.key;
+
+    Array.prototype.forEach.call(el("picks").children, function (b) {
+      b.disabled = true;
+      var k = b.getAttribute("data-k");
+      if (k === q.key) b.classList.add("right");
+      else if (b === btn) b.classList.add("wrong");
+      else b.classList.add("fade");
+    });
+
+    var v = el("verdict");
+    v.hidden = false;
+    if (hit) {
+      score++; streak++; if (streak > best) best = streak;
+      v.className = "verdict hit";
+      v.innerHTML = "<b>Yes.</b> " + q.brand + " is " + q.parent + ".";
+    } else {
+      streak = 0;
+      v.className = "verdict miss";
+      v.innerHTML = "<b>" + q.brand + " is " + q.parent + "</b> — look for the colour.";
+    }
+    el("score").textContent = score;
+    el("nextBtn").hidden = false;
+    el("nextBtn").textContent = (i + 1 >= deck.length) ? "See how you did" : "Next";
+    el("nextBtn").focus();
+  }
+
+  el("nextBtn").onclick = function () {
+    i++;
+    if (i >= deck.length) return finish();
+    draw();
+  };
+
+  function finish() {
+    el("picks").hidden = true;
+    el("ask").hidden = true;
+    el("verdict").hidden = true;
+    el("nextBtn").hidden = true;
+    el("doneRow").hidden = false;
+    el("prog").textContent = "Done";
+    var msg = score === deck.length
+      ? "<b>" + score + " out of " + deck.length + ".</b> Perfect — you know the families."
+      : "<b>" + score + " out of " + deck.length + ".</b> Best streak " + best + ". Scroll up, look at the colours again, then go again.";
+    el("doneMsg").innerHTML = msg;
+  }
+
+  el("againBtn").onclick = start;
+  start();
+})();
+</script>
+</body>
+</html>
