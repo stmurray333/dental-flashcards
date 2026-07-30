@@ -294,7 +294,10 @@
 
   <header class="top">
     <h1>Territory Run</h1>
-    <a href="./">&larr; Back to flash cards</a>
+    <span style="display:flex;gap:1rem;flex-wrap:wrap">
+      <a href="companies.html">Who owns what</a>
+      <a href="./">&larr; Back to flash cards</a>
+    </span>
   </header>
 
   <!-- START -->
@@ -323,6 +326,7 @@
       <button class="chip" type="button" id="drillAll" aria-pressed="true">Everything <span class="n" id="nAll"></span></button>
       <button class="chip" type="button" id="drillD1" aria-pressed="false">Day 1 <span class="n" id="nD1"></span></button>
       <button class="chip" type="button" id="drillD2" aria-pressed="false">Day 2 <span class="n" id="nD2"></span></button>
+      <button class="chip" type="button" id="drillCompanies" aria-pressed="false">Companies <span class="n" id="nCompanies"></span></button>
       <button class="chip" type="button" id="drillFlagged" aria-pressed="false">Flagged <span class="n" id="nFlagged"></span></button>
     </div>
     <div class="row">
@@ -409,8 +413,10 @@
   function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
-  var DRILLS = ["all", "d1", "d2", "flagged"];
-  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", flagged: ", flagged only" };
+  var DRILLS = ["all", "d1", "d2", "companies", "flagged"];
+  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only",
+                      companies: ", companies only", flagged: ", flagged only" };
+  var COMPANIES = [];
 
   function dayOf(q) { return q[5] || 1; }
 
@@ -455,6 +461,8 @@
     el("nAll").textContent = Q.length;
     el("nD1").textContent = Q.filter(function (q) { return dayOf(q) === 1; }).length;
     el("nD2").textContent = Q.filter(function (q) { return dayOf(q) === 2; }).length;
+    el("nCompanies").textContent = COMPANIES.length;
+    el("drillCompanies").hidden = !COMPANIES.length;
     el("nFlagged").textContent = FLAGS.length;
     el("drillFlagged").disabled = !FLAGS.length;
     if (!FLAGS.length && drill === "flagged") setDrill("all");
@@ -464,11 +472,13 @@
   function pool() {
     if (drill === "d1") return Q.filter(function (q) { return dayOf(q) === 1; });
     if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
+    if (drill === "companies") return Q.filter(function (q) { return COMPANIES.indexOf(q[1]) > -1; });
     if (drill === "flagged") return Q.filter(isFlagged);
     return Q.slice();
   }
 
-  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", flagged: "drillFlagged" };
+  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2",
+                    companies: "drillCompanies", flagged: "drillFlagged" };
 
   function setDrill(d) {
     if (DRILLS.indexOf(d) < 0) d = "all";
@@ -837,6 +847,7 @@
   el("drillAll").onclick = function () { setDrill("all"); };
   el("drillD1").onclick = function () { setDrill("d1"); };
   el("drillD2").onclick = function () { setDrill("d2"); };
+  el("drillCompanies").onclick = function () { setDrill("companies"); };
   el("drillFlagged").onclick = function () { setDrill("flagged"); };
   el("flagBtn").onclick = toggleFlag;
 
@@ -867,6 +878,7 @@
     .then(function (data) {
       Q = data.questions || [];
       TROUBLE = data.trouble || [];
+      COMPANIES = data.companies || [];
 
       // his flag list, seeded once from the trouble questions he sent over
       loadFlags(TROUBLE.filter(function (t) {
