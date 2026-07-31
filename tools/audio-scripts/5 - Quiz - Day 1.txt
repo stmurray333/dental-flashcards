@@ -1,0 +1,315 @@
+Quiz. Day 1. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. Largest dental distributor in the world?
+[[slnc 3500]]
+Henry Schein. [[slnc 400]] Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together.
+[[slnc 900]]
+Question 2. Roughly what share of the market does Henry Schein hold?
+[[slnc 3500]]
+About 40 percent. [[slnc 400]] Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein.
+[[slnc 900]]
+Question 3. Who is number 2 in dental distribution?
+[[slnc 3500]]
+Patterson. [[slnc 400]] Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you.
+[[slnc 900]]
+Question 4. Who is number 3 in dental distribution?
+[[slnc 3500]]
+Benco. [[slnc 400]] Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as "Banko."
+[[slnc 900]]
+Question 5. The distributor is the ___ of a dental office.
+[[slnc 3500]]
+Quarterback. [[slnc 400]] A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you.
+[[slnc 900]]
+Question 6. How are dental distributor reps mostly employed?
+[[slnc 3500]]
+95 percent W 2. [[slnc 400]] W 2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you.
+[[slnc 900]]
+Question 7. Roughly how many dentist products are out there?
+[[slnc 3500]]
+About 300,000. [[slnc 400]] Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog.
+[[slnc 900]]
+Question 8. Which two companies sell dental equipment and technology?
+[[slnc 3500]]
+A-dec and Planmeca. [[slnc 400]] A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade.
+[[slnc 900]]
+Question 9. Newest way to take x-rays?
+[[slnc 3500]]
+Intraoral scanner. [[slnc 400]] The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors.
+[[slnc 900]]
+Question 10. Which implant companies does Henry Schein own?
+[[slnc 3500]]
+BioHorizons and Camlog. [[slnc 400]] Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time.
+[[slnc 900]]
+Question 11. Who are the largest dental manufacturers?
+[[slnc 3500]]
+Envista, Dentsply Sirona, Straumann. [[slnc 400]] Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up.
+[[slnc 900]]
+Question 12. Roughly how many dentists are there in the world?
+[[slnc 3500]]
+About 200,000. [[slnc 400]] 200,000 worldwide is a small, closed profession. Reputations travel - which is why burning one office actually costs you.
+[[slnc 900]]
+Question 13. Dental insurance is really more of a:
+[[slnc 3500]]
+Discount program. [[slnc 400]] It's a discount program with an annual cap, usually around,,000 to 2,000 dollars. Patients blow through that fast, and everything after is cash out of pocket.
+[[slnc 900]]
+Question 14. How does Medicaid work in dental?
+[[slnc 3500]]
+It doesn't - there's no dental equivalent. [[slnc 400]] The medical safety net just doesn't extend here. No equivalent program means the patient pays or the work doesn't happen.
+[[slnc 900]]
+Question 15. Which of these is normally out of pocket?
+[[slnc 3500]]
+Dentures, crowns and veneers. [[slnc 400]] Dentures, crowns and veneers are the high-ticket items insurance barely touches. That's where the case-acceptance conversation lives.
+[[slnc 900]]
+Question 16. Why does a dentist treat every purchase as personal money?
+[[slnc 3500]]
+They make what they charge their patients. [[slnc 400]] The dentist usually owns the practice. Surgeons and physicians draw a salary; a dentist takes home what's left. Every box you sell comes out of their own pocket - price it like you know that.
+[[slnc 900]]
+Question 17. What does DMD after a name tell you?
+[[slnc 3500]]
+General practitioner. [[slnc 400]] DMD or DDS both mean general dentist - the degrees are equivalent. Specialists carry an additional title on top.
+[[slnc 900]]
+Question 18. Biggest clear aligner company in the game?
+[[slnc 3500]]
+Invisalign. [[slnc 400]] Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning.
+[[slnc 900]]
+Question 19. Which one is NOT a dental specialist?
+[[slnc 3500]]
+Cardiologist. [[slnc 400]] The dental specialties: perio (gums), endo (root canals), pedo (kids), ortho (straightening), oral surgery. Cardiology is not on the list.
+[[slnc 900]]
+Question 20. What are the Big 4 procedure categories?
+[[slnc 3500]]
+Implants, preventives, restoratives, endodontics. [[slnc 400]] Implants, preventives, restoratives, endodontics. Learn these as buckets - almost every product you sell drops into one of them.
+[[slnc 900]]
+Question 21. Incisors do what?
+[[slnc 3500]]
+Cut. [[slnc 400]] Front to back, food gets broken down in stages: cut, tear, crush, grind. Incisors are the front blades that start it.
+[[slnc 900]]
+Question 22. Canines do what?
+[[slnc 3500]]
+Tear. [[slnc 400]] Canines are the pointed ones - think of a dog's fang. Made for tearing, and they have the longest roots in the mouth.
+[[slnc 900]]
+Question 23. Premolars do what?
+[[slnc 3500]]
+Crush. [[slnc 400]] Premolars sit between the tearers and the grinders, and they do the in-between job: crushing.
+[[slnc 900]]
+Question 24. Molars do what?
+[[slnc 3500]]
+Grind. [[slnc 400]] Molars are the flat millstones at the back. Cut, tear, crush, grind - grinding is the last step before you swallow.
+[[slnc 900]]
+Question 25. The maxilla is the:
+[[slnc 3500]]
+Upper jaw. [[slnc 400]] MAXilla = MAX, at the top. It's fixed to the skull and doesn't move.
+[[slnc 900]]
+Question 26. The mandible is the:
+[[slnc 3500]]
+Lower jaw. [[slnc 400]] The mandible is the one that actually moves - your lower jaw is the only bone in your skull with a real joint.
+[[slnc 900]]
+Question 27. Gingiva is another word for:
+[[slnc 3500]]
+Gums. [[slnc 400]] Gingiva is gums - same root as gingivitis, which is literally inflamed gums.
+[[slnc 900]]
+Question 28. What sits right next to the maxilla?
+[[slnc 3500]]
+The sinus. [[slnc 400]] The sinus sits directly above the upper back teeth. That's why upper implants sometimes need a sinus lift first - there isn't enough bone between.
+[[slnc 900]]
+Question 29. What does the mandible contain?
+[[slnc 3500]]
+An important nerve. [[slnc 400]] The inferior alveolar nerve runs through the lower jaw. Hit it and the patient loses feeling in their lip - which is why lower implants get scanned and planned so carefully.
+[[slnc 900]]
+Question 30. What is the alveolar bone's one job?
+[[slnc 3500]]
+Holds the tooth - and shrinks if it's lost. [[slnc 400]] It holds the tooth, and it shrinks once the tooth is gone because nothing is stimulating it anymore. That shrinkage is the entire reason bone grafts get sold alongside implants.
+[[slnc 900]]
+Question 31. Order it from the jaw out to the tooth:
+[[slnc 3500]]
+Jaw bone, alveolar bone, gums, teeth. [[slnc 400]] Work outward from the deepest structure to the one you can see: jaw bone, alveolar bone, gums, teeth.
+[[slnc 900]]
+Question 32. Are teeth bone, and do they grow back?
+[[slnc 3500]]
+Neither - and enamel can't rebuild. [[slnc 400]] Bone has a blood supply and heals; enamel has neither, so damage is permanent. That one fact is why the entire preventive category - fluoride, sealants, restoratives - exists.
+[[slnc 900]]
+Question 33. Cavities - what does the dentist buy?
+[[slnc 3500]]
+Composite filling, bonding agents, fluoride, sealants. [[slnc 400]] Match the product to the problem. Cavities are a restore-and-prevent job: fill what's decayed, then seal and strengthen what isn't.
+[[slnc 900]]
+Question 34. Periodontal disease - what does the dentist buy?
+[[slnc 3500]]
+Scalers, lasers, bone grafts, antimicrobials. [[slnc 400]] Perio is a gum and bone problem, so the tools clean below the gumline and rebuild what was lost - scalers, lasers, grafts, antimicrobials.
+[[slnc 900]]
+Question 35. Crooked teeth - what does the dentist buy?
+[[slnc 3500]]
+Braces, clear aligners, tads. [[slnc 400]] Straightening runs cheapest to most invasive: braces, aligners, tads for tough cases, and surgery only when the jaw itself is off.
+[[slnc 900]]
+Question 36. Losing teeth - what does the dentist buy?
+[[slnc 3500]]
+Implants, bone grafts, dentures. [[slnc 400]] Replacing teeth means replacing the foundation too - which is why grafts sell next to implants. Remember the alveolar bone shrinks once the tooth is gone.
+[[slnc 900]]
+Question 37. What does tad stand for?
+[[slnc 3500]]
+Temporary anchoring device. [[slnc 400]] A temporary anchoring device is a mini screw placed as a fixed anchor point to pull teeth against. Temporary - it comes out when the move is done.
+[[slnc 900]]
+Question 38. Odds the dentist is actually available when you walk in?
+[[slnc 3500]]
+About 30 percent. [[slnc 400]] Roughly two out of three stops won't get you face time. Plan the route expecting that, and treat the staff as the real relationship.
+[[slnc 900]]
+Question 39. How many touches before you get consistent calls?
+[[slnc 3500]]
+6 to 8. [[slnc 400]] 6 to 8. Most reps quit around three and conclude the office isn't interested - the ones who keep going get the calls.
+[[slnc 900]]
+Question 40. Dentists are very ___ driven.
+[[slnc 3500]]
+Promo and sell. [[slnc 400]] They respond to promos and deals. Lead with what's actually on offer, not a general check-in.
+[[slnc 900]]
+Question 41. What keeps a dentist calling you back?
+[[slnc 3500]]
+Consistency, follow up, doing what you said. [[slnc 400]] Consistency, follow up, and doing what you said you'd do. Cheapest price wins one order; being reliable wins the account.
+[[slnc 900]]
+Question 42. How many incisors are there?
+[[slnc 3500]]
+8 (4 upper, 4 lower). [[slnc 400]] Central and lateral incisors, top and bottom. Single root, thin edge, built for cutting.
+[[slnc 900]]
+Question 43. How many canines are there?
+[[slnc 3500]]
+4. [[slnc 400]] One at each corner of the arch. Also called cuspids or eye teeth.
+[[slnc 900]]
+Question 44. How many premolars are there?
+[[slnc 3500]]
+8. [[slnc 400]] Also called bicuspids. Bi-cuspid = two cusps, which is literally where the name comes from.
+[[slnc 900]]
+Question 45. How many molars, wisdom teeth included?
+[[slnc 3500]]
+12. [[slnc 400]] Drops to 8 once the wisdom teeth come out - which is most people.
+[[slnc 900]]
+Question 46. Which teeth have the longest roots in the mouth?
+[[slnc 3500]]
+Canines. [[slnc 400]] Longest roots means most stable, which is why canines are the last teeth to be lost.
+[[slnc 900]]
+Question 47. What does "bicuspid" tell you about a premolar?
+[[slnc 3500]]
+It has two cusps. [[slnc 400]] Bi = two, cuspid = cusp. The name describes the chewing surface.
+[[slnc 900]]
+Question 48. How many cusps does a molar have?
+[[slnc 3500]]
+3 to 5. [[slnc 400]] Largest teeth in the mouth, 2 to 3 roots, and the most complex anatomy to work on.
+[[slnc 900]]
+Question 49. When do the first molars erupt?
+[[slnc 3500]]
+Around age 6. [[slnc 400]] They're literally called the 6-year molars. First adult teeth in, and often the first to decay.
+[[slnc 900]]
+Question 50. In the team analogy, what are the canines?
+[[slnc 3500]]
+The anchors - stability and guidance. [[slnc 400]] Incisors are the forwards (visible, aesthetic), premolars the midfielders (transition), molars the power players (heavy lifting).
+[[slnc 900]]
+Question 51. Which jaw has the densest bone?
+[[slnc 3500]]
+The mandible. [[slnc 400]] Densest at the front of the lower jaw. That density is why it's the best implant location.
+[[slnc 900]]
+Question 52. Where do teeth move faster in orthodontics?
+[[slnc 3500]]
+The upper jaw - thinner bone. [[slnc 400]] Thinner maxillary bone moves faster; the dense mandible is slower. Same reason implants behave differently up top.
+[[slnc 900]]
+Question 53. Why do upper back implants often need a sinus lift?
+[[slnc 3500]]
+The maxillary sinus leaves too little bone. [[slnc 400]] Sinus sits right above the upper back teeth. Not enough bone between them means grafting first - which is a sale.
+[[slnc 900]]
+Question 54. Where is the mental foramen?
+[[slnc 3500]]
+Between the premolars in the lower jaw. [[slnc 400]] It's where the nerve exits the mandible. Knowing it's there is why imaging gets sold with lower implants.
+[[slnc 900]]
+Question 55. What do healthy gums look like?
+[[slnc 3500]]
+Pink, stippled, no bleeding. [[slnc 400]] Stippled means a faint orange-peel texture. Diseased gums are red, swollen and bleed easily.
+[[slnc 900]]
+Question 56. What happens to alveolar bone when a tooth is lost?
+[[slnc 3500]]
+It resorbs. [[slnc 400]] Use it or lose it - nothing is stimulating the bone anymore. This is the single most useful fact in implant selling.
+[[slnc 900]]
+Question 57. How much bone can be lost in the first 3 years after tooth loss?
+[[slnc 3500]]
+40 to 60 percent. [[slnc 400]] That speed is why immediate placement and ridge preservation grafts matter - wait and there's nothing to place into.
+[[slnc 900]]
+Question 58. What causes a cavity?
+[[slnc 3500]]
+Strep mutans plus sugar makes acid. [[slnc 400]] Bacteria plus sugar makes acid, acid demineralizes enamel. That's the whole disease process.
+[[slnc 900]]
+Question 59. How does decay progress?
+[[slnc 3500]]
+White spot, enamel, dentin, pulp. [[slnc 400]] Caught at the white spot it's preventive. Reaching the pulp means a root canal - and a very different product list.
+[[slnc 900]]
+Question 60. Class I caries are found where?
+[[slnc 3500]]
+Pits and fissures on chewing surfaces. [[slnc 400]] Class I is the classic sealant target - the grooves on top of molars.
+[[slnc 900]]
+Question 61. Class V caries are found where?
+[[slnc 3500]]
+At the gumline. [[slnc 400]] Class II is between back teeth, Class III between front teeth, Class IV a front corner or edge, Class VI cusp tips.
+[[slnc 900]]
+Question 62. What are healthy pocket depths?
+[[slnc 3500]]
+1 to 3mm, no bleeding. [[slnc 400]] The probe number is the whole diagnosis. 4mm+ with bone loss is periodontitis.
+[[slnc 900]]
+Question 63. What separates gingivitis from periodontitis?
+[[slnc 3500]]
+Bone loss. [[slnc 400]] Gingivitis is gums only and reversible. Once bone is lost it's periodontitis, and that doesn't reverse.
+[[slnc 900]]
+Question 64. Periodontitis starts at what pocket depth?
+[[slnc 3500]]
+4mm and above. [[slnc 400]] 4mm+ plus bone loss on the x-ray. Chronic is slow, aggressive is rapid.
+[[slnc 900]]
+Question 65. Angle's Class II is:
+[[slnc 3500]]
+Lower jaw too far back - overbite. [[slnc 400]] The buck-teeth look. Division 1 has the front teeth sticking out, Division 2 has them tipped back.
+[[slnc 900]]
+Question 66. Angle's Class III is:
+[[slnc 3500]]
+Lower jaw too far forward - underbite. [[slnc 400]] Hardest of the three to treat, and the one most likely to need orthognathic surgery.
+[[slnc 900]]
+Question 67. Which malocclusion class is most common?
+[[slnc 3500]]
+Class I. [[slnc 400]] Normal molar relationship, but with crowding or spacing. Most aligner cases live here.
+[[slnc 900]]
+Question 68. What are the options for complete edentulism?
+[[slnc 3500]]
+Complete dentures, implant-supported dentures, All-on-4. [[slnc 400]] Partial edentulism gets bridges, partials or implants - and is sorted by Kennedy Classification I-IV.
+[[slnc 900]]
+Question 69. What happens to someone after losing teeth?
+[[slnc 3500]]
+Bone resorption, bite collapse, facial aging. [[slnc 400]] The face structurally changes as bone disappears. It's a functional problem, not a cosmetic one.
+[[slnc 900]]
+Question 70. Why do incisors matter commercially?
+[[slnc 3500]]
+Most visible - shade matching, bonding, veneers. [[slnc 400]] Aesthetics drive the sale up front. Also trauma-prone in contact sports, which matters for practices seeing athletes.
+[[slnc 900]]
+Question 71. Why are molars the sealant and crown category?
+[[slnc 3500]]
+Highest decay rate from grooves and pits. [[slnc 400]] Grooves trap food and bacteria. Molars also take the most force, so they crack and get crowned most often.
+[[slnc 900]]
+Question 72. Best location for an implant?
+[[slnc 3500]]
+The mandible - densest bone. [[slnc 400]] Dense bone means stability. It also supports implant-retained dentures well.
+[[slnc 900]]
+Question 73. Why are premolars commonly extracted?
+[[slnc 3500]]
+To create space for orthodontics. [[slnc 400]] Pulling premolars makes room to straighten the rest. They're also a common cracked-tooth site.
+[[slnc 900]]
+Question 74. DIAGNOdent is used for what?
+[[slnc 3500]]
+Caries detection. [[slnc 400]] Arestin is the other name worth knowing - a local antimicrobial for periodontal pockets.
+[[slnc 900]]
+Question 75. When does a ridge preservation graft go in?
+[[slnc 3500]]
+At extraction. [[slnc 400]] Get ahead of resorption. Bone disappears fast once the tooth is gone, so the graft goes in the same visit.
+[[slnc 900]]
+Question 76. What's the R O I pitch on periodontal maintenance?
+[[slnc 3500]]
+It's recurring revenue for the practice. [[slnc 400]] Sell the business case, not just the product. Perio patients come back on a schedule, forever.
+[[slnc 900]]
+Question 77. What makes edentulism the big opportunity?
+[[slnc 3500]]
+An aging population hitting peak tooth loss. [[slnc 400]] Baby boomers are hitting peak tooth-loss years. Implants, grafts, dentures, digital denture workflow - all of it.
+[[slnc 900]]
+Question 78. Which is an actual conversation opener from the training?
+[[slnc 3500]]
+"What percent of your restorations are composite vs amalgam?". [[slnc 400]] Good openers get the dentist talking about their own practice instead of your catalog.
+[[slnc 900]]
+That is the end of Day 1.

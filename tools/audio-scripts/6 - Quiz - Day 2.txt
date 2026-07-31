@@ -1,0 +1,287 @@
+Quiz. Day 2. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. What are orthodontists specifically trained to do?
+[[slnc 3500]]
+Move teeth. [[slnc 400]] It's the whole specialty. When Invisalign launched it was orthodontist-only for exactly this reason.
+[[slnc 900]]
+Question 2. If one person in the practice dislikes you, what happens?
+[[slnc 3500]]
+Nobody in the practice will deal with you. [[slnc 400]] The staff are extremely tight-knit and word travels instantly. Treat the office manager and assistants like decision makers, because they are.
+[[slnc 900]]
+Question 3. What should you do right after closing a sale?
+[[slnc 3500]]
+Ask when they'll use it and follow up after. [[slnc 400]] Put the date in your calendar and text them to ask how it went. Costs nothing and turns a transaction into a relationship.
+[[slnc 900]]
+Question 4. Which orthodontic items are the repeat business?
+[[slnc 3500]]
+Wires, ligature rings and rubber bands. [[slnc 400]] Brackets are bonded on and painful to change, so they're the hard sell. Sell what gets replaced.
+[[slnc 900]]
+Question 5. What's the difference between inside and outside reps?
+[[slnc 3500]]
+Inside works the phones, outside works the territory. [[slnc 400]] Inside is straight cold calls. Outside drives the area and walks into practices.
+[[slnc 900]]
+Question 6. What share of a practice's spend goes to supplies?
+[[slnc 3500]]
+4 to 6 percent. [[slnc 400]] It's a small slice of their budget - which is exactly why convenience and reliability often beat price.
+[[slnc 900]]
+Question 7. What share of consumables runs through full-service dealers?
+[[slnc 3500]]
+About 80 percent. [[slnc 400]] Henry Schein, Patterson and Benco. The other 20 percent is manufacturer-direct and discounters.
+[[slnc 900]]
+Question 8. How many practices does a dealer rep typically manage?
+[[slnc 3500]]
+50 to 150. [[slnc 400]] That headcount is why time management and routing matter as much as selling.
+[[slnc 900]]
+Question 9. Who are the discount suppliers?
+[[slnc 3500]]
+Net32, DentalBuyer, Amazon Business. [[slnc 400]] Price-focused, no service. A real threat to the traditional model.
+[[slnc 900]]
+Question 10. How do you compete against a discounter?
+[[slnc 3500]]
+Service, emergency availability, relationships. [[slnc 400]] You cannot win a race to the bottom against Amazon, so don't enter it. Sell the things they can't ship.
+[[slnc 900]]
+Question 11. Is price the number one driver for consumables?
+[[slnc 3500]]
+No - reliability and convenience often beat it. [[slnc 400]] "I need it tomorrow, can you deliver?" wins more accounts than being cheapest.
+[[slnc 900]]
+Question 12. What do you do on a weekly or bi-weekly visit?
+[[slnc 3500]]
+Check inventory, take orders, handle issues. [[slnc 400]] Also introduce new products and gather intel on what they're buying elsewhere. Contracts and capital are monthly and quarterly conversations.
+[[slnc 900]]
+Question 13. Which metrics do you track on an account?
+[[slnc 3500]]
+Volume, product mix, growth rate, order size. [[slnc 400]] Product mix - your brand vs competitors - is the one that tells you whether you're actually winning the account.
+[[slnc 900]]
+Question 14. What's the manufacturer-direct advantage over a dealer rep?
+[[slnc 3500]]
+You're the expert on your own product. [[slnc 400]] The dealer rep is a generalist across 10,000+ SKUs. Depth is the thing you have that they don't.
+[[slnc 900]]
+Question 15. What's the price range on capital equipment?
+[[slnc 3500]]
+5,000 dollars to 500,000 dollars+. [[slnc 400]] And decisions take months, not days, with multiple stakeholders and financing almost always involved.
+[[slnc 900]]
+Question 16. What's the athletic parallel for a capital sale?
+[[slnc 3500]]
+Recruiting a star player. [[slnc 400]] Long courtship, big investment, transformative impact, and everyone weighs in on the decision.
+[[slnc 900]]
+Question 17. What do intraoral sensor sizes 0, 1 and 2 mean?
+[[slnc 3500]]
+Pedo, anterior, posterior. [[slnc 400]] Size 0 for kids, 1 for front teeth, 2 for back teeth.
+[[slnc 900]]
+Question 18. What does an intraoral sensor cost per operatory?
+[[slnc 3500]]
+5,000 dollars to 12,000 dollars. [[slnc 400]] Sales cycle is short for capital - 2 to 4 months.
+[[slnc 900]]
+Question 19. Who makes intraoral sensors?
+[[slnc 3500]]
+Dexis, Schick, Carestream. [[slnc 400]] Dexis is KaVo Kerr, Schick is Dentsply Sirona. Knowing the parent company tells you who else is in the room.
+[[slnc 900]]
+Question 20. What does a C B C T cost?
+[[slnc 3500]]
+60,000 dollars to 150,000 dollars. [[slnc 400]] Six to twelve month sales cycle - it's one of the biggest decisions a practice makes.
+[[slnc 900]]
+Question 21. Why is C B C T a game-changer for implants?
+[[slnc 3500]]
+You can see bone in 3D. [[slnc 400]] It's becoming standard of care. Lets them keep surgical cases in-house instead of referring them out.
+[[slnc 900]]
+Question 22. What does a practice charge for a C B C T scan?
+[[slnc 3500]]
+200 dollars to 400 dollars. [[slnc 400]] Insurance coverage is limited so it's often cash pay - which makes the R O I math easy to show.
+[[slnc 900]]
+Question 23. Which scanner integrates with Invisalign?
+[[slnc 3500]]
+eye Tero. [[slnc 400]] Both eye Tero and Invisalign are Align Technology. Primescan is Dentsply Sirona and integrates with CEREC instead.
+[[slnc 900]]
+Question 24. What does an intraoral scanner cost?
+[[slnc 3500]]
+20,000 dollars to 40,000 dollars. [[slnc 400]] Sells on eliminating impression materials, fewer remakes, and no gagging. Demo it in their office on a real patient.
+[[slnc 900]]
+Question 25. What does a complete CEREC system cost?
+[[slnc 3500]]
+100,000 dollars to 150,000 dollars. [[slnc 400]] Scanner plus design software plus milling unit. Ceramic blocks run 30 to 80 dollars each on top.
+[[slnc 900]]
+Question 26. Where's the break-even on CEREC?
+[[slnc 3500]]
+About 150 to 200 crowns. [[slnc 400]] Because it eliminates 150 to 300 dollars in lab fees per crown. That's the whole R O I conversation.
+[[slnc 900]]
+Question 27. What's the main clinical selling point of CEREC?
+[[slnc 3500]]
+Same-day crowns - no temporaries, no second visit. [[slnc 400]] Patient convenience becomes a marketing advantage for the practice.
+[[slnc 900]]
+Question 28. What do soft tissue lasers cost?
+[[slnc 3500]]
+5,000 dollars to 15,000 dollars. [[slnc 400]] Diode is the most common type. Frenectomies, gingivectomies, crown lengthening. Biolase, AMD, Fotona.
+[[slnc 900]]
+Question 29. What can a hard tissue laser do that a soft tissue laser can't?
+[[slnc 3500]]
+Cut tooth structure. [[slnc 400]] Erbium lasers, 40,000 to 80,000 dollars. Marketed hard as "no drill dentistry."
+[[slnc 900]]
+Question 30. What's critical when selling a laser?
+[[slnc 3500]]
+A demo or trial period. [[slnc 400]] Nobody commits to changing how they practice off a brochure. Include CE training and show clinical cases.
+[[slnc 900]]
+Question 31. Which autoclave class is most thorough?
+[[slnc 3500]]
+Class B - vacuum. [[slnc 400]] Steam sterilization, 3,000 to 15,000 dollars. Midmark, Tuttnauer, SciCan.
+[[slnc 900]]
+Question 32. What's the strongest sales angle on an autoclave?
+[[slnc 3500]]
+Regulatory compliance - it's required by law. [[slnc 400]] Then cycle time and reliability - downtime means they literally cannot practice. Replacement cycle is 7 to 10 years.
+[[slnc 900]]
+Question 33. What does a dental chair cost?
+[[slnc 3500]]
+6,000 dollars to 20,000 dollars+ each. [[slnc 400]] A-dec is premium, then Midmark and Forest. Usually tied to a renovation, and financing is almost always required.
+[[slnc 900]]
+Question 34. How fast does a high-speed handpiece turn?
+[[slnc 3500]]
+400,000 RPM. [[slnc 400]] That's "the drill." Slow-speed runs 20,000 RPM for prophy angles and adjustments.
+[[slnc 900]]
+Question 35. Why does a practice keep 2 to 4 handpieces per operatory?
+[[slnc 3500]]
+Sterilization rotation. [[slnc 400]] One's in use while another is being sterilized. 800 to 3,000 dollars each, so it's real money.
+[[slnc 900]]
+Question 36. Why is compressor reliability so critical?
+[[slnc 3500]]
+No air means no drilling. [[slnc 400]] The whole operatory stops. 3,000 to 30,000, dollars sized by number of chairs.
+[[slnc 900]]
+Question 37. How big is the implant market?
+[[slnc 3500]]
+About 5 dollars billion and growing. [[slnc 400]] Driven by boomers losing teeth, implants becoming standard of care, more G Ps placing them, and success rates above 95 percent.
+[[slnc 900]]
+Question 38. What are the three parts of an implant?
+[[slnc 3500]]
+Fixture, abutment, crown. [[slnc 400]] Fixture is the screw in the bone, abutment connects, crown is what you see.
+[[slnc 900]]
+Question 39. What diameters do implant fixtures come in?
+[[slnc 3500]]
+3mm to 6mm. [[slnc 400]] Lengths run 6mm to 18mm. Platform comes mini, regular or wide.
+[[slnc 900]]
+Question 40. Which surface treatment is Straumann's?
+[[slnc 3500]]
+SLA - sand-blasted, acid-etched. [[slnc 400]] TiUnite is Nobel Biocare, Osseospeed is Astra Tech, Laser-Lok is BioHorizons. Surface treatment is what drives osseointegration.
+[[slnc 900]]
+Question 41. What's Straumann's market share?
+[[slnc 3500]]
+About 20 percent - number one. [[slnc 400]] Swiss precision, premium pricing, deep evidence base. Roxolid is their titanium-zirconium alloy.
+[[slnc 900]]
+Question 42. What does a premium implant cost the dentist, and what do they charge?
+[[slnc 3500]]
+250 to 400 dollars to them, 2,000 to 4,000 dollars+ to the patient. [[slnc 400]] That spread is exactly why cost usually isn't the surgeon's first question.
+[[slnc 900]]
+Question 43. Who invented the modern dental implant?
+[[slnc 3500]]
+Brånemark, at Nobel Biocare. [[slnc 400]] Nobel Biocare are the pioneers. All-on-4 - a full arch on four implants - is their trademark protocol.
+[[slnc 900]]
+Question 44. What's All-on-4?
+[[slnc 3500]]
+A full arch restored on four implants. [[slnc 400]] Nobel Biocare's trademark protocol, and a major option for complete edentulism.
+[[slnc 900]]
+Question 45. What do value implant brands cost?
+[[slnc 3500]]
+80 dollars to 150 dollars per implant. [[slnc 400]] Hiossen, MegaGen, Dentium. The controversy is quality vs cost; the opportunity is price-sensitive practices and high-volume D S Os.
+[[slnc 900]]
+Question 46. How long is the implant sales cycle?
+[[slnc 3500]]
+3 to 12 months. [[slnc 400]] Awareness, education, trial, conversion, loyalty. Lunch-and-learn to CE course to a few supported cases.
+[[slnc 900]]
+Question 47. Why are implant systems so hard to switch?
+[[slnc 3500]]
+Instruments and kits are system-specific. [[slnc 400]] Add the learning curve and compatibility issues. Hard to win an account - very hard to lose one.
+[[slnc 900]]
+Question 48. Is cost the top decision factor for implant surgeons?
+[[slnc 3500]]
+No - outcomes, ease of use and support come first. [[slnc 400]] Clinical outcomes, ease of use, prosthetic flexibility, your availability, and the evidence base. Don't lead with price.
+[[slnc 900]]
+Question 49. What are the four graft types?
+[[slnc 3500]]
+Autograft, allograft, xenograft, alloplast. [[slnc 400]] Self, human donor, animal, synthetic. Auto, allo, xeno, allo-plast.
+[[slnc 900]]
+Question 50. Which graft is the gold standard, and what's the catch?
+[[slnc 3500]]
+Autograft - but it needs a second surgical site. [[slnc 400]] The patient's own bone integrates best, but harvesting it from chin, jaw or hip adds morbidity.
+[[slnc 900]]
+Question 51. What is an allograft?
+[[slnc 3500]]
+Processed cadaver bone. [[slnc 400]] LifeNet, MTF, AlloSource. 100 to 500 dollars per case. Popular because there's no second surgical site.
+[[slnc 900]]
+Question 52. What is Bio-Oss?
+[[slnc 3500]]
+The market-leading xenograft. [[slnc 400]] Geistlich, bovine-derived. Acts as a scaffold and resorbs slowly, so it maintains volume. 150 to 400 dollars.
+[[slnc 900]]
+Question 53. What's the advantage of a synthetic graft?
+[[slnc 3500]]
+Unlimited supply, no disease transmission risk. [[slnc 400]] Alloplast - hydroxyapatite and calcium phosphate. Novabone, Cerasorb.
+[[slnc 900]]
+Question 54. What does a barrier membrane do?
+[[slnc 3500]]
+Covers the graft to guide tissue regeneration. [[slnc 400]] Collagen ones like Bio-Gide resorb; PTFE ones don't and have to be removed. 30 to 200 dollars each.
+[[slnc 900]]
+Question 55. What's the sales angle on grafting?
+[[slnc 3500]]
+Every extraction is a potential graft. [[slnc 400]] Higher implant success, better patient comfort, and it's billable revenue for the practice.
+[[slnc 900]]
+Question 56. What share of the clear aligner market is Invisalign?
+[[slnc 3500]]
+About 90 percent. [[slnc 400]] Align Technology. Total category dominance - which is why the competitors all compete on price.
+[[slnc 900]]
+Question 57. What does an Invisalign case cost the dentist vs the patient?
+[[slnc 3500]]
+1,500 to 2,000 dollars to them, 3,500 to 8,000 dollars to the patient. [[slnc 400]] The dentist submits cases and pays per case, so it scales with their volume.
+[[slnc 900]]
+Question 58. How many hours a day must a patient wear aligners?
+[[slnc 3500]]
+22. [[slnc 400]] Compliance is the single biggest limitation. If they don't wear them, treatment fails and it looks like your product failed.
+[[slnc 900]]
+Question 59. What software plans an Invisalign case?
+[[slnc 3500]]
+ClinCheck. [[slnc 400]] Digital scan, then AI treatment planning, then aligners manufactured centrally and shipped to the practice.
+[[slnc 900]]
+Question 60. Who owns ClearCorrect?
+[[slnc 3500]]
+Straumann. [[slnc 400]] SureSmile is Dentsply Sirona and Spark is Ormco. The aligner competitors usually run 20 to 30 percent below Invisalign.
+[[slnc 900]]
+Question 61. What share of the aligner market is adults?
+[[slnc 3500]]
+Over half. [[slnc 400]] Aligners opened orthodontics to people who'd never have worn metal braces.
+[[slnc 900]]
+Question 62. Which wire is used in the early stages of treatment?
+[[slnc 3500]]
+nye tye - shape memory and flexible. [[slnc 400]] Stainless steel is stiffer and comes in at the final stages. Sizes.012 through.018 increase in stiffness.
+[[slnc 900]]
+Question 63. What's true about calling on orthodontists?
+[[slnc 3500]]
+They see a lot of reps and are brand loyal once established. [[slnc 400]] Harder to get in, but they're volume purchasers - so worth more once you're in.
+[[slnc 900]]
+Question 64. Which is the largest pure-play dental company?
+[[slnc 3500]]
+Dentsply Sirona. [[slnc 400]] Ticker X ray. Astra Tech and Ankylos implants, CEREC, Schick sensors, Maillefer endo files, SureSmile orthodontics.
+[[slnc 900]]
+Question 65. Envista owns which brands?
+[[slnc 3500]]
+Nobel Biocare, Ormco, KaVo Kerr. [[slnc 400]] Envista was spun off from Danaher and took those brands with it - your notes list them under both.
+[[slnc 900]]
+Question 66. Align Technology owns which brands?
+[[slnc 3500]]
+Invisalign, eye Tero, exocad. [[slnc 400]] Same company owning both the aligner and the scanner is why eye Tero integration is the whole eye Tero pitch.
+[[slnc 900]]
+Question 67. Straumann Group owns which brands?
+[[slnc 3500]]
+Straumann, Neodent, ClearCorrect. [[slnc 400]] Premium implants, value implants, and aligners - they cover the price spectrum deliberately.
+[[slnc 900]]
+Question 68. Which brands belong to 3M?
+[[slnc 3500]]
+Filtek, Scotchbond, RelyX, Unitek. [[slnc 400]] Composites, adhesives, cements and orthodontics - all inside a much larger conglomerate.
+[[slnc 900]]
+Question 69. What's distinctive about Planmeca?
+[[slnc 3500]]
+Finnish and family-owned. [[slnc 400]] Imaging and cad cam, known for innovation. No quarterly-earnings pressure means a different kind of buying relationship.
+[[slnc 900]]
+Question 70. Which trade shows should you attend?
+[[slnc 3500]]
+Chicago Midwinter and the ADA annual. [[slnc 400]] Plus asking practices what else they're using, LinkedIn research, catalogs and clinical studies.
+[[slnc 900]]
+Question 71. What's the most useful line on a battle card?
+[[slnc 3500]]
+Why practices leave a competitor. [[slnc 400]] Price and features are easy to find. Why an account churned tells you where the real weakness is.
+[[slnc 900]]
+That is the end of Day 2.

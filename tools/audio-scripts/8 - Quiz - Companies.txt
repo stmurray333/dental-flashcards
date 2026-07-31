@@ -1,0 +1,167 @@
+Quiz. Companies. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. Largest dental distributor in the world?
+[[slnc 3500]]
+Henry Schein. [[slnc 400]] Three names, three slots: Schein, Patterson, Benco. Schein alone is roughly the other two put together.
+[[slnc 900]]
+Question 2. Roughly what share of the market does Henry Schein hold?
+[[slnc 3500]]
+About 40 percent. [[slnc 400]] Close to half of everything a dental office orders moves through one company. That's why every Big 3 conversation starts with Schein.
+[[slnc 900]]
+Question 3. Who is number 2 in dental distribution?
+[[slnc 3500]]
+Patterson. [[slnc 400]] Patterson is the one in the middle - big enough to compete with Schein head-on, which is why they show up against you.
+[[slnc 900]]
+Question 4. Who is number 3 in dental distribution?
+[[slnc 3500]]
+Benco. [[slnc 400]] Benco is the smallest of the Big 3 and family-owned. It's the one people forget - and the one your notes had as "Banko."
+[[slnc 900]]
+Question 5. The distributor is the ___ of a dental office.
+[[slnc 3500]]
+Quarterback. [[slnc 400]] A quarterback never scores, but nothing moves until they touch it. Same job: you don't do the dentistry, but everything they use came through you.
+[[slnc 900]]
+Question 6. How are dental distributor reps mostly employed?
+[[slnc 3500]]
+95 percent W 2. [[slnc 400]] W 2 means these are employees with territories, not gig contractors. It's a career track, and it's why the company invests in training you.
+[[slnc 900]]
+Question 7. Roughly how many dentist products are out there?
+[[slnc 3500]]
+About 300,000. [[slnc 400]] Nobody memorizes 300,000 SKUs - not you, not the dentist. That gap is exactly why they need a rep they trust instead of a catalog.
+[[slnc 900]]
+Question 8. Which two companies sell dental equipment and technology?
+[[slnc 3500]]
+A-dec and Planmeca. [[slnc 400]] A-dec and Planmeca sell the big hardware - chairs, units, imaging. Different world from consumables: bought rarely, costs a fortune, lasts a decade.
+[[slnc 900]]
+Question 9. Newest way to take x-rays?
+[[slnc 3500]]
+Intraoral scanner. [[slnc 400]] The intraoral scanner is the digital replacement for goopy impressions and film. If an office is buying one, they're modernizing - that opens other doors.
+[[slnc 900]]
+Question 10. Which implant companies does Henry Schein own?
+[[slnc 3500]]
+BioHorizons and Camlog. [[slnc 400]] Schein doesn't just ship other people's implants, it owns two implant brands. Distributor and manufacturer at the same time.
+[[slnc 900]]
+Question 11. Who are the largest dental manufacturers?
+[[slnc 3500]]
+Envista, Dentsply Sirona, Straumann. [[slnc 400]] Manufacturers make it, distributors move it. Dentsply Sirona builds the product; Schein puts it on the doorstep. Don't mix the two lists up.
+[[slnc 900]]
+Question 12. Biggest clear aligner company in the game?
+[[slnc 3500]]
+Invisalign. [[slnc 400]] Invisalign is the category - people say it the way they say Kleenex. Note the spelling: Invis-align, as in aligning.
+[[slnc 900]]
+Question 13. DIAGNOdent is used for what?
+[[slnc 3500]]
+Caries detection. [[slnc 400]] Arestin is the other name worth knowing - a local antimicrobial for periodontal pockets.
+[[slnc 900]]
+Question 14. What share of consumables runs through full-service dealers?
+[[slnc 3500]]
+About 80 percent. [[slnc 400]] Henry Schein, Patterson and Benco. The other 20 percent is manufacturer-direct and discounters.
+[[slnc 900]]
+Question 15. How many practices does a dealer rep typically manage?
+[[slnc 3500]]
+50 to 150. [[slnc 400]] That headcount is why time management and routing matter as much as selling.
+[[slnc 900]]
+Question 16. Who are the discount suppliers?
+[[slnc 3500]]
+Net32, DentalBuyer, Amazon Business. [[slnc 400]] Price-focused, no service. A real threat to the traditional model.
+[[slnc 900]]
+Question 17. How do you compete against a discounter?
+[[slnc 3500]]
+Service, emergency availability, relationships. [[slnc 400]] You cannot win a race to the bottom against Amazon, so don't enter it. Sell the things they can't ship.
+[[slnc 900]]
+Question 18. Is price the number one driver for consumables?
+[[slnc 3500]]
+No - reliability and convenience often beat it. [[slnc 400]] "I need it tomorrow, can you deliver?" wins more accounts than being cheapest.
+[[slnc 900]]
+Question 19. What do you do on a weekly or bi-weekly visit?
+[[slnc 3500]]
+Check inventory, take orders, handle issues. [[slnc 400]] Also introduce new products and gather intel on what they're buying elsewhere. Contracts and capital are monthly and quarterly conversations.
+[[slnc 900]]
+Question 20. Which metrics do you track on an account?
+[[slnc 3500]]
+Volume, product mix, growth rate, order size. [[slnc 400]] Product mix - your brand vs competitors - is the one that tells you whether you're actually winning the account.
+[[slnc 900]]
+Question 21. What's the manufacturer-direct advantage over a dealer rep?
+[[slnc 3500]]
+You're the expert on your own product. [[slnc 400]] The dealer rep is a generalist across 10,000+ SKUs. Depth is the thing you have that they don't.
+[[slnc 900]]
+Question 22. Who makes intraoral sensors?
+[[slnc 3500]]
+Dexis, Schick, Carestream. [[slnc 400]] Dexis is KaVo Kerr, Schick is Dentsply Sirona. Knowing the parent company tells you who else is in the room.
+[[slnc 900]]
+Question 23. Which scanner integrates with Invisalign?
+[[slnc 3500]]
+eye Tero. [[slnc 400]] Both eye Tero and Invisalign are Align Technology. Primescan is Dentsply Sirona and integrates with CEREC instead.
+[[slnc 900]]
+Question 24. What does a complete CEREC system cost?
+[[slnc 3500]]
+100,000 dollars to 150,000 dollars. [[slnc 400]] Scanner plus design software plus milling unit. Ceramic blocks run 30 to 80 dollars each on top.
+[[slnc 900]]
+Question 25. Which surface treatment is Straumann's?
+[[slnc 3500]]
+SLA - sand-blasted, acid-etched. [[slnc 400]] TiUnite is Nobel Biocare, Osseospeed is Astra Tech, Laser-Lok is BioHorizons. Surface treatment is what drives osseointegration.
+[[slnc 900]]
+Question 26. What's Straumann's market share?
+[[slnc 3500]]
+About 20 percent - number one. [[slnc 400]] Swiss precision, premium pricing, deep evidence base. Roxolid is their titanium-zirconium alloy.
+[[slnc 900]]
+Question 27. Who invented the modern dental implant?
+[[slnc 3500]]
+Brånemark, at Nobel Biocare. [[slnc 400]] Nobel Biocare are the pioneers. All-on-4 - a full arch on four implants - is their trademark protocol.
+[[slnc 900]]
+Question 28. What's All-on-4?
+[[slnc 3500]]
+A full arch restored on four implants. [[slnc 400]] Nobel Biocare's trademark protocol, and a major option for complete edentulism.
+[[slnc 900]]
+Question 29. What do value implant brands cost?
+[[slnc 3500]]
+80 dollars to 150 dollars per implant. [[slnc 400]] Hiossen, MegaGen, Dentium. The controversy is quality vs cost; the opportunity is price-sensitive practices and high-volume D S Os.
+[[slnc 900]]
+Question 30. What is Bio-Oss?
+[[slnc 3500]]
+The market-leading xenograft. [[slnc 400]] Geistlich, bovine-derived. Acts as a scaffold and resorbs slowly, so it maintains volume. 150 to 400 dollars.
+[[slnc 900]]
+Question 31. What share of the clear aligner market is Invisalign?
+[[slnc 3500]]
+About 90 percent. [[slnc 400]] Align Technology. Total category dominance - which is why the competitors all compete on price.
+[[slnc 900]]
+Question 32. What software plans an Invisalign case?
+[[slnc 3500]]
+ClinCheck. [[slnc 400]] Digital scan, then AI treatment planning, then aligners manufactured centrally and shipped to the practice.
+[[slnc 900]]
+Question 33. Who owns ClearCorrect?
+[[slnc 3500]]
+Straumann. [[slnc 400]] SureSmile is Dentsply Sirona and Spark is Ormco. The aligner competitors usually run 20 to 30 percent below Invisalign.
+[[slnc 900]]
+Question 34. Which is the largest pure-play dental company?
+[[slnc 3500]]
+Dentsply Sirona. [[slnc 400]] Ticker X ray. Astra Tech and Ankylos implants, CEREC, Schick sensors, Maillefer endo files, SureSmile orthodontics.
+[[slnc 900]]
+Question 35. Envista owns which brands?
+[[slnc 3500]]
+Nobel Biocare, Ormco, KaVo Kerr. [[slnc 400]] Envista was spun off from Danaher and took those brands with it - your notes list them under both.
+[[slnc 900]]
+Question 36. Align Technology owns which brands?
+[[slnc 3500]]
+Invisalign, eye Tero, exocad. [[slnc 400]] Same company owning both the aligner and the scanner is why eye Tero integration is the whole eye Tero pitch.
+[[slnc 900]]
+Question 37. Straumann Group owns which brands?
+[[slnc 3500]]
+Straumann, Neodent, ClearCorrect. [[slnc 400]] Premium implants, value implants, and aligners - they cover the price spectrum deliberately.
+[[slnc 900]]
+Question 38. Which brands belong to 3M?
+[[slnc 3500]]
+Filtek, Scotchbond, RelyX, Unitek. [[slnc 400]] Composites, adhesives, cements and orthodontics - all inside a much larger conglomerate.
+[[slnc 900]]
+Question 39. What's distinctive about Planmeca?
+[[slnc 3500]]
+Finnish and family-owned. [[slnc 400]] Imaging and cad cam, known for innovation. No quarterly-earnings pressure means a different kind of buying relationship.
+[[slnc 900]]
+Question 40. Which trade shows should you attend?
+[[slnc 3500]]
+Chicago Midwinter and the ADA annual. [[slnc 400]] Plus asking practices what else they're using, LinkedIn research, catalogs and clinical studies.
+[[slnc 900]]
+Question 41. What's the most useful line on a battle card?
+[[slnc 3500]]
+Why practices leave a competitor. [[slnc 400]] Price and features are easy to find. Why an account churned tells you where the real weakness is.
+[[slnc 900]]
+That is the end of Companies.

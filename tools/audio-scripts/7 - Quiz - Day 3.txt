@@ -1,0 +1,199 @@
+Quiz. Day 3. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. What share of dentists are general dentists?
+[[slnc 3500]]
+About 80 percent. [[slnc 400]] Roughly 130,000 in the US. Every specialty is a slice carved off the side of this.
+[[slnc 900]]
+Question 2. What does a G P practice produce a year?
+[[slnc 3500]]
+500 thousand dollars to 2 dollarsM+. [[slnc 400]] They're small business owners, not employees - which is why overhead and R O I language lands.
+[[slnc 900]]
+Question 3. What's a typical G P's overhead?
+[[slnc 3500]]
+65 to 75 percent of collections. [[slnc 400]] The single most important number about a G P. It's why they're cost-conscious about everything.
+[[slnc 900]]
+Question 4. Who decides in a solo practice?
+[[slnc 3500]]
+The dentist, but they consult the team. [[slnc 400]] Owner decides, but the office manager, lead assistant and hygienist all shape what gets asked for.
+[[slnc 900]]
+Question 5. How is a group practice different from solo?
+[[slnc 3500]]
+More democratic, longer sales cycle. [[slnc 400]] 2 to 10 dentists, often a managing partner, and the office manager has more power.
+[[slnc 900]]
+Question 6. What work are G Ps taking back from specialists?
+[[slnc 3500]]
+Implants, aligners and cad cam crowns. [[slnc 400]] Work that used to get referred out. That shift is where the growth is.
+[[slnc 900]]
+Question 7. When's the best time to visit a G P?
+[[slnc 3500]]
+Morning before patients, or lunch. [[slnc 400]] Mid-afternoon they're slammed. Fridays are often shorter days and good for a longer conversation.
+[[slnc 900]]
+Question 8. How should you frame a product to a G P?
+[[slnc 3500]]
+As practice growth, tied to their numbers. [[slnc 400]] "Same-day crowns = no temp visits = more productive time." Speak in production, not features.
+[[slnc 900]]
+Question 9. In the team analogy, G Ps are the:
+[[slnc 3500]]
+Starting lineup. [[slnc 400]] On the field every day, need reliable equipment, and small improvements move their production.
+[[slnc 900]]
+Question 10. How many orthodontists are in the US?
+[[slnc 3500]]
+About 12,000. [[slnc 400]] Small, high-earning specialty at 300 to 500 dollarsK+, with 2 to 3 years of training after dental school.
+[[slnc 900]]
+Question 11. How many patients does an ortho see in a day?
+[[slnc 3500]]
+30 to 50. [[slnc 400]] With 200 to 500+ active cases and 6 to 12 operatories. Volume and efficiency define how they buy.
+[[slnc 900]]
+Question 12. What's an orthodontist's core purchase?
+[[slnc 3500]]
+Brackets and wires. [[slnc 400]] 200 to 500+ starts a year, and they're brand loyal because they trained on a specific system.
+[[slnc 900]]
+Question 13. Which brands are self-ligating brackets?
+[[slnc 3500]]
+Damon and SmartClip. [[slnc 400]] Higher up-front cost, claimed efficiency. The pitch is chair time - "reduces chair time by 30 percent."
+[[slnc 900]]
+Question 14. What are the Invisalign provider tiers?
+[[slnc 3500]]
+Bronze, Platinum, Diamond. [[slnc 400]] Based on cases per year. Tier tells you how much volume that practice actually runs.
+[[slnc 900]]
+Question 15. Which x-ray is specific to orthodontics?
+[[slnc 3500]]
+Cephalometric - lateral skull. [[slnc 400]] Plus panoramic, C B C T for impactions and airway, and intraoral scanners which are now near universal.
+[[slnc 900]]
+Question 16. What's Dolphin?
+[[slnc 3500]]
+Ortho treatment planning software. [[slnc 400]] Treatment planning, practice management and patient portals are all part of the ortho tech stack.
+[[slnc 900]]
+Question 17. Why are orthodontists hard to sell to?
+[[slnc 3500]]
+They see many reps and switching costs are high. [[slnc 400]] Many have "no rep" policies. Changing bracket systems means a learning curve plus new inventory.
+[[slnc 900]]
+Question 18. What do you lead with for an orthodontist?
+[[slnc 3500]]
+Efficiency - time is money. [[slnc 400]] Anything that speeds up an appointment. Then outcomes with before or after evidence.
+[[slnc 900]]
+Question 19. How many oral surgeons are in the US?
+[[slnc 3500]]
+About 9,000. [[slnc 400]] 4 to 6 years of extra training including hospital rotations, and hospital privileges for general anesthesia.
+[[slnc 900]]
+Question 20. Which is the highest-earning dental specialty?
+[[slnc 3500]]
+Oral surgery. [[slnc 400]] Often 400 to 700 dollarsK+. Orthodontists are next at 300 to 500 dollarsK+.
+[[slnc 900]]
+Question 21. What's an oral surgeon's bread and butter?
+[[slnc 3500]]
+Impacted wisdom teeth. [[slnc 400]] Then implants, bone grafting, sinus lifts, jaw surgery, facial trauma, pathology and TMJ.
+[[slnc 900]]
+Question 22. How many implants does one surgeon place a year?
+[[slnc 3500]]
+500 to 2,000+. [[slnc 400]] That volume is why implant systems, consignment programs and volume pricing all come up.
+[[slnc 900]]
+Question 23. How many bone grafts a year?
+[[slnc 3500]]
+200 to 500+. [[slnc 400]] Every extraction is a potential graft. Allograft particulate is the most common form.
+[[slnc 900]]
+Question 24. What is a piezo surgery unit for?
+[[slnc 3500]]
+Ultrasonic bone cutting. [[slnc 400]] Alongside elevators, forceps, curettes, rongeurs, electrosurgery, retractors and suction.
+[[slnc 900]]
+Question 25. What matters most to an oral surgeon?
+[[slnc 3500]]
+Clinical credibility and outcomes. [[slnc 400]] The most surgeon-like dental specialty. Evidence-based, and cost is secondary within reason.
+[[slnc 900]]
+Question 26. How do you add value beyond the product?
+[[slnc 3500]]
+Help them get G P referrals. [[slnc 400]] Co-market with lunch-and-learns at G P offices. You're solving their growth problem, not selling a box.
+[[slnc 900]]
+Question 27. Besides the surgeon, who matters?
+[[slnc 3500]]
+Office manager and lead surgical assistant. [[slnc 400]] Office manager holds purchasing and budget; the lead surgical assistant drives product preference.
+[[slnc 900]]
+Question 28. What service level do oral surgeons expect?
+[[slnc 3500]]
+24 or 7 emergency availability. [[slnc 400]] Plus fast shipping and technical support mid-surgery. They genuinely cannot wait.
+[[slnc 900]]
+Question 29. How many periodontists are in the US?
+[[slnc 3500]]
+About 5,000. [[slnc 400]] Three years post-dental school, focused on gums, bone and implants.
+[[slnc 900]]
+Question 30. Why is a perio practice hygiene-driven?
+[[slnc 3500]]
+Maintenance patients are recurring revenue. [[slnc 400]] Those 3-month recalls are the financial engine of the practice.
+[[slnc 900]]
+Question 31. What are Emdogain and PDGF?
+[[slnc 3500]]
+Growth factors for regeneration. [[slnc 400]] Around 200 to 500 dollars per procedure, used alongside grafts and G T R membranes.
+[[slnc 900]]
+Question 32. What does G T R stand for?
+[[slnc 3500]]
+Guided tissue regeneration. [[slnc 400]] The membranes that cover a graft and guide what grows back.
+[[slnc 900]]
+Question 33. What is lay nap?
+[[slnc 3500]]
+Laser periodontal therapy. [[slnc 400]] Soft tissue lasers are very popular with perios, and a real marketing advantage for the practice.
+[[slnc 900]]
+Question 34. Two types of ultrasonic scaler?
+[[slnc 3500]]
+Magnetostrictive and piezo. [[slnc 400]] The tips and inserts are the consumable - that's where the repeat business is.
+[[slnc 900]]
+Question 35. How many endodontists are in the US?
+[[slnc 3500]]
+About 5,500. [[slnc 400]] They do only root canals, at 10 to 15 cases a day. Narrow product range, very brand loyal.
+[[slnc 900]]
+Question 36. What do endodontists buy?
+[[slnc 3500]]
+Rotary nye tye files, obturation, microscopes. [[slnc 400]] Microscope adoption is very high in endo. Also apex locators and ultrasonic tips.
+[[slnc 900]]
+Question 37. What is gutta percha used for?
+[[slnc 3500]]
+Filling the canal after a root canal. [[slnc 400]] The obturation step. Endodontists buy it constantly.
+[[slnc 900]]
+Question 38. What do prosthodontists specialise in?
+[[slnc 3500]]
+Complex restorations and full mouth rehabs. [[slnc 400]] About 5,000 in the US. Dentures, implant prosthetics, heavy impression material use. Very technical.
+[[slnc 900]]
+Question 39. Which specialty is highest volume on fluoride and sealants?
+[[slnc 3500]]
+Pediatric dentists. [[slnc 400]] About 10,000 of them, treating children often through 18. Sell on safety and comfort.
+[[slnc 900]]
+Question 40. Which specialty has the most practitioners?
+[[slnc 3500]]
+Orthodontists, at about 12,000. [[slnc 400]] Order after G Ps: ortho about 12,000, pediatric about 10,000, oral surgery about 9,000, endo about 5,500, perio about 5,000, prostho about 5,000.
+[[slnc 900]]
+Question 41. What is a D S O?
+[[slnc 3500]]
+A corporate group owning many practices. [[slnc 400]] Dental Service Organization. Anywhere from 10 practices to over 2,000.
+[[slnc 900]]
+Question 42. Which D S O is the largest?
+[[slnc 3500]]
+Heartland Dental, 1,800+ practices. [[slnc 400]] Aspen Dental is next at 1,000+. Then Pacific Dental Services, Great Expressions, Western Dental.
+[[slnc 900]]
+Question 43. How does purchasing work at a D S O?
+[[slnc 3500]]
+Centralized at corporate headquarters. [[slnc 400]] Standardized product lists and volume pricing power. Individual offices have very limited autonomy.
+[[slnc 900]]
+Question 44. Who's the decision maker at a D S O?
+[[slnc 3500]]
+The Chief Dental Officer and procurement. [[slnc 400]] Sometimes regional managers too. Individual dentists have little say - so pitching them doesn't work.
+[[slnc 900]]
+Question 45. What's the D S O trade-off?
+[[slnc 3500]]
+Huge volume, but heavy price pressure. [[slnc 400]] Also slow decisions and contract cycles that are hard to break into. The opposite of a solo G P.
+[[slnc 900]]
+Question 46. What does R F P stand for in D S O sales?
+[[slnc 3500]]
+Request for proposal. [[slnc 400]] That's the formal route in. Regional or national buying groups, then annual contracts.
+[[slnc 900]]
+Question 47. How many dental schools are in the US?
+[[slnc 3500]]
+65. [[slnc 400]] Committee decisions make them slow, but students trained on your system become customers for a career.
+[[slnc 900]]
+Question 48. What are the five parts of a customer profile?
+[[slnc 3500]]
+Avatar, pain points, goals, triggers, your value. [[slnc 400]] Who decides, what keeps them up at night, what they want, what makes them buy, and why you.
+[[slnc 900]]
+Question 49. What are the three classic buying triggers?
+[[slnc 3500]]
+Equipment breaks, adding a service, a competitor upgraded. [[slnc 400]] The competitor one is most underrated - track who's buying what nearby.
+[[slnc 900]]
+That is the end of Day 3.
