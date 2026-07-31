@@ -326,6 +326,7 @@
       <button class="chip" type="button" id="drillAll" aria-pressed="true">Everything <span class="n" id="nAll"></span></button>
       <button class="chip" type="button" id="drillD1" aria-pressed="false">Day 1 <span class="n" id="nD1"></span></button>
       <button class="chip" type="button" id="drillD2" aria-pressed="false">Day 2 <span class="n" id="nD2"></span></button>
+      <button class="chip" type="button" id="drillD3" aria-pressed="false">Day 3 <span class="n" id="nD3"></span></button>
       <button class="chip" type="button" id="drillCompanies" aria-pressed="false">Companies <span class="n" id="nCompanies"></span></button>
       <button class="chip" type="button" id="drillFlagged" aria-pressed="false">Flagged <span class="n" id="nFlagged"></span></button>
     </div>
@@ -413,8 +414,8 @@
   function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
-  var DRILLS = ["all", "d1", "d2", "companies", "flagged"];
-  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only",
+  var DRILLS = ["all", "d1", "d2", "d3", "companies", "flagged"];
+  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", d3: ", Day 3 only",
                       companies: ", companies only", flagged: ", flagged only" };
   var COMPANIES = [];
 
@@ -459,8 +460,9 @@
 
   function updateCounts() {
     el("nAll").textContent = Q.length;
-    el("nD1").textContent = Q.filter(function (q) { return dayOf(q) === 1; }).length;
-    el("nD2").textContent = Q.filter(function (q) { return dayOf(q) === 2; }).length;
+    [1, 2, 3].forEach(function (d) {
+      el("nD" + d).textContent = Q.filter(function (q) { return dayOf(q) === d; }).length;
+    });
     el("nCompanies").textContent = COMPANIES.length;
     el("drillCompanies").hidden = !COMPANIES.length;
     el("nFlagged").textContent = FLAGS.length;
@@ -472,12 +474,13 @@
   function pool() {
     if (drill === "d1") return Q.filter(function (q) { return dayOf(q) === 1; });
     if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
+    if (drill === "d3") return Q.filter(function (q) { return dayOf(q) === 3; });
     if (drill === "companies") return Q.filter(function (q) { return COMPANIES.indexOf(q[1]) > -1; });
     if (drill === "flagged") return Q.filter(isFlagged);
     return Q.slice();
   }
 
-  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2",
+  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", d3: "drillD3",
                     companies: "drillCompanies", flagged: "drillFlagged" };
 
   function setDrill(d) {
@@ -645,7 +648,7 @@
     el("verdict").hidden = true;
     el("why").hidden = true;
     el("nextRow").hidden = true;
-    el("qtopic").textContent = (dayOf(q) === 2 ? "Day 2 · " : "Day 1 · ") + q[0];
+    el("qtopic").textContent = "Day " + dayOf(q) + " · " + q[0];
     el("qtext").textContent = q[1];
     paintFlag();
 
@@ -844,11 +847,10 @@
   el("modeTimed").onclick = function () { setMode("timed"); };
   el("modeUntimed").onclick = function () { setMode("untimed"); };
   el("modeTyped").onclick = function () { setMode("typed"); };
-  el("drillAll").onclick = function () { setDrill("all"); };
-  el("drillD1").onclick = function () { setDrill("d1"); };
-  el("drillD2").onclick = function () { setDrill("d2"); };
-  el("drillCompanies").onclick = function () { setDrill("companies"); };
-  el("drillFlagged").onclick = function () { setDrill("flagged"); };
+  // wire every drill from the list, so adding a day can't leave a dead button
+  DRILLS.forEach(function (k) {
+    el(DRILL_BTN[k]).onclick = function () { setDrill(k); };
+  });
   el("flagBtn").onclick = toggleFlag;
 
   document.addEventListener("keydown", function (e) {
@@ -886,9 +888,9 @@
       }));
 
       // hide a day chip if that day has no questions yet
-      ["d1", "d2"].forEach(function (k) {
-        var n = Q.filter(function (q) { return dayOf(q) === (k === "d1" ? 1 : 2); }).length;
-        if (!n) el(DRILL_BTN[k]).hidden = true;
+      [1, 2, 3].forEach(function (d) {
+        var n = Q.filter(function (q) { return dayOf(q) === d; }).length;
+        if (!n) el("drillD" + d).hidden = true;
       });
       updateCounts();
 

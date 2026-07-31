@@ -898,6 +898,336 @@
      "n": "That last one is the most useful and the one people skip."
     }
    ]
+  },
+  {
+   "day": 3,
+   "date": "7·31·2026",
+   "fixes": [],
+   "cards": [
+    {
+     "d": "General dentists",
+     "q": "How much of the profession is general dentists?",
+     "a": "<b>80%</b> of all practicing dentists &mdash; about <b>130,000</b> in the US.",
+     "n": "This is the bread and butter. Everything else is a specialty carved off the side."
+    },
+    {
+     "d": "General dentists",
+     "q": "What does a GP practice produce a year?",
+     "a": "<b>$500,000 to $2 million+</b> annually.",
+     "n": "Which is why they're owners thinking like small business people, not employees."
+    },
+    {
+     "d": "General dentists",
+     "q": "What does a GP actually do all day?",
+     "a": "<ul><li>Preventive &mdash; cleanings via the hygienist, exams, x-rays</li><li>Restorative &mdash; fillings, crowns, bridges, dentures</li><li>Basic endo &mdash; some root canals, many referred out</li><li>Basic surgery &mdash; extractions, complex ones referred</li><li>Cosmetics &mdash; whitening, veneers, bonding</li></ul>",
+     "n": "And increasingly implants, aligners and Botox &mdash; work they used to refer away."
+    },
+    {
+     "d": "General dentists",
+     "q": "Who actually decides in a solo practice?",
+     "a": "<b>The dentist owns it and decides.</b> But they consult the office manager (operations, budget), the lead assistant (product preferences) and the hygienist (preventive products).",
+     "n": "Build the relationship with the owner, but respect the team &mdash; they shape what gets asked for."
+    },
+    {
+     "d": "General dentists",
+     "q": "How is a group practice different?",
+     "a": "2&ndash;10 dentists, often a managing partner. Purchasing is <b>more democratic</b>, the office manager has more power, and the sales cycle is longer because consensus takes time."
+    },
+    {
+     "d": "General dentists",
+     "q": "What consumables does a GP burn through?",
+     "a": "Composites, bonding agents, gloves, masks, barriers, anesthetics, prophy supplies, impression materials.",
+     "n": "High volume, repeat, unglamorous &mdash; and the backbone of a territory."
+    },
+    {
+     "d": "General dentists",
+     "q": "What equipment does a GP buy?",
+     "a": "Digital x-rays (sensors, pano), intraoral cameras, chairs when renovating or expanding, handpieces, and increasingly intraoral scanners."
+    },
+    {
+     "d": "General dentists",
+     "q": "What are GPs newly getting into?",
+     "a": "<b>Clear aligners</b> (the Invisalign boom), <b>implant systems</b> (taking work back from specialists), <b>CAD/CAM</b> for same-day crowns, and <b>lasers</b> for soft tissue.",
+     "n": "Every one of those is work that used to get referred to a specialist. That shift is where the growth is."
+    },
+    {
+     "d": "General dentists",
+     "q": "What's a GP's overhead?",
+     "a": "<b>65&ndash;75% of collections.</b>",
+     "n": "That's the single most important number about them. It's why they're cost-conscious and why ROI language works."
+    },
+    {
+     "d": "General dentists",
+     "q": "What keeps a GP up at night?",
+     "a": "<ol><li>Overhead creeping up</li><li>Hygiene production &mdash; they need the hygienist profitable</li><li>Case acceptance &mdash; getting patients to say yes</li><li>Competition from DSOs and insurance plans</li><li>Staff turnover</li><li>Supply chain reliability</li></ol>"
+    },
+    {
+     "d": "General dentists",
+     "q": "How do you build trust with a GP?",
+     "a": "Consistent visits, <b>emergency availability</b> (\"I need composite today\"), real product knowledge because they'll ask your opinion, and clinical support &mdash; go to CE courses with them."
+    },
+    {
+     "d": "General dentists",
+     "q": "Which of their numbers should you know?",
+     "a": "Production goals, collection percentage, new patient flow, the hygiene schedule, and their insurance vs fee-for-service mix.",
+     "n": "Knowing these is the difference between a rep and a business partner."
+    },
+    {
+     "d": "General dentists",
+     "q": "How do you position a product as growth, not cost?",
+     "a": "Tie it to their economics:<ul><li>\"This scanner will increase case acceptance by 30%\"</li><li>\"Same-day crowns = no temp visits = more productive time\"</li><li>\"Better bonding agent = fewer callbacks = happier patients\"</li></ul>"
+    },
+    {
+     "d": "General dentists",
+     "q": "When should you actually show up?",
+     "a": "<b>Morning before patients, or lunch.</b> Avoid mid-afternoon &mdash; they're slammed. Fridays are often shorter days and good for a longer conversation."
+    },
+    {
+     "d": "General dentists",
+     "q": "The team analogy for GPs?",
+     "a": "<b>The starting lineup.</b> On the field every day, need reliable equipment, and small improvements make big differences in their stats &mdash; production.",
+     "n": "Straight from the training."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "How many orthodontists, and what do they earn?",
+     "a": "<b>~12,000 in the US.</b> Two to three years of training after dental school, and among the highest-earning specialists at <b>$300&ndash;500K+</b>."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What does an ortho practice look like?",
+     "a": "<b>200&ndash;500+ active cases</b>, 6&ndash;12 operatories, <b>30&ndash;50 patients a day</b>, heavy staff leverage, and marketing-driven because they constantly need new patients.",
+     "n": "Volume and efficiency define everything about how they buy."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What's their core purchase?",
+     "a": "<b>Brackets and wires</b> &mdash; 200 to 500+ starts per year per practice.",
+     "n": "And they're brand loyal because they were trained on a specific system."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What are self-ligating brackets, and who makes them?",
+     "a": "Brackets that don't need elastic ties. <b>Damon</b> and <b>SmartClip</b> are the names. Higher up-front cost, claimed efficiency gains.",
+     "n": "The pitch is chair time: \"self-ligating reduces chair time by 30%.\""
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What are the Invisalign provider tiers?",
+     "a": "<b>Bronze &rarr; Platinum &rarr; Diamond</b>, based on how many cases they do a year.",
+     "n": "Tier is status and pricing. Knowing where a practice sits tells you how much volume they run."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What imaging does an ortho need?",
+     "a": "<b>Cephalometric</b> x-rays (lateral skull), panoramic, CBCT for impactions and airway, and intraoral scanners &mdash; now nearly universal."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What software runs an ortho practice?",
+     "a": "Treatment planning (<b>Dolphin</b> and similar), practice management, and patient communication portals."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "Why are orthodontists hard to get into?",
+     "a": "They see <b>a lot</b> of reps and are popular targets, many have <b>\"no rep\" policies</b>, and switching bracket systems is expensive &mdash; learning curve plus inventory."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "What do you lead with for an orthodontist?",
+     "a": "<b>Efficiency. Time is money.</b> Anything that speeds up appointments. Then case outcomes with before/after evidence, and patient experience &mdash; comfort, aesthetics, speed."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "Best way in with an ortho practice?",
+     "a": "Lunch-and-learns for the <b>whole team</b>, sponsor local events, and support their marketing with patient education materials.",
+     "n": "They buy in volume, so negotiate annual contracts with rebates and incentives."
+    },
+    {
+     "d": "Orthodontists",
+     "q": "The team analogy for orthodontists?",
+     "a": "<b>An elite training program.</b> High volume, systematic, efficiency-obsessed &mdash; they need consistent product performance because they're running a well-oiled machine."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "How many oral surgeons, and what do they earn?",
+     "a": "<b>~9,000 in the US.</b> Four to six years of extra training including hospital rotations, <b>$400&ndash;700K+</b>, and hospital privileges so they can do general anesthesia.",
+     "n": "The highest-earning dental specialty."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "What's their bread and butter?",
+     "a": "<b>Impacted wisdom teeth.</b>"
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "What's the full scope of an oral surgeon?",
+     "a": "<ul><li>Extractions, simple to complex</li><li>Impacted wisdom teeth</li><li>Dental implants &mdash; surgical placement</li><li>Bone grafting and ridge augmentation</li><li>Sinus lifts</li><li>Orthognathic jaw surgery</li><li>Facial trauma</li><li>Pathology &mdash; biopsies, cyst removal</li><li>TMJ treatment</li><li>Anesthesia &mdash; IV sedation and general</li></ul>"
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "How does their practice run?",
+     "a": "<b>Referral-based</b> &mdash; GPs send them patients. 10&ndash;30 cases a day, 4&ndash;8 operatories, surgical assistants and anesthesia support, in office-based surgery suites that look like operating rooms."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "How many implants does one surgeon place a year?",
+     "a": "<b>500 to 2,000+.</b>",
+     "n": "That volume is why implant systems matter so much, and why consignment and volume pricing come up."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "How many grafts a year?",
+     "a": "<b>200 to 500+.</b> Every extraction is a potential graft.",
+     "n": "Allograft particulate is the most common, plus block grafts for major reconstructions and membranes."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "What surgical products do they buy?",
+     "a": "Elevators, forceps, curettes, rongeurs, <b>piezo surgery units</b> for ultrasonic bone cutting, electrosurgery, retractors and suction. Plus sutures &mdash; resorbable and non-resorbable, high volume."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "What matters most when selling to an oral surgeon?",
+     "a": "<b>Clinical credibility above everything.</b> They're the most surgeon-like dental specialty &mdash; evidence-based, and outcomes matter more than cost within reason.",
+     "n": "Do not lead with price here."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "How do you add value beyond the product?",
+     "a": "<b>Help them get referrals.</b> Co-market with lunch-and-learns at GP offices: \"if you use our implant system, I'll help educate your referring docs.\"",
+     "n": "You're solving their actual growth problem, not just selling them a box."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "What service level do they expect?",
+     "a": "<b>24/7 availability</b> for emergencies, fast shipping because they can't wait, and technical support for product questions <i>mid-surgery</i>."
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "Who are the three relationships that matter?",
+     "a": "<ol><li>The <b>surgeon</b> &mdash; decision maker</li><li>The <b>office manager</b> &mdash; purchasing and budget</li><li>The <b>lead surgical assistant</b> &mdash; product preferences, and a real influencer</li></ol>"
+    },
+    {
+     "d": "Oral surgeons",
+     "q": "The team analogy for oral surgeons?",
+     "a": "<b>Elite athletes at the top of their game.</b> Precision, high stakes, performance under pressure. Equipment that never fails, because complications aren't acceptable."
+    },
+    {
+     "d": "Periodontists",
+     "q": "How many periodontists, and what's their focus?",
+     "a": "<b>~5,000 in the US</b>, three years post-dental school. Focus is <b>gums, bone and implants</b>. They often work closely with prosthodontists."
+    },
+    {
+     "d": "Periodontists",
+     "q": "What does a periodontist do?",
+     "a": "Periodontal therapy (scaling, root planing), perio surgery (flap procedures, bone grafts), soft tissue grafting for recession, crown lengthening, implants, regenerative procedures, and 3-month maintenance recalls."
+    },
+    {
+     "d": "Periodontists",
+     "q": "Why is a perio practice hygiene-driven?",
+     "a": "<b>Maintenance patients are recurring revenue.</b> Those 3-month recalls are the financial engine of the practice.",
+     "n": "Same ROI argument you'd make to a GP about perio maintenance."
+    },
+    {
+     "d": "Periodontists",
+     "q": "What regenerative materials do they buy?",
+     "a": "Bone grafts of all types, membranes for <b>guided tissue regeneration (GTR)</b>, and growth factors &mdash; <b>Emdogain</b> and <b>PDGF</b>. Around <b>$200&ndash;500 per procedure</b>."
+    },
+    {
+     "d": "Periodontists",
+     "q": "What is LANAP?",
+     "a": "<b>Laser periodontal therapy</b> &mdash; a protocol using soft tissue lasers. Very popular with perios and a genuine marketing advantage for the practice."
+    },
+    {
+     "d": "Periodontists",
+     "q": "Two types of ultrasonic scaler?",
+     "a": "<b>Magnetostrictive</b> and <b>piezo</b>. The tips and inserts are the consumable &mdash; that's the repeat business."
+    },
+    {
+     "d": "Periodontists",
+     "q": "The team analogy for periodontists?",
+     "a": "<b>A specialised position coach.</b> Deep expertise in one area, meticulous technique, and a long-term relationship focus because of maintenance patients."
+    },
+    {
+     "d": "Other specialists",
+     "q": "Endodontists &mdash; the numbers and the products?",
+     "a": "<b>~5,500 in the US</b>, doing <b>only</b> root canals at 10&ndash;15 cases a day.<br>They buy rotary <b>NiTi files</b>, obturation systems (gutta percha), <b>microscopes</b> (very high adoption), apex locators and ultrasonic tips.",
+     "n": "Brand loyal with established preferences, and a limited range of product categories &mdash; a narrow but deep account."
+    },
+    {
+     "d": "Other specialists",
+     "q": "Prosthodontists &mdash; what are they?",
+     "a": "<b>~5,000 in the US.</b> Complex restoration specialists &mdash; dentures, implant prosthetics, full mouth rehabs.<br>They buy impression materials heavily, CAD/CAM, implant prosthetic components and lab supplies.",
+     "n": "Very technical and quality-focused. Come prepared."
+    },
+    {
+     "d": "Other specialists",
+     "q": "Pediatric dentists?",
+     "a": "<b>~10,000 in the US</b>, treating children often through age 18.<br>Smaller instruments, high-volume preventive (fluoride, sealants), sedation supplies, and fun or flavoured materials.",
+     "n": "Sell on safety and comfort."
+    },
+    {
+     "d": "Other specialists",
+     "q": "Rank the specialties by headcount.",
+     "a": "<ol><li>General dentists &mdash; ~130,000</li><li>Orthodontists &mdash; ~12,000</li><li>Pediatric &mdash; ~10,000</li><li>Oral surgeons &mdash; ~9,000</li><li>Endodontists &mdash; ~5,500</li><li>Periodontists &mdash; ~5,000</li><li>Prosthodontists &mdash; ~5,000</li></ol>",
+     "n": "GPs dwarf everyone. That's why they're the bread and butter."
+    },
+    {
+     "d": "DSOs",
+     "q": "What is a DSO?",
+     "a": "A <b>Dental Service Organization</b> &mdash; a corporate group that owns or manages multiple practices, anywhere from 10 to <b>2,000+</b>."
+    },
+    {
+     "d": "DSOs",
+     "q": "Name the big DSOs.",
+     "a": "<ol><li><b>Heartland Dental</b> &mdash; 1,800+ practices</li><li><b>Aspen Dental</b> &mdash; 1,000+</li><li>Pacific Dental Services</li><li>Great Expressions</li><li>Western Dental</li></ol>"
+    },
+    {
+     "d": "DSOs",
+     "q": "How is buying different at a DSO?",
+     "a": "<b>Centralized.</b> Corporate headquarters decides, product lists are standardized, they have volume pricing power, and individual offices have limited autonomy.",
+     "n": "Walking into a DSO office and pitching the dentist mostly doesn't work &mdash; they can't say yes."
+    },
+    {
+     "d": "DSOs",
+     "q": "What does the DSO sales process look like?",
+     "a": "Regional or national buying groups, an <b>RFP</b> process, and annual contracts. Hard to get in &mdash; but huge volume once you do."
+    },
+    {
+     "d": "DSOs",
+     "q": "Who decides at a DSO?",
+     "a": "The <b>Chief Dental Officer</b>, procurement teams, and sometimes regional managers. Individual dentists have little say."
+    },
+    {
+     "d": "DSOs",
+     "q": "DSO trade-offs?",
+     "a": "<b>Pros:</b> massive volume, long-term contracts, predictable ordering.<br><b>Cons:</b> heavy price pressure, slow decisions, contract cycles that are hard to break into, and much less relationship-based.",
+     "n": "The opposite of a solo GP in almost every way."
+    },
+    {
+     "d": "DSOs",
+     "q": "Selling to academic institutions?",
+     "a": "<b>65 dental schools</b> in the US plus teaching hospitals. Committee decisions so it's very slow, they expect educational value and volume discounts &mdash; but you get long-term loyalty once established.",
+     "n": "Students trained on your system become customers for a career."
+    },
+    {
+     "d": "Customer profiling",
+     "q": "What five things go in a customer profile?",
+     "a": "<ol><li><b>Avatar</b> &mdash; who's the decision maker?</li><li><b>Pain points</b> &mdash; what keeps them up at night?</li><li><b>Goals</b> &mdash; what are they trying to achieve?</li><li><b>Buying triggers</b> &mdash; what causes them to purchase?</li><li><b>Your value proposition</b> &mdash; why you?</li></ol>"
+    },
+    {
+     "d": "Customer profiling",
+     "q": "What triggers a purchase?",
+     "a": "<b>Equipment breaks</b>, they want to add a new service, or <b>a competitor down the street upgraded</b>.",
+     "n": "That last one is the most underrated. Keep track of who's buying what nearby."
+    },
+    {
+     "d": "Customer profiling",
+     "q": "The worked example &mdash; Dr. Sarah?",
+     "a": "45, has owned the practice 15 years, 3 hygiene days a week, produces $1.2M/year.<br><b>Pain:</b> overhead creeping up, insurance reimbursement down, needs more cosmetic cases, staff turnover.<br><b>Goals:</b> more revenue without adding days, more fee-for-service patients, work-life balance.<br><b>Your value:</b> reliable service, help with case acceptance, financing, team training."
+    }
+   ]
   }
  ],
  "questions": [
@@ -2688,6 +3018,594 @@
    ],
    "Price and features are easy to find. Why an account churned tells you where the real weakness is.",
    2
+  ],
+  [
+   "General dentists",
+   "What share of dentists are general dentists?",
+   "About 80%",
+   [
+    "About 50%",
+    "About 25%",
+    "About 95%"
+   ],
+   "Roughly 130,000 in the US. Every specialty is a slice carved off the side of this.",
+   3
+  ],
+  [
+   "General dentists",
+   "What does a GP practice produce a year?",
+   "$500K to $2M+",
+   [
+    "$50K to $100K",
+    "$5M to $10M",
+    "Under $250K"
+   ],
+   "They're small business owners, not employees - which is why overhead and ROI language lands.",
+   3
+  ],
+  [
+   "General dentists",
+   "What's a typical GP's overhead?",
+   "65 to 75% of collections",
+   [
+    "20 to 30%",
+    "About 45%",
+    "Over 90%"
+   ],
+   "The single most important number about a GP. It's why they're cost-conscious about everything.",
+   3
+  ],
+  [
+   "General dentists",
+   "Who decides in a solo practice?",
+   "The dentist, but they consult the team",
+   [
+    "The office manager alone",
+    "A corporate buyer",
+    "The hygienist"
+   ],
+   "Owner decides, but the office manager, lead assistant and hygienist all shape what gets asked for.",
+   3
+  ],
+  [
+   "General dentists",
+   "How is a group practice different from solo?",
+   "More democratic, longer sales cycle",
+   [
+    "Faster decisions",
+    "One person decides everything",
+    "They don't buy consumables"
+   ],
+   "2-10 dentists, often a managing partner, and the office manager has more power.",
+   3
+  ],
+  [
+   "General dentists",
+   "What work are GPs taking back from specialists?",
+   "Implants, aligners and CAD/CAM crowns",
+   [
+    "Root canals only",
+    "Facial trauma",
+    "Orthognathic surgery"
+   ],
+   "Work that used to get referred out. That shift is where the growth is.",
+   3
+  ],
+  [
+   "General dentists",
+   "When's the best time to visit a GP?",
+   "Morning before patients, or lunch",
+   [
+    "Mid-afternoon",
+    "Right at closing",
+    "Any time, it doesn't matter"
+   ],
+   "Mid-afternoon they're slammed. Fridays are often shorter days and good for a longer conversation.",
+   3
+  ],
+  [
+   "General dentists",
+   "How should you frame a product to a GP?",
+   "As practice growth, tied to their numbers",
+   [
+    "As the cheapest option",
+    "As the newest technology",
+    "As what everyone else uses"
+   ],
+   "\"Same-day crowns = no temp visits = more productive time.\" Speak in production, not features.",
+   3
+  ],
+  [
+   "General dentists",
+   "In the team analogy, GPs are the:",
+   "Starting lineup",
+   [
+    "Elite athletes",
+    "Position coaches",
+    "Front office"
+   ],
+   "On the field every day, need reliable equipment, and small improvements move their production.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "How many orthodontists are in the US?",
+   "About 12,000",
+   [
+    "About 130,000",
+    "About 1,200",
+    "About 50,000"
+   ],
+   "Small, high-earning specialty at $300-500K+, with 2-3 years of training after dental school.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "How many patients does an ortho see in a day?",
+   "30 to 50",
+   [
+    "5 to 10",
+    "100 to 200",
+    "Only 2 or 3"
+   ],
+   "With 200-500+ active cases and 6-12 operatories. Volume and efficiency define how they buy.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "What's an orthodontist's core purchase?",
+   "Brackets and wires",
+   [
+    "Implants",
+    "Dentures",
+    "Autoclaves"
+   ],
+   "200-500+ starts a year, and they're brand loyal because they trained on a specific system.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "Which brands are self-ligating brackets?",
+   "Damon and SmartClip",
+   [
+    "Filtek and RelyX",
+    "Bio-Oss and Bio-Gide",
+    "Dexis and Schick"
+   ],
+   "Higher up-front cost, claimed efficiency. The pitch is chair time - \"reduces chair time by 30%.\"",
+   3
+  ],
+  [
+   "Orthodontists",
+   "What are the Invisalign provider tiers?",
+   "Bronze, Platinum, Diamond",
+   [
+    "Silver, Gold, Platinum",
+    "Level 1 through 5",
+    "Standard and Premium"
+   ],
+   "Based on cases per year. Tier tells you how much volume that practice actually runs.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "Which x-ray is specific to orthodontics?",
+   "Cephalometric - lateral skull",
+   [
+    "Bitewing",
+    "Periapical",
+    "Occlusal"
+   ],
+   "Plus panoramic, CBCT for impactions and airway, and intraoral scanners which are now near universal.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "What's Dolphin?",
+   "Ortho treatment planning software",
+   [
+    "A bracket system",
+    "An aligner brand",
+    "An implant line"
+   ],
+   "Treatment planning, practice management and patient portals are all part of the ortho tech stack.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "Why are orthodontists hard to sell to?",
+   "They see many reps and switching costs are high",
+   [
+    "They don't buy anything",
+    "They have no money",
+    "They only buy online"
+   ],
+   "Many have \"no rep\" policies. Changing bracket systems means a learning curve plus new inventory.",
+   3
+  ],
+  [
+   "Orthodontists",
+   "What do you lead with for an orthodontist?",
+   "Efficiency - time is money",
+   [
+    "Lowest price",
+    "Newest materials",
+    "Longest warranty"
+   ],
+   "Anything that speeds up an appointment. Then outcomes with before/after evidence.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "How many oral surgeons are in the US?",
+   "About 9,000",
+   [
+    "About 90,000",
+    "About 900",
+    "About 25,000"
+   ],
+   "4-6 years of extra training including hospital rotations, and hospital privileges for general anesthesia.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "Which is the highest-earning dental specialty?",
+   "Oral surgery",
+   [
+    "Orthodontics",
+    "Pediatric dentistry",
+    "General dentistry"
+   ],
+   "Often $400-700K+. Orthodontists are next at $300-500K+.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "What's an oral surgeon's bread and butter?",
+   "Impacted wisdom teeth",
+   [
+    "Cleanings",
+    "Crowns",
+    "Aligners"
+   ],
+   "Then implants, bone grafting, sinus lifts, jaw surgery, facial trauma, pathology and TMJ.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "How many implants does one surgeon place a year?",
+   "500 to 2,000+",
+   [
+    "10 to 20",
+    "50 to 100",
+    "Over 10,000"
+   ],
+   "That volume is why implant systems, consignment programs and volume pricing all come up.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "How many bone grafts a year?",
+   "200 to 500+",
+   [
+    "5 to 10",
+    "About 50",
+    "Over 5,000"
+   ],
+   "Every extraction is a potential graft. Allograft particulate is the most common form.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "What is a piezo surgery unit for?",
+   "Ultrasonic bone cutting",
+   [
+    "Sterilising instruments",
+    "Taking x-rays",
+    "Curing composite"
+   ],
+   "Alongside elevators, forceps, curettes, rongeurs, electrosurgery, retractors and suction.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "What matters most to an oral surgeon?",
+   "Clinical credibility and outcomes",
+   [
+    "The lowest price",
+    "Fastest shipping",
+    "Marketing support"
+   ],
+   "The most surgeon-like dental specialty. Evidence-based, and cost is secondary within reason.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "How do you add value beyond the product?",
+   "Help them get GP referrals",
+   [
+    "Discount harder",
+    "Visit more often",
+    "Send more samples"
+   ],
+   "Co-market with lunch-and-learns at GP offices. You're solving their growth problem, not selling a box.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "Besides the surgeon, who matters?",
+   "Office manager and lead surgical assistant",
+   [
+    "Only the surgeon",
+    "The hygienist",
+    "The receptionist"
+   ],
+   "Office manager holds purchasing and budget; the lead surgical assistant drives product preference.",
+   3
+  ],
+  [
+   "Oral surgeons",
+   "What service level do oral surgeons expect?",
+   "24/7 emergency availability",
+   [
+    "Business hours only",
+    "Weekly check-ins",
+    "Email support"
+   ],
+   "Plus fast shipping and technical support mid-surgery. They genuinely cannot wait.",
+   3
+  ],
+  [
+   "Periodontists",
+   "How many periodontists are in the US?",
+   "About 5,000",
+   [
+    "About 50,000",
+    "About 500",
+    "About 20,000"
+   ],
+   "Three years post-dental school, focused on gums, bone and implants.",
+   3
+  ],
+  [
+   "Periodontists",
+   "Why is a perio practice hygiene-driven?",
+   "Maintenance patients are recurring revenue",
+   [
+    "They do no surgery",
+    "Insurance requires it",
+    "They have no other work"
+   ],
+   "Those 3-month recalls are the financial engine of the practice.",
+   3
+  ],
+  [
+   "Periodontists",
+   "What are Emdogain and PDGF?",
+   "Growth factors for regeneration",
+   [
+    "Bone graft brands",
+    "Laser systems",
+    "Bracket systems"
+   ],
+   "Around $200-500 per procedure, used alongside grafts and GTR membranes.",
+   3
+  ],
+  [
+   "Periodontists",
+   "What does GTR stand for?",
+   "Guided tissue regeneration",
+   [
+    "General tissue repair",
+    "Gum tissue restoration",
+    "Grafted tooth root"
+   ],
+   "The membranes that cover a graft and guide what grows back.",
+   3
+  ],
+  [
+   "Periodontists",
+   "What is LANAP?",
+   "Laser periodontal therapy",
+   [
+    "A bone graft protocol",
+    "A scaling technique",
+    "An implant system"
+   ],
+   "Soft tissue lasers are very popular with perios, and a real marketing advantage for the practice.",
+   3
+  ],
+  [
+   "Periodontists",
+   "Two types of ultrasonic scaler?",
+   "Magnetostrictive and piezo",
+   [
+    "Rotary and reciprocating",
+    "Diode and erbium",
+    "Manual and powered"
+   ],
+   "The tips and inserts are the consumable - that's where the repeat business is.",
+   3
+  ],
+  [
+   "Other specialists",
+   "How many endodontists are in the US?",
+   "About 5,500",
+   [
+    "About 55,000",
+    "About 550",
+    "About 15,000"
+   ],
+   "They do only root canals, at 10-15 cases a day. Narrow product range, very brand loyal.",
+   3
+  ],
+  [
+   "Other specialists",
+   "What do endodontists buy?",
+   "Rotary NiTi files, obturation, microscopes",
+   [
+    "Brackets and wires",
+    "Implant systems",
+    "Dentures"
+   ],
+   "Microscope adoption is very high in endo. Also apex locators and ultrasonic tips.",
+   3
+  ],
+  [
+   "Other specialists",
+   "What is gutta percha used for?",
+   "Filling the canal after a root canal",
+   [
+    "Bonding brackets",
+    "Bone grafting",
+    "Impressions"
+   ],
+   "The obturation step. Endodontists buy it constantly.",
+   3
+  ],
+  [
+   "Other specialists",
+   "What do prosthodontists specialise in?",
+   "Complex restorations and full mouth rehabs",
+   [
+    "Root canals",
+    "Children's dentistry",
+    "Gum surgery"
+   ],
+   "About 5,000 in the US. Dentures, implant prosthetics, heavy impression material use. Very technical.",
+   3
+  ],
+  [
+   "Other specialists",
+   "Which specialty is highest volume on fluoride and sealants?",
+   "Pediatric dentists",
+   [
+    "Oral surgeons",
+    "Endodontists",
+    "Prosthodontists"
+   ],
+   "About 10,000 of them, treating children often through 18. Sell on safety and comfort.",
+   3
+  ],
+  [
+   "Other specialists",
+   "Which specialty has the most practitioners?",
+   "Orthodontists, at about 12,000",
+   [
+    "Oral surgeons",
+    "Periodontists",
+    "Endodontists"
+   ],
+   "Order after GPs: ortho ~12,000, pediatric ~10,000, oral surgery ~9,000, endo ~5,500, perio ~5,000, prostho ~5,000.",
+   3
+  ],
+  [
+   "DSOs",
+   "What is a DSO?",
+   "A corporate group owning many practices",
+   [
+    "A dental school",
+    "An insurance plan",
+    "A distributor"
+   ],
+   "Dental Service Organization. Anywhere from 10 practices to over 2,000.",
+   3
+  ],
+  [
+   "DSOs",
+   "Which DSO is the largest?",
+   "Heartland Dental, 1,800+ practices",
+   [
+    "Aspen Dental",
+    "Western Dental",
+    "Great Expressions"
+   ],
+   "Aspen Dental is next at 1,000+. Then Pacific Dental Services, Great Expressions, Western Dental.",
+   3
+  ],
+  [
+   "DSOs",
+   "How does purchasing work at a DSO?",
+   "Centralized at corporate headquarters",
+   [
+    "Each dentist decides",
+    "The office manager decides",
+    "Through a distributor rep"
+   ],
+   "Standardized product lists and volume pricing power. Individual offices have very limited autonomy.",
+   3
+  ],
+  [
+   "DSOs",
+   "Who's the decision maker at a DSO?",
+   "The Chief Dental Officer and procurement",
+   [
+    "The treating dentist",
+    "The hygienist",
+    "The front desk"
+   ],
+   "Sometimes regional managers too. Individual dentists have little say - so pitching them doesn't work.",
+   3
+  ],
+  [
+   "DSOs",
+   "What's the DSO trade-off?",
+   "Huge volume, but heavy price pressure",
+   [
+    "Low volume, high margin",
+    "Fast decisions, short contracts",
+    "No contracts needed"
+   ],
+   "Also slow decisions and contract cycles that are hard to break into. The opposite of a solo GP.",
+   3
+  ],
+  [
+   "DSOs",
+   "What does RFP stand for in DSO sales?",
+   "Request for proposal",
+   [
+    "Rapid fulfilment process",
+    "Regional franchise plan",
+    "Referral for purchase"
+   ],
+   "That's the formal route in. Regional or national buying groups, then annual contracts.",
+   3
+  ],
+  [
+   "DSOs",
+   "How many dental schools are in the US?",
+   "65",
+   [
+    "6",
+    "650",
+    "About 200"
+   ],
+   "Committee decisions make them slow, but students trained on your system become customers for a career.",
+   3
+  ],
+  [
+   "Customer profiling",
+   "What are the five parts of a customer profile?",
+   "Avatar, pain points, goals, triggers, your value",
+   [
+    "Name, address, phone, email, website",
+    "Revenue, staff, chairs, hours, location",
+    "Product, price, place, promotion, people"
+   ],
+   "Who decides, what keeps them up at night, what they want, what makes them buy, and why you.",
+   3
+  ],
+  [
+   "Customer profiling",
+   "What are the three classic buying triggers?",
+   "Equipment breaks, adding a service, a competitor upgraded",
+   [
+    "Insurance changes, tax season, holidays",
+    "New staff, new patients, new location",
+    "Price drops, rebates, free shipping"
+   ],
+   "The competitor one is most underrated - track who's buying what nearby.",
+   3
   ]
  ],
  "trouble": [
