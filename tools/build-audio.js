@@ -292,20 +292,38 @@ async function renderEleven(t, dest) {
   const parts = [];
 
   for (let i = 0; i < chunks.length; i++) {
-    const res = await fetch("https://api.elevenlabs.io/v1/text-to-speech/" + voice, {
-      method: "POST",
-      headers: { "xi-api-key": key, "Content-Type": "application/json" },
-      body: JSON.stringify({
-        text: chunks[i],
-        model_id: "eleven_multilingual_v2",
-        voice_settings: { stability: 0.5, similarity_boost: 0.75 }
-      })
-    });
-    if (!res.ok) {
-      throw new Error("HTTP " + res.status + " on chunk " + (i + 1) + "/" + chunks.length +
-                      " — " + (await res.text()).slice(0, 250));
+    // A 90-minute job is dozens of requests; a single network blip shouldn't
+    // lose the whole run, so retry transient failures before giving up.
+    let buf = null, lastErr = null;
+    for (let attempt = 1; attempt <= 4 && !buf; attempt++) {
+      try {
+        const res = await fetch("https://api.elevenlabs.io/v1/text-to-speech/" + voice, {
+          method: "POST",
+          headers: { "xi-api-key": key, "Content-Type": "application/json" },
+          body: JSON.stringify({
+            text: chunks[i],
+            model_id: "eleven_multilingual_v2",
+            voice_settings: { stability: 0.5, similarity_boost: 0.75 }
+          })
+        });
+        if (!res.ok) {
+          const detail = (await res.text()).slice(0, 250);
+          // quota / auth problems won't fix themselves — fail fast
+          if (res.status === 401 || res.status === 403) throw new Error("HTTP " + res.status + " — " + detail);
+          throw new Error("HTTP " + res.status + " — " + detail);
+        }
+        buf = Buffer.from(await res.arrayBuffer());
+      } catch (e) {
+        lastErr = e;
+        if (/HTTP 40[13]/.test(e.message)) throw e;
+        if (attempt < 4) {
+          process.stdout.write("r");
+          await new Promise(r => setTimeout(r, attempt * 3000));
+        }
+      }
     }
-    parts.push(Buffer.from(await res.arrayBuffer()));
+    if (!buf) throw new Error("chunk " + (i + 1) + "/" + chunks.length + " failed after 4 tries — " + lastErr.message);
+    parts.push(buf);
     process.stdout.write(".");
   }
 
@@ -350,16 +368,26 @@ async function renderEleven(t, dest) {
   if (mode === "say") console.log("voice: " + VOICE);
   fs.mkdirSync(AUDIO, { recursive: true });
 
-  const stale = fs.readdirSync(AUDIO).filter(f => isGenerated(f) && /\.(mp3|m4a)$/i.test(f));
-  stale.forEach(f => fs.unlinkSync(path.join(AUDIO, f)));
-  if (stale.length) console.log("cleared " + stale.length + " previous track(s)");
+  // Render to a staging directory first. Only once every track has succeeded do
+  // we replace what's in the shared folder — otherwise a failure part way through
+  // wipes the tracks he already had and leaves him with nothing.
+  const stage = fs.mkdtempSync(path.join(os.tmpdir(), "dental-audio-"));
+  const ext = mode === "eleven" ? ".mp3" : ".m4a";
+
   for (const t of list) {
-    const ext = mode === "eleven" ? ".mp3" : ".m4a";
-    const dest = path.join(AUDIO, t.file + ext);
+    const dest = path.join(stage, t.file + ext);
     process.stdout.write("  " + t.file + " ... ");
     if (mode === "eleven") await renderEleven(t, dest);
     else renderSay(t, dest);
     console.log((fs.statSync(dest).size / 1024 / 1024).toFixed(1) + " MB");
   }
-  console.log("\naudio written to " + AUDIO);
+
+  const stale = fs.readdirSync(AUDIO).filter(f => isGenerated(f) && /\.(mp3|m4a)$/i.test(f));
+  stale.forEach(f => fs.unlinkSync(path.join(AUDIO, f)));
+  fs.readdirSync(stage).forEach(f => {
+    fs.copyFileSync(path.join(stage, f), path.join(AUDIO, f));
+    fs.unlinkSync(path.join(stage, f));
+  });
+  fs.rmdirSync(stage);
+  console.log("\nreplaced " + stale.length + " old track(s); " + list.length + " written to " + AUDIO);
 })().catch(e => { console.error("\nfailed:", e.message); process.exit(1); });
