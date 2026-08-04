@@ -1228,6 +1228,320 @@
      "a": "45, has owned the practice 15 years, 3 hygiene days a week, produces $1.2M/year.<br><b>Pain:</b> overhead creeping up, insurance reimbursement down, needs more cosmetic cases, staff turnover.<br><b>Goals:</b> more revenue without adding days, more fee-for-service patients, work-life balance.<br><b>Your value:</b> reliable service, help with case acceptance, financing, team training."
     }
    ]
+  },
+  {
+   "day": 4,
+   "date": "8·04·2026",
+   "fixes": [],
+   "cards": [
+    {
+     "d": "Consumables cycle",
+     "q": "How long is the consumables sales cycle?",
+     "a": "<b>1 to 4 weeks.</b> The fastest of the three.",
+     "n": "Compare: equipment is 3&ndash;12 months, implants 1&ndash;6 months."
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "Walk the four weeks.",
+     "a": "<ol><li><b>Week 1</b> &mdash; relationship building: initial contact, needs assessment, current supplier intel, product intro</li><li><b>Weeks 2&ndash;3</b> &mdash; trial and trust: samples, compare to current, address concerns, build rapport with staff</li><li><b>Week 4</b> &mdash; close and onboard: pricing proposal, first order, set up account, establish reorder schedule</li></ol>"
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "What are the three intel questions to ask weekly?",
+     "a": "<ol><li>\"What else are you using?\"</li><li>\"Anyone else calling on you?\"</li><li>\"How's X product working out?\"</li></ol>",
+     "n": "Competitive intelligence isn't a special project. It's three questions on every visit."
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "What happens bi-weekly?",
+     "a": "Deeper inventory review, introduce new products, and <b>problem solving</b> &mdash; \"the composite is too thick,\" \"gloves keep ripping.\"",
+     "n": "Those complaints are gifts. They're the opening to replace a competitor's product."
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "Monthly and quarterly?",
+     "a": "<b>Monthly:</b> practice lunch, usage reports, contract review, value-add like patient education materials.<br><b>Quarterly:</b> business review, volume discounts, equipment needs, renewal conversations."
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "What does \"reliability wins\" actually mean?",
+     "a": "When they call, you answer. When they need it today, you deliver. <b>No excuses, solutions only.</b>",
+     "n": "\"Be the teammate they can always count on.\""
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "How do you become indispensable?",
+     "a": "<b>Know their inventory better than they do</b> and predict their needs &mdash; \"you're probably running low on...\"",
+     "n": "Plus value beyond product: practice tips, regulatory updates, problem solving."
+    },
+    {
+     "d": "Consumables cycle",
+     "q": "A competitor is 5% cheaper. What's the counter?",
+     "a": "\"Sure, they're 5% cheaper &mdash; <b>but can they deliver emergency orders on Saturday?</b>\"",
+     "n": "Compete on service, relationship and reliability. Never on price alone."
+    },
+    {
+     "d": "Objections",
+     "q": "\"Your price is too high.\"",
+     "a": "<ol><li>Compare <b>total cost of ownership</b>, not sticker price</li><li>Factor in service and reliability</li><li>Offer volume discounts</li><li>Ask: <b>\"What's the cost of running out mid-day?\"</b></li></ol>"
+    },
+    {
+     "d": "Objections",
+     "q": "\"We're happy with our current supplier.\"",
+     "a": "<b>Don't badmouth the competitor.</b> Try:<br>\"That's great! Would you be open to a backup supplier?\"<br>or \"What would it take to earn some of your business?\"",
+     "n": "You're planting seeds for when they have a problem &mdash; and they will."
+    },
+    {
+     "d": "Objections",
+     "q": "\"We're cutting costs.\"",
+     "a": "Show them <b>where they can save</b> &mdash; consolidating suppliers, reducing waste.<br>\"Let me audit your inventory. I bet I can find savings.\"",
+     "n": "Turns a rejection into an appointment."
+    },
+    {
+     "d": "Objections",
+     "q": "\"It's too expensive\" on equipment?",
+     "a": "Revisit the ROI. Compare to the cost of <b>not</b> buying. Financing makes it affordable.<br>\"What's the cost of referring these cases out?\""
+    },
+    {
+     "d": "Objections",
+     "q": "\"We need to think about it.\"",
+     "a": "Find out what's <b>really</b> holding them back &mdash; \"what specific concerns can I address?\"<br>Then create urgency responsibly: year-end tax write-off, financing rate increase, rebate expiring.",
+     "n": "Don't be pushy. Be helpful."
+    },
+    {
+     "d": "Objections",
+     "q": "\"We're getting quotes from other companies.\"",
+     "a": "<b>Welcome it.</b> \"That's smart. What's most important to you in making this decision?\"<br>Then differentiate on value &mdash; service, support, training, integration &mdash; not price."
+    },
+    {
+     "d": "Objections",
+     "q": "\"We need to involve our accountant/partner/spouse.\"",
+     "a": "\"Great, I'd be happy to present to them too.\" Give them materials to share, and <b>be patient</b>.",
+     "n": "Fighting the extra decision maker loses. Arming them wins."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "How long is the equipment cycle, and how many phases?",
+     "a": "<b>3 to 12 months</b>, across <b>six phases</b>: discovery, education and demo, proposal and ROI, negotiation, close and onboard, then post-sale."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "The five qualifying questions?",
+     "a": "<ol><li>\"What's prompting you to look at this now?\"</li><li>\"What's your timeline?\"</li><li>\"Who's involved in this decision?\"</li><li>\"What's your budget range?\"</li><li>\"Have you thought about financing?\"</li></ol>",
+     "n": "They may not answer the budget one. Ask anyway."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "What usually prompts an equipment purchase?",
+     "a": "Equipment broke, practice expansion, a new associate, <b>a competitor has it</b>, or patient demand."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "Four ways to demo equipment?",
+     "a": "<ol><li><b>In-office</b> &mdash; bring it to them, real patients, 2&ndash;3 hours, whole team present</li><li><b>At your facility</b> &mdash; controlled, shows integration, lunch included</li><li><b>Visit another practice</b> &mdash; peer testimonial, very powerful</li><li><b>Lunch-and-learn</b> &mdash; whole team, education focus</li></ol>",
+     "n": "\"Dr. Smith down the street uses this\" beats any brochure."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "Why is team buy-in critical at a demo?",
+     "a": "Because the staff use it every day. Get them hands-on and they'll advocate for it &mdash; or kill it.",
+     "n": "Schedule 2&ndash;3 hours and have the team present."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "Work the CEREC ROI.",
+     "a": "<b>Investment:</b> $120,000 equipment + $3,000 training + $5,000 first-year blocks = <b>$128,000</b>.<br><b>Return:</b> 20 crowns/month at $250 lab cost saved = $60,000/yr. Plus emergency crowns, 5/month at $1,000 = $60,000/yr. Plus better case acceptance = $20,000/yr.<br><b>Total: $140,000/year. Payback under one year.</b>",
+     "n": "That's the shape of every equipment pitch: what it costs, what it returns, how fast it pays back."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "Three financing options?",
+     "a": "<ol><li><b>Lease</b> &mdash; lower monthly, tax write-off, easier approval. Roughly $2,500/month on $120K</li><li><b>Finance/loan</b> &mdash; they own it, build equity, maybe better terms</li><li><b>Cash</b> &mdash; rare on big equipment, usually earns a discount</li></ol>",
+     "n": "Your job is to present all three and let them choose. Not to pick for them."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "What goes in an equipment proposal?",
+     "a": "<ol><li>Executive summary &mdash; big picture and ROI</li><li>Equipment specs</li><li>Transparent pricing</li><li>Financing options</li><li>Training plan</li><li>Support: warranty, service, availability</li><li>Timeline: install, train, go-live</li><li>References</li><li>Clear next steps</li></ol>"
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "Negotiating &mdash; what should you do instead of cutting price?",
+     "a": "<b>Add value.</b> Extended warranty, extra training, free consumables for a few months, priority service.",
+     "n": "Cutting price sets the anchor for every future deal with them."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "The rule on concessions?",
+     "a": "<b>Get something in return.</b> \"If I can get you to $X, can we move forward this week?\"<br>Commitment for commitment.",
+     "n": "A discount given for nothing teaches them to keep asking."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "What's the assumptive close?",
+     "a": "\"Based on everything we've discussed, are you ready to move forward?\" then <b>\"Great, let's schedule installation for...\"</b>"
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "What happens at go-live?",
+     "a": "<b>Be present for the first cases.</b> Troubleshoot, build staff confidence, and celebrate quick wins.",
+     "n": "The install isn't the finish line. A bad first week can sour a $120,000 purchase."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "The post-sale follow-up schedule?",
+     "a": "<ol><li><b>1 week</b> &mdash; \"how's it going?\"</li><li><b>1 month</b> &mdash; check in, address issues</li><li><b>3 months</b> &mdash; deeper review, optimization</li><li><b>6 months</b> &mdash; business results review</li><li><b>Annually</b> &mdash; maintenance, upgrades, add-ons</li></ol>",
+     "n": "This is where you make your money long term."
+    },
+    {
+     "d": "Equipment cycle",
+     "q": "What is consumables attachment?",
+     "a": "Every piece of equipment drags consumables behind it:<br>CEREC &rarr; ceramic blocks. Implants &rarr; surgical supplies. Scanner &rarr; less impression material.",
+     "n": "Sell the machine once, sell what it eats forever."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "How long is the implant cycle, and why is it different?",
+     "a": "<b>1 to 6 months.</b> It's a <b>clinical education sale</b> &mdash; it's about outcomes, the surgeon's reputation is on the line, and complications are unacceptable."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "Why can't a surgeon just \"try\" a new implant system?",
+     "a": "The surgical technique is <b>specific to the system</b>, so is the prosthetic workflow and case selection. There's a real learning curve.",
+     "n": "Which is also why they're sticky once established."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "The five stages of an implant sale?",
+     "a": "<ol><li><b>Awareness and interest</b> (weeks 1&ndash;4)</li><li><b>Education and training</b> (4&ndash;12)</li><li><b>Trial cases</b> (8&ndash;16)</li><li><b>Commitment and inventory</b> (12&ndash;24)</li><li><b>Ongoing support</b> (forever)</li></ol>"
+    },
+    {
+     "d": "Implant cycle",
+     "q": "The opening question for a surgeon?",
+     "a": "<b>\"Are you currently placing implants?\"</b><br>No &rarr; education pathway. Yes &rarr; what system, and why would you consider switching?",
+     "n": "Then: \"What would you want in an implant system?\" &mdash; ease of use, predictability, evidence, support, cost."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "How does a sponsored CE course work?",
+     "a": "Your company pays. Hands-on with pig jaws and models, lecture plus live surgery, credentialed speakers, usually <b>free to attendees</b> &mdash; that's your marketing cost.",
+     "n": "They learn your system, build confidence, see results, and meet other users. Social proof does the selling."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "What's the mentorship alternative to a CE course?",
+     "a": "Partner with an experienced surgeon already using your system. The new doctor shadows real cases.",
+     "n": "More personalized, and a <b>higher conversion rate</b>."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "What's non-negotiable on a first trial case?",
+     "a": "<b>You attend the surgery.</b> Bring all components so there's no inventory risk, talk through the protocol, answer questions in real time, troubleshoot, follow up post-op."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "Which cases should a new user start with?",
+     "a": "<b>Easy ones</b> &mdash; single molar, good bone.<br>Not immediate placement, not grafting, not anterior aesthetics.",
+     "n": "Success builds confidence. An early failure kills the account."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "What does commitment actually cost them?",
+     "a": "A surgical kit at <b>$5,000&ndash;15,000</b>, stocked inventory, possibly trading in the old system, and staff training time.",
+     "n": "Which is why you negotiate starter kit pricing, consignment, and volume tiers."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "What is consignment?",
+     "a": "<b>Pay as you use.</b> They stock your inventory but only pay when an implant goes in a patient.",
+     "n": "Removes the cash-flow objection on committing to a system."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "Why does availability equal loyalty in implants?",
+     "a": "They call <b>you</b> when there's a problem &mdash; and 3am calls happen, because complications cause anxiety.",
+     "n": "Being reachable is the product as much as the implant is."
+    },
+    {
+     "d": "Implant cycle",
+     "q": "How do you grow an implant account?",
+     "a": "More implants per year, advanced cases like All-on-4 and full arch, new product lines &mdash; bone grafts, membranes &mdash; and referrals to colleagues."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "Cycle length and price for all three?",
+     "a": "<ol><li><b>Consumables</b> &mdash; 1&ndash;4 weeks, $50&ndash;5,000</li><li><b>Equipment</b> &mdash; 3&ndash;12 months, $5,000&ndash;500,000</li><li><b>Implants</b> &mdash; 1&ndash;6 months, $200&ndash;2,000 per case</li></ol>"
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "Who decides, for each type?",
+     "a": "<b>Consumables</b> &mdash; office manager plus dentist.<br><b>Equipment</b> &mdash; owner and partners.<br><b>Implants</b> &mdash; the surgeon or dentist.",
+     "n": "Walking into the wrong conversation with the wrong person wastes the visit."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "What's your role in each?",
+     "a": "<b>Consumables</b> &mdash; supplier.<br><b>Equipment</b> &mdash; consultant.<br><b>Implants</b> &mdash; clinical partner.",
+     "n": "Three different jobs, not three different products."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "The key skill for each?",
+     "a": "<b>Consumables</b> &mdash; reliability.<br><b>Equipment</b> &mdash; ROI development.<br><b>Implants</b> &mdash; clinical credibility."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "Roughly what do they pay?",
+     "a": "<b>Consumables</b> &mdash; lower, 5&ndash;15%.<br><b>Equipment</b> &mdash; higher, varies widely.<br><b>Implants</b> &mdash; moderate, 10&ndash;25%.",
+     "n": "Consumables pay less per sale but repeat weekly. Equipment pays big and rarely."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "How often does each repeat?",
+     "a": "<b>Consumables</b> &mdash; weekly or monthly.<br><b>Equipment</b> &mdash; years, on replacement.<br><b>Implants</b> &mdash; per case, ongoing."
+    },
+    {
+     "d": "Comparing cycles",
+     "q": "The three athlete types?",
+     "a": "<ol><li><b>Consumables</b> &mdash; point guard distributing assists. High activity, organized, always available</li><li><b>Equipment</b> &mdash; chess player setting up the win. Strategic, patient, business acumen</li><li><b>Implants</b> &mdash; personal trainer. Clinical, technical, depth over breadth</li></ol>"
+    },
+    {
+     "d": "Territory & metrics",
+     "q": "How do you grade accounts?",
+     "a": "<ol><li><b>A accounts</b> &mdash; $5K+/month &rarr; weekly visits</li><li><b>B accounts</b> &mdash; $2&ndash;5K/month &rarr; bi-weekly</li><li><b>C accounts</b> &mdash; under $2K/month &rarr; monthly</li></ol>",
+     "n": "Plus dedicated prospecting time. Without this you'll over-serve small accounts and lose big ones."
+    },
+    {
+     "d": "Territory & metrics",
+     "q": "The six numbers to track per account?",
+     "a": "<ol><li><b>Monthly spend</b> &mdash; growing or declining?</li><li><b>Breadth</b> &mdash; how many categories?</li><li><b>Depth</b> &mdash; are you primary or secondary supplier?</li><li><b>Mix</b> &mdash; what's your margin on what they buy?</li><li><b>Frequency</b> &mdash; weekly, bi-weekly, monthly?</li><li><b>Payment terms</b> &mdash; net 30, 60, 90?</li></ol>",
+     "n": "Payment terms affect your commission, so they're not just an accounting detail."
+    },
+    {
+     "d": "Territory & metrics",
+     "q": "What's the difference between breadth and depth?",
+     "a": "<b>Breadth</b> is how many categories they buy from you. <b>Depth</b> is whether you're their primary or just a backup.",
+     "n": "You can be in every category and still be second choice in all of them."
+    },
+    {
+     "d": "Role play",
+     "q": "\"Your competitor just offered us 20% off if we switch everything to them.\"",
+     "a": "Don't match blind. Ask what problem the switch solves, restate total cost of ownership and emergency service, and find out whether they actually want to leave or want you to compete.",
+     "n": "Consumables scenario from the training. Practise saying it out loud."
+    },
+    {
+     "d": "Role play",
+     "q": "\"I like your CBCT, but it's $20K more than the competition.\"",
+     "a": "Go back to ROI and what the difference buys &mdash; service, training, integration, support. Compare cost of ownership over the machine's life, not the sticker.",
+     "n": "Equipment scenario. $20K over ten years against referral revenue kept in-house is a different number."
+    },
+    {
+     "d": "Role play",
+     "q": "A surgeon had a complication with your implant &mdash; and it was surgical error, not the product. How do you respond?",
+     "a": "Show up. Support them, help solve the case, and <b>don't assign blame</b>. Your availability at the worst moment is exactly what buys loyalty.",
+     "n": "Implant scenario. Being right about fault and losing the account is still losing."
+    }
+   ]
   }
  ],
  "questions": [
@@ -3606,6 +3920,510 @@
    ],
    "The competitor one is most underrated - track who's buying what nearby.",
    3
+  ],
+  [
+   "Consumables cycle",
+   "How long is the consumables sales cycle?",
+   "1 to 4 weeks",
+   [
+    "3 to 12 months",
+    "1 to 6 months",
+    "A single visit"
+   ],
+   "The fastest of the three. Equipment is 3-12 months, implants 1-6 months.",
+   4
+  ],
+  [
+   "Consumables cycle",
+   "What happens in week 1?",
+   "Relationship building and needs assessment",
+   [
+    "Pricing proposal",
+    "First order",
+    "Contract renewal"
+   ],
+   "Initial contact, needs assessment, current supplier intel, product introduction. Trial comes weeks 2-3, close in week 4.",
+   4
+  ],
+  [
+   "Consumables cycle",
+   "When do you close a consumables account?",
+   "Week 4",
+   [
+    "Week 1",
+    "Month 3",
+    "Month 6"
+   ],
+   "Pricing proposal, first order, set up the account, establish a reorder schedule.",
+   4
+  ],
+  [
+   "Consumables cycle",
+   "Which question gathers competitive intel weekly?",
+   "\"What else are you using?\"",
+   [
+    "\"When do you close?\"",
+    "\"Who's your accountant?\"",
+    "\"How's business?\""
+   ],
+   "Along with \"anyone else calling on you?\" and \"how's X product working out?\" Three questions, every visit.",
+   4
+  ],
+  [
+   "Consumables cycle",
+   "A competitor is 5% cheaper. What do you say?",
+   "Ask if they can deliver emergency orders on a Saturday",
+   [
+    "Match the price",
+    "Offer 10% off",
+    "Walk away"
+   ],
+   "Compete on service, relationship and reliability. Never on price alone - you can't win that race.",
+   4
+  ],
+  [
+   "Consumables cycle",
+   "What does becoming indispensable look like?",
+   "Knowing their inventory better than they do",
+   [
+    "Visiting more often",
+    "Being cheapest",
+    "Sending more samples"
+   ],
+   "Predict their needs. \"You're probably running low on...\" is the whole move.",
+   4
+  ],
+  [
+   "Objections",
+   "\"We're happy with our current supplier\" - best response?",
+   "\"Would you be open to a backup supplier?\"",
+   [
+    "\"They're not as good as us\"",
+    "\"I'll come back later\"",
+    "\"Let me beat their price\""
+   ],
+   "Never badmouth the competitor. You're planting seeds for when they have a problem, and they will.",
+   4
+  ],
+  [
+   "Objections",
+   "\"We're cutting costs\" - what's the move?",
+   "Offer to audit their inventory for savings",
+   [
+    "Lower your price",
+    "Come back next quarter",
+    "Ask for a smaller order"
+   ],
+   "\"Let me audit your inventory, I bet I can find savings.\" Turns a rejection into an appointment.",
+   4
+  ],
+  [
+   "Objections",
+   "\"Your price is too high\" - what do you compare?",
+   "Total cost of ownership, not sticker price",
+   [
+    "Your price to theirs",
+    "Last year's price",
+    "The list price"
+   ],
+   "Factor in service and reliability, then ask what it costs them to run out mid-day.",
+   4
+  ],
+  [
+   "Objections",
+   "\"We're getting other quotes\" - how do you react?",
+   "Welcome it and ask what matters most in the decision",
+   [
+    "Discourage it",
+    "Immediately discount",
+    "Withdraw your quote"
+   ],
+   "\"That's smart. What's most important to you?\" Then differentiate on value, not price.",
+   4
+  ],
+  [
+   "Objections",
+   "\"We need to involve our accountant\" - what do you do?",
+   "Offer to present to them as well",
+   [
+    "Push for a decision now",
+    "Ignore it",
+    "Offer a discount to skip it"
+   ],
+   "Give them materials to share and be patient. Arming the extra decision maker beats fighting them.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "How long is the equipment sales cycle?",
+   "3 to 12 months",
+   [
+    "1 to 4 weeks",
+    "1 to 6 months",
+    "Over 3 years"
+   ],
+   "Six phases: discovery, education and demo, proposal and ROI, negotiation, close and onboard, then post-sale.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "Which is a qualifying question for equipment?",
+   "\"Who's involved in this decision?\"",
+   [
+    "\"Do you like our brand?\"",
+    "\"Can I speak to the dentist?\"",
+    "\"Do you need supplies?\""
+   ],
+   "Along with what's prompting it, timeline, budget range, and whether they've thought about financing.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "Which demo type gives you a peer testimonial?",
+   "Visiting another practice that already uses it",
+   [
+    "In-office demo",
+    "Demo at your facility",
+    "Lunch-and-learn"
+   ],
+   "\"Dr. Smith down the street uses this\" beats any brochure you can hand them.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "How long should an in-office demo run?",
+   "2 to 3 hours, with the team present",
+   [
+    "15 minutes",
+    "A full day",
+    "Whatever's left of lunch"
+   ],
+   "Team buy-in is critical. The staff use it daily and can advocate for it or kill it.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "In the CEREC example, what's the total investment?",
+   "$128,000",
+   [
+    "$120,000",
+    "$140,000",
+    "$60,000"
+   ],
+   "$120,000 equipment, $3,000 training, $5,000 first-year ceramic blocks.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "In the CEREC example, what's the annual return?",
+   "About $140,000",
+   [
+    "About $60,000",
+    "About $20,000",
+    "About $250,000"
+   ],
+   "$60,000 saved lab fees, $60,000 captured emergency crowns, $20,000 better case acceptance. Payback under a year.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "Roughly what's a lease payment on $120K of equipment?",
+   "About $2,500 a month",
+   [
+    "About $500 a month",
+    "About $10,000 a month",
+    "About $250 a month"
+   ],
+   "Lease means lower payments, a tax write-off and easier approval. Present lease, loan and cash - let them choose.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "What should you do instead of cutting price?",
+   "Add value - warranty, training, free consumables",
+   [
+    "Cut price faster",
+    "Walk away",
+    "Escalate to your manager"
+   ],
+   "Cutting price sets the anchor for every future deal with that account.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "What's the rule when you do give a concession?",
+   "Get something in return",
+   [
+    "Give it freely to build goodwill",
+    "Never concede anything",
+    "Offer the maximum immediately"
+   ],
+   "\"If I can get you to $X, can we move forward this week?\" Commitment for commitment.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "When should you follow up after installation?",
+   "1 week, 1 month, 3 months, 6 months, annually",
+   [
+    "Only if they call",
+    "Once a year",
+    "Never - the sale is done"
+   ],
+   "Post-sale is where you make your money long term. It's also where referrals and upsells come from.",
+   4
+  ],
+  [
+   "Equipment cycle",
+   "What is consumables attachment?",
+   "Equipment drags ongoing consumable sales with it",
+   [
+    "A financing add-on",
+    "A warranty extension",
+    "A staff training package"
+   ],
+   "CEREC needs ceramic blocks. Implants need surgical supplies. Sell the machine once, sell what it eats forever.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "How long is the implant sales cycle?",
+   "1 to 6 months",
+   [
+    "1 to 4 weeks",
+    "3 to 12 months",
+    "Over 2 years"
+   ],
+   "Five stages: awareness, education, trial cases, commitment and inventory, then support forever.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "Why can't a surgeon simply try a new implant system?",
+   "Technique and workflow are specific to the system",
+   [
+    "The implants are identical",
+    "Patents prevent it",
+    "Insurance blocks it"
+   ],
+   "Surgical technique, prosthetic workflow and case selection all change. That's the learning curve - and why it's sticky.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "What's the point of a sponsored CE course?",
+   "They learn your system and meet other users",
+   [
+    "It generates immediate orders",
+    "It's a legal requirement",
+    "It replaces the demo"
+   ],
+   "Usually free to attendees - that's your marketing cost. Social proof from other users does the selling.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "What converts better than a CE course?",
+   "Mentorship - shadowing an experienced user",
+   [
+    "Email campaigns",
+    "Price discounts",
+    "Trade show booths"
+   ],
+   "Partner with a surgeon already on your system. More personalized, higher conversion.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "What's non-negotiable on a first trial case?",
+   "You attend the surgery",
+   [
+    "You send a brochure",
+    "You call afterwards",
+    "You discount the implant"
+   ],
+   "Bring all components so there's no inventory risk, talk through the protocol, troubleshoot live, follow up post-op.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "Which case should a new user start with?",
+   "Single molar with good bone",
+   [
+    "Immediate placement with grafting",
+    "Full arch All-on-4",
+    "Anterior aesthetic case"
+   ],
+   "Start easy. Success builds confidence; an early failure kills the account.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "What does a surgical kit cost?",
+   "$5,000 to $15,000",
+   [
+    "$500 to $1,500",
+    "$50,000 to $150,000",
+    "It's always free"
+   ],
+   "Plus stocked inventory. Which is why consignment and starter-kit pricing come up in the negotiation.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "What is consignment?",
+   "They pay only as they use the inventory",
+   [
+    "A bulk discount",
+    "A leasing contract",
+    "A trade-in program"
+   ],
+   "Removes the cash-flow objection to committing to your system.",
+   4
+  ],
+  [
+   "Implant cycle",
+   "Why does availability equal loyalty in implants?",
+   "They call you when there's a complication",
+   [
+    "You visit more often",
+    "You're cheapest",
+    "You send more reps"
+   ],
+   "3am calls happen, because complications cause anxiety. Being reachable is as much the product as the implant.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "Which product type has the longest sales cycle?",
+   "Equipment, at 3 to 12 months",
+   [
+    "Consumables",
+    "Implants",
+    "They're all the same"
+   ],
+   "Consumables 1-4 weeks, implants 1-6 months, equipment 3-12 months.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "Who's the decision maker for equipment?",
+   "The owner and partners",
+   [
+    "The office manager",
+    "The hygienist",
+    "The surgical assistant"
+   ],
+   "Consumables is office manager plus dentist. Implants is the surgeon. Wrong person, wasted visit.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "What's your role in an implant sale?",
+   "Clinical partner",
+   [
+    "Supplier",
+    "Consultant",
+    "Order taker"
+   ],
+   "Consumables you're a supplier, equipment you're a consultant, implants you're a clinical partner. Three different jobs.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "What's the key skill for equipment sales?",
+   "ROI development",
+   [
+    "Reliability",
+    "Clinical credibility",
+    "Cold calling"
+   ],
+   "Consumables needs reliability, implants need clinical credibility, equipment needs you to build the business case.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "Which pays the lowest commission percentage?",
+   "Consumables, at 5 to 15%",
+   [
+    "Equipment",
+    "Implants",
+    "They're identical"
+   ],
+   "But it repeats weekly. Implants run 10-25%, equipment is higher but varies widely.",
+   4
+  ],
+  [
+   "Comparing cycles",
+   "In the athlete analogy, the equipment rep is:",
+   "A chess player setting up the win",
+   [
+    "A point guard distributing assists",
+    "A personal trainer",
+    "A sprinter"
+   ],
+   "Consumables is the point guard - high activity, always available. Implants is the personal trainer - close partnership.",
+   4
+  ],
+  [
+   "Territory & metrics",
+   "What defines an A account?",
+   "$5,000+ a month, visited weekly",
+   [
+    "Any account you like",
+    "$500 a month",
+    "Only new accounts"
+   ],
+   "B accounts are $2-5K bi-weekly, C accounts under $2K monthly. Plus dedicated prospecting time.",
+   4
+  ],
+  [
+   "Territory & metrics",
+   "How often do you visit a C account?",
+   "Monthly",
+   [
+    "Weekly",
+    "Daily",
+    "Never"
+   ],
+   "Under $2,000 a month. Grading accounts stops you over-serving small ones and losing big ones.",
+   4
+  ],
+  [
+   "Territory & metrics",
+   "What's the difference between breadth and depth?",
+   "Breadth is categories, depth is primary vs backup",
+   [
+    "Breadth is revenue, depth is margin",
+    "They mean the same thing",
+    "Breadth is visits, depth is orders"
+   ],
+   "You can be in every category and still be second choice in all of them.",
+   4
+  ],
+  [
+   "Territory & metrics",
+   "Why do payment terms matter to you personally?",
+   "They affect your commission",
+   [
+    "They don't",
+    "They set the price",
+    "They decide the visit schedule"
+   ],
+   "Net 30 versus net 90 changes when you actually get paid. Track it alongside spend and frequency.",
+   4
+  ],
+  [
+   "Territory & metrics",
+   "Which metric tells you if you're the primary supplier?",
+   "Depth",
+   [
+    "Breadth",
+    "Mix",
+    "Frequency"
+   ],
+   "Breadth counts categories. Depth is whether they call you first or only when the other guy is out.",
+   4
   ]
  ],
  "trouble": [

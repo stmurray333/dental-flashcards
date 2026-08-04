@@ -139,6 +139,38 @@ const OVERVIEWS = {
   }
 };
 
+OVERVIEWS[4] = {
+  title: "Day 4 - The Three Sales Cycles",
+  text: [
+    "Day four. The three sales cycles, and how differently each one works.",
+    "Everything you sell falls into one of three cycles. Consumables take one to four weeks. Implants take one to six months. Equipment takes three to twelve months. Same territory, three completely different jobs.",
+    "Start with consumables. Week one is relationship building. Initial contact, needs assessment, finding out who supplies them now. Weeks two and three are trial and trust, samples, comparing against what they use, building rapport with the staff. Week four you close. Pricing, first order, set up the account, and get a reorder schedule going.",
+    "After that it is a rhythm. Every week you check in, take orders, deliver anything urgent, and gather intelligence. Three questions do that: what else are you using, is anyone else calling on you, and how is that product working out.",
+    "Every other week, a deeper inventory review and problem solving. When someone says the composite is too thick or the gloves keep ripping, that is not a complaint, that is your opening.",
+    "Monthly you buy the team lunch and review usage. Quarterly you do a business review and talk about equipment.",
+    "Two ideas make you hard to replace. Reliability, meaning when they call you answer and when they need it today you deliver. And becoming indispensable, meaning you know their inventory better than they do and you tell them what they are about to run out of.",
+    "Because competitors are calling, and they will undercut you on price. The answer is not to match it. Sure, they are 5 percent cheaper, but can they deliver an emergency order on a Saturday?",
+    "Now objections. Price is too high? Compare total cost of ownership, not the sticker, and ask what it costs them to run out mid day. Happy with their current supplier? Never badmouth the competitor. Ask if they would be open to a backup supplier, and plant a seed for when a problem happens. Cutting costs? Offer to audit their inventory and find the savings for them.",
+    "Manage your territory by grading accounts. A accounts spend five thousand a month or more, you visit weekly. B accounts, two to five thousand, every other week. C accounts, under two thousand, monthly. And keep real prospecting time in the calendar.",
+    "Track six numbers per account. Monthly spend, breadth meaning how many categories, depth meaning whether you are primary or just the backup, mix meaning your margin, order frequency, and payment terms. That last one affects your commission, so it is not just accounting.",
+    "Now equipment, the long game. Three to twelve months, six phases.",
+    "Phase one is discovery. Five questions. What is prompting you to look at this now. What is your timeline. Who is involved in the decision. What is your budget range. And have you thought about financing.",
+    "Phase two is education and demonstration. Four ways to demo. In their office on real patients, and block two to three hours with the whole team there. At your facility, more controlled. At another practice that already owns it, which is the most powerful because it is a peer telling them. Or a lunch and learn for the whole team.",
+    "Phase three is the proposal and the ROI, and this is where equipment is won. Take CEREC. The investment is a hundred and twenty thousand for the machine, three thousand for training, five thousand in ceramic blocks the first year. A hundred and twenty eight thousand total.",
+    "Now the return. They send twenty crowns a month to a lab at two hundred and fifty dollars each, so that is five thousand a month, sixty thousand a year they stop losing. Add emergency crowns they can now capture, five a month at a thousand dollars, another sixty thousand. Add better case acceptance, twenty thousand. A hundred and forty thousand a year in new revenue. Payback in under a year.",
+    "That is the shape of every equipment pitch. What it costs, what it returns, how fast it pays back.",
+    "Financing. A lease means lower payments and a tax write off, roughly twenty five hundred a month on a hundred and twenty thousand dollar machine. A loan means they own it. Cash is rare but usually earns a discount. Present all three, let them choose.",
+    "Phase four, negotiation. When they say it is too expensive, go back to the ROI and ask what it costs to keep referring those cases out. When they say they need to think about it, find out what is actually holding them back. When they say they are getting other quotes, welcome it and ask what matters most to them.",
+    "And the two rules of negotiating. Add value instead of cutting price, because a discount sets the anchor forever. And if you do concede, get something back. If I can get you to that number, can we move forward this week.",
+    "Phase five is close and onboard, and be there for the first cases. Phase six is the post sale relationship, and this is where you actually make your money. Follow up at one week, one month, three months, six months, then annually. And remember every machine drags consumables behind it. CEREC needs ceramic blocks. Implants need surgical supplies.",
+    "Last, the implant cycle. One to six months, and it is a clinical education sale. The surgeon's reputation is on the line, so outcomes matter more than price.",
+    "Five stages. Awareness, where they meet you at a course or a conference. Education, usually a continuing education course your company sponsors, free to them, which is your marketing cost. Trial cases, and on the first one you attend the surgery, you bring every component, and you talk them through the protocol. Commitment, where they buy a surgical kit at five to fifteen thousand and stock inventory. And then support, forever.",
+    "Start them on easy cases. Single molar, good bone. Not immediate placement, not grafting, not front teeth. Success builds confidence and an early failure kills the account.",
+    "And know why availability equals loyalty here. They call you when something goes wrong, and three a.m. calls happen, because complications cause anxiety. Being reachable is as much the product as the implant is.",
+    "So, three cycles. In consumables you are a supplier and the skill is reliability. In equipment you are a consultant and the skill is building the business case. In implants you are a clinical partner and the skill is credibility. Know which one you are in before you open your mouth."
+  ]
+};
+
 const COMPANIES_TRACK = {
   title: "Companies - Who Owns What",
   text: [
@@ -181,18 +213,23 @@ function quizScript(label, questions) {
 }
 
 function tracks() {
+  // every day that actually has questions, so adding a day needs no edit here
+  const days = [...new Set(content.questions.map(q => q[5] || 1))].sort((a, b) => a - b);
   const out = [];
-  [1, 2, 3].forEach(d => {
-    out.push({ file: d + " - " + OVERVIEWS[d].title, text: overviewScript(OVERVIEWS[d]) });
-  });
-  out.push({ file: "4 - " + COMPANIES_TRACK.title, text: overviewScript(COMPANIES_TRACK) });
+  let n = 1;
 
-  [1, 2, 3].forEach(d => {
+  days.forEach(d => {
+    if (!OVERVIEWS[d]) return;   // no hand-written overview yet — skip, don't fake one
+    out.push({ file: n++ + " - " + OVERVIEWS[d].title, text: overviewScript(OVERVIEWS[d]) });
+  });
+  out.push({ file: n++ + " - " + COMPANIES_TRACK.title, text: overviewScript(COMPANIES_TRACK) });
+
+  days.forEach(d => {
     const qs = content.questions.filter(q => (q[5] || 1) === d);
-    out.push({ file: (4 + d) + " - Quiz - Day " + d, text: quizScript("Day " + d, qs) });
+    out.push({ file: n++ + " - Quiz - Day " + d, text: quizScript("Day " + d, qs) });
   });
   const comp = content.questions.filter(q => (content.companies || []).indexOf(q[1]) > -1);
-  out.push({ file: "8 - Quiz - Companies", text: quizScript("Companies", comp) });
+  out.push({ file: n++ + " - Quiz - Companies", text: quizScript("Companies", comp) });
   return out;
 }
 
@@ -295,7 +332,13 @@ async function renderEleven(t, dest) {
   const mode = process.argv[2] || "scripts";
   const list = tracks();
 
+  // Track numbers shift when a day is added, so clear the old generated files
+  // first — otherwise you end up with both "4 - Companies" and "5 - Companies".
+  // Only touches files this script produces (leading "N - "); anything else stays.
+  const isGenerated = f => /^\d+ - /.test(f);
+
   fs.mkdirSync(SCRIPTS, { recursive: true });
+  fs.readdirSync(SCRIPTS).filter(isGenerated).forEach(f => fs.unlinkSync(path.join(SCRIPTS, f)));
   list.forEach(t => fs.writeFileSync(path.join(SCRIPTS, t.file + ".txt"), t.text));
   console.log("wrote " + list.length + " narration scripts to tools/audio-scripts/");
   const words = list.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
@@ -306,6 +349,10 @@ async function renderEleven(t, dest) {
 
   if (mode === "say") console.log("voice: " + VOICE);
   fs.mkdirSync(AUDIO, { recursive: true });
+
+  const stale = fs.readdirSync(AUDIO).filter(f => isGenerated(f) && /\.(mp3|m4a)$/i.test(f));
+  stale.forEach(f => fs.unlinkSync(path.join(AUDIO, f)));
+  if (stale.length) console.log("cleared " + stale.length + " previous track(s)");
   for (const t of list) {
     const ext = mode === "eleven" ? ".mp3" : ".m4a";
     const dest = path.join(AUDIO, t.file + ext);

@@ -1,0 +1,171 @@
+Quiz. Day 4. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. How long is the consumables sales cycle?
+[[slnc 3500]]
+1 to 4 weeks. [[slnc 400]] The fastest of the three. Equipment is 3 to 12 months, implants 1 to 6 months.
+[[slnc 900]]
+Question 2. What happens in week 1?
+[[slnc 3500]]
+Relationship building and needs assessment. [[slnc 400]] Initial contact, needs assessment, current supplier intel, product introduction. Trial comes weeks 2 to 3, close in week 4.
+[[slnc 900]]
+Question 3. When do you close a consumables account?
+[[slnc 3500]]
+Week 4. [[slnc 400]] Pricing proposal, first order, set up the account, establish a reorder schedule.
+[[slnc 900]]
+Question 4. Which question gathers competitive intel weekly?
+[[slnc 3500]]
+"What else are you using?". [[slnc 400]] Along with "anyone else calling on you?" and "how's X product working out?" Three questions, every visit.
+[[slnc 900]]
+Question 5. A competitor is 5 percent cheaper. What do you say?
+[[slnc 3500]]
+Ask if they can deliver emergency orders on a Saturday. [[slnc 400]] Compete on service, relationship and reliability. Never on price alone - you can't win that race.
+[[slnc 900]]
+Question 6. What does becoming indispensable look like?
+[[slnc 3500]]
+Knowing their inventory better than they do. [[slnc 400]] Predict their needs. "You're probably running low on." is the whole move.
+[[slnc 900]]
+Question 7. "We're happy with our current supplier" - best response?
+[[slnc 3500]]
+"Would you be open to a backup supplier?". [[slnc 400]] Never badmouth the competitor. You're planting seeds for when they have a problem, and they will.
+[[slnc 900]]
+Question 8. "We're cutting costs" - what's the move?
+[[slnc 3500]]
+Offer to audit their inventory for savings. [[slnc 400]] "Let me audit your inventory, I bet I can find savings." Turns a rejection into an appointment.
+[[slnc 900]]
+Question 9. "Your price is too high" - what do you compare?
+[[slnc 3500]]
+Total cost of ownership, not sticker price. [[slnc 400]] Factor in service and reliability, then ask what it costs them to run out mid-day.
+[[slnc 900]]
+Question 10. "We're getting other quotes" - how do you react?
+[[slnc 3500]]
+Welcome it and ask what matters most in the decision. [[slnc 400]] "That's smart. What's most important to you?" Then differentiate on value, not price.
+[[slnc 900]]
+Question 11. "We need to involve our accountant" - what do you do?
+[[slnc 3500]]
+Offer to present to them as well. [[slnc 400]] Give them materials to share and be patient. Arming the extra decision maker beats fighting them.
+[[slnc 900]]
+Question 12. How long is the equipment sales cycle?
+[[slnc 3500]]
+3 to 12 months. [[slnc 400]] Six phases: discovery, education and demo, proposal and R O I, negotiation, close and onboard, then post-sale.
+[[slnc 900]]
+Question 13. Which is a qualifying question for equipment?
+[[slnc 3500]]
+"Who's involved in this decision?". [[slnc 400]] Along with what's prompting it, timeline, budget range, and whether they've thought about financing.
+[[slnc 900]]
+Question 14. Which demo type gives you a peer testimonial?
+[[slnc 3500]]
+Visiting another practice that already uses it. [[slnc 400]] "Dr. Smith down the street uses this" beats any brochure you can hand them.
+[[slnc 900]]
+Question 15. How long should an in-office demo run?
+[[slnc 3500]]
+2 to 3 hours, with the team present. [[slnc 400]] Team buy-in is critical. The staff use it daily and can advocate for it or kill it.
+[[slnc 900]]
+Question 16. In the CEREC example, what's the total investment?
+[[slnc 3500]]
+128,000 dollars. [[slnc 400]] 120,000 dollars equipment, 3,000 dollars training, 5,000 dollars first-year ceramic blocks.
+[[slnc 900]]
+Question 17. In the CEREC example, what's the annual return?
+[[slnc 3500]]
+About 140,000 dollars. [[slnc 400]] 60,000 dollars saved lab fees, 60,000 dollars captured emergency crowns, 20,000 dollars better case acceptance. Payback under a year.
+[[slnc 900]]
+Question 18. Roughly what's a lease payment on 120 thousand dollars of equipment?
+[[slnc 3500]]
+About 2,500 dollars a month. [[slnc 400]] Lease means lower payments, a tax write-off and easier approval. Present lease, loan and cash - let them choose.
+[[slnc 900]]
+Question 19. What should you do instead of cutting price?
+[[slnc 3500]]
+Add value - warranty, training, free consumables. [[slnc 400]] Cutting price sets the anchor for every future deal with that account.
+[[slnc 900]]
+Question 20. What's the rule when you do give a concession?
+[[slnc 3500]]
+Get something in return. [[slnc 400]] "If I can get you to $X, can we move forward this week?" Commitment for commitment.
+[[slnc 900]]
+Question 21. When should you follow up after installation?
+[[slnc 3500]]
+1 week, 1 month, 3 months, 6 months, annually. [[slnc 400]] Post-sale is where you make your money long term. It's also where referrals and upsells come from.
+[[slnc 900]]
+Question 22. What is consumables attachment?
+[[slnc 3500]]
+Equipment drags ongoing consumable sales with it. [[slnc 400]] CEREC needs ceramic blocks. Implants need surgical supplies. Sell the machine once, sell what it eats forever.
+[[slnc 900]]
+Question 23. How long is the implant sales cycle?
+[[slnc 3500]]
+1 to 6 months. [[slnc 400]] Five stages: awareness, education, trial cases, commitment and inventory, then support forever.
+[[slnc 900]]
+Question 24. Why can't a surgeon simply try a new implant system?
+[[slnc 3500]]
+Technique and workflow are specific to the system. [[slnc 400]] Surgical technique, prosthetic workflow and case selection all change. That's the learning curve - and why it's sticky.
+[[slnc 900]]
+Question 25. What's the point of a sponsored CE course?
+[[slnc 3500]]
+They learn your system and meet other users. [[slnc 400]] Usually free to attendees - that's your marketing cost. Social proof from other users does the selling.
+[[slnc 900]]
+Question 26. What converts better than a CE course?
+[[slnc 3500]]
+Mentorship - shadowing an experienced user. [[slnc 400]] Partner with a surgeon already on your system. More personalized, higher conversion.
+[[slnc 900]]
+Question 27. What's non-negotiable on a first trial case?
+[[slnc 3500]]
+You attend the surgery. [[slnc 400]] Bring all components so there's no inventory risk, talk through the protocol, troubleshoot live, follow up post-op.
+[[slnc 900]]
+Question 28. Which case should a new user start with?
+[[slnc 3500]]
+Single molar with good bone. [[slnc 400]] Start easy. Success builds confidence; an early failure kills the account.
+[[slnc 900]]
+Question 29. What does a surgical kit cost?
+[[slnc 3500]]
+5,000 dollars to 15,000 dollars. [[slnc 400]] Plus stocked inventory. Which is why consignment and starter-kit pricing come up in the negotiation.
+[[slnc 900]]
+Question 30. What is consignment?
+[[slnc 3500]]
+They pay only as they use the inventory. [[slnc 400]] Removes the cash-flow objection to committing to your system.
+[[slnc 900]]
+Question 31. Why does availability equal loyalty in implants?
+[[slnc 3500]]
+They call you when there's a complication. [[slnc 400]] 3am calls happen, because complications cause anxiety. Being reachable is as much the product as the implant.
+[[slnc 900]]
+Question 32. Which product type has the longest sales cycle?
+[[slnc 3500]]
+Equipment, at 3 to 12 months. [[slnc 400]] Consumables 1 to 4 weeks, implants 1 to 6 months, equipment 3 to 12 months.
+[[slnc 900]]
+Question 33. Who's the decision maker for equipment?
+[[slnc 3500]]
+The owner and partners. [[slnc 400]] Consumables is office manager plus dentist. Implants is the surgeon. Wrong person, wasted visit.
+[[slnc 900]]
+Question 34. What's your role in an implant sale?
+[[slnc 3500]]
+Clinical partner. [[slnc 400]] Consumables you're a supplier, equipment you're a consultant, implants you're a clinical partner. Three different jobs.
+[[slnc 900]]
+Question 35. What's the key skill for equipment sales?
+[[slnc 3500]]
+R O I development. [[slnc 400]] Consumables needs reliability, implants need clinical credibility, equipment needs you to build the business case.
+[[slnc 900]]
+Question 36. Which pays the lowest commission percentage?
+[[slnc 3500]]
+Consumables, at 5 to 15 percent. [[slnc 400]] But it repeats weekly. Implants run 10 to 25 percent, equipment is higher but varies widely.
+[[slnc 900]]
+Question 37. In the athlete analogy, the equipment rep is:
+[[slnc 3500]]
+A chess player setting up the win. [[slnc 400]] Consumables is the point guard - high activity, always available. Implants is the personal trainer - close partnership.
+[[slnc 900]]
+Question 38. What defines an A account?
+[[slnc 3500]]
+5,000 dollars+ a month, visited weekly. [[slnc 400]] B accounts are 2 to 5 dollarsK bi-weekly, C accounts under 2 thousand dollars monthly. Plus dedicated prospecting time.
+[[slnc 900]]
+Question 39. How often do you visit a C account?
+[[slnc 3500]]
+Monthly. [[slnc 400]] Under 2,000 dollars a month. Grading accounts stops you over-serving small ones and losing big ones.
+[[slnc 900]]
+Question 40. What's the difference between breadth and depth?
+[[slnc 3500]]
+Breadth is categories, depth is primary vs backup. [[slnc 400]] You can be in every category and still be second choice in all of them.
+[[slnc 900]]
+Question 41. Why do payment terms matter to you personally?
+[[slnc 3500]]
+They affect your commission. [[slnc 400]] Net 30 versus net 90 changes when you actually get paid. Track it alongside spend and frequency.
+[[slnc 900]]
+Question 42. Which metric tells you if you're the primary supplier?
+[[slnc 3500]]
+Depth. [[slnc 400]] Breadth counts categories. Depth is whether they call you first or only when the other guy is out.
+[[slnc 900]]
+That is the end of Day 4.
