@@ -328,6 +328,7 @@
       <button class="chip" type="button" id="drillD2" aria-pressed="false">Day 2 <span class="n" id="nD2"></span></button>
       <button class="chip" type="button" id="drillD3" aria-pressed="false">Day 3 <span class="n" id="nD3"></span></button>
       <button class="chip" type="button" id="drillD4" aria-pressed="false">Day 4 <span class="n" id="nD4"></span></button>
+      <button class="chip" type="button" id="drillD5" aria-pressed="false">Day 5 <span class="n" id="nD5"></span></button>
       <button class="chip" type="button" id="drillCompanies" aria-pressed="false">Companies <span class="n" id="nCompanies"></span></button>
       <button class="chip" type="button" id="drillFlagged" aria-pressed="false">Flagged <span class="n" id="nFlagged"></span></button>
     </div>
@@ -415,8 +416,8 @@
   function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
-  var DRILLS = ["all", "d1", "d2", "d3", "d4", "companies", "flagged"];
-  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", d3: ", Day 3 only", d4: ", Day 4 only",
+  var DRILLS = ["all", "d1", "d2", "d3", "d4", "d5", "companies", "flagged"];
+  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", d3: ", Day 3 only", d4: ", Day 4 only", d5: ", Day 5 only",
                       companies: ", companies only", flagged: ", flagged only" };
   var COMPANIES = [];
 
@@ -461,7 +462,7 @@
 
   function updateCounts() {
     el("nAll").textContent = Q.length;
-    [1, 2, 3, 4].forEach(function (d) {
+    [1, 2, 3, 4, 5].forEach(function (d) {
       el("nD" + d).textContent = Q.filter(function (q) { return dayOf(q) === d; }).length;
     });
     el("nCompanies").textContent = COMPANIES.length;
@@ -477,12 +478,13 @@
     if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
     if (drill === "d3") return Q.filter(function (q) { return dayOf(q) === 3; });
     if (drill === "d4") return Q.filter(function (q) { return dayOf(q) === 4; });
+    if (drill === "d5") return Q.filter(function (q) { return dayOf(q) === 5; });
     if (drill === "companies") return Q.filter(function (q) { return COMPANIES.indexOf(q[1]) > -1; });
     if (drill === "flagged") return Q.filter(isFlagged);
     return Q.slice();
   }
 
-  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", d3: "drillD3", d4: "drillD4",
+  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", d3: "drillD3", d4: "drillD4", d5: "drillD5",
                     companies: "drillCompanies", flagged: "drillFlagged" };
 
   function setDrill(d) {
@@ -890,7 +892,7 @@
       }));
 
       // hide a day chip if that day has no questions yet
-      [1, 2, 3, 4].forEach(function (d) {
+      [1, 2, 3, 4, 5].forEach(function (d) {
         var n = Q.filter(function (q) { return dayOf(q) === d; }).length;
         if (!n) el("drillD" + d).hidden = true;
       });

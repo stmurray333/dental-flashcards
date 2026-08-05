@@ -1542,6 +1542,371 @@
      "n": "Implant scenario. Being right about fault and losing the account is still losing."
     }
    ]
+  },
+  {
+   "day": 5,
+   "date": "8·05·2026",
+   "fixes": [],
+   "cards": [
+    {
+     "d": "Clinical credibility",
+     "q": "What's the balance you have to strike?",
+     "a": "<b>Sound knowledgeable without pretending to be a clinician.</b> They'll see through it instantly. Add value without overstepping.",
+     "n": "\"You're like a sports analyst &mdash; you understand the game, the strategy and the equipment deeply, but you're not trying to coach the players.\""
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "Upgrade: \"This thing works great.\"",
+     "a": "<b>\"The hydrophilic properties ensure accuracy even in a moist environment.\"</b>",
+     "n": "Same claim, but it says you know why it works."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "Upgrade: \"It's really strong.\"",
+     "a": "<b>\"The flexural strength of 350 MPa provides excellent resistance to fracture.\"</b>"
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "Upgrade: \"Patients like it.\"",
+     "a": "<b>\"We're seeing improved case acceptance because patients can visualize the outcome.\"</b>",
+     "n": "Ties the benefit to their revenue, not just their feelings."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "Upgrade: \"It's easy to use.\"",
+     "a": "<b>\"The intuitive workflow reduces chair time by approximately 15 minutes per case.\"</b>",
+     "n": "Chair time is money. Always convert ease into minutes."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "The five-part product conversation?",
+     "a": "<ol><li><b>Clinical indication</b> &mdash; what it's for</li><li><b>Technique consideration</b> &mdash; how it handles</li><li><b>Evidence base</b> &mdash; the study</li><li><b>Problem solving</b> &mdash; what it fixes</li><li><b>Patient outcome</b> &mdash; what the patient notices</li></ol>",
+     "n": "Hit all five and you sound like someone worth listening to."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "How do you present a case study properly?",
+     "a": "<b>Specifics.</b> \"68-year-old female, missing #30, Type 3 bone quality. 4.1 by 10mm implant with the SLA surface. ISQ was 72 at 8 weeks, restored at 12, six months out with no bone loss on radiographs.\"",
+     "n": "Not \"look at this great case!\" &mdash; real numbers, real timeline, a case they recognize."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "A dentist asks a technical question you can't answer. What do you never do?",
+     "a": "<b>Never make one up.</b> Never say \"I think...\" if you don't know. Never pretend to understand.",
+     "n": "One bluff that gets caught costs you the account permanently."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "So what do you say instead?",
+     "a": "<ul><li>\"Great question &mdash; let me connect you with our clinical specialist.\"</li><li>\"I want to give you accurate information. Can I research that and come back to you by end of day?\"</li><li>\"Let me arrange a call with Dr. [expert] who's using this extensively.\"</li></ul>",
+     "n": "Then <b>actually follow through</b>, fast, and write the answer down for next time."
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "What should you watch for when observing a procedure?",
+     "a": "<b>Setup</b> (instrument organization, what they already use), <b>technique</b> (where they struggle, shortcuts they take), <b>patient management</b>, and <b>post-procedure</b> workflow.",
+     "n": "Every friction point is an opening: \"I noticed you're using three bonding steps &mdash; ours does it in one.\""
+    },
+    {
+     "d": "Clinical credibility",
+     "q": "Where should you be learning from?",
+     "a": "<b>Spear Education</b> for clinical videos, <b>DentalTown</b> forums where dentists argue about products, YouTube for procedures, and your own company's materials.<br>Skim abstracts from the Journal of Prosthetic Dentistry and IJOMI.",
+     "n": "Plus shadow customers and attend CE courses, even ones designed for dentists."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "Define production, collections, overhead and profit.",
+     "a": "<ol><li><b>Production</b> &mdash; total services provided, before insurance adjustments</li><li><b>Collections</b> &mdash; money actually received</li><li><b>Overhead</b> &mdash; all expenses, as a % of collections</li><li><b>Profit</b> &mdash; collections minus overhead</li></ol>"
+    },
+    {
+     "d": "ROI presentations",
+     "q": "What are the target numbers for a healthy practice?",
+     "a": "<ul><li>Production: <b>$50&ndash;100K+/month</b> for a solo GP, or $3,000&ndash;5,000+/day</li><li>Collection rate: <b>95%+</b></li><li>Overhead: <b>60&ndash;65%</b> &mdash; over 75% is struggling</li><li>Profit: <b>35&ndash;40%</b> of collections</li></ul>",
+     "n": "Knowing these lets you tell a dentist how they compare to their peers."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "The example practice snapshot?",
+     "a": "Collections <b>$1.2M</b>, overhead <b>$780K (65%)</b>, profit <b>$420K (35%)</b>.",
+     "n": "Your job is to show how your product improves that equation."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "The four questions any ROI has to answer?",
+     "a": "<ol><li>What does it cost?</li><li>What revenue does it generate?</li><li>What costs does it eliminate?</li><li>What's the payback period?</li></ol>",
+     "n": "Skip the formula. Answer those four and you've made the case."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "Work the intraoral scanner ROI.",
+     "a": "<b>Cost:</b> $30,000 + $2,000 software + $1,000 training = <b>$33,000 year one</b>.<br><b>Gain:</b> case acceptance 60% &rarr; 75% on 30 presentations/month = 4.5 extra crowns &times; $1,200 = <b>$64,800/yr</b>. Plus $4,800 impression material and $6,000 fewer remakes.<br><b>Total benefit $75,600. Payback 6.2 months.</b>"
+    },
+    {
+     "d": "ROI presentations",
+     "q": "How do you say the scanner number out loud?",
+     "a": "\"Based on your crown volume, this pays for itself in about 6 months. After that you're adding roughly $77K a year. <b>That's like adding half a day of production a week without working any extra hours.</b>\"",
+     "n": "Translate money into time. Dentists feel time."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "Work the CEREC comparison.",
+     "a": "<b>Lab-based:</b> 200 crowns/yr, $250 lab cost each, profit about <b>$60,000</b>.<br><b>CEREC:</b> same 200 crowns at $40/block, plus 36 captured emergency crowns and 20 from better acceptance &mdash; profit about <b>$237,000</b>.<br><b>Difference: $177,000/year. Payback 9 months.</b>"
+    },
+    {
+     "d": "ROI presentations",
+     "q": "Work the soft tissue laser ROI.",
+     "a": "<b>Cost $13,500.</b> New billable procedures: frenectomies $400, gingivectomies $500&ndash;800, gingival recontouring $800&ndash;1,200, laser bacterial reduction $150/quadrant, operculectomy $300.<br>Conservatively <b>$4,200/month, $50,400/year. Payback 3.2 months.</b>",
+     "n": "Plus it stops them referring those cases to the periodontist."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "Why do conservative estimates win?",
+     "a": "<b>They're believable.</b> \"This will triple your revenue\" gets you dismissed. \"Based on industry averages and your current case volume, a conservative estimate shows...\" gets you heard.",
+     "n": "Under-promise, over-deliver, and show you did the homework."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "What's the time value argument?",
+     "a": "A PVS impression takes 15 minutes, a digital scan takes 5. At $400/hour a dentist is worth <b>$6.67 a minute</b>, so 10 minutes saved is <b>$66.70 a case</b>. Thirty cases a month is <b>$2,000/month of recaptured time</b>.",
+     "n": "\"That's 5 hours a month you can reinvest, or honestly, leave early on Fridays. What's your time worth?\""
+    },
+    {
+     "d": "ROI presentations",
+     "q": "What's the opportunity cost argument?",
+     "a": "Referring 5 implants a month at $2,500 each is <b>$150,000 a year walking out the door</b>. Capture even 3 of 5 and that's $90,000 back on a $15,000 system.",
+     "n": "The cost of NOT buying is often the strongest number you have."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "How does equipment affect practice value?",
+     "a": "Practices sell for roughly <b>70&ndash;100% of annual revenue</b>. Adding $100K of recurring revenue can add <b>$75K+ to the sale price</b>.",
+     "n": "Powerful with an owner thinking about retiring in 5&ndash;7 years."
+    },
+    {
+     "d": "ROI presentations",
+     "q": "How do you handle \"what if it doesn't work out?\"",
+     "a": "Money-back guarantee if you have one, a lease instead of a purchase, references from a skeptic who bought, a trial period &mdash; and ask directly: <b>\"What specifically are you worried about?\"</b>"
+    },
+    {
+     "d": "Objection handling",
+     "q": "What are the three types of objection?",
+     "a": "<ol><li><b>Real</b> &mdash; budget, timing, compatibility, staff readiness</li><li><b>Smoke screens</b> &mdash; \"I need to think about it,\" \"send me information,\" \"call me next quarter\"</li><li><b>Misunderstandings</b> &mdash; \"it won't work with our system,\" \"my patients won't pay\"</li></ol>",
+     "n": "Identify which type first. Answering a smoke screen as if it were real wastes everyone's time."
+    },
+    {
+     "d": "Objection handling",
+     "q": "The five-step objection framework?",
+     "a": "<ol><li><b>Listen completely</b> &mdash; don't interrupt</li><li><b>Acknowledge and validate</b> &mdash; \"that's a fair question\"</li><li><b>Clarify and probe</b> &mdash; \"tell me more about that\"</li><li><b>Respond with value</b> &mdash; evidence, solutions, stories</li><li><b>Confirm and advance</b> &mdash; \"does that address it?\"</li></ol>",
+     "n": "Never say \"you're wrong.\" And never re-argue a point you've already made."
+    },
+    {
+     "d": "Objection handling",
+     "q": "\"Your price is too high\" &mdash; how do you probe?",
+     "a": "<b>\"When you say too high, what are you comparing it to?\"</b> or \"What budget range were you thinking?\"",
+     "n": "You can't answer a price objection until you know what it's being measured against."
+    },
+    {
+     "d": "Objection handling",
+     "q": "\"I need to think about it\" &mdash; the response?",
+     "a": "\"Of course. So I can help as you think it through, <b>what specifically would you like to think about?</b>\"<br>If vague: \"Is it the price, the timing, the technology, or something else?\"",
+     "n": "It's usually a smoke screen. Find the real objection underneath."
+    },
+    {
+     "d": "Objection handling",
+     "q": "\"I don't have time to learn something new\"?",
+     "a": "Acknowledge it, then lay out the actual plan: one day of training in their office, during lunch or after hours, you present for their first five cases, 24/7 online resources.",
+     "n": "\"Most doctors feel comfortable by their third case.\""
+    },
+    {
+     "d": "Objection handling",
+     "q": "\"My patients won't pay for that\"?",
+     "a": "<b>That usually reflects the doctor's discomfort presenting it, not patient reality.</b> Ask what percentage they think would be interested, then show it's about how it's presented &mdash; and offer patient education materials and scripts."
+    },
+    {
+     "d": "Objection handling",
+     "q": "\"Insurance doesn't reimburse for that\"?",
+     "a": "Reframe: ask what percentage of revenue is fee-for-service. The practices winning with this treat it as a <b>premium fee-for-service offering</b> &mdash; like Invisalign, which isn't covered but has huge demand."
+    },
+    {
+     "d": "Objection handling",
+     "q": "What's Feel, Felt, Found?",
+     "a": "<b>\"I understand how you feel. Dr. [X] felt the same way. But here's what they found...\"</b>",
+     "n": "It validates the objection, provides social proof, and delivers the counter-evidence &mdash; without ever telling them they're wrong."
+    },
+    {
+     "d": "Objection handling",
+     "q": "What's the Boomerang technique?",
+     "a": "<b>Turn the objection into the reason to buy.</b><br>\"Too expensive\" &rarr; \"That's exactly why &mdash; it pays for itself in 6 months then produces profit for years.\"<br>\"No time to learn it\" &rarr; \"That's exactly why &mdash; it gives you back 10 hours a month.\"<br>\"My practice is too small\" &rarr; \"Perfect &mdash; smaller practices see faster ROI because every case matters more.\""
+    },
+    {
+     "d": "Objection handling",
+     "q": "What's a trial close, and what does it tell you?",
+     "a": "<b>\"If we can solve the price concern with financing, is there anything else preventing us from moving forward?\"</b><br>If they say no &mdash; that was the real objection and you're close. If they raise another &mdash; you now know there are several.",
+     "n": "It's a diagnostic as much as a close."
+    },
+    {
+     "d": "Objection handling",
+     "q": "How do you handle a competitor comparison?",
+     "a": "<b>Build the decision matrix with them.</b> Price, training included, warranty length, local support, evidence base, integration. Then: \"looking at the complete picture, where do you see the best fit?\"",
+     "n": "Doing it together makes you a consultant instead of a vendor."
+    },
+    {
+     "d": "Objection handling",
+     "q": "The $18K online scanner vs your $25K &mdash; what's the argument?",
+     "a": "Different generation: 30% faster scanning, &plusmn;10 microns vs &plusmn;20, native integration vs third-party conversion. Plus two days on-site training ($3,000), 5-year vs 3-year warranty, local support within 2 hours.",
+     "n": "Then: \"Have you factored in the cost of downtime if it breaks and you can't get support?\""
+    },
+    {
+     "d": "Objection handling",
+     "q": "Why are objections actually healthy?",
+     "a": "\"In sports the opponent plays defense &mdash; they're supposed to. <b>Your job isn't to overcome objections like an enemy, but to understand them like a coach.</b>\"",
+     "n": "Silence is worse. An objection means they're still engaged."
+    },
+    {
+     "d": "Practice politics",
+     "q": "Formal power vs informal power?",
+     "a": "<b>Formal:</b> owner, office manager, lead dentist, associates, lead hygienist, lead assistant.<br><b>Informal:</b> long-tenured staff, the doctor's spouse, whoever actually places orders, whoever the doctor trusts most.",
+     "n": "Map both early. The org chart isn't the influence map."
+    },
+    {
+     "d": "Practice politics",
+     "q": "Why does the front desk matter?",
+     "a": "They <b>control access</b>. They can facilitate or block your visits, and they know the schedule and culture.",
+     "n": "Learn their name and use it. Ask \"is this a good time or should I come back?\" Never go around them without permission."
+    },
+    {
+     "d": "Practice politics",
+     "q": "What does the office manager care about?",
+     "a": "Cost savings, efficiency, vendor reliability, staff training, payment terms.",
+     "n": "Help them look good to the doctor and you have an internal advocate."
+    },
+    {
+     "d": "Practice politics",
+     "q": "Why do dental assistants matter more than people think?",
+     "a": "They <b>use your products daily</b>, they test new products first, and they tell the doctor \"I like this composite.\" They can make or break implementation.",
+     "n": "Ask their opinion, give them samples, recognize their expertise."
+    },
+    {
+     "d": "Practice politics",
+     "q": "What do hygienists care about?",
+     "a": "Efficacy, evidence base, patient comfort, time efficiency, ease of use.",
+     "n": "They're revenue generators and the doctor respects their clinical opinion."
+    },
+    {
+     "d": "Practice politics",
+     "q": "What does the dentist care about?",
+     "a": "<b>ROI, clinical outcomes, patient satisfaction, practice growth, and quality of life.</b>",
+     "n": "Their time is the most valuable asset in the building. Never waste it."
+    },
+    {
+     "d": "Practice politics",
+     "q": "What should you read when you walk in?",
+     "a": "<b>Physical environment</b> &mdash; modern or dated, organized or chaotic. <b>Staff</b> &mdash; engaged or stressed, high turnover? <b>Pace</b> &mdash; running behind, double-booked, calm or frantic?",
+     "n": "These tell you their budget reality, decision-making style and capacity to implement anything new."
+    },
+    {
+     "d": "Practice politics",
+     "q": "When should you NOT visit?",
+     "a": "<ul><li>Unannounced during patient hours</li><li>During lunch &mdash; that's the staff's only break</li><li>When they're running behind</li></ul>",
+     "n": "Unless you're bringing the lunch. Then lunch is perfect."
+    },
+    {
+     "d": "Practice politics",
+     "q": "When SHOULD you visit?",
+     "a": "<ol><li><b>Morning huddle</b>, 7:30&ndash;8:00, if invited</li><li><b>Mid-morning</b>, 10:00&ndash;10:30, on a slow day</li><li><b>Lunch</b>, if you're buying</li><li><b>End of day</b>, 4:00&ndash;5:00, winding down</li><li><b>After hours</b> for real presentations</li></ol>",
+     "n": "Or just call ahead: \"what's a good time this week that won't interrupt patient flow?\""
+    },
+    {
+     "d": "Practice politics",
+     "q": "The perfect 15&ndash;20 minute practice visit?",
+     "a": "<ol><li><b>Greeting</b> (2 min) &mdash; front desk, gauge the vibe</li><li><b>Check-in</b> (3 min) &mdash; any issues, running low on anything?</li><li><b>Value add</b> (5 min) &mdash; new product, clinical tip, samples</li><li><b>Doctor face time</b> (5 min, if available) &mdash; don't overstay</li><li><b>Close out</b> (2 min) &mdash; confirm next visit, thank the team</li></ol>"
+    },
+    {
+     "d": "Practice politics",
+     "q": "How do you handle the skeptical doctor?",
+     "a": "<b>Bring data, not sales talk.</b> \"Let's look at the evidence together.\" Offer a trial, and use other skeptics as references."
+    },
+    {
+     "d": "Practice politics",
+     "q": "The indecisive doctor?",
+     "a": "<b>Simplify the decision.</b> Narrow the options, give a comparison chart, gently establish a deadline, and ask: \"What would help you feel confident deciding?\""
+    },
+    {
+     "d": "Practice politics",
+     "q": "The know-it-all assistant who's dismissive of reps?",
+     "a": "<b>Make them the expert.</b> \"What's your experience with...\" Acknowledge their expertise and ask their opinion.",
+     "n": "They can poison the well if you fight them. Win them with respect."
+    },
+    {
+     "d": "Practice politics",
+     "q": "Three partners, one decision &mdash; what's the play?",
+     "a": "Start with the <b>easiest sell</b> (usually the youngest, most tech-forward). Get early wins. Let the mid-career partner see results. Then show the senior conservative partner data from his own colleagues.",
+     "n": "\"Two of your partners are already seeing great results.\" Never play them against each other."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "Why does this module matter most?",
+     "a": "<b>How you handle problems defines the relationship more than how you sell.</b> Products fail, shipments get delayed, complications happen."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "The six steps on a product defect?",
+     "a": "<ol><li>Listen and empathize</li><li>Gather information &mdash; lot number, when, how many, curing light OK?</li><li><b>Immediate action</b> &mdash; overnight a replacement today</li><li>Root cause &mdash; defect, user error, compatibility, storage?</li><li>Prevention &mdash; replace, retrain, document</li><li><b>Relationship repair</b> &mdash; credit the account, add something free, thank them for telling you</li></ol>"
+    },
+    {
+     "d": "When things go wrong",
+     "q": "Order didn't arrive and a patient is scheduled tomorrow?",
+     "a": "<b>\"I understand completely &mdash; let me fix this right now.\"</b> Track it, hand-deliver from your car stock, rush ship overnight at your cost, or source it locally.<br>\"I'll have this in your hands by end of day &mdash; guaranteed.\""
+    },
+    {
+     "d": "When things go wrong",
+     "q": "An implant failed to integrate and the doctor is upset. First move?",
+     "a": "<b>Listen without defensiveness</b> &mdash; \"walk me through the case.\" Then <b>do not blame the doctor</b>, even if it looks technique-related.",
+     "n": "Then review systematically: patient factors, surgical protocol, implant factors, healing factors."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "What actually earns loyalty after a complication?",
+     "a": "<b>Your support during the difficulty.</b> Offer the warranty replacement and be there for the replacement surgery.",
+     "n": "Complications happen even with perfect technique. Showing up is the whole thing."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "The three response tiers?",
+     "a": "<ol><li><b>Tier 1 &mdash; emergency, same day.</b> Out of critical supplies, equipment down, patient scheduled. Drop everything.</li><li><b>Tier 2 &mdash; urgent, within 24 hours.</b> Running low, pricing for a pending case.</li><li><b>Tier 3 &mdash; routine, within 48 hours.</b> Reorders, information, scheduling.</li></ol>"
+    },
+    {
+     "d": "When things go wrong",
+     "q": "The rule on response times?",
+     "a": "<b>Always respond faster than you promised.</b> Say 24 hours, deliver in 12."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "How do you say no to a discount you can't approve?",
+     "a": "Not \"sorry, I can't.\" Instead: <b>\"Here's what I can do within my authority. For anything beyond that I'll need manager approval &mdash; what's your target number so I know what to request?\"</b>"
+    },
+    {
+     "d": "When things go wrong",
+     "q": "You quoted the wrong price. What do you do?",
+     "a": "<b>Own it immediately</b> and honour the price you quoted. \"This is my mistake. Going forward the correct pricing is...\"",
+     "n": "Never blame the customer, never blame your company, never avoid the conversation."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "The service metrics worth tracking?",
+     "a": "<ul><li>Order accuracy &mdash; <b>98%+</b></li><li>On-time delivery &mdash; <b>95%+</b></li><li>Customer retention &mdash; <b>90%+</b> annually</li><li>Account growth &mdash; <b>10&ndash;15%</b> year over year</li></ul>"
+    },
+    {
+     "d": "When things go wrong",
+     "q": "What do your best customers eventually become?",
+     "a": "<b>References, advocates, partners and loyalists.</b> They hand out your number, tell colleagues unprompted, give you honest feedback, and give you first shot at opportunities."
+    },
+    {
+     "d": "When things go wrong",
+     "q": "The analogy for this whole module?",
+     "a": "\"Technical skills in sales are like fundamentals in sport. <b>The athletes who dominated weren't always the most talented &mdash; they were the most fundamentally sound.</b> Master them through repetition, get coaching, review your tape.\""
+    }
+   ]
   }
  ],
  "questions": [
@@ -4424,6 +4789,534 @@
    ],
    "Breadth counts categories. Depth is whether they call you first or only when the other guy is out.",
    4
+  ],
+  [
+   "Clinical credibility",
+   "What's the balance to strike in clinical conversations?",
+   "Sound knowledgeable without pretending to be a clinician",
+   [
+    "Know more than the dentist",
+    "Avoid clinical terms entirely",
+    "Only discuss price"
+   ],
+   "They'll see through a bluff instantly. You're the analyst, not the coach.",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "Better than \"it's really strong\"?",
+   "\"The flexural strength of 350 MPa resists fracture\"",
+   [
+    "\"It's super durable\"",
+    "\"It never breaks\"",
+    "\"It's the strongest available\""
+   ],
+   "Same claim, but it shows you know why it works.",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "Better than \"it's easy to use\"?",
+   "\"Reduces chair time by about 15 minutes per case\"",
+   [
+    "\"Anyone can use it\"",
+    "\"It's really simple\"",
+    "\"No training needed\""
+   ],
+   "Chair time is money. Always convert ease of use into minutes.",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "What are the five parts of a product conversation?",
+   "Indication, technique, evidence, problem solved, patient outcome",
+   [
+    "Price, discount, terms, delivery, warranty",
+    "Features, benefits, price, close",
+    "Story, joke, pitch, ask"
+   ],
+   "Hit all five and you sound like someone worth a dentist's time.",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "A dentist asks something you can't answer. What do you do?",
+   "Say you'll connect them with a specialist and follow through",
+   [
+    "Give your best guess",
+    "Say \"I think...\" and hope",
+    "Change the subject"
+   ],
+   "Never make one up. One bluff that gets caught costs the account permanently.",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "What makes a case study land?",
+   "Specific details - age, tooth number, bone quality, timeline",
+   [
+    "Enthusiasm",
+    "A great photo",
+    "Saying it was successful"
+   ],
+   "\"68-year-old female, missing #30, Type 3 bone, ISQ 72 at 8 weeks\" beats \"look at this great case.\"",
+   5
+  ],
+  [
+   "Clinical credibility",
+   "Which is a forum where dentists discuss products?",
+   "DentalTown",
+   [
+    "Spear Education",
+    "LinkedIn",
+    "WebMD"
+   ],
+   "Spear is clinical courses. DentalTown is where you hear what dentists actually say about products.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What's a healthy practice overhead?",
+   "60 to 65% of collections",
+   [
+    "20 to 30%",
+    "75 to 85%",
+    "About 90%"
+   ],
+   "Over 75% means they're struggling. Knowing this lets you tell them how they compare to peers.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What's a good collection rate?",
+   "95% or higher",
+   [
+    "About 60%",
+    "About 75%",
+    "100% always"
+   ],
+   "Lower means insurance write-offs and bad debt. Production times collection rate equals collections.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What profit should a healthy practice make?",
+   "35 to 40% of collections",
+   [
+    "5 to 10%",
+    "50 to 60%",
+    "Over 70%"
+   ],
+   "On $1.2M collections with 65% overhead, that's about $420K profit.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What should a solo GP produce monthly?",
+   "$50,000 to $100,000+",
+   [
+    "$5,000 to $10,000",
+    "$500,000+",
+    "About $25,000"
+   ],
+   "Or $3,000-5,000 a day for a good producer.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What's the scanner payback period in the example?",
+   "About 6 months",
+   [
+    "About 2 years",
+    "About 1 month",
+    "Over 5 years"
+   ],
+   "$33,000 year one against $75,600 of benefit. Case acceptance going 60% to 75% is most of it.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "In the CEREC example, what's the extra annual profit?",
+   "About $177,000",
+   [
+    "About $60,000",
+    "About $20,000",
+    "About $500,000"
+   ],
+   "$237,000 with CEREC versus $60,000 staying lab-based. Payback about 9 months.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What's the soft tissue laser payback?",
+   "About 3 months",
+   [
+    "About 3 years",
+    "About 18 months",
+    "Immediately"
+   ],
+   "$13,500 cost against roughly $4,200/month in new billable procedures.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What does a frenectomy bill at?",
+   "About $400",
+   [
+    "About $40",
+    "About $4,000",
+    "It's not billable"
+   ],
+   "Gingivectomies run $500-800, cosmetic recontouring $800-1,200, laser bacterial reduction $150 a quadrant.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "Why do conservative estimates work better?",
+   "They're believable and build credibility",
+   [
+    "They're easier to calculate",
+    "They're required by law",
+    "They close faster"
+   ],
+   "\"This will triple your revenue\" gets you dismissed. Under-promise, over-deliver.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "A dentist producing $400/hour - what's a minute worth?",
+   "About $6.67",
+   [
+    "About $0.67",
+    "About $40",
+    "About $100"
+   ],
+   "So saving 10 minutes per impression is $66.70 a case, or $2,000 a month across 30 cases.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "Referring 5 implants a month at $2,500 - what's the annual cost?",
+   "$150,000",
+   [
+    "$15,000",
+    "$12,500",
+    "$1.5 million"
+   ],
+   "That's the opportunity cost argument - the cost of NOT buying is often your strongest number.",
+   5
+  ],
+  [
+   "ROI presentations",
+   "What do dental practices sell for?",
+   "Roughly 70 to 100% of annual revenue",
+   [
+    "About 10% of revenue",
+    "5 times revenue",
+    "Book value of equipment"
+   ],
+   "So adding $100K of recurring revenue can add $75K+ to the sale price. Powerful with an owner nearing retirement.",
+   5
+  ],
+  [
+   "Objection handling",
+   "What are the three types of objection?",
+   "Real, smoke screens, and misunderstandings",
+   [
+    "Price, timing, and product",
+    "Hard, soft, and medium",
+    "Written, verbal, and implied"
+   ],
+   "Identify which type first. Answering a smoke screen as if it were real wastes everyone's time.",
+   5
+  ],
+  [
+   "Objection handling",
+   "\"I need to think about it\" is usually what?",
+   "A smoke screen",
+   [
+    "A real budget concern",
+    "A misunderstanding",
+    "A firm no"
+   ],
+   "Probe for the real objection: \"what specifically would you like to think about?\"",
+   5
+  ],
+  [
+   "Objection handling",
+   "What's step one of the objection framework?",
+   "Listen completely without interrupting",
+   [
+    "Respond immediately",
+    "Offer a discount",
+    "Ask for the sale"
+   ],
+   "Then acknowledge, probe, respond with value, and confirm. Scout before you game plan.",
+   5
+  ],
+  [
+   "Objection handling",
+   "\"Your price is too high\" - what do you ask?",
+   "\"What are you comparing it to?\"",
+   [
+    "\"What's your budget?\"",
+    "\"Can you afford it?\"",
+    "\"Should I leave?\""
+   ],
+   "You can't answer a price objection until you know what it's measured against.",
+   5
+  ],
+  [
+   "Objection handling",
+   "What is Feel, Felt, Found?",
+   "\"I understand how you feel, Dr. X felt the same, here's what they found\"",
+   [
+    "A three-step close",
+    "A pricing model",
+    "A demo structure"
+   ],
+   "Validates the objection, adds social proof, delivers the counter-evidence - without saying they're wrong.",
+   5
+  ],
+  [
+   "Objection handling",
+   "What's the Boomerang technique?",
+   "Turning the objection into the reason to buy",
+   [
+    "Returning to a previous point",
+    "Deflecting to a colleague",
+    "Postponing the decision"
+   ],
+   "\"Too expensive\" becomes \"that's exactly why - it pays for itself in 6 months.\"",
+   5
+  ],
+  [
+   "Objection handling",
+   "What does a trial close tell you?",
+   "Whether that was the real objection",
+   [
+    "The final price",
+    "Their credit rating",
+    "When to deliver"
+   ],
+   "\"If we solve the price with financing, is anything else preventing us moving forward?\"",
+   5
+  ],
+  [
+   "Objection handling",
+   "\"My patients won't pay for that\" usually means what?",
+   "The doctor is uncomfortable presenting it",
+   [
+    "Patients genuinely can't afford it",
+    "The price is wrong",
+    "Insurance blocks it"
+   ],
+   "Offer patient education materials and scripts to help with the conversation.",
+   5
+  ],
+  [
+   "Objection handling",
+   "How should you respond to \"we're getting other quotes\"?",
+   "Welcome it and help them compare fairly",
+   [
+    "Discourage it",
+    "Drop your price immediately",
+    "Withdraw the offer"
+   ],
+   "Ask what's included - training, support, warranty, service response. That positions you as a consultant.",
+   5
+  ],
+  [
+   "Practice politics",
+   "Who controls access to the doctor?",
+   "The front desk",
+   [
+    "The office manager",
+    "The hygienist",
+    "The lead assistant"
+   ],
+   "They can facilitate or block every visit. Learn their name, respect their time, never go around them.",
+   5
+  ],
+  [
+   "Practice politics",
+   "What does the office manager care about most?",
+   "Cost savings, efficiency and vendor reliability",
+   [
+    "Clinical outcomes",
+    "Patient aesthetics",
+    "Surgical technique"
+   ],
+   "Help them look good to the doctor and you have an internal advocate.",
+   5
+  ],
+  [
+   "Practice politics",
+   "Why do dental assistants matter?",
+   "They use the products daily and influence the doctor",
+   [
+    "They control the budget",
+    "They schedule patients",
+    "They sign contracts"
+   ],
+   "They often test new products first and can make or break implementation.",
+   5
+  ],
+  [
+   "Practice politics",
+   "When should you NOT visit a practice?",
+   "During lunch - that's the staff's only break",
+   [
+    "First thing in the morning",
+    "End of day",
+    "After hours"
+   ],
+   "Unless you're buying the lunch. Also avoid dropping in during patient hours or when they're running behind.",
+   5
+  ],
+  [
+   "Practice politics",
+   "How long should a routine practice visit be?",
+   "15 to 20 minutes",
+   [
+    "5 minutes",
+    "An hour",
+    "Half a day"
+   ],
+   "Greeting 2, check-in 3, value add 5, doctor face time 5, close out 2. Don't overstay.",
+   5
+  ],
+  [
+   "Practice politics",
+   "How do you handle a skeptical doctor?",
+   "Bring evidence and offer a trial",
+   [
+    "Push harder on price",
+    "Go around them to the office manager",
+    "Move to another account"
+   ],
+   "\"Let's look at the evidence together.\" Use other skeptics as references.",
+   5
+  ],
+  [
+   "Practice politics",
+   "How do you win over a dismissive know-it-all assistant?",
+   "Make them the expert and ask their opinion",
+   [
+    "Ignore them",
+    "Go over their head",
+    "Out-argue them"
+   ],
+   "They can poison the well if you fight them. \"What's your experience with...\"",
+   5
+  ],
+  [
+   "Practice politics",
+   "With three partners, who do you start with?",
+   "The most tech-forward one, for an easy early win",
+   [
+    "The senior partner",
+    "All three at once",
+    "Whoever answers the phone"
+   ],
+   "Get early wins, then show the conservative partner data from his own colleagues. Never play them against each other.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "What defines the relationship more than selling?",
+   "How you handle problems",
+   [
+    "Your pricing",
+    "Your product range",
+    "Your visit frequency"
+   ],
+   "Products fail, shipments get delayed, complications happen. Everyone has those. Not everyone handles them well.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "A composite isn't curing. What's the immediate action?",
+   "Overnight a replacement today, plus specialist troubleshooting",
+   [
+    "Ask them to try again",
+    "Blame the curing light",
+    "Wait for the manufacturer"
+   ],
+   "Gather lot number and details, but ship the fix first. Root cause comes after they're unblocked.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "An implant failed to integrate. What do you NOT do?",
+   "Blame the doctor's technique",
+   [
+    "Listen to the case",
+    "Offer warranty replacement",
+    "Review patient factors"
+   ],
+   "Even if it looks technique-related. Support first, systematic review after, learning conversation much later.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "What's a Tier 1 response time?",
+   "Same day - drop everything",
+   [
+    "Within 24 hours",
+    "Within 48 hours",
+    "Next week"
+   ],
+   "Out of critical supplies, equipment down, patient scheduled with a product problem.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "The rule on response times?",
+   "Always respond faster than you promised",
+   [
+    "Respond exactly on time",
+    "Give yourself buffer",
+    "Respond when convenient"
+   ],
+   "Say 24 hours, deliver in 12. Under-promise, over-deliver.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "You quoted the wrong price. What now?",
+   "Own it and honour the price you quoted",
+   [
+    "Charge the correct price quietly",
+    "Blame the system",
+    "Avoid the conversation"
+   ],
+   "Builds trust, shows integrity, prevents a bigger problem later.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "What order accuracy should you hold yourself to?",
+   "98% or better",
+   [
+    "80%",
+    "90%",
+    "100% or nothing"
+   ],
+   "Plus 95%+ on-time delivery, 90%+ annual retention, and 10-15% account growth.",
+   5
+  ],
+  [
+   "When things go wrong",
+   "A doctor wants a discount beyond your authority. What do you say?",
+   "What you CAN do, then ask their target number",
+   [
+    "\"Sorry, I can't do that\"",
+    "Approve it anyway",
+    "Say you'll think about it"
+   ],
+   "\"For anything beyond that I'll need manager approval - what's your target so I know what to request?\"",
+   5
   ]
  ],
  "trouble": [

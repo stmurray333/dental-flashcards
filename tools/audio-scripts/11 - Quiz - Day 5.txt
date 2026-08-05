@@ -1,0 +1,179 @@
+Quiz. Day 5. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. What's the balance to strike in clinical conversations?
+[[slnc 3500]]
+Sound knowledgeable without pretending to be a clinician. [[slnc 400]] They'll see through a bluff instantly. You're the analyst, not the coach.
+[[slnc 900]]
+Question 2. Better than "it's really strong"?
+[[slnc 3500]]
+"The flexural strength of 350 MPa resists fracture". [[slnc 400]] Same claim, but it shows you know why it works.
+[[slnc 900]]
+Question 3. Better than "it's easy to use"?
+[[slnc 3500]]
+"Reduces chair time by about 15 minutes per case". [[slnc 400]] Chair time is money. Always convert ease of use into minutes.
+[[slnc 900]]
+Question 4. What are the five parts of a product conversation?
+[[slnc 3500]]
+Indication, technique, evidence, problem solved, patient outcome. [[slnc 400]] Hit all five and you sound like someone worth a dentist's time.
+[[slnc 900]]
+Question 5. A dentist asks something you can't answer. What do you do?
+[[slnc 3500]]
+Say you'll connect them with a specialist and follow through. [[slnc 400]] Never make one up. One bluff that gets caught costs the account permanently.
+[[slnc 900]]
+Question 6. What makes a case study land?
+[[slnc 3500]]
+Specific details - age, tooth number, bone quality, timeline. [[slnc 400]] "68-year-old female, missing number 30, Type 3 bone, ISQ 72 at 8 weeks" beats "look at this great case."
+[[slnc 900]]
+Question 7. Which is a forum where dentists discuss products?
+[[slnc 3500]]
+DentalTown. [[slnc 400]] Spear is clinical courses. DentalTown is where you hear what dentists actually say about products.
+[[slnc 900]]
+Question 8. What's a healthy practice overhead?
+[[slnc 3500]]
+60 to 65 percent of collections. [[slnc 400]] Over 75 percent means they're struggling. Knowing this lets you tell them how they compare to peers.
+[[slnc 900]]
+Question 9. What's a good collection rate?
+[[slnc 3500]]
+95 percent or higher. [[slnc 400]] Lower means insurance write-offs and bad debt. Production times collection rate equals collections.
+[[slnc 900]]
+Question 10. What profit should a healthy practice make?
+[[slnc 3500]]
+35 to 40 percent of collections. [[slnc 400]] On 1 dollars.2M collections with 65 percent overhead, that's about 420 thousand dollars profit.
+[[slnc 900]]
+Question 11. What should a solo G P produce monthly?
+[[slnc 3500]]
+50,000 dollars to 100,000 dollars+. [[slnc 400]] Or 3,000 to 5,000 dollars a day for a good producer.
+[[slnc 900]]
+Question 12. What's the scanner payback period in the example?
+[[slnc 3500]]
+About 6 months. [[slnc 400]] 33,000 dollars year one against 75,600 dollars of benefit. Case acceptance going 60 percent to 75 percent is most of it.
+[[slnc 900]]
+Question 13. In the CEREC example, what's the extra annual profit?
+[[slnc 3500]]
+About 177,000 dollars. [[slnc 400]] 237,000 dollars with CEREC versus 60,000 dollars staying lab-based. Payback about 9 months.
+[[slnc 900]]
+Question 14. What's the soft tissue laser payback?
+[[slnc 3500]]
+About 3 months. [[slnc 400]] 13,500 dollars cost against roughly 4,200 dollars or month in new billable procedures.
+[[slnc 900]]
+Question 15. What does a frenectomy bill at?
+[[slnc 3500]]
+About 400 dollars. [[slnc 400]] Gingivectomies run 500 to 800, dollars cosmetic recontouring 800 to 1,200, dollars laser bacterial reduction 150 dollars a quadrant.
+[[slnc 900]]
+Question 16. Why do conservative estimates work better?
+[[slnc 3500]]
+They're believable and build credibility. [[slnc 400]] "This will triple your revenue" gets you dismissed. Under-promise, over-deliver.
+[[slnc 900]]
+Question 17. A dentist producing 400 dollars or hour - what's a minute worth?
+[[slnc 3500]]
+About 6 dollars.67. [[slnc 400]] So saving 10 minutes per impression is 66 dollars.70 a case, or 2,000 dollars a month across 30 cases.
+[[slnc 900]]
+Question 18. Referring 5 implants a month at 2,500 dollars - what's the annual cost?
+[[slnc 3500]]
+150,000 dollars. [[slnc 400]] That's the opportunity cost argument - the cost of NOT buying is often your strongest number.
+[[slnc 900]]
+Question 19. What do dental practices sell for?
+[[slnc 3500]]
+Roughly 70 to 100 percent of annual revenue. [[slnc 400]] So adding 100 thousand dollars of recurring revenue can add 75 thousand dollars+ to the sale price. Powerful with an owner nearing retirement.
+[[slnc 900]]
+Question 20. What are the three types of objection?
+[[slnc 3500]]
+Real, smoke screens, and misunderstandings. [[slnc 400]] Identify which type first. Answering a smoke screen as if it were real wastes everyone's time.
+[[slnc 900]]
+Question 21. "I need to think about it" is usually what?
+[[slnc 3500]]
+A smoke screen. [[slnc 400]] Probe for the real objection: "what specifically would you like to think about?"
+[[slnc 900]]
+Question 22. What's step one of the objection framework?
+[[slnc 3500]]
+Listen completely without interrupting. [[slnc 400]] Then acknowledge, probe, respond with value, and confirm. Scout before you game plan.
+[[slnc 900]]
+Question 23. "Your price is too high" - what do you ask?
+[[slnc 3500]]
+"What are you comparing it to?". [[slnc 400]] You can't answer a price objection until you know what it's measured against.
+[[slnc 900]]
+Question 24. What is Feel, Felt, Found?
+[[slnc 3500]]
+"I understand how you feel, Dr. X felt the same, here's what they found". [[slnc 400]] Validates the objection, adds social proof, delivers the counter-evidence - without saying they're wrong.
+[[slnc 900]]
+Question 25. What's the Boomerang technique?
+[[slnc 3500]]
+Turning the objection into the reason to buy. [[slnc 400]] "Too expensive" becomes "that's exactly why - it pays for itself in 6 months."
+[[slnc 900]]
+Question 26. What does a trial close tell you?
+[[slnc 3500]]
+Whether that was the real objection. [[slnc 400]] "If we solve the price with financing, is anything else preventing us moving forward?"
+[[slnc 900]]
+Question 27. "My patients won't pay for that" usually means what?
+[[slnc 3500]]
+The doctor is uncomfortable presenting it. [[slnc 400]] Offer patient education materials and scripts to help with the conversation.
+[[slnc 900]]
+Question 28. How should you respond to "we're getting other quotes"?
+[[slnc 3500]]
+Welcome it and help them compare fairly. [[slnc 400]] Ask what's included - training, support, warranty, service response. That positions you as a consultant.
+[[slnc 900]]
+Question 29. Who controls access to the doctor?
+[[slnc 3500]]
+The front desk. [[slnc 400]] They can facilitate or block every visit. Learn their name, respect their time, never go around them.
+[[slnc 900]]
+Question 30. What does the office manager care about most?
+[[slnc 3500]]
+Cost savings, efficiency and vendor reliability. [[slnc 400]] Help them look good to the doctor and you have an internal advocate.
+[[slnc 900]]
+Question 31. Why do dental assistants matter?
+[[slnc 3500]]
+They use the products daily and influence the doctor. [[slnc 400]] They often test new products first and can make or break implementation.
+[[slnc 900]]
+Question 32. When should you NOT visit a practice?
+[[slnc 3500]]
+During lunch - that's the staff's only break. [[slnc 400]] Unless you're buying the lunch. Also avoid dropping in during patient hours or when they're running behind.
+[[slnc 900]]
+Question 33. How long should a routine practice visit be?
+[[slnc 3500]]
+15 to 20 minutes. [[slnc 400]] Greeting 2, check-in 3, value add 5, doctor face time 5, close out 2. Don't overstay.
+[[slnc 900]]
+Question 34. How do you handle a skeptical doctor?
+[[slnc 3500]]
+Bring evidence and offer a trial. [[slnc 400]] "Let's look at the evidence together." Use other skeptics as references.
+[[slnc 900]]
+Question 35. How do you win over a dismissive know-it-all assistant?
+[[slnc 3500]]
+Make them the expert and ask their opinion. [[slnc 400]] They can poison the well if you fight them. "What's your experience with."
+[[slnc 900]]
+Question 36. With three partners, who do you start with?
+[[slnc 3500]]
+The most tech-forward one, for an easy early win. [[slnc 400]] Get early wins, then show the conservative partner data from his own colleagues. Never play them against each other.
+[[slnc 900]]
+Question 37. What defines the relationship more than selling?
+[[slnc 3500]]
+How you handle problems. [[slnc 400]] Products fail, shipments get delayed, complications happen. Everyone has those. Not everyone handles them well.
+[[slnc 900]]
+Question 38. A composite isn't curing. What's the immediate action?
+[[slnc 3500]]
+Overnight a replacement today, plus specialist troubleshooting. [[slnc 400]] Gather lot number and details, but ship the fix first. Root cause comes after they're unblocked.
+[[slnc 900]]
+Question 39. An implant failed to integrate. What do you NOT do?
+[[slnc 3500]]
+Blame the doctor's technique. [[slnc 400]] Even if it looks technique-related. Support first, systematic review after, learning conversation much later.
+[[slnc 900]]
+Question 40. What's a Tier 1 response time?
+[[slnc 3500]]
+Same day - drop everything. [[slnc 400]] Out of critical supplies, equipment down, patient scheduled with a product problem.
+[[slnc 900]]
+Question 41. The rule on response times?
+[[slnc 3500]]
+Always respond faster than you promised. [[slnc 400]] Say 24 hours, deliver in 12. Under-promise, over-deliver.
+[[slnc 900]]
+Question 42. You quoted the wrong price. What now?
+[[slnc 3500]]
+Own it and honour the price you quoted. [[slnc 400]] Builds trust, shows integrity, prevents a bigger problem later.
+[[slnc 900]]
+Question 43. What order accuracy should you hold yourself to?
+[[slnc 3500]]
+98 percent or better. [[slnc 400]] Plus 95 percent+ on-time delivery, 90 percent+ annual retention, and 10 to 15 percent account growth.
+[[slnc 900]]
+Question 44. A doctor wants a discount beyond your authority. What do you say?
+[[slnc 3500]]
+What you CAN do, then ask their target number. [[slnc 400]] "For anything beyond that I'll need manager approval - what's your target so I know what to request?"
+[[slnc 900]]
+That is the end of Day 5.
