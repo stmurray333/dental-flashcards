@@ -326,10 +326,30 @@ function chunkText(text, max) {
   return out;
 }
 
+/* Renders are cached by a hash of the narration text, because adding a day
+   renumbers every track but changes almost none of the content. Without this,
+   adding Day 5 re-rendered 92,000 characters when only 18,600 were new — and
+   burned through a month of credits doing it. Cache lives outside the repo. */
+const CACHE = path.join(__dirname, ".audio-cache");
+
+function cacheKey(text, voice) {
+  return require("crypto").createHash("sha256")
+    .update(voice + "\n" + text).digest("hex").slice(0, 32);
+}
+
 async function renderEleven(t, dest) {
   const key = process.env.ELEVENLABS_API_KEY;
   if (!key) throw new Error("ELEVENLABS_API_KEY is not set");
   const voice = process.env.ELEVENLABS_VOICE_ID || "JBFqnCBsd6RMkjVDRZzb";
+
+  fs.mkdirSync(CACHE, { recursive: true });
+  const cached = path.join(CACHE, cacheKey(t.text, voice) + ".mp3");
+  if (fs.existsSync(cached)) {
+    fs.copyFileSync(cached, dest);
+    process.stdout.write("(cached) ");
+    return;
+  }
+
   const chunks = chunkText(toBreaks(t.text), 3500);
   const parts = [];
 
@@ -378,12 +398,14 @@ async function renderEleven(t, dest) {
     try {
       execFileSync("ffmpeg", ["-v", "error", "-y", "-i", raw, "-c:a", "copy", dest]);
       fs.unlinkSync(raw);
+      fs.copyFileSync(dest, cached);
       return;
     } catch (e) {
       console.warn("\n  (ffmpeg remux failed — writing concatenated file; duration may display wrong)");
     }
   }
   fs.renameSync(raw, dest);
+  fs.copyFileSync(dest, cached);
 }
 
 /* ---------- main ---------- */
