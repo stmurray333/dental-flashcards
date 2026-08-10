@@ -329,6 +329,7 @@
       <button class="chip" type="button" id="drillD3" aria-pressed="false">Day 3 <span class="n" id="nD3"></span></button>
       <button class="chip" type="button" id="drillD4" aria-pressed="false">Day 4 <span class="n" id="nD4"></span></button>
       <button class="chip" type="button" id="drillD5" aria-pressed="false">Day 5 <span class="n" id="nD5"></span></button>
+      <button class="chip" type="button" id="drillD6" aria-pressed="false">Day 6 <span class="n" id="nD6"></span></button>
       <button class="chip" type="button" id="drillCompanies" aria-pressed="false">Companies <span class="n" id="nCompanies"></span></button>
       <button class="chip" type="button" id="drillFlagged" aria-pressed="false">Flagged <span class="n" id="nFlagged"></span></button>
     </div>
@@ -416,9 +417,11 @@
   function bestKey() { return "territoryRunBest_" + mode + (drill === "all" ? "" : "_" + drill); }
 
   // the questions this run will draw from
-  var DRILLS = ["all", "d1", "d2", "d3", "d4", "d5", "companies", "flagged"];
-  var DRILL_LABEL = { all: "", d1: ", Day 1 only", d2: ", Day 2 only", d3: ", Day 3 only", d4: ", Day 4 only", d5: ", Day 5 only",
-                      companies: ", companies only", flagged: ", flagged only" };
+  // add a day: bump DAY_NUMS and drop a matching drillD<n>/nD<n> chip in the markup.
+  var DAY_NUMS = [1, 2, 3, 4, 5, 6];
+  var DRILLS = ["all"].concat(DAY_NUMS.map(function (d) { return "d" + d; })).concat(["companies", "flagged"]);
+  var DRILL_LABEL = { all: "", companies: ", companies only", flagged: ", flagged only" };
+  DAY_NUMS.forEach(function (d) { DRILL_LABEL["d" + d] = ", Day " + d + " only"; });
   var COMPANIES = [];
 
   function dayOf(q) { return q[5] || 1; }
@@ -462,7 +465,7 @@
 
   function updateCounts() {
     el("nAll").textContent = Q.length;
-    [1, 2, 3, 4, 5].forEach(function (d) {
+    DAY_NUMS.forEach(function (d) {
       el("nD" + d).textContent = Q.filter(function (q) { return dayOf(q) === d; }).length;
     });
     el("nCompanies").textContent = COMPANIES.length;
@@ -474,18 +477,17 @@
   }
 
   function pool() {
-    if (drill === "d1") return Q.filter(function (q) { return dayOf(q) === 1; });
-    if (drill === "d2") return Q.filter(function (q) { return dayOf(q) === 2; });
-    if (drill === "d3") return Q.filter(function (q) { return dayOf(q) === 3; });
-    if (drill === "d4") return Q.filter(function (q) { return dayOf(q) === 4; });
-    if (drill === "d5") return Q.filter(function (q) { return dayOf(q) === 5; });
+    if (/^d[0-9]+$/.test(drill)) {
+      var n = parseInt(drill.slice(1), 10);
+      return Q.filter(function (q) { return dayOf(q) === n; });
+    }
     if (drill === "companies") return Q.filter(function (q) { return COMPANIES.indexOf(q[1]) > -1; });
     if (drill === "flagged") return Q.filter(isFlagged);
     return Q.slice();
   }
 
-  var DRILL_BTN = { all: "drillAll", d1: "drillD1", d2: "drillD2", d3: "drillD3", d4: "drillD4", d5: "drillD5",
-                    companies: "drillCompanies", flagged: "drillFlagged" };
+  var DRILL_BTN = { all: "drillAll", companies: "drillCompanies", flagged: "drillFlagged" };
+  DAY_NUMS.forEach(function (d) { DRILL_BTN["d" + d] = "drillD" + d; });
 
   function setDrill(d) {
     if (DRILLS.indexOf(d) < 0) d = "all";
@@ -567,7 +569,11 @@
                   eight:"8", nine:"9", ten:"10", eleven:"11", twelve:"12" };
 
   function norm(s) {
-    return String(s).toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
+    // strip thousands separators FIRST, or "2,000" splits into "2" and "000"
+    // and never matches someone who typed "2000".
+    return String(s).toLowerCase()
+      .replace(/(\d),(\d)/g, "$1$2")
+      .replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
   }
 
   // crude stemmer so "cutting" matches "cut" and "molars" matches "molar".
@@ -892,7 +898,7 @@
       }));
 
       // hide a day chip if that day has no questions yet
-      [1, 2, 3, 4, 5].forEach(function (d) {
+      DAY_NUMS.forEach(function (d) {
         var n = Q.filter(function (q) { return dayOf(q) === d; }).length;
         if (!n) el("drillD" + d).hidden = true;
       });

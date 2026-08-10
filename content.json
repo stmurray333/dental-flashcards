@@ -1907,6 +1907,384 @@
      "a": "\"Technical skills in sales are like fundamentals in sport. <b>The athletes who dominated weren't always the most talented &mdash; they were the most fundamentally sound.</b> Master them through repetition, get coaching, review your tape.\""
     }
    ]
+  },
+  {
+   "day": 6,
+   "date": "8·10·2026",
+   "fixes": [],
+   "cards": [
+    {
+     "d": "BioHorizons",
+     "q": "When and where was BioHorizons founded?",
+     "a": "<b>1994</b>, out of the <b>University of Alabama at Birmingham</b>. Early patents and designs trace back there.",
+     "n": "Dr. Carl Misch is cited as founder &mdash; a major figure in implant dentistry. That academic origin is the credibility story."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "First patent and first sale?",
+     "a": "<b>First patent 1996. First implant sold 1997.</b>"
+    },
+    {
+     "d": "BioHorizons",
+     "q": "How does BioHorizons describe itself?",
+     "a": "A <b>complete oral reconstructive device company</b> across three pillars:<ol><li>Dental implants</li><li>Biologics / tissue regeneration</li><li>Digital dentistry</li></ol>",
+     "n": "\"Full indication provider\" &mdash; a clinician can rely on them across many protocols."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "Walk the product timeline.",
+     "a": "<ul><li><b>2004</b> &mdash; internal hex design</li><li><b>2007</b> &mdash; <b>Laser-Lok</b>, the major milestone</li><li><b>2015</b> &mdash; TeethXpress full-arch, Vulcan Custom Dental milling, acquired Precision One Dental</li><li><b>2019</b> &mdash; Tapered Internal, progressive conical</li><li><b>2024</b> &mdash; Tapered Pro Conical</li></ul>"
+    },
+    {
+     "d": "BioHorizons",
+     "q": "Why the shift from hex to conical connection?",
+     "a": "<b>Less micromovement</b> &mdash; claimed less bone loss and lower loosening risk.",
+     "n": "About <b>60% of the industry</b> is already on conical, so it was a necessary addition rather than a lead."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "Who owns BioHorizons?",
+     "a": "<b>Henry Schein.</b>",
+     "n": "You already know this from the companies map. It's also one of the three reasons in the model \"why BioHorizons\" answer &mdash; the resources of a major player, but still focused as an implant specialist."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "What's the manufacturing claim?",
+     "a": "Largely <b>US-based manufacturing</b> &mdash; they claim to be the only US-manufactured dental implant brand, or roughly <b>99% US-made</b>.",
+     "n": "Also means fewer back orders, since they make their own product. Precision One was acquired for exactly this vertical integration."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "What implant material?",
+     "a": "<b>Grade 23 titanium alloy.</b>"
+    },
+    {
+     "d": "BioHorizons",
+     "q": "How crowded is the implant market?",
+     "a": "Roughly <b>30 companies</b> when Ron Dubois started, closer to <b>300 now</b>. Low-cost entrants, especially Asian manufacturers, are growing.",
+     "n": "Which is why \"we have a full product line and 100+ studies\" is the counter to price-only buyers."
+    },
+    {
+     "d": "BioHorizons",
+     "q": "What's in the pipeline?",
+     "a": "A <b>holistic implant</b> &mdash; delayed on supply chain, possibly relaunching late 2026/2027. And a <b>zygomatic / pterygoid implant</b>, expected about a month after the recruiting talk."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "What problem does Laser-Lok solve?",
+     "a": "On a traditional implant the <b>epithelium grows down along the titanium</b> toward the bone. That becomes a <b>highway for bacteria</b> &rarr; peri-implantitis &rarr; bone loss &rarr; failure risk.",
+     "n": "This is the signature story. Master it &mdash; there's a whole interview question on it."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Why don't implants seal like natural teeth?",
+     "a": "A natural tooth has <b>connective tissue attachment</b> through the periodontal ligament. An implant has only direct bone contact &mdash; no attachment, so no seal."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "What is Laser-Lok physically?",
+     "a": "<b>Laser-ablated microchannels in the titanium</b> at <b>8&ndash;12 micron spacing</b>, in a <b>3mm band on the implant collar</b> &mdash; where tissue meets titanium. Some abutments have it too."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "What's the biological response?",
+     "a": "<b>Connective tissue fibers grow INTO the channels.</b> That's physical attachment, not just contact &mdash; creating a biological seal that prevents epithelial downgrowth and maintains biologic width."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "What's the evidence base?",
+     "a": "<b>100+ peer-reviewed studies.</b> Confirmed histologically &mdash; actual tissue samples showing <b>perpendicular collagen fiber orientation</b> into the surface.",
+     "n": "\"This isn't marketing, it's histologically proven science.\""
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "The bone number to memorize?",
+     "a": "<b>1mm or less crestal bone loss</b>, versus <b>1.5&ndash;2mm or more</b> with competitors &mdash; maintained over 5+ years.",
+     "n": "This single number is the most quotable fact in the whole module."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "What else does the evidence show?",
+     "a": "Reduced peri-implantitis &mdash; lower inflammation markers, less bleeding on probing. Better aesthetics &mdash; maintained papilla, stable soft tissue, less recession."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Explain Laser-Lok to a dentist, in plain language.",
+     "a": "\"Think about a natural tooth &mdash; the gum attaches through connective tissue fibers, and that seals out bacteria. A traditional implant has no attachment; the tissue just leans against smooth titanium, and over time the epithelium migrates down like a highway for bacteria.<br>Laser-Lok creates microscopic channels sized for those fibers to grow into and attach. We've seen it histologically &mdash; perpendicular collagen fibers going into the surface. The result is 1mm or less bone loss versus 1.5&ndash;2mm.\"",
+     "n": "Practise this until it's automatic. It's the answer to interview question 3."
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Counter to Straumann?",
+     "a": "Straumann's <b>SLA</b> is sandblasted and acid-etched &mdash; excellent osseointegration, but it's only on the <b>implant body, not the collar</b>, with no tissue attachment claims.<br><b>\"Great for bone &mdash; but what about tissue?\"</b>"
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Counter to Nobel Biocare?",
+     "a": "<b>TiUnite</b> is anodized, bone-level design, <b>no specific soft tissue technology</b>.<br><b>\"We focus on both bone and tissue.\"</b>"
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Counter to Astra Tech?",
+     "a": "<b>OsseoSpeed</b> is fluoride-modified with a conical seal and <i>some</i> tissue claims.<br><b>\"We have the most extensive tissue attachment research.\"</b>"
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Counter to the value brands?",
+     "a": "Hiossen and similar have basic surfaces and no proprietary tissue technology.<br><b>\"You can't replicate 100+ studies and proprietary laser technology.\"</b>"
+    },
+    {
+     "d": "Laser-Lok",
+     "q": "Where does Laser-Lok matter most?",
+     "a": "<ol><li><b>Anterior aesthetics</b> &mdash; visible zone, papilla preservation, premium fees</li><li><b>Thin biotype patients</b> &mdash; higher recession risk</li><li><b>Immediate placement/loading</b> &mdash; needs a fast, good seal</li><li><b>Smokers and diabetics</b> &mdash; higher risk, need the seal</li><li><b>High-end restorative</b> &mdash; full arch, can't afford tissue complications</li></ol>"
+    },
+    {
+     "d": "BH products",
+     "q": "What's the flagship implant?",
+     "a": "The <b>Tapered Internal</b> &mdash; the workhorse. Most versatile, most prescribed."
+    },
+    {
+     "d": "BH products",
+     "q": "Why a tapered body?",
+     "a": "It <b>mimics a natural tooth root</b> &mdash; better primary stability, easier placement in extraction sockets, and less aggressive threading means less bone stress."
+    },
+    {
+     "d": "BH products",
+     "q": "Tapered Internal connection details?",
+     "a": "<b>3.5mm internal hex</b>, platform-switched, anti-rotational. Stronger than external hex and a better seal, which reduces microleakage.",
+     "n": "Plus the 3mm Laser-Lok collar on the neck."
+    },
+    {
+     "d": "BH products",
+     "q": "Thread design?",
+     "a": "<b>Square threads</b> for high initial stability, progressive thread depth, self-tapping &mdash; works in <b>all bone types, 1 through 4</b>."
+    },
+    {
+     "d": "BH products",
+     "q": "The four diameters and what they're for?",
+     "a": "<ul><li><b>3.0mm</b> &mdash; narrow, lower anteriors and tight spaces</li><li><b>3.8mm</b> &mdash; standard, most common for anteriors</li><li><b>4.6mm</b> &mdash; standard, most common for posteriors</li><li><b>5.7mm</b> &mdash; wide, molars and low-density bone</li></ul>"
+    },
+    {
+     "d": "BH products",
+     "q": "The available lengths?",
+     "a": "<b>8, 9, 10.5, 12, 13.5 and 15mm.</b> 10.5 and 12 are the most common.",
+     "n": "8mm is for limited bone height; 15mm when there's good bone available."
+    },
+    {
+     "d": "BH products",
+     "q": "Size by tooth &mdash; know these cold.",
+     "a": "<ul><li>Lateral incisor &mdash; 3.8 &times; 10.5&ndash;12mm</li><li>Central incisor &mdash; 3.8&ndash;4.6 &times; 12&ndash;13.5mm</li><li>Canine &mdash; 3.8&ndash;4.6 &times; 13.5mm</li><li>Premolar &mdash; 4.6 &times; 10.5mm</li><li>Molar &mdash; 4.6&ndash;5.7 &times; 10.5&ndash;12mm</li></ul>",
+     "n": "Canines get the longest implant &mdash; they have the longest roots. That connects back to Day 1."
+    },
+    {
+     "d": "BH products",
+     "q": "What are SmartShape Healers?",
+     "a": "They <b>shape and groom soft tissue at the time of placement</b> &mdash; reducing chair time and the number of visits, which speeds up practice revenue.",
+     "n": "One of the most heavily emphasized products in the recruiting session."
+    },
+    {
+     "d": "BH products",
+     "q": "The SmartShape appointment claim?",
+     "a": "Roughly <b>7&ndash;8 appointments down to 2&ndash;4</b>. Total case time is still 2&ndash;4 months, because healing still takes what it takes.",
+     "n": "Be precise about that distinction &mdash; fewer visits, not faster biology."
+    },
+    {
+     "d": "BH products",
+     "q": "What's Simply Smiles?",
+     "a": "A <b>bundled, guided framework</b> &mdash; an all-in-one packaging efficiency play."
+    },
+    {
+     "d": "BH products",
+     "q": "Why does the single internal platform matter?",
+     "a": "One <b>yellow internal platform</b> across implants <b>simplifies inventory</b> and restorative components &mdash; versus practices juggling multiple platform sizes and colours."
+    },
+    {
+     "d": "BH products",
+     "q": "What's the Taper Short Conical for?",
+     "a": "Patients with <b>limited room</b> &mdash; it helps avoid some grafting scenarios."
+    },
+    {
+     "d": "BH products",
+     "q": "TeethXpress and Vulcan?",
+     "a": "<b>TeethXpress</b> is the full-arch offering, launched 2015. <b>Vulcan Custom Dental</b> is their milling service, created the same year."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What's the career path?",
+     "a": "<b>Associate Territory Manager (ATM) &rarr; Territory Manager &rarr; Senior/Executive TM &rarr; Sales Director.</b>",
+     "n": "The ATM role is explicitly a feeder into TM."
+    },
+    {
+     "d": "The ATM role",
+     "q": "Why does the ATM role exist?",
+     "a": "To <b>go deeper into accounts</b>, support high-value specialty practices, and spend <b>more time with referral doctors</b> than senior reps can &mdash; building trust, frequency and account stickiness."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What does the training timeline look like?",
+     "a": "<ol><li><b>First 30 days</b> &mdash; self-study and live webinars</li><li><b>60&ndash;90 days</b> &mdash; observation, territory dynamics, one week live training in <b>Birmingham, Alabama</b></li><li><b>90&ndash;180 days</b> &mdash; field support, working with referral doctors</li><li><b>6&ndash;12 months</b> &mdash; own closes, own part of a territory</li></ol>",
+     "n": "The framing is steady progress over immediate results."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What's the compensation?",
+     "a": "<ul><li><b>ATM</b> &mdash; base roughly $50&ndash;80k, about <b>$125k total</b></li><li><b>Territory Manager</b> &mdash; uncapped from dollar one, average <b>$175&ndash;200k</b></li><li><b>Top performer</b> &mdash; over <b>$500k</b> last year</li></ul>",
+     "n": "Lower base, high variable, with accelerators after quota."
+    },
+    {
+     "d": "The ATM role",
+     "q": "How and when are you paid?",
+     "a": "<b>Monthly commissions plus a quarterly bonus.</b> For most private-practice sales the order is placed directly and you're paid the following month &mdash; much faster than PO-based hospital workflows."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What are you measured on?",
+     "a": "<ol><li>Sales quota &mdash; monthly, quarterly, annual</li><li><b>New accounts &mdash; typically 3&ndash;5 per quarter</b></li><li>Account penetration &mdash; share of the dentist's implant volume</li><li>Activity metrics &mdash; calls, demos, evaluations</li><li>Customer satisfaction &mdash; retention, complaint resolution time</li></ol>"
+    },
+    {
+     "d": "The ATM role",
+     "q": "What does the promotion data actually show?",
+     "a": "The ATM role is <b>new</b>. <b>11 ATMs</b> were brought on last year, <b>2 already elevated</b> to TM, 1 more possibly by Q3.",
+     "n": "Worth knowing precisely &mdash; it's also on the list of things Ron said to verify."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What separates the fast movers?",
+     "a": "<b>Act like a TM before you are one.</b> Engage deeply and quickly with accounts, stay highly professional, know what you want, communicate strongly, focus on achievable goals."
+    },
+    {
+     "d": "The ATM role",
+     "q": "What's the lifestyle like?",
+     "a": "Less on-call burden than many device roles. Some weekend work for trade shows and events. <b>Most days run about 8 to 6.</b>",
+     "n": "Framed explicitly as a selling point versus orthopedic roles."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "Who does BioHorizons actually target?",
+     "a": "Historic primary market was <b>general practitioners</b>. The real strategic focus is <b>specialists</b> &mdash; oral surgeons and periodontists."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "The volume comparison that drives that strategy?",
+     "a": "A high-volume GP places about <b>150 implants a year</b>. A specialty practice places about <b>2,000</b>.",
+     "n": "Highest-value practices are groups of 3&ndash;4 providers."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "How does the referral flow work?",
+     "a": "<ol><li>Patient starts with their general dentist</li><li>GP refers to a specialist for placement</li><li>Patient returns to the GP for the crown</li></ol>",
+     "n": "So you sell to the specialist but must <b>also support the referring GPs</b> &mdash; become an extension of the specialist's practice."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "Why not just convert non-implanting GPs?",
+     "a": "It takes a lot of time and yields <b>lower loyalty</b> &mdash; a cheaper competitor shows up and they switch. Better use of time is helping specialists grow their referral networks."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "The territory growth concept in one line?",
+     "a": "<b>Grow your business by growing the doctor's business.</b>",
+     "n": "Example: help an oral surgeon go from 150 referring GPs to 200&ndash;250, using CE, workflow tools and technology so those GPs feel comfortable sending more."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "How big is the education engine?",
+     "a": "<b>800&ndash;900 CE courses a year</b> &mdash; lunch-and-learns, evening programs, larger symposiums.",
+     "n": "Purpose: loyalty, adoption, expanding treatment types, supporting referrals, patient acceptance."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "A practice isn't doing enough implants. What's the likely cause?",
+     "a": "Usually a <b>presentation problem, not a demand problem</b>. Case acceptance improves when staff explain need and benefit well &mdash; not when price drops.",
+     "n": "BioHorizons supports with staff CE and third-party financing options."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "How does a dental practice buy, versus ortho?",
+     "a": "Practices <b>buy inventory up front</b> &mdash; a new office might start with <b>30&ndash;50 implants</b> plus surgical kits. They sterilize their own instruments.",
+     "n": "Not case-by-case billing with a tray per case, like much of ortho."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "When does BioHorizons do consignment?",
+     "a": "Mainly for <b>large-volume, high-impact and specialty-heavy accounts</b>. Zygomatic cases especially, since intraoperative needs vary and they need broader shelf inventory."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "How do you get in the door?",
+     "a": "<b>Start with the front desk and treat them with the same respect as the doctor.</b> Then be creative: early before clinic, lunch, after-work social time, CE events, trade shows.",
+     "n": "If you can't reach the specialist, build excitement with their referral doctors first &mdash; they may pull you into the account."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "Why does the academic strategy matter?",
+     "a": "Clinicians <b>stay comfortable with what they trained on</b>. So BioHorizons works with GPR, oral surgery and perio residencies &mdash; sawbones, lectures, sometimes cadaver labs.",
+     "n": "Constraint: universities want big grants or free product, so they invest selectively."
+    },
+    {
+     "d": "BH go-to-market",
+     "q": "What drives adoption of new dental technology?",
+     "a": "<b>Efficiency gets attention first. ROI comes later. Clinical outcomes matter too</b> &mdash; adoption is a mix of all three.",
+     "n": "Lead with efficiency, close with ROI."
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"Why do you want to work in dental sales?\"",
+     "a": "Competitive and performance-driven, like athletics &mdash; but it's not just numbers. It's helping clinicians improve outcomes, it requires <b>long-term relationships and clinical knowledge</b>, and the products literally give people back their smile and confidence.",
+     "n": "Bad answer: \"I need a job and sales seems like good money.\""
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"Why BioHorizons specifically?\" &mdash; the three reasons.",
+     "a": "<ol><li><b>Laser-Lok</b> &mdash; 100+ studies, a real differentiator you can speak to with confidence</li><li><b>Market position</b> &mdash; premium quality at a more accessible price than Straumann or Nobel</li><li><b>Henry Schein backing</b> &mdash; the resources of a major player, still focused as an implant specialist</li></ol>",
+     "n": "\"I want to sell products I believe in for a company positioned to win.\""
+    },
+    {
+     "d": "Interview prep",
+     "q": "What's the STAR method?",
+     "a": "<b>Situation</b> &mdash; set the context. <b>Task</b> &mdash; what needed doing. <b>Action</b> &mdash; what YOU did. <b>Result</b> &mdash; the outcome, quantified if possible.",
+     "n": "Have 3&ndash;5 STAR stories ready before you walk in."
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"How do you handle rejection?\"",
+     "a": "<ol><li><b>Feel it</b> &mdash; don't suppress the frustration</li><li><b>Analyze it</b> &mdash; wrong approach, wrong timing, or just not a fit?</li><li><b>Adjust</b> &mdash; what changes next time?</li><li><b>Move on</b> &mdash; dwelling doesn't help, the next opportunity does</li></ol>",
+     "n": "\"Rejection from one customer doesn't define my value.\""
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"Sell me against a dentist who uses Straumann.\"",
+     "a": "<b>Don't lead with \"switch\"</b> &mdash; that's combative, and Straumann is an excellent product. Instead ask what percentage of their cases are anterior aesthetics, and whether they've had an implant integrate well but fail aesthetically from recession.<br>Then position: <b>keep Straumann posterior, try BioHorizons on the next anterior case.</b>",
+     "n": "Respectful, specific, low-risk. You're asking for one case, not their business."
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"Where do you see yourself in 5 years?\"",
+     "a": "A <b>top-performing territory manager</b> &mdash; consistently over quota, strong relationships, a clinical resource. Expertise in digital workflows and guided surgery. The rep surgeons call for complex case planning, not just orders. Open to leadership, but earn it through results first.",
+     "n": "Bad answers: \"I want your job\" (opportunistic) or \"I don't know\" (no ambition)."
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"How do you stay organized across accounts?\"",
+     "a": "<ol><li><b>CRM discipline</b> &mdash; logged same day. If it's not in the CRM it didn't happen</li><li><b>Sunday planning</b> for the week ahead</li><li><b>Top 3 must-dos</b> every morning</li><li><b>A/B/C segmentation</b> &mdash; weekly, bi-weekly, monthly</li><li><b>Follow-ups in the calendar</b>, never memory</li><li><b>Monthly pipeline review</b></li></ol>"
+    },
+    {
+     "d": "Interview prep",
+     "q": "\"What questions do you have for me?\"",
+     "a": "<b>Always ask.</b> Good ones:<ul><li>\"What does success look like in the first 90 days? First year?\"</li><li>\"What do your top performers do differently?\"</li><li>\"What's the training like for someone coming from outside dental?\"</li><li>\"Who am I primarily competing against in this territory?\"</li><li>\"What's kept you at BioHorizons?\"</li></ul>"
+    },
+    {
+     "d": "Interview prep",
+     "q": "How should you show up?",
+     "a": "<b>Business professional</b> &mdash; a suit for the first interview, business casual acceptable for a field ride. Firm handshake, eye contact, sit up straight, lean in slightly. Enthusiastic without being over the top.",
+     "n": "You're representing a premium brand. Arrive <b>15 minutes early</b>."
+    },
+    {
+     "d": "Interview prep",
+     "q": "What's on the preparation checklist?",
+     "a": "<b>Research</b> the products, the interviewers' LinkedIn, recent news, competitors, the territory.<br><b>Bring</b> resumes, references, notepad, prepared questions.<br><b>Practise</b> 3&ndash;5 STAR stories, a 60-second elevator pitch, and Laser-Lok."
+    }
+   ]
   }
  ],
  "questions": [
@@ -5317,6 +5695,570 @@
    ],
    "\"For anything beyond that I'll need manager approval - what's your target so I know what to request?\"",
    5
+  ],
+  [
+   "BioHorizons",
+   "When was BioHorizons founded, and out of where?",
+   "1994, University of Alabama at Birmingham",
+   [
+    "2007, out of Straumann",
+    "1985, out of Nobel Biocare",
+    "2015, out of Henry Schein"
+   ],
+   "The academic origin is the credibility story. Dr. Carl Misch is cited as founder.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "Who owns BioHorizons?",
+   "Henry Schein",
+   [
+    "Straumann",
+    "Envista",
+    "Dentsply Sirona"
+   ],
+   "The #1 distributor that also owns implant makers. It's one of the three reasons in the model \"why BioHorizons\" answer.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "What year did Laser-Lok launch?",
+   "2007",
+   [
+    "1996",
+    "2015",
+    "2024"
+   ],
+   "The major milestone in the product timeline. First patent 1996, first implant sold 1997.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "What are BioHorizons' three pillars?",
+   "Implants, biologics/tissue regeneration, digital dentistry",
+   [
+    "Implants, orthodontics, imaging",
+    "Consumables, equipment, software",
+    "Surgery, restoration, hygiene"
+   ],
+   "They call themselves a complete oral reconstructive device company - a full indication provider.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "Why move from hex to conical connection?",
+   "Less micromovement, so less bone loss and loosening",
+   [
+    "It's cheaper to manufacture",
+    "It's easier to place",
+    "Patents expired"
+   ],
+   "About 60% of the industry was already on conical, so it was a necessary addition rather than a lead.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "What implant material does BioHorizons use?",
+   "Grade 23 titanium alloy",
+   [
+    "Stainless steel",
+    "Zirconia only",
+    "Grade 5 titanium"
+   ],
+   "They also claim to be the only US-manufactured dental implant brand, around 99% US-made.",
+   6
+  ],
+  [
+   "BioHorizons",
+   "How many implant companies are in the market now?",
+   "About 300",
+   [
+    "About 30",
+    "About 3,000",
+    "Fewer than 10"
+   ],
+   "Roughly 30 when Ron Dubois started. Low-cost entrants are a growing factor, which is why the full line and evidence base matter.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "What problem does Laser-Lok solve?",
+   "Epithelium growing down the implant, letting bacteria in",
+   [
+    "Implants loosening from the bone",
+    "Titanium allergy",
+    "Slow osseointegration"
+   ],
+   "That downgrowth becomes a highway for bacteria - peri-implantitis, bone loss, failure risk.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "What is Laser-Lok physically?",
+   "Laser-ablated microchannels at 8-12 micron spacing",
+   [
+    "A chemical coating",
+    "A ceramic layer",
+    "An acid-etched surface"
+   ],
+   "In a 3mm band on the implant collar, where tissue meets titanium.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "What's the biological response to Laser-Lok?",
+   "Connective tissue fibers grow into the channels",
+   [
+    "Bone grows faster",
+    "The surface repels bacteria chemically",
+    "It dissolves over time"
+   ],
+   "Physical attachment, not just contact. That creates the biological seal.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "How many peer-reviewed studies back Laser-Lok?",
+   "Over 100",
+   [
+    "About 10",
+    "About 25",
+    "Just under 1,000"
+   ],
+   "Confirmed histologically, with perpendicular collagen fiber orientation into the surface.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "What's the crestal bone loss figure?",
+   "1mm or less, vs 1.5-2mm for competitors",
+   [
+    "3mm or less",
+    "No bone loss at all",
+    "2-3mm"
+   ],
+   "Maintained over 5+ years. This is the single most quotable number in the module.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "Where is Laser-Lok located on the implant?",
+   "On the collar, a 3mm band",
+   [
+    "Along the whole body",
+    "On the threads only",
+    "On the crown"
+   ],
+   "That's where tissue meets titanium. Some abutment designs have it too.",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "What's the counter to Straumann's SLA surface?",
+   "It's great for bone, but it's not on the collar",
+   [
+    "It's an older technology",
+    "It has no evidence",
+    "It costs more"
+   ],
+   "SLA gives excellent osseointegration but makes no tissue attachment claims. \"Great for bone - but what about tissue?\"",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "Which Nobel Biocare surface competes here?",
+   "TiUnite",
+   [
+    "SLA",
+    "OsseoSpeed",
+    "Laser-Lok"
+   ],
+   "Anodized, bone-level design, no specific soft tissue technology. \"We focus on both bone and tissue.\"",
+   6
+  ],
+  [
+   "Laser-Lok",
+   "Which cases is Laser-Lok most valuable for?",
+   "Anterior aesthetics and thin biotype patients",
+   [
+    "Posterior molars only",
+    "Full dentures",
+    "Orthodontic cases"
+   ],
+   "Plus immediate placement, smokers and diabetics, and high-end full-arch restorative work.",
+   6
+  ],
+  [
+   "BH products",
+   "What's BioHorizons' flagship implant?",
+   "The Tapered Internal",
+   [
+    "TeethXpress",
+    "Simply Smiles",
+    "Vulcan"
+   ],
+   "The workhorse - most versatile, most prescribed.",
+   6
+  ],
+  [
+   "BH products",
+   "Why is the implant body tapered?",
+   "It mimics a natural tooth root",
+   [
+    "It's cheaper to machine",
+    "It uses less titanium",
+    "It's easier to sterilize"
+   ],
+   "Better primary stability, easier in extraction sockets, less bone stress from less aggressive threading.",
+   6
+  ],
+  [
+   "BH products",
+   "Which diameter is standard for anteriors?",
+   "3.8mm",
+   [
+    "3.0mm",
+    "4.6mm",
+    "5.7mm"
+   ],
+   "3.0 is narrow for tight spaces, 4.6 standard for posteriors, 5.7 wide for molars and soft bone.",
+   6
+  ],
+  [
+   "BH products",
+   "Which implant size for a molar?",
+   "4.6-5.7mm × 10.5-12mm",
+   [
+    "3.0mm × 8mm",
+    "3.8mm × 15mm",
+    "3.8mm × 10.5mm"
+   ],
+   "Premolar is 4.6 × 10.5. Canines get the longest at 13.5mm - they have the longest roots.",
+   6
+  ],
+  [
+   "BH products",
+   "What do SmartShape Healers do?",
+   "Shape the soft tissue at the time of placement",
+   [
+    "Speed up bone healing",
+    "Replace the crown",
+    "Sterilize the site"
+   ],
+   "Reduces chair time and visits, which speeds up practice revenue.",
+   6
+  ],
+  [
+   "BH products",
+   "What's the SmartShape appointment claim?",
+   "7-8 appointments down to 2-4",
+   [
+    "20 appointments down to 5",
+    "Same visits, half the time",
+    "One single visit"
+   ],
+   "But total case time is still 2-4 months - fewer visits, not faster biology. Be precise about that.",
+   6
+  ],
+  [
+   "BH products",
+   "Why does a single implant platform matter?",
+   "It simplifies inventory and restorative components",
+   [
+    "It's stronger",
+    "It's cheaper",
+    "It heals faster"
+   ],
+   "One yellow internal platform, versus practices juggling multiple sizes and colours.",
+   6
+  ],
+  [
+   "BH products",
+   "What is the Taper Short Conical for?",
+   "Patients with limited room, avoiding some grafting",
+   [
+    "Full arch cases",
+    "Children",
+    "Front teeth only"
+   ],
+   "Short implants can sidestep a graft when vertical bone is limited.",
+   6
+  ],
+  [
+   "The ATM role",
+   "What's the career path from ATM?",
+   "ATM to Territory Manager to Senior TM to Sales Director",
+   [
+    "ATM straight to Sales Director",
+    "ATM to Clinical Specialist",
+    "There's no path"
+   ],
+   "The ATM role exists explicitly as a feeder into TM.",
+   6
+  ],
+  [
+   "The ATM role",
+   "Why does the ATM role exist?",
+   "To go deeper into accounts and cover referral doctors",
+   [
+    "To cut costs",
+    "To cover holidays",
+    "To handle paperwork"
+   ],
+   "Senior reps can't spend enough time with referring GPs. That's the gap the ATM fills.",
+   6
+  ],
+  [
+   "The ATM role",
+   "Where's the live training week held?",
+   "Birmingham, Alabama",
+   [
+    "Chicago",
+    "New York",
+    "Remote only"
+   ],
+   "That's at the 60-90 day mark. First 30 days is self-study and webinars.",
+   6
+  ],
+  [
+   "The ATM role",
+   "What's ATM total compensation?",
+   "About $125k, on a $50-80k base",
+   [
+    "About $60k",
+    "About $250k",
+    "Commission only"
+   ],
+   "TM averages $175-200k uncapped, and the top performer cleared $500k last year.",
+   6
+  ],
+  [
+   "The ATM role",
+   "When does commission start paying?",
+   "From dollar one, uncapped",
+   [
+    "After hitting quota",
+    "After 12 months",
+    "Only above 80% of quota"
+   ],
+   "With accelerators after quota. Monthly commissions plus a quarterly bonus.",
+   6
+  ],
+  [
+   "The ATM role",
+   "How many new accounts per quarter is typical?",
+   "3 to 5",
+   [
+    "1",
+    "10 to 15",
+    "None - you only grow existing"
+   ],
+   "Alongside quota, account penetration, activity metrics and retention.",
+   6
+  ],
+  [
+   "The ATM role",
+   "How many ATMs were promoted to TM last year?",
+   "2 of 11, with a third possible",
+   [
+    "All 11",
+    "None",
+    "9 of 11"
+   ],
+   "The role is new, so the sample is small. Ron listed the real promotion rate as something to verify.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "Who is the real strategic focus?",
+   "Specialists - oral surgeons and periodontists",
+   [
+    "General dentists",
+    "Dental labs",
+    "DSOs only"
+   ],
+   "GPs were the historic market, but specialists place far more.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "How many implants does a specialty practice place a year?",
+   "About 2,000",
+   [
+    "About 150",
+    "About 50",
+    "About 10,000"
+   ],
+   "Versus about 150 for a high-volume GP. That gap is why the strategy points at specialists.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "How does the referral flow work?",
+   "GP refers out for placement, patient returns for the crown",
+   [
+    "Specialist does everything",
+    "GP does everything",
+    "The lab coordinates it"
+   ],
+   "So you sell to the specialist but must also support the referring GPs.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "What's the territory growth concept?",
+   "Grow your business by growing the doctor's business",
+   [
+    "Undercut on price",
+    "Visit more often",
+    "Sign exclusive contracts"
+   ],
+   "Help an oral surgeon go from 150 referring GPs to 200-250 using CE and workflow tools.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "How many CE courses does BioHorizons run a year?",
+   "800 to 900",
+   [
+    "About 50",
+    "About 20",
+    "Over 5,000"
+   ],
+   "Lunch-and-learns, evening programs and symposiums. Education is the growth engine.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "A practice isn't placing enough implants. Likely cause?",
+   "A presentation problem, not a demand problem",
+   [
+    "Not enough patients",
+    "Prices too high",
+    "Bad location"
+   ],
+   "Case acceptance improves when staff explain need and benefit well, not when price drops.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "What does a new implant office buy up front?",
+   "30-50 implants plus surgical kits",
+   [
+    "One implant at a time",
+    "Nothing - it's all consignment",
+    "Only the surgical kit"
+   ],
+   "Dental practices buy inventory up front and sterilize their own instruments, unlike much of ortho.",
+   6
+  ],
+  [
+   "BH go-to-market",
+   "What drives adoption of new dental technology first?",
+   "Efficiency",
+   [
+    "ROI",
+    "Clinical outcomes",
+    "Price"
+   ],
+   "ROI comes later, and outcomes matter too - but efficiency gets their attention first.",
+   6
+  ],
+  [
+   "Interview prep",
+   "\"Why BioHorizons?\" - what are the three reasons?",
+   "Laser-Lok evidence, price position, Henry Schein backing",
+   [
+    "Salary, location, benefits",
+    "Growth, culture, training",
+    "Products, people, purpose"
+   ],
+   "Premium quality at a more accessible price than Straumann or Nobel, with a major player's resources behind it.",
+   6
+  ],
+  [
+   "Interview prep",
+   "What does STAR stand for?",
+   "Situation, Task, Action, Result",
+   [
+    "Story, Theme, Answer, Reason",
+    "Setup, Target, Approach, Review",
+    "Specific, Timed, Actionable, Real"
+   ],
+   "Have 3-5 stories ready. Quantify the result where you can.",
+   6
+  ],
+  [
+   "Interview prep",
+   "Selling against a dentist who uses Straumann - first move?",
+   "Don't ask them to switch",
+   [
+    "Attack Straumann's evidence",
+    "Undercut on price",
+    "Ask for all their business"
+   ],
+   "Straumann is excellent. Ask about their anterior percentage, then position for anterior only. One case, not the account.",
+   6
+  ],
+  [
+   "Interview prep",
+   "How do you answer \"how do you handle rejection\"?",
+   "Feel it, analyze it, adjust, move on",
+   [
+    "Say it doesn't bother you",
+    "Say you avoid rejection",
+    "Blame the customer"
+   ],
+   "Athletics gives you the honest version of this - rejection is feedback, not a verdict on your value.",
+   6
+  ],
+  [
+   "Interview prep",
+   "What's the CRM rule?",
+   "If it's not in the CRM, it didn't happen",
+   [
+    "Log it weekly",
+    "Only log closed deals",
+    "Keep notes on paper"
+   ],
+   "Same-day logging, Sunday planning, top 3 daily priorities, follow-ups in the calendar not memory.",
+   6
+  ],
+  [
+   "Interview prep",
+   "What should you wear to a first interview?",
+   "A suit - business professional",
+   [
+    "Business casual",
+    "Polo and khakis",
+    "Whatever's comfortable"
+   ],
+   "Business casual is acceptable for a field ride. You're representing a premium brand.",
+   6
+  ],
+  [
+   "Interview prep",
+   "When should you arrive?",
+   "15 minutes early",
+   [
+    "Right on time",
+    "5 minutes late is fine",
+    "30 minutes early"
+   ],
+   "Along with resumes, references, prepared questions, and a rehearsed 60-second elevator pitch.",
+   6
+  ],
+  [
+   "Interview prep",
+   "What must you always do at the end of an interview?",
+   "Ask questions",
+   [
+    "Ask about salary",
+    "Say you'll follow up",
+    "Thank them and leave"
+   ],
+   "\"What does success look like in the first 90 days?\" and \"what do your top performers do differently?\" are strong ones.",
+   6
   ]
  ],
  "trouble": [

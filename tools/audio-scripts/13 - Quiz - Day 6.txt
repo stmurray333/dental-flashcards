@@ -1,0 +1,191 @@
+Quiz. Day 6. I will ask, then pause. Say your answer out loud, then I will tell you.
+
+Question 1. When was BioHorizons founded, and out of where?
+[[slnc 3500]]
+1994, University of Alabama at Birmingham. [[slnc 400]] The academic origin is the credibility story. Dr. Carl Misch is cited as founder.
+[[slnc 900]]
+Question 2. Who owns BioHorizons?
+[[slnc 3500]]
+Henry Schein. [[slnc 400]] The number 1 distributor that also owns implant makers. It's one of the three reasons in the model "why BioHorizons" answer.
+[[slnc 900]]
+Question 3. What year did Laser-Lok launch?
+[[slnc 3500]]
+2007. [[slnc 400]] The major milestone in the product timeline. First patent 1996, first implant sold 1997.
+[[slnc 900]]
+Question 4. What are BioHorizons' three pillars?
+[[slnc 3500]]
+Implants, biologics or tissue regeneration, digital dentistry. [[slnc 400]] They call themselves a complete oral reconstructive device company - a full indication provider.
+[[slnc 900]]
+Question 5. Why move from hex to conical connection?
+[[slnc 3500]]
+Less micromovement, so less bone loss and loosening. [[slnc 400]] About 60 percent of the industry was already on conical, so it was a necessary addition rather than a lead.
+[[slnc 900]]
+Question 6. What implant material does BioHorizons use?
+[[slnc 3500]]
+Grade 23 titanium alloy. [[slnc 400]] They also claim to be the only US-manufactured dental implant brand, around 99 percent US-made.
+[[slnc 900]]
+Question 7. How many implant companies are in the market now?
+[[slnc 3500]]
+About 300. [[slnc 400]] Roughly 30 when Ron Dubois started. Low-cost entrants are a growing factor, which is why the full line and evidence base matter.
+[[slnc 900]]
+Question 8. What problem does Laser-Lok solve?
+[[slnc 3500]]
+Epithelium growing down the implant, letting bacteria in. [[slnc 400]] That downgrowth becomes a highway for bacteria - peri-implantitis, bone loss, failure risk.
+[[slnc 900]]
+Question 9. What is Laser-Lok physically?
+[[slnc 3500]]
+Laser-ablated microchannels at 8 to 12 micron spacing. [[slnc 400]] In a 3mm band on the implant collar, where tissue meets titanium.
+[[slnc 900]]
+Question 10. What's the biological response to Laser-Lok?
+[[slnc 3500]]
+Connective tissue fibers grow into the channels. [[slnc 400]] Physical attachment, not just contact. That creates the biological seal.
+[[slnc 900]]
+Question 11. How many peer-reviewed studies back Laser-Lok?
+[[slnc 3500]]
+Over 100. [[slnc 400]] Confirmed histologically, with perpendicular collagen fiber orientation into the surface.
+[[slnc 900]]
+Question 12. What's the crestal bone loss figure?
+[[slnc 3500]]
+1mm or less, vs 1.5 to 2mm for competitors. [[slnc 400]] Maintained over 5+ years. This is the single most quotable number in the module.
+[[slnc 900]]
+Question 13. Where is Laser-Lok located on the implant?
+[[slnc 3500]]
+On the collar, a 3mm band. [[slnc 400]] That's where tissue meets titanium. Some abutment designs have it too.
+[[slnc 900]]
+Question 14. What's the counter to Straumann's SLA surface?
+[[slnc 3500]]
+It's great for bone, but it's not on the collar. [[slnc 400]] SLA gives excellent osseointegration but makes no tissue attachment claims. "Great for bone - but what about tissue?"
+[[slnc 900]]
+Question 15. Which Nobel Biocare surface competes here?
+[[slnc 3500]]
+TiUnite. [[slnc 400]] Anodized, bone-level design, no specific soft tissue technology. "We focus on both bone and tissue."
+[[slnc 900]]
+Question 16. Which cases is Laser-Lok most valuable for?
+[[slnc 3500]]
+Anterior aesthetics and thin biotype patients. [[slnc 400]] Plus immediate placement, smokers and diabetics, and high-end full-arch restorative work.
+[[slnc 900]]
+Question 17. What's BioHorizons' flagship implant?
+[[slnc 3500]]
+The Tapered Internal. [[slnc 400]] The workhorse - most versatile, most prescribed.
+[[slnc 900]]
+Question 18. Why is the implant body tapered?
+[[slnc 3500]]
+It mimics a natural tooth root. [[slnc 400]] Better primary stability, easier in extraction sockets, less bone stress from less aggressive threading.
+[[slnc 900]]
+Question 19. Which diameter is standard for anteriors?
+[[slnc 3500]]
+3.8mm. [[slnc 400]] 3.0 is narrow for tight spaces, 4.6 standard for posteriors, 5.7 wide for molars and soft bone.
+[[slnc 900]]
+Question 20. Which implant size for a molar?
+[[slnc 3500]]
+4.6 to 5.7mm × 10.5 to 12mm. [[slnc 400]] Premolar is 4.6 × 10.5. Canines get the longest at 13.5mm - they have the longest roots.
+[[slnc 900]]
+Question 21. What do SmartShape Healers do?
+[[slnc 3500]]
+Shape the soft tissue at the time of placement. [[slnc 400]] Reduces chair time and visits, which speeds up practice revenue.
+[[slnc 900]]
+Question 22. What's the SmartShape appointment claim?
+[[slnc 3500]]
+7 to 8 appointments down to 2 to 4. [[slnc 400]] But total case time is still 2 to 4 months - fewer visits, not faster biology. Be precise about that.
+[[slnc 900]]
+Question 23. Why does a single implant platform matter?
+[[slnc 3500]]
+It simplifies inventory and restorative components. [[slnc 400]] One yellow internal platform, versus practices juggling multiple sizes and colours.
+[[slnc 900]]
+Question 24. What is the Taper Short Conical for?
+[[slnc 3500]]
+Patients with limited room, avoiding some grafting. [[slnc 400]] Short implants can sidestep a graft when vertical bone is limited.
+[[slnc 900]]
+Question 25. What's the career path from ATM?
+[[slnc 3500]]
+ATM to Territory Manager to Senior TM to Sales Director. [[slnc 400]] The ATM role exists explicitly as a feeder into TM.
+[[slnc 900]]
+Question 26. Why does the ATM role exist?
+[[slnc 3500]]
+To go deeper into accounts and cover referral doctors. [[slnc 400]] Senior reps can't spend enough time with referring G Ps. That's the gap the ATM fills.
+[[slnc 900]]
+Question 27. Where's the live training week held?
+[[slnc 3500]]
+Birmingham, Alabama. [[slnc 400]] That's at the 60 to 90 day mark. First 30 days is self-study and webinars.
+[[slnc 900]]
+Question 28. What's ATM total compensation?
+[[slnc 3500]]
+About 125 thousand dollars, on a 50 to 80 dollarsk base. [[slnc 400]] TM averages 175 to 200 dollarsk uncapped, and the top performer cleared 500 thousand dollars last year.
+[[slnc 900]]
+Question 29. When does commission start paying?
+[[slnc 3500]]
+From dollar one, uncapped. [[slnc 400]] With accelerators after quota. Monthly commissions plus a quarterly bonus.
+[[slnc 900]]
+Question 30. How many new accounts per quarter is typical?
+[[slnc 3500]]
+3 to 5. [[slnc 400]] Alongside quota, account penetration, activity metrics and retention.
+[[slnc 900]]
+Question 31. How many ATMs were promoted to TM last year?
+[[slnc 3500]]
+2 of 11, with a third possible. [[slnc 400]] The role is new, so the sample is small. Ron listed the real promotion rate as something to verify.
+[[slnc 900]]
+Question 32. Who is the real strategic focus?
+[[slnc 3500]]
+Specialists - oral surgeons and periodontists. [[slnc 400]] G Ps were the historic market, but specialists place far more.
+[[slnc 900]]
+Question 33. How many implants does a specialty practice place a year?
+[[slnc 3500]]
+About 2,000. [[slnc 400]] Versus about 150 for a high-volume G P. That gap is why the strategy points at specialists.
+[[slnc 900]]
+Question 34. How does the referral flow work?
+[[slnc 3500]]
+G P refers out for placement, patient returns for the crown. [[slnc 400]] So you sell to the specialist but must also support the referring G Ps.
+[[slnc 900]]
+Question 35. What's the territory growth concept?
+[[slnc 3500]]
+Grow your business by growing the doctor's business. [[slnc 400]] Help an oral surgeon go from 150 referring G Ps to 200 to 250 using CE and workflow tools.
+[[slnc 900]]
+Question 36. How many CE courses does BioHorizons run a year?
+[[slnc 3500]]
+800 to 900. [[slnc 400]] Lunch-and-learns, evening programs and symposiums. Education is the growth engine.
+[[slnc 900]]
+Question 37. A practice isn't placing enough implants. Likely cause?
+[[slnc 3500]]
+A presentation problem, not a demand problem. [[slnc 400]] Case acceptance improves when staff explain need and benefit well, not when price drops.
+[[slnc 900]]
+Question 38. What does a new implant office buy up front?
+[[slnc 3500]]
+30 to 50 implants plus surgical kits. [[slnc 400]] Dental practices buy inventory up front and sterilize their own instruments, unlike much of ortho.
+[[slnc 900]]
+Question 39. What drives adoption of new dental technology first?
+[[slnc 3500]]
+Efficiency. [[slnc 400]] R O I comes later, and outcomes matter too - but efficiency gets their attention first.
+[[slnc 900]]
+Question 40. "Why BioHorizons?" - what are the three reasons?
+[[slnc 3500]]
+Laser-Lok evidence, price position, Henry Schein backing. [[slnc 400]] Premium quality at a more accessible price than Straumann or Nobel, with a major player's resources behind it.
+[[slnc 900]]
+Question 41. What does STAR stand for?
+[[slnc 3500]]
+Situation, Task, Action, Result. [[slnc 400]] Have 3 to 5 stories ready. Quantify the result where you can.
+[[slnc 900]]
+Question 42. Selling against a dentist who uses Straumann - first move?
+[[slnc 3500]]
+Don't ask them to switch. [[slnc 400]] Straumann is excellent. Ask about their anterior percentage, then position for anterior only. One case, not the account.
+[[slnc 900]]
+Question 43. How do you answer "how do you handle rejection"?
+[[slnc 3500]]
+Feel it, analyze it, adjust, move on. [[slnc 400]] Athletics gives you the honest version of this - rejection is feedback, not a verdict on your value.
+[[slnc 900]]
+Question 44. What's the CRM rule?
+[[slnc 3500]]
+If it's not in the CRM, it didn't happen. [[slnc 400]] Same-day logging, Sunday planning, top 3 daily priorities, follow-ups in the calendar not memory.
+[[slnc 900]]
+Question 45. What should you wear to a first interview?
+[[slnc 3500]]
+A suit - business professional. [[slnc 400]] Business casual is acceptable for a field ride. You're representing a premium brand.
+[[slnc 900]]
+Question 46. When should you arrive?
+[[slnc 3500]]
+15 minutes early. [[slnc 400]] Along with resumes, references, prepared questions, and a rehearsed 60-second elevator pitch.
+[[slnc 900]]
+Question 47. What must you always do at the end of an interview?
+[[slnc 3500]]
+Ask questions. [[slnc 400]] "What does success look like in the first 90 days?" and "what do your top performers do differently?" are strong ones.
+[[slnc 900]]
+That is the end of Day 6.
