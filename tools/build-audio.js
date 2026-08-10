@@ -399,9 +399,32 @@ function cacheKey(text, voice) {
     .update(voice + "\n" + text).digest("hex").slice(0, 32);
 }
 
+/* Read tools/.env so the key doesn't have to be pasted into the shell every
+   time. Format is one KEY=value per line; # starts a comment. The file is
+   gitignored — it must never be committed. A real environment variable still
+   wins, so CI or a one-off `ELEVENLABS_API_KEY=... node ...` overrides it. */
+function loadDotEnv() {
+  const f = path.join(__dirname, ".env");
+  if (!fs.existsSync(f)) return;
+  fs.readFileSync(f, "utf8").split("\n").forEach(line => {
+    const m = line.match(/^\s*([A-Z_][A-Z0-9_]*)\s*=\s*(.*)\s*$/i);
+    if (!m) return;
+    const name = m[1];
+    const value = m[2].trim().replace(/^["']|["']$/g, "");
+    if (value && process.env[name] === undefined) process.env[name] = value;
+  });
+}
+
 async function renderEleven(t, dest) {
+  loadDotEnv();
   const key = process.env.ELEVENLABS_API_KEY;
-  if (!key) throw new Error("ELEVENLABS_API_KEY is not set");
+  if (!key) {
+    throw new Error(
+      "ELEVENLABS_API_KEY is not set.\n" +
+      "  Put it in tools/.env as:  ELEVENLABS_API_KEY=sk_...\n" +
+      "  (that file is gitignored), or pass it inline for one run."
+    );
+  }
   const voice = process.env.ELEVENLABS_VOICE_ID || "JBFqnCBsd6RMkjVDRZzb";
 
   fs.mkdirSync(CACHE, { recursive: true });
